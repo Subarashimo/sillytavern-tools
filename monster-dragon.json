@@ -1,0 +1,406 @@
+[
+  {
+    "name": "Red Dragon",
+    "description": ""
+  },
+  {
+    "name": "Blue Dragon",
+    "description": ""
+  },
+  {
+    "name": "Green Dragon",
+    "description": ""
+  },
+  {
+    "name": "Black Dragon",
+    "description": ""
+  },
+  {
+    "name": "White Dragon",
+    "description": ""
+  },
+  {
+    "name": "Gold Dragon",
+    "description": ""
+  },
+  {
+    "name": "Silver Dragon",
+    "description": ""
+  },
+  {
+    "name": "Bronze Dragon",
+    "description": ""
+  },
+  {
+    "name": "Copper Dragon",
+    "description": ""
+  },
+  {
+    "name": "Brass Dragon",
+    "description": ""
+  },
+  {
+    "name": "Amethyst Dragon",
+    "description": ""
+  },
+  {
+    "name": "Crystal Dragon",
+    "description": ""
+  },
+  {
+    "name": "Emerald Dragon",
+    "description": ""
+  },
+  {
+    "name": "Sapphire Dragon",
+    "description": ""
+  },
+  {
+    "name": "Topaz Dragon",
+    "description": ""
+  },
+  {
+    "name": "Shadow Dragon",
+    "description": ""
+  },
+  {
+    "name": "Faerie Dragon",
+    "description": ""
+  },
+  {
+    "name": "Prismatic Dragon",
+    "description": ""
+  },
+  {
+    "name": "Force Dragon",
+    "description": ""
+  },
+  {
+    "name": "Etheric Dragon",
+    "description": ""
+  },
+  {
+    "name": "Adamantine Dragon",
+    "description": ""
+  },
+  {
+    "name": "Mithral Dragon",
+    "description": ""
+  },
+  {
+    "name": "Iron Dragon",
+    "description": ""
+  },
+  {
+    "name": "Steel Dragon",
+    "description": ""
+  },
+  {
+    "name": "Obsidian Dragon",
+    "description": ""
+  },
+  {
+    "name": "Wyvern",
+    "description": ""
+  },
+  {
+    "name": "Lesser Drake",
+    "description": ""
+  },
+  {
+    "name": "Fire Drake",
+    "description": ""
+  },
+  {
+    "name": "Frost Drake",
+    "description": ""
+  },
+  {
+    "name": "Storm Drake",
+    "description": ""
+  },
+  {
+    "name": "Stone Drake",
+    "description": ""
+  },
+  {
+    "name": "Magma Drake",
+    "description": ""
+  },
+  {
+    "name": "Shadow Drake",
+    "description": ""
+  },
+  {
+    "name": "Deep Drake",
+    "description": ""
+  },
+  {
+    "name": "Sea Serpent",
+    "description": ""
+  },
+  {
+    "name": "Great Sea Serpent",
+    "description": ""
+  },
+  {
+    "name": "Abyss-Serpent",
+    "description": ""
+  },
+  {
+    "name": "River-Wurm",
+    "description": ""
+  },
+  {
+    "name": "Great Wurm",
+    "description": ""
+  },
+  {
+    "name": "Lindworm",
+    "description": ""
+  },
+  {
+    "name": "Tatzelwurm",
+    "description": ""
+  },
+  {
+    "name": "Knucker",
+    "description": ""
+  },
+  {
+    "name": "Peluda",
+    "description": ""
+  },
+  {
+    "name": "Lung Dragon",
+    "description": ""
+  },
+  {
+    "name": "Ryu Dragon",
+    "description": ""
+  },
+  {
+    "name": "Imoogi",
+    "description": ""
+  },
+  {
+    "name": "Bakunawa",
+    "description": ""
+  },
+  {
+    "name": "Piasa Bird",
+    "description": ""
+  },
+  {
+    "name": "Zmey",
+    "description": ""
+  },
+  {
+    "name": "Fafnir",
+    "description": ""
+  },
+  {
+    "name": "Leviathan",
+    "description": ""
+  },
+  {
+    "name": "Dragon Turtle",
+    "description": ""
+  },
+  {
+    "name": "Dragon-eel",
+    "description": ""
+  },
+  {
+    "name": "Pseudodragon",
+    "description": ""
+  },
+  {
+    "name": "Dragonette",
+    "description": ""
+  },
+  {
+    "name": "Spire-drake",
+    "description": ""
+  },
+  {
+    "name": "Crag-drake",
+    "description": ""
+  },
+  {
+    "name": "Wyrmling",
+    "description": ""
+  },
+  {
+    "name": "Young Dragon",
+    "description": ""
+  },
+  {
+    "name": "Adult Dragon",
+    "description": ""
+  },
+  {
+    "name": "Ancient Dragon",
+    "description": ""
+  },
+  {
+    "name": "Greatwyrm",
+    "description": ""
+  },
+  {
+    "name": "Dragon-God",
+    "description": ""
+  },
+  {
+    "name": "Hydra",
+    "description": ""
+  },
+  {
+    "name": "Lernaean Hydra",
+    "description": ""
+  },
+  {
+    "name": "Pyro-Hydra",
+    "description": ""
+  },
+  {
+    "name": "Cryo-Hydra",
+    "description": ""
+  },
+  {
+    "name": "Amphithere",
+    "description": ""
+  },
+  {
+    "name": "Quetzalcoatlus",
+    "description": "Fantasy."
+  },
+  {
+    "name": "Dragon-bat",
+    "description": ""
+  },
+  {
+    "name": "Corrupted Dragon",
+    "description": ""
+  },
+  {
+    "name": "Blighted Dragon",
+    "description": ""
+  },
+  {
+    "name": "Fey-Dragon",
+    "description": ""
+  },
+  {
+    "name": "Rift-Dragon",
+    "description": ""
+  },
+  {
+    "name": "Star-Dragon",
+    "description": ""
+  },
+  {
+    "name": "Void-Dragon",
+    "description": ""
+  },
+  {
+    "name": "Time-Dragon",
+    "description": ""
+  },
+  {
+    "name": "Amphiptere",
+    "description": ""
+  },
+  {
+    "name": "Drakon",
+    "description": ""
+  },
+  {
+    "name": "Guivre",
+    "description": ""
+  },
+  {
+    "name": "Vouivre",
+    "description": ""
+  },
+  {
+    "name": "Dragon-spawn",
+    "description": ""
+  },
+  {
+    "name": "Half-Dragon Monster",
+    "description": ""
+  },
+  {
+    "name": "Dragon-kin Warrior",
+    "description": ""
+  },
+  {
+    "name": "Dragon-Whelp",
+    "description": ""
+  },
+  {
+    "name": "Drake-Swarm",
+    "description": ""
+  },
+  {
+    "name": "Wyvern-King",
+    "description": ""
+  },
+  {
+    "name": "Hydra-Spawn",
+    "description": ""
+  },
+  {
+    "name": "Proto-Dragon",
+    "description": ""
+  },
+  {
+    "name": "Elder-Wurm",
+    "description": ""
+  },
+  {
+    "name": "World-Serpent",
+    "description": ""
+  },
+  {
+    "name": "Astral Dragon",
+    "description": ""
+  },
+  {
+    "name": "Ethereal Dragon",
+    "description": ""
+  },
+  {
+    "name": "Chaos Dragon",
+    "description": ""
+  },
+  {
+    "name": "Mana-Dragon",
+    "description": ""
+  },
+  {
+    "name": "Psychic Dragon",
+    "description": ""
+  },
+  {
+    "name": "Nightmare-Dragon",
+    "description": ""
+  },
+  {
+    "name": "Dream-Dragon",
+    "description": ""
+  },
+  {
+    "name": "Song-Dragon",
+    "description": ""
+  },
+  {
+    "name": "Mountain-sized Dragon",
+    "description": ""
+  },
+  {
+    "name": "Cloud-Dragon",
+    "description": ""
+  }
+]

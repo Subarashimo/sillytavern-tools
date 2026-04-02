@@ -1,0 +1,414 @@
+[
+  {
+    "name": "Pixie",
+    "description": ""
+  },
+  {
+    "name": "Sprite",
+    "description": ""
+  },
+  {
+    "name": "Satyr",
+    "description": ""
+  },
+  {
+    "name": "Dryad",
+    "description": ""
+  },
+  {
+    "name": "Nymph",
+    "description": ""
+  },
+  {
+    "name": "Brownie",
+    "description": ""
+  },
+  {
+    "name": "Leprechaun",
+    "description": ""
+  },
+  {
+    "name": "Redcap",
+    "description": ""
+  },
+  {
+    "name": "Bogle",
+    "description": ""
+  },
+  {
+    "name": "Fey-child",
+    "description": ""
+  },
+  {
+    "name": "Sidhe",
+    "description": "Seelie."
+  },
+  {
+    "name": "Sidhe",
+    "description": "Unseelie."
+  },
+  {
+    "name": "Quickling",
+    "description": ""
+  },
+  {
+    "name": "Meenlock",
+    "description": ""
+  },
+  {
+    "name": "Korred",
+    "description": ""
+  },
+  {
+    "name": "Kelpie",
+    "description": ""
+  },
+  {
+    "name": "Nuckelavee",
+    "description": ""
+  },
+  {
+    "name": "Pooka",
+    "description": ""
+  },
+  {
+    "name": "Selkie",
+    "description": ""
+  },
+  {
+    "name": "Faun",
+    "description": ""
+  },
+  {
+    "name": "Green Man",
+    "description": ""
+  },
+  {
+    "name": "Spriggan",
+    "description": ""
+  },
+  {
+    "name": "Fey-light",
+    "description": ""
+  },
+  {
+    "name": "Fey-hound",
+    "description": ""
+  },
+  {
+    "name": "Unicorn",
+    "description": ""
+  },
+  {
+    "name": "Pegasus",
+    "description": ""
+  },
+  {
+    "name": "Moss-folk",
+    "description": ""
+  },
+  {
+    "name": "Twig-blight",
+    "description": ""
+  },
+  {
+    "name": "Vine-blight",
+    "description": ""
+  },
+  {
+    "name": "Needle-blight",
+    "description": ""
+  },
+  {
+    "name": "Shambling-Mound",
+    "description": ""
+  },
+  {
+    "name": "Treant",
+    "description": ""
+  },
+  {
+    "name": "Grung",
+    "description": ""
+  },
+  {
+    "name": "Killmoulis",
+    "description": ""
+  },
+  {
+    "name": "Domovoi",
+    "description": ""
+  },
+  {
+    "name": "Leshy",
+    "description": ""
+  },
+  {
+    "name": "Rusalka",
+    "description": ""
+  },
+  {
+    "name": "Vila",
+    "description": ""
+  },
+  {
+    "name": "Swan-Maiden",
+    "description": ""
+  },
+  {
+    "name": "Urisk",
+    "description": ""
+  },
+  {
+    "name": "Ghillie-Dhu",
+    "description": ""
+  },
+  {
+    "name": "Trow",
+    "description": ""
+  },
+  {
+    "name": "Fir-Bolg",
+    "description": ""
+  },
+  {
+    "name": "Fachan",
+    "description": ""
+  },
+  {
+    "name": "Each-uisge",
+    "description": ""
+  },
+  {
+    "name": "Glaistig",
+    "description": ""
+  },
+  {
+    "name": "Bog-Nymph",
+    "description": ""
+  },
+  {
+    "name": "Water-Leaper",
+    "description": ""
+  },
+  {
+    "name": "Grindylow",
+    "description": ""
+  },
+  {
+    "name": "Jenny-Greenteeth",
+    "description": ""
+  },
+  {
+    "name": "Shellycoat",
+    "description": ""
+  },
+  {
+    "name": "Bean-Nighe",
+    "description": ""
+  },
+  {
+    "name": "Clurichaun",
+    "description": ""
+  },
+  {
+    "name": "Far-Darrig",
+    "description": ""
+  },
+  {
+    "name": "Gancanagh",
+    "description": ""
+  },
+  {
+    "name": "Fear-Gorta",
+    "description": ""
+  },
+  {
+    "name": "Jack-Frost",
+    "description": ""
+  },
+  {
+    "name": "Jack-in-Irons",
+    "description": ""
+  },
+  {
+    "name": "Jack-o'-Lantern",
+    "description": ""
+  },
+  {
+    "name": "Lob",
+    "description": ""
+  },
+  {
+    "name": "Old-Man-of-the-Woods",
+    "description": ""
+  },
+  {
+    "name": "Pwca",
+    "description": ""
+  },
+  {
+    "name": "Sluagh",
+    "description": ""
+  },
+  {
+    "name": "Wild-Hunt-Rider",
+    "description": ""
+  },
+  {
+    "name": "Yeth-Hound",
+    "description": ""
+  },
+  {
+    "name": "Huldra",
+    "description": ""
+  },
+  {
+    "name": "Nixie",
+    "description": ""
+  },
+  {
+    "name": "Water-Wraith",
+    "description": ""
+  },
+  {
+    "name": "Wood-Wraith",
+    "description": ""
+  },
+  {
+    "name": "Forest-Spirit",
+    "description": ""
+  },
+  {
+    "name": "River-Spirit",
+    "description": ""
+  },
+  {
+    "name": "Mountain-Spirit",
+    "description": ""
+  },
+  {
+    "name": "Whisper-ling",
+    "description": ""
+  },
+  {
+    "name": "Thorn-Walker",
+    "description": ""
+  },
+  {
+    "name": "Bloom-child",
+    "description": ""
+  },
+  {
+    "name": "Glimmer-moth",
+    "description": ""
+  },
+  {
+    "name": "Moon-Stag",
+    "description": ""
+  },
+  {
+    "name": "Shadow-Fey",
+    "description": ""
+  },
+  {
+    "name": "Umbral-Sprite",
+    "description": ""
+  },
+  {
+    "name": "Queen-of-Air-and-Darkness",
+    "description": ""
+  },
+  {
+    "name": "Lord-of-the-Hunt",
+    "description": ""
+  },
+  {
+    "name": "Archfey",
+    "description": ""
+  },
+  {
+    "name": "Summer-Queen",
+    "description": ""
+  },
+  {
+    "name": "Winter-King",
+    "description": ""
+  },
+  {
+    "name": "Glimmer-Man",
+    "description": ""
+  },
+  {
+    "name": "Mist-Stalker",
+    "description": ""
+  },
+  {
+    "name": "Thorn-Devil",
+    "description": ""
+  },
+  {
+    "name": "Briar-Witch",
+    "description": ""
+  },
+  {
+    "name": "Petal-Dancer",
+    "description": ""
+  },
+  {
+    "name": "Bog-hag",
+    "description": ""
+  },
+  {
+    "name": "River-hag",
+    "description": ""
+  },
+  {
+    "name": "Green-Hag",
+    "description": ""
+  },
+  {
+    "name": "Sea-Hag",
+    "description": ""
+  },
+  {
+    "name": "Annis-Hag",
+    "description": ""
+  },
+  {
+    "name": "Bheur-Hag",
+    "description": ""
+  },
+  {
+    "name": "Morko",
+    "description": ""
+  },
+  {
+    "name": "Noctli",
+    "description": ""
+  },
+  {
+    "name": "Wood-giant",
+    "description": ""
+  },
+  {
+    "name": "Hamadryad",
+    "description": ""
+  },
+  {
+    "name": "Oread",
+    "description": ""
+  },
+  {
+    "name": "Naiad",
+    "description": ""
+  },
+  {
+    "name": "Nereid",
+    "description": ""
+  },
+  {
+    "name": "Potamide",
+    "description": ""
+  }
+]

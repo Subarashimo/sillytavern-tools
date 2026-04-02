@@ -1,0 +1,12 @@
+{
+    "display_name": "Subarashimo's Tools",
+    "loading_order": 100,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "Subarashimo",
+    "version": "0.1.0",
+    "description": "Exposes OpenAI function tools based on the loaded character card name (configurable bindings).",
+    "auto_update": false
+}

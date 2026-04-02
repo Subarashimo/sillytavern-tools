@@ -1,0 +1,390 @@
+[
+  {
+    "name": "Skeleton",
+    "description": ""
+  },
+  {
+    "name": "Zombie",
+    "description": ""
+  },
+  {
+    "name": "Ghost",
+    "description": ""
+  },
+  {
+    "name": "Lich",
+    "description": ""
+  },
+  {
+    "name": "Vampire",
+    "description": ""
+  },
+  {
+    "name": "Mummy",
+    "description": ""
+  },
+  {
+    "name": "Ghoul",
+    "description": ""
+  },
+  {
+    "name": "Wight",
+    "description": ""
+  },
+  {
+    "name": "Banshee",
+    "description": ""
+  },
+  {
+    "name": "Spectre",
+    "description": ""
+  },
+  {
+    "name": "Wraith",
+    "description": ""
+  },
+  {
+    "name": "Revenant",
+    "description": ""
+  },
+  {
+    "name": "Death Knight",
+    "description": ""
+  },
+  {
+    "name": "Dracolich",
+    "description": ""
+  },
+  {
+    "name": "Ghast",
+    "description": ""
+  },
+  {
+    "name": "Poltergeist",
+    "description": ""
+  },
+  {
+    "name": "Shadow",
+    "description": ""
+  },
+  {
+    "name": "Apparition",
+    "description": ""
+  },
+  {
+    "name": "Allip",
+    "description": ""
+  },
+  {
+    "name": "Bodak",
+    "description": ""
+  },
+  {
+    "name": "Crawling Claw",
+    "description": ""
+  },
+  {
+    "name": "Skeletal Warrior",
+    "description": ""
+  },
+  {
+    "name": "Zombie Hulk",
+    "description": ""
+  },
+  {
+    "name": "Crypt Thing",
+    "description": ""
+  },
+  {
+    "name": "Skull Lord",
+    "description": ""
+  },
+  {
+    "name": "Mohrg",
+    "description": ""
+  },
+  {
+    "name": "Devourer",
+    "description": ""
+  },
+  {
+    "name": "Nightwalker",
+    "description": ""
+  },
+  {
+    "name": "Bone Naga",
+    "description": ""
+  },
+  {
+    "name": "Mummy Lord",
+    "description": ""
+  },
+  {
+    "name": "Vampire Spawn",
+    "description": ""
+  },
+  {
+    "name": "Jiang-Shi",
+    "description": ""
+  },
+  {
+    "name": "Draugr",
+    "description": ""
+  },
+  {
+    "name": "Gashadokuro",
+    "description": ""
+  },
+  {
+    "name": "Penanggalan",
+    "description": ""
+  },
+  {
+    "name": "Manananggal",
+    "description": ""
+  },
+  {
+    "name": "Dullahan",
+    "description": ""
+  },
+  {
+    "name": "La Llorona",
+    "description": ""
+  },
+  {
+    "name": "Fext",
+    "description": ""
+  },
+  {
+    "name": "Nachzehrer",
+    "description": ""
+  },
+  {
+    "name": "Vrykolakas",
+    "description": ""
+  },
+  {
+    "name": "Grim Reaper",
+    "description": ""
+  },
+  {
+    "name": "Soul-stitched Abomination",
+    "description": ""
+  },
+  {
+    "name": "Cinderghast",
+    "description": ""
+  },
+  {
+    "name": "Rime-Wight",
+    "description": ""
+  },
+  {
+    "name": "Rot-Walker",
+    "description": ""
+  },
+  {
+    "name": "Tomb Herald",
+    "description": ""
+  },
+  {
+    "name": "Spectral Custodian",
+    "description": ""
+  },
+  {
+    "name": "Chained Spirit",
+    "description": ""
+  },
+  {
+    "name": "Blood-fiend",
+    "description": ""
+  },
+  {
+    "name": "Marrow-Leech",
+    "description": ""
+  },
+  {
+    "name": "Ghost-flame",
+    "description": ""
+  },
+  {
+    "name": "Necrotic Ooze",
+    "description": ""
+  },
+  {
+    "name": "Phantom Carriage",
+    "description": ""
+  },
+  {
+    "name": "Bone-ship",
+    "description": ""
+  },
+  {
+    "name": "Husk",
+    "description": ""
+  },
+  {
+    "name": "Desiccated Stalker",
+    "description": ""
+  },
+  {
+    "name": "Grave-maw",
+    "description": ""
+  },
+  {
+    "name": "Famine Spirit",
+    "description": ""
+  },
+  {
+    "name": "Bone-wurm",
+    "description": ""
+  },
+  {
+    "name": "Spectral Legionnaire",
+    "description": ""
+  },
+  {
+    "name": "Umbral Stalker",
+    "description": ""
+  },
+  {
+    "name": "Crypt Lord",
+    "description": ""
+  },
+  {
+    "name": "Ashen Wraith",
+    "description": ""
+  },
+  {
+    "name": "Drowned Maiden",
+    "description": ""
+  },
+  {
+    "name": "Skeletal Colossus",
+    "description": ""
+  },
+  {
+    "name": "Blood-rose",
+    "description": ""
+  },
+  {
+    "name": "Sarcophagus-fiend",
+    "description": ""
+  },
+  {
+    "name": "Phantom Army",
+    "description": ""
+  },
+  {
+    "name": "Pale Rider",
+    "description": ""
+  },
+  {
+    "name": "Soul-eater",
+    "description": ""
+  },
+  {
+    "name": "Hunger-ghost",
+    "description": ""
+  },
+  {
+    "name": "Blazing Skeleton",
+    "description": ""
+  },
+  {
+    "name": "Frost Skeleton",
+    "description": ""
+  },
+  {
+    "name": "Bloated Zombie",
+    "description": ""
+  },
+  {
+    "name": "Plague Zombie",
+    "description": ""
+  },
+  {
+    "name": "Fast Zombie",
+    "description": ""
+  },
+  {
+    "name": "Sea Zombie",
+    "description": ""
+  },
+  {
+    "name": "Skeletal Juggernaut",
+    "description": ""
+  },
+  {
+    "name": "Skeletal Mage",
+    "description": ""
+  },
+  {
+    "name": "Skeletal Archer",
+    "description": ""
+  },
+  {
+    "name": "Bone Swarm",
+    "description": ""
+  },
+  {
+    "name": "Corpse Flower",
+    "description": ""
+  },
+  {
+    "name": "Skullbat",
+    "description": ""
+  },
+  {
+    "name": "Vargheist",
+    "description": ""
+  },
+  {
+    "name": "Crypt Horror",
+    "description": ""
+  },
+  {
+    "name": "Risen Animal",
+    "description": ""
+  },
+  {
+    "name": "Ghostly Hound",
+    "description": ""
+  },
+  {
+    "name": "Necromancer's Thrall",
+    "description": ""
+  },
+  {
+    "name": "Phantom",
+    "description": ""
+  },
+  {
+    "name": "Haunt",
+    "description": ""
+  },
+  {
+    "name": "Lingering Spirit",
+    "description": ""
+  },
+  {
+    "name": "Nosferatu",
+    "description": ""
+  },
+  {
+    "name": "Strigoi",
+    "description": ""
+  },
+  {
+    "name": "Corpse-mound",
+    "description": ""
+  },
+  {
+    "name": "Necrophage",
+    "description": ""
+  },
+  {
+    "name": "Will-o'-Wisp",
+    "description": ""
+  }
+]

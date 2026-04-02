@@ -1,0 +1,1190 @@
+[
+  {
+    "name": "Rusty Iron Dagger",
+    "description": "Blade is chipped and brittle."
+  },
+  {
+    "name": "Red Elixir of Healing",
+    "description": "Closes wounds and knits flesh rapidly."
+  },
+  {
+    "name": "Heavy Sack of Gold Coins",
+    "description": "Stamped with the face of a dead king."
+  },
+  {
+    "name": "Scroll of Fireball",
+    "description": "Parchment that feels warm and unleashes an explosion when read."
+  },
+  {
+    "name": "Silver Ring of the Wolf",
+    "description": "Glows faintly when wolves are nearby."
+  },
+  {
+    "name": "Enchanted Longsword",
+    "description": "Blade never dulls and cuts through steel easily."
+  },
+  {
+    "name": "Black Leather Armor",
+    "description": "Muffles the sound of movement."
+  },
+  {
+    "name": "Wand of Magic Missiles",
+    "description": "Shoots unerring bolts of blue energy."
+  },
+  {
+    "name": "Dented Steel Shield",
+    "description": "Bears the claw marks of a bear."
+  },
+  {
+    "name": "Gem of True Seeing",
+    "description": "Reveals invisible creatures when looked through."
+  },
+  {
+    "name": "Cloak of Camouflage",
+    "description": "Shifts colors to match the wearer's surroundings."
+  },
+  {
+    "name": "Gauntlets of Giant Strength",
+    "description": "Enables wearer to lift massive boulders."
+  },
+  {
+    "name": "Pouch of Uncut Garnets",
+    "description": "Rough red stones."
+  },
+  {
+    "name": "Ring of Protection",
+    "description": "Deflects blows with an invisible force field."
+  },
+  {
+    "name": "Vial of Blessed Water",
+    "description": "Burns undead flesh like acid."
+  },
+  {
+    "name": "Tattered Spellbook",
+    "description": "Contains diagrams for summoning minor demons."
+  },
+  {
+    "name": "Boots of Silence",
+    "description": "Soles dampen all noise from footsteps."
+  },
+  {
+    "name": "Ancient Platinum Coin",
+    "description": "Minted by a lost civilization."
+  },
+  {
+    "name": "Necklace of Explosions",
+    "description": "Beads can be thrown to detonate like grenades."
+  },
+  {
+    "name": "Dimensional Satchel",
+    "description": "Interior is larger than the exterior."
+  },
+  {
+    "name": "Silk Rope",
+    "description": "Unbreakable and knots itself on command."
+  },
+  {
+    "name": "Lantern of Revealing",
+    "description": "Light strips away invisibility and illusions."
+  },
+  {
+    "name": "Potion of Invisibility",
+    "description": "Clear fluid that turns the drinker transparent."
+  },
+  {
+    "name": "Masterwork Crossbow",
+    "description": "Finely balanced for perfect aim."
+  },
+  {
+    "name": "Quiver of Silver Arrows",
+    "description": "Effective against lycanthropes and devils."
+  },
+  {
+    "name": "Shield of the Faithless",
+    "description": "Repels divine magic."
+  },
+  {
+    "name": "Sunblade",
+    "description": "Sword hilt that projects a beam of pure sunlight."
+  },
+  {
+    "name": "Golden Plate Armor",
+    "description": "Impervious to non-magical weapons."
+  },
+  {
+    "name": "Staff of Power",
+    "description": "Can cast various spells and strike with force."
+  },
+  {
+    "name": "Vorpal Greatsword",
+    "description": "Magically sharp blade capable of severing heads."
+  },
+  {
+    "name": "Amulet of Health",
+    "description": "Makes the wearer immune to disease."
+  },
+  {
+    "name": "Robe of the Archmage",
+    "description": "Enhances magical ability and protects against spells."
+  },
+  {
+    "name": "Boots of Speed",
+    "description": "Doubles the wearer's running pace."
+  },
+  {
+    "name": "Helm of Telepathy",
+    "description": "Allows reading surface thoughts of others."
+  },
+  {
+    "name": "Manual of Golems",
+    "description": "Instructions for building a construct."
+  },
+  {
+    "name": "Sphere of Annihilation",
+    "description": "A hole in reality that destroys anything it touches."
+  },
+  {
+    "name": "Petrified Rat",
+    "description": "Stone statue of a rodent."
+  },
+  {
+    "name": "Bottle of Ghost Essence",
+    "description": "Glowing ectoplasm."
+  },
+  {
+    "name": "Talking Skull",
+    "description": "Whispers secrets of the dungeon."
+  },
+  {
+    "name": "Everburning Torch",
+    "description": "Magical flame that produces no heat."
+  },
+  {
+    "name": "Bag of Tricks",
+    "description": "Pulling a fuzz ball from it creates a random animal."
+  },
+  {
+    "name": "Deck of Many Things",
+    "description": "Ivory cards that alter reality when drawn."
+  },
+  {
+    "name": "Immovable Rod",
+    "description": "Locks in place in mid-air defying gravity."
+  },
+  {
+    "name": "Folding Boat",
+    "description": "Small box that expands into a ship."
+  },
+  {
+    "name": "Decanter of Endless Water",
+    "description": "Pours fresh water forever."
+  },
+  {
+    "name": "Sovereign Glue",
+    "description": "Bonds any two objects together permanently."
+  },
+  {
+    "name": "Universal Solvent",
+    "description": "Dissolves any adhesive or sticky substance."
+  },
+  {
+    "name": "Emerald Goblet",
+    "description": "Worth a small fortune."
+  },
+  {
+    "name": "Tarnish-Free Silver Candelabra",
+    "description": "Intricate elven design."
+  },
+  {
+    "name": "Bolt of Spider Silk",
+    "description": "Stronger than steel cable."
+  },
+  {
+    "name": "Water-Damaged Treasure Map",
+    "description": "Ink is smeared and unreadable."
+  },
+  {
+    "name": "Noble's Letter of Credit",
+    "description": "Promissory note for a bank."
+  },
+  {
+    "name": "Signet Ring of a Fallen Lord",
+    "description": "Used to seal wax."
+  },
+  {
+    "name": "Vial of Lavender Perfume",
+    "description": "Masks the scent of decay."
+  },
+  {
+    "name": "Loaded Bone Dice",
+    "description": "Weighted to roll sixes."
+  },
+  {
+    "name": "Brass Spyglass",
+    "description": "Magnifies distant objects."
+  },
+  {
+    "name": "Master Thieves' Tools",
+    "description": "Lockpicks made of adamantite."
+  },
+  {
+    "name": "Healer's Kit",
+    "description": "Contains bandages and salves."
+  },
+  {
+    "name": "Iron Crowbar",
+    "description": "Grants leverage for prying open doors."
+  },
+  {
+    "name": "Rusty Manacles",
+    "description": "Lock is broken."
+  },
+  {
+    "name": "Steel Hand Mirror",
+    "description": "Unbreakable reflection."
+  },
+  {
+    "name": "Hourglass of Black Sand",
+    "description": "Measures one hour exactly."
+  },
+  {
+    "name": "Waterskin of Elven Wine",
+    "description": "Never sours."
+  },
+  {
+    "name": "Dried Meat Rations",
+    "description": "Tough and salty."
+  },
+  {
+    "name": "Moth-Eaten Bedroll",
+    "description": "Smells of mildew."
+  },
+  {
+    "name": "Bear Trap",
+    "description": "Rusty steel jaws."
+  },
+  {
+    "name": "Hooded Lantern",
+    "description": "Shuttered to conceal light."
+  },
+  {
+    "name": "Heavy Sledgehammer",
+    "description": "For breaking down walls."
+  },
+  {
+    "name": "Iron Cooking Pot",
+    "description": "Seasoned with years of stew."
+  },
+  {
+    "name": "Pewter Tankard",
+    "description": "Engraved with a tavern name."
+  },
+  {
+    "name": "Silver Dinner Fork",
+    "description": "Bent out of shape."
+  },
+  {
+    "name": "Skinning Knife",
+    "description": "Razor sharp edge."
+  },
+  {
+    "name": "Vial of Indelible Ink",
+    "description": "Cannot be erased."
+  },
+  {
+    "name": "Eagle Feather Quill",
+    "description": "Writes smoothly."
+  },
+  {
+    "name": "Parchment Sheets",
+    "description": "Made of sheepskin."
+  },
+  {
+    "name": "Watertight Scroll Case",
+    "description": "Made of waxed leather."
+  },
+  {
+    "name": "Book of Local History",
+    "description": "Boring and dusty."
+  },
+  {
+    "name": "Spell Component Pouch",
+    "description": "Filled with bat guano and sulfur."
+  },
+  {
+    "name": "Dust of Disappearance",
+    "description": "Sprinkling it makes objects vanish."
+  },
+  {
+    "name": "Figurine of the Onyx Dog",
+    "description": "Turns into a real hound on command."
+  },
+  {
+    "name": "Mace of Disruption",
+    "description": "Destroys undead upon impact."
+  },
+  {
+    "name": "Luck Blade",
+    "description": "Sword that can alter probability."
+  },
+  {
+    "name": "Robe of Eyes",
+    "description": "Covered in magical eyes that see in all directions."
+  },
+  {
+    "name": "Belt of Dwarvenkind",
+    "description": "Grants darkvision and knowledge of stone."
+  },
+  {
+    "name": "Dwarven Throwing Hammer",
+    "description": "Returns to the hand after being thrown."
+  },
+  {
+    "name": "Flaming Sword",
+    "description": "Wreathed in magical fire."
+  },
+  {
+    "name": "Frost Brand Scimitar",
+    "description": "Extinguishes fires and freezes foes."
+  },
+  {
+    "name": "Oathbow",
+    "description": "Whispers vengeance against sworn enemies."
+  },
+  {
+    "name": "Rod of Lordly Might",
+    "description": "Transforms into various weapons and tools."
+  },
+  {
+    "name": "Ring of Regeneration",
+    "description": "Slowly heals the wearer's wounds over time."
+  },
+  {
+    "name": "Ring of Spell Turning",
+    "description": "Reflects magic back at the caster."
+  },
+  {
+    "name": "Ioun Stone of Protection",
+    "description": "Orbits the head and absorbs damage."
+  },
+  {
+    "name": "Carpet of Flying",
+    "description": "Hovers and moves on command."
+  },
+  {
+    "name": "Broom of Flight",
+    "description": "Rickety but airworthy."
+  },
+  {
+    "name": "Submersible Crab Apparatus",
+    "description": "Barrel that can walk underwater."
+  },
+  {
+    "name": "Instant Fortress",
+    "description": "Metal cube that grows into a tower."
+  },
+  {
+    "name": "Tome of Clear Thought",
+    "description": "Reading it permanently increases intelligence."
+  },
+  {
+    "name": "Mirror of Life Trapping",
+    "description": "Imprisons creatures within its glass."
+  },
+  {
+    "name": "Iron Flask",
+    "description": "Can capture extraplanar entities."
+  },
+  {
+    "name": "Horn of Valhalla",
+    "description": "Summons spectral berserkers when blown."
+  },
+  {
+    "name": "Bottle of Genie Summoning",
+    "description": "Contains a trapped spirit."
+  },
+  {
+    "name": "Alchemy Jug",
+    "description": "Produces various liquids like acid or wine."
+  },
+  {
+    "name": "Cap of Water Breathing",
+    "description": "Allows breathing underwater."
+  },
+  {
+    "name": "Cloak of the Bat",
+    "description": "Allows wearer to transform into a bat."
+  },
+  {
+    "name": "Boots of Striding",
+    "description": "Allows walking across uneven terrain easily."
+  },
+  {
+    "name": "Gloves of Arrow Snaring",
+    "description": "Attracts and catches enemy missiles."
+  },
+  {
+    "name": "Helm of Teleportation",
+    "description": "Transports wearer to known locations instantly."
+  },
+  {
+    "name": "Medallion of Thoughts",
+    "description": "Detects nearby thinking minds."
+  },
+  {
+    "name": "Necklace of Adaptation",
+    "description": "Allows breathing in vacuum or poison gas."
+  },
+  {
+    "name": "Pearl of Power",
+    "description": "Restores a spell to the caster's mind."
+  },
+  {
+    "name": "Pipes of Haunting",
+    "description": "Frightens listeners with eerie music."
+  },
+  {
+    "name": "Ring of the Ram",
+    "description": "Unleashes a force of spectral impact."
+  },
+  {
+    "name": "Stone of Good Luck",
+    "description": "Subtly alters probability in favor of holder."
+  },
+  {
+    "name": "Wand of Lightning",
+    "description": "Casts bolts of electricity."
+  },
+  {
+    "name": "Wand of Polymorph",
+    "description": "Transforms creatures into other shapes."
+  },
+  {
+    "name": "Winged Boots",
+    "description": "Sprout wings for flight."
+  },
+  {
+    "name": "Arrow of Dragon Slaying",
+    "description": "Fatal to draconic creatures."
+  },
+  {
+    "name": "Chime of Opening",
+    "description": "Unlocks doors via sound waves."
+  },
+  {
+    "name": "Elemental Gem",
+    "description": "Summons a fire elemental when crushed."
+  },
+  {
+    "name": "Elixir of Cure Disease",
+    "description": "Removes all ailments."
+  },
+  {
+    "name": "Feather Token",
+    "description": "Turns into a large tree when dropped."
+  },
+  {
+    "name": "Marvelous Pigments",
+    "description": "Painted objects become real."
+  },
+  {
+    "name": "Oil of Etherealness",
+    "description": "Allows passage through solid walls."
+  },
+  {
+    "name": "Potion of Gaseous Form",
+    "description": "Turns drinker into mist."
+  },
+  {
+    "name": "Potion of Heroism",
+    "description": "Grants temporary courage and skill."
+  },
+  {
+    "name": "Wind Fan",
+    "description": "Creates a gust of wind when waved."
+  },
+  {
+    "name": "Driftglobe",
+    "description": "Floating sphere of light."
+  },
+  {
+    "name": "Sending Stones",
+    "description": "Allow communication between holders."
+  },
+  {
+    "name": "Handy Haversack",
+    "description": "Always places desired item on top."
+  },
+  {
+    "name": "Eyes of the Eagle",
+    "description": "Grant telescopic vision."
+  },
+  {
+    "name": "Goggles of Night",
+    "description": "Grant vision in pitch blackness."
+  },
+  {
+    "name": "Helm of Tongues",
+    "description": "Allows understanding all spoken languages."
+  },
+  {
+    "name": "Mariner's Armor",
+    "description": "Grants swimming ability."
+  },
+  {
+    "name": "Sentinel Shield",
+    "description": "Improves awareness and reflexes."
+  },
+  {
+    "name": "Sword of Sharpness",
+    "description": "Severs limbs on critical hits."
+  },
+  {
+    "name": "Trident of Fish Command",
+    "description": "Controls aquatic beasts."
+  },
+  {
+    "name": "Wand of the War Mage",
+    "description": "Guarantees spells hit their target."
+  },
+  {
+    "name": "Adamantine Chain Shirt",
+    "description": "Immune to critical damage."
+  },
+  {
+    "name": "Mithral Splint Armor",
+    "description": "Lightweight and silent."
+  },
+  {
+    "name": "Shield of Arrow Catching",
+    "description": "Deflects ranged attacks."
+  },
+  {
+    "name": "Glamoured Armor",
+    "description": "Can look like normal clothes."
+  },
+  {
+    "name": "Shield of Missile Attraction",
+    "description": "Enchanted to attract all arrows."
+  },
+  {
+    "name": "Fine Steel Dagger",
+    "description": "Well balanced for throwing."
+  },
+  {
+    "name": "Potion of Climbing",
+    "description": "Grants the ability to scale walls like a spider."
+  },
+  {
+    "name": "Small Sack of Silver Coins",
+    "description": "Tarnished but valuable."
+  },
+  {
+    "name": "Scroll of Light",
+    "description": "Illuminates the area when read."
+  },
+  {
+    "name": "Ring of Feather Falling",
+    "description": "Slows descent to prevent injury from falls."
+  },
+  {
+    "name": "Mace of Warning",
+    "description": "Vibrates when enemies are near."
+  },
+  {
+    "name": "Chainmail of Silence",
+    "description": "Links are padded to muffle noise."
+  },
+  {
+    "name": "Wand of Binding",
+    "description": "Shoots magical ropes to restrain targets."
+  },
+  {
+    "name": "Reinforced Wooden Shield",
+    "description": "Bound in iron bands."
+  },
+  {
+    "name": "Gem of Seeing",
+    "description": "Allows the user to see through illusions."
+  },
+  {
+    "name": "Cloak of the Manta Ray",
+    "description": "Grants the ability to breathe and swim underwater."
+  },
+  {
+    "name": "Gauntlets of Dexterity",
+    "description": "Makes the fingers incredibly nimble."
+  },
+  {
+    "name": "Box of Turquoise Stones",
+    "description": "Sky blue unpolished gems."
+  },
+  {
+    "name": "Ring of Water Walking",
+    "description": "Allows the wearer to run across liquid surfaces."
+  },
+  {
+    "name": "Vial of Alchemist's Fire",
+    "description": "Ignites on contact with air."
+  },
+  {
+    "name": "Wizard's Travel Spellbook",
+    "description": "Encased in a waterproof leather cover."
+  },
+  {
+    "name": "Boots of the Winterlands",
+    "description": "Protects the wearer from extreme cold."
+  },
+  {
+    "name": "Gold Bar",
+    "description": "Stamped with the seal of a royal mint."
+  },
+  {
+    "name": "Necklace of Prayer Beads",
+    "description": "Aids in casting divine magic."
+  },
+  {
+    "name": "Bag of Endless Rations",
+    "description": "Produces plain food once per day."
+  },
+  {
+    "name": "Silk Rope of Entanglement",
+    "description": "Animates to bind foes on command."
+  },
+  {
+    "name": "Lantern of Tracking",
+    "description": "Reveals footprints on the ground."
+  },
+  {
+    "name": "Potion of Giant Strength",
+    "description": "Grants the muscle power of a hill giant."
+  },
+  {
+    "name": "Composite Longbow",
+    "description": "Reinforced for greater range."
+  },
+  {
+    "name": "Quiver of Ehlonna",
+    "description": "Holds far more arrows than it appears to."
+  },
+  {
+    "name": "Shield of Blinding",
+    "description": "Can flash a bright light to stun foes."
+  },
+  {
+    "name": "Moonblade",
+    "description": "Glows soft blue in moonlight."
+  },
+  {
+    "name": "Armor of Resistance",
+    "description": "Reduces damage from fire or cold."
+  },
+  {
+    "name": "Staff of Healing",
+    "description": "Closes wounds when touched to a body."
+  },
+  {
+    "name": "Sword of Wounding",
+    "description": "Cuts dealt by this blade refuse to clot."
+  },
+  {
+    "name": "Amulet of Natural Armor",
+    "description": "Hardens the wearer's skin like bark."
+  },
+  {
+    "name": "Robe of Scintillating Colors",
+    "description": "Dazzles onlookers with hypnotic patterns."
+  },
+  {
+    "name": "Slippers of Spider Climbing",
+    "description": "Allows walking on walls and ceilings."
+  },
+  {
+    "name": "Helm of Underwater Action",
+    "description": "Allows breathing and clear vision underwater."
+  },
+  {
+    "name": "Manual of Bodily Health",
+    "description": "Reading it improves physical endurance."
+  },
+  {
+    "name": "Cube of Force",
+    "description": "Creates an invisible barrier around the user."
+  },
+  {
+    "name": "Dragon Scale",
+    "description": "Can be crafted into a shield."
+  },
+  {
+    "name": "Vial of Phoenix Tears",
+    "description": "Instant powerful healing agent."
+  },
+  {
+    "name": "Singing Chalice",
+    "description": "Hums a pleasant tune when filled."
+  },
+  {
+    "name": "Torch of the Deep",
+    "description": "Burns even while submerged."
+  },
+  {
+    "name": "Bag of Boulders",
+    "description": "Small pebbles that grow into rocks when thrown."
+  },
+  {
+    "name": "Deck of Illusions",
+    "description": "Cards create harmless visual phantoms."
+  },
+  {
+    "name": "Rod of Security",
+    "description": "Transports the group to a safe pocket dimension."
+  },
+  {
+    "name": "Folding Table",
+    "description": "Expands from a pocket sized square."
+  },
+  {
+    "name": "Decanter of Air",
+    "description": "Produces a fresh breeze or gale."
+  },
+  {
+    "name": "Glue of Mending",
+    "description": "Repairs broken items seamlessly."
+  },
+  {
+    "name": "Solvent of Corrosion",
+    "description": "Melts through locks and bars."
+  },
+  {
+    "name": "Platinum Tiara",
+    "description": "Studded with small diamonds."
+  },
+  {
+    "name": "Golden Scepter",
+    "description": "Symbol of high authority."
+  },
+  {
+    "name": "Spool of Copper Wire",
+    "description": "Highly conductive."
+  },
+  {
+    "name": "Onyx Cat Statue",
+    "description": "Scares away mice and rats."
+  },
+  {
+    "name": "Map of the Stars",
+    "description": "Shows navigation constellations."
+  },
+  {
+    "name": "Writ of Safe Passage",
+    "description": "Signed by a local king."
+  },
+  {
+    "name": "Signet Ring of a Duke",
+    "description": "Heavy gold with a crest."
+  },
+  {
+    "name": "Bottle of Rose Oil",
+    "description": "Soothing and expensive scent."
+  },
+  {
+    "name": "Ivory Dice",
+    "description": "Perfectly balanced and smooth."
+  },
+  {
+    "name": "Silver Monocle",
+    "description": "Helps examine fine details."
+  },
+  {
+    "name": "Lockpicks of Speed",
+    "description": "Opens locks faster than normal tools."
+  },
+  {
+    "name": "Surgeon's Tools",
+    "description": "Sharp scalpels in a velvet roll."
+  },
+  {
+    "name": "Steel Pitons",
+    "description": "Anchor ropes firmly into stone."
+  },
+  {
+    "name": "Silk Manacles",
+    "description": "Magically bind wrists without pain."
+  },
+  {
+    "name": "Polished Bronze Mirror",
+    "description": "Reflects a flattering image."
+  },
+  {
+    "name": "Hourglass of Gold Dust",
+    "description": "Runs for exactly one hour."
+  },
+  {
+    "name": "Keg of Dwarven Ale",
+    "description": "Very potent and dark."
+  },
+  {
+    "name": "Smoked Salmon",
+    "description": "Wrapped in preservation leaves."
+  },
+  {
+    "name": "Velvet Pillow",
+    "description": "Remains cool to the touch."
+  },
+  {
+    "name": "Bear Trap of Holding",
+    "description": "Snares leg without causing injury."
+  },
+  {
+    "name": "Bullseye Lantern",
+    "description": "Focuses light in a narrow beam."
+  },
+  {
+    "name": "Mining Pick",
+    "description": "Breaks through rock with ease."
+  },
+  {
+    "name": "Cast Iron Skillet",
+    "description": "Seasoned and virtually indestructible."
+  },
+  {
+    "name": "Porcelain Tea Set",
+    "description": "Delicate and hand painted."
+  },
+  {
+    "name": "Silver Spoon",
+    "description": "Engraved with noble initials."
+  },
+  {
+    "name": "Filleting Knife",
+    "description": "Razor sharp and flexible."
+  },
+  {
+    "name": "Vial of Invisible Ink",
+    "description": "Appears only when heated."
+  },
+  {
+    "name": "Peacock Feather Quill",
+    "description": "Fancy writing implement."
+  },
+  {
+    "name": "Vellum Scroll",
+    "description": "Smooth and durable surface."
+  },
+  {
+    "name": "Scroll Case of Fireproofing",
+    "description": "Protects contents from flame."
+  },
+  {
+    "name": "Tome of Strategy",
+    "description": "Lessons on warfare and tactics."
+  },
+  {
+    "name": "Pouch of Gem Dust",
+    "description": "Used for high level spells."
+  },
+  {
+    "name": "Dust of Dryness",
+    "description": "Absorbs massive amounts of water."
+  },
+  {
+    "name": "Figurine of the Silver Raven",
+    "description": "Acts as an animal messenger."
+  },
+  {
+    "name": "Mace of Smashing",
+    "description": "Deals extra damage to constructs."
+  },
+  {
+    "name": "Blade of Luck",
+    "description": "Allows a second chance at an action."
+  },
+  {
+    "name": "Robe of Stars",
+    "description": "Allows travel to the astral plane."
+  },
+  {
+    "name": "Belt of Giant Strength",
+    "description": "Grants superhuman muscle."
+  },
+  {
+    "name": "Returning Trident",
+    "description": "Flies back to hand after throwing."
+  },
+  {
+    "name": "Flame Tongue Dagger",
+    "description": "Blade burns with magical fire."
+  },
+  {
+    "name": "Frost Brand Greatsword",
+    "description": "Blade radiates intense cold."
+  },
+  {
+    "name": "Bow of the Elves",
+    "description": "Shoots further than normal bows."
+  },
+  {
+    "name": "Rod of Alertness",
+    "description": "Prevents the holder from being surprised."
+  },
+  {
+    "name": "Ring of Mind Shielding",
+    "description": "Blocks telepathy and mind reading."
+  },
+  {
+    "name": "Ioun Stone of Insight",
+    "description": "Floats near head and improves wisdom."
+  },
+  {
+    "name": "Carpet of Comfort",
+    "description": "Always warm and soft to sit on."
+  },
+  {
+    "name": "Broom of Sweeping",
+    "description": "Cleans floors on its own."
+  },
+  {
+    "name": "Apparatus of the Crab",
+    "description": "Mechanical vehicle for two."
+  },
+  {
+    "name": "Fortress in a Bottle",
+    "description": "Miniature castle that expands."
+  },
+  {
+    "name": "Tome of Leadership",
+    "description": "Reading it improves persuasion and leadership."
+  },
+  {
+    "name": "Mirror of Scrying",
+    "description": "Allows viewing distant places."
+  },
+  {
+    "name": "Flask of Endless Coffee",
+    "description": "Always hot and fresh."
+  },
+  {
+    "name": "Horn of Blasting",
+    "description": "Shatters walls with sonic force."
+  },
+  {
+    "name": "Bottle of Air",
+    "description": "Provides infinite breath."
+  },
+  {
+    "name": "Alchemy Kit",
+    "description": "Portable lab for mixing potions."
+  },
+  {
+    "name": "Cap of Disguise",
+    "description": "Alters wearer's appearance."
+  },
+  {
+    "name": "Cloak of Arachnida",
+    "description": "Allows climbing webs and walls."
+  },
+  {
+    "name": "Gloves of Swimming",
+    "description": "Grant webbed fingers for speed."
+  },
+  {
+    "name": "Helm of Brilliance",
+    "description": "Lights up dark areas."
+  },
+  {
+    "name": "Medallion of Bravery",
+    "description": "Protects against fear effects."
+  },
+  {
+    "name": "Necklace of Fire Resistance",
+    "description": "Absorbs heat damage."
+  },
+  {
+    "name": "Pearl of Wisdom",
+    "description": "Enhances intuition and perception."
+  },
+  {
+    "name": "Pipes of the Sewers",
+    "description": "Summons rat swarms to aid user."
+  },
+  {
+    "name": "Ring of Jumping",
+    "description": "Allows superhuman leaps."
+  },
+  {
+    "name": "Stone of Alarm",
+    "description": "Shrieks when touched by strangers."
+  },
+  {
+    "name": "Wand of Fireballs",
+    "description": "Casts explosive fire magic."
+  },
+  {
+    "name": "Wand of Detection",
+    "description": "Finds magic items nearby."
+  },
+  {
+    "name": "Winged Helm",
+    "description": "Allows limited flight."
+  },
+  {
+    "name": "Arrow of Teleportation",
+    "description": "Teleports shooter to impact site."
+  },
+  {
+    "name": "Chime of Interruption",
+    "description": "Stops enemy spellcasting."
+  },
+  {
+    "name": "Gem of Brightness",
+    "description": "Blinds enemies with intense light."
+  },
+  {
+    "name": "Portable Ram",
+    "description": "Grants great force to break doors."
+  },
+  {
+    "name": "Hat of Disguise",
+    "description": "Illusion changes appearance of clothing."
+  },
+  {
+    "name": "Ring of Warmth",
+    "description": "Protects against freezing temperatures."
+  },
+  {
+    "name": "Inkwell of Truth",
+    "description": "Rewrites bodies according to written words."
+  },
+  {
+    "name": "Instant Tentacle Seeds",
+    "description": "Spawns groping tentacles in water."
+  },
+  {
+    "name": "The Bimbonomicon",
+    "description": "Teaches spells that reduce intelligence while rapidly increasing the user's libido."
+  },
+  {
+    "name": "The Nekomnomicon",
+    "description": "Teaches useful spells but gradually transforms the user into cat-person."
+  },
+  {
+    "name": "Paddle of Phantom Pains",
+    "description": "Deals sexual stimulation instead of damage."
+  },
+  {
+    "name": "Penetrater",
+    "description": "Transforms between dagger and dildo."
+  },
+  {
+    "name": "Pherodrake Whip",
+    "description": "Causes intoxication and poison stimulation."
+  },
+  {
+    "name": "Poppet of Arousal",
+    "description": "Stimulation applied to doll affects target."
+  },
+  {
+    "name": "Poppet of Dominion",
+    "description": "Allows total control of target."
+  },
+  {
+    "name": "Portal of the Distant Lover",
+    "description": "Creates portal to target's mouth or genitals."
+  },
+  {
+    "name": "Potion of Assured Pregnancy",
+    "description": "Guarantees instant pregnancy."
+  },
+  {
+    "name": "Potion of Reassignment",
+    "description": "Changes biological sex."
+  },
+  {
+    "name": "Pouch of Equine Abundance",
+    "description": "Enlarges balls and increases cum production."
+  },
+  {
+    "name": "Purified Essence of Flatness",
+    "description": "Permanently reduces breast size."
+  },
+  {
+    "name": "Reigns of the Sun",
+    "description": "Stores charges from anal climaxes to release a powerful blast."
+  },
+  {
+    "name": "Rose-Vine Whip",
+    "description": "Can charm or incite lust."
+  },
+  {
+    "name": "Scales of Draconic Vanity",
+    "description": "Transform the wearer into a powerful dragonkin with a compulsion to display their body."
+  },
+  {
+    "name": "Shared Sensation Piercings",
+    "description": "Splits damage and stimulation between wearers."
+  },
+  {
+    "name": "Shield of Edger's Resolve",
+    "description": "Turns damage to stimulation but fails if wearer climaxes."
+  },
+  {
+    "name": "Silks of the Nine-Tailed Trickster",
+    "description": "Grants illusion spells but causes hyperarousal."
+  },
+  {
+    "name": "Talona's Tail Plug",
+    "description": "Grants fiendish tail and powerful infernal traits to the wearer."
+  },
+  {
+    "name": "Tentacle Bow",
+    "description": "Shoots arrows that restrain targets with tentacles."
+  },
+  {
+    "name": "The Tome of Imps",
+    "description": "Allows summoning imps that will demand sexual payment after their task is done."
+  },
+  {
+    "name": "Leash of the Infernal Hound",
+    "description": "Transforms the wearer into a powerful humanoid hellhound but causes infatuation with leash holder."
+  },
+  {
+    "name": "Vampiric Lipstick",
+    "description": "Allows wearer to steal lifeforce by kissing."
+  },
+  {
+    "name": "Venus of the Fertile Womb",
+    "description": "And idol that causes hyperfertility and body changes when worshiped."
+  },
+  {
+    "name": "Vestments of Cherubic Grace",
+    "description": "Grants a weak but useful light spirit and allows casting light cantrips."
+  },
+  {
+    "name": "Vestments of Hare's Luck",
+    "description": "Makes the wearer very lucky but causes hyperarousal and hyperfertility."
+  },
+  {
+    "name": "Vial of Liquid Slavery",
+    "description": "Dominates and enslaves whoever drinks it."
+  },
+  {
+    "name": "Were-beast's Tail Plug",
+    "description": "Grants were-beast transformation to wearer but increases libido."
+  },
+  {
+    "name": "Dominatrix Whip",
+    "description": "Makes targets struck by it subservient and obedient."
+  },
+  {
+    "name": "Taunt Plug",
+    "description": "Wearer may spank themselves to taunt and enrage nearby enemies."
+  },
+  {
+    "name": "Froggy Tongue Piercing",
+    "description": "Makes the wearer's tongue as flexible a weapong as a frog's."
+  },
+  {
+    "name": "Helping Hands",
+    "description": "An extra pair of robotic hands attached at the shoulders that help in combat but are otherwise quite lewd."
+  }
+]

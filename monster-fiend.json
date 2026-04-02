@@ -1,0 +1,406 @@
+[
+  {
+    "name": "Demon",
+    "description": ""
+  },
+  {
+    "name": "Devil",
+    "description": ""
+  },
+  {
+    "name": "Imp",
+    "description": ""
+  },
+  {
+    "name": "Quasit",
+    "description": ""
+  },
+  {
+    "name": "Pit-Fiend",
+    "description": ""
+  },
+  {
+    "name": "Balor",
+    "description": ""
+  },
+  {
+    "name": "Ice-Devil",
+    "description": ""
+  },
+  {
+    "name": "Horned-Devil",
+    "description": ""
+  },
+  {
+    "name": "Bone-Devil",
+    "description": ""
+  },
+  {
+    "name": "Barbed-Devil",
+    "description": ""
+  },
+  {
+    "name": "Erinyes",
+    "description": ""
+  },
+  {
+    "name": "Succubus",
+    "description": ""
+  },
+  {
+    "name": "Incubus",
+    "description": ""
+  },
+  {
+    "name": "Glabrezu",
+    "description": ""
+  },
+  {
+    "name": "Hezrou",
+    "description": ""
+  },
+  {
+    "name": "Vrock",
+    "description": ""
+  },
+  {
+    "name": "Nalfeshnee",
+    "description": ""
+  },
+  {
+    "name": "Marilith",
+    "description": ""
+  },
+  {
+    "name": "Goristro",
+    "description": ""
+  },
+  {
+    "name": "Dretch",
+    "description": ""
+  },
+  {
+    "name": "Manes",
+    "description": ""
+  },
+  {
+    "name": "Lemure",
+    "description": ""
+  },
+  {
+    "name": "Nupperibo",
+    "description": ""
+  },
+  {
+    "name": "Spined-Devil",
+    "description": ""
+  },
+  {
+    "name": "Bearded-Devil",
+    "description": ""
+  },
+  {
+    "name": "Chain-Devil",
+    "description": ""
+  },
+  {
+    "name": "Abishai",
+    "description": ""
+  },
+  {
+    "name": "Hell-Hound",
+    "description": ""
+  },
+  {
+    "name": "Nightmare",
+    "description": ""
+  },
+  {
+    "name": "Yochlol",
+    "description": ""
+  },
+  {
+    "name": "Shadow-Demon",
+    "description": ""
+  },
+  {
+    "name": "Bebilith",
+    "description": ""
+  },
+  {
+    "name": "Retriever",
+    "description": ""
+  },
+  {
+    "name": "Arcanaloth",
+    "description": ""
+  },
+  {
+    "name": "Mezzoloth",
+    "description": ""
+  },
+  {
+    "name": "Nycaloth",
+    "description": ""
+  },
+  {
+    "name": "Ultroloth",
+    "description": ""
+  },
+  {
+    "name": "Yugoloth",
+    "description": ""
+  },
+  {
+    "name": "Demon-Lord",
+    "description": ""
+  },
+  {
+    "name": "Arch-Devil",
+    "description": ""
+  },
+  {
+    "name": "Asmodeus",
+    "description": ""
+  },
+  {
+    "name": "Orcus",
+    "description": ""
+  },
+  {
+    "name": "Demogorgon",
+    "description": ""
+  },
+  {
+    "name": "Graz'zt",
+    "description": ""
+  },
+  {
+    "name": "Baphomet",
+    "description": ""
+  },
+  {
+    "name": "Yeenoghu",
+    "description": ""
+  },
+  {
+    "name": "Mephistopheles",
+    "description": ""
+  },
+  {
+    "name": "Baalzebul",
+    "description": ""
+  },
+  {
+    "name": "Dispater",
+    "description": ""
+  },
+  {
+    "name": "Mammon",
+    "description": ""
+  },
+  {
+    "name": "Levistus",
+    "description": ""
+  },
+  {
+    "name": "Belial",
+    "description": ""
+  },
+  {
+    "name": "Fierna",
+    "description": ""
+  },
+  {
+    "name": "Zariel",
+    "description": ""
+  },
+  {
+    "name": "Tiamat",
+    "description": ""
+  },
+  {
+    "name": "Lolth",
+    "description": ""
+  },
+  {
+    "name": "Hellcat",
+    "description": ""
+  },
+  {
+    "name": "Howler",
+    "description": ""
+  },
+  {
+    "name": "Maw-Demon",
+    "description": ""
+  },
+  {
+    "name": "Rutterkin",
+    "description": ""
+  },
+  {
+    "name": "Sibriex",
+    "description": ""
+  },
+  {
+    "name": "Bulezau",
+    "description": ""
+  },
+  {
+    "name": "Dybbuk",
+    "description": ""
+  },
+  {
+    "name": "Maurezhi",
+    "description": ""
+  },
+  {
+    "name": "Nabassu",
+    "description": ""
+  },
+  {
+    "name": "Babau",
+    "description": ""
+  },
+  {
+    "name": "Chasme",
+    "description": ""
+  },
+  {
+    "name": "Armanite",
+    "description": ""
+  },
+  {
+    "name": "Barlgura",
+    "description": ""
+  },
+  {
+    "name": "Cambion",
+    "description": ""
+  },
+  {
+    "name": "Molydeus",
+    "description": ""
+  },
+  {
+    "name": "Nightmare-Beast",
+    "description": ""
+  },
+  {
+    "name": "Soul-Harvester",
+    "description": ""
+  },
+  {
+    "name": "Pain-Devil",
+    "description": ""
+  },
+  {
+    "name": "Pleasure-Devil",
+    "description": ""
+  },
+  {
+    "name": "Corruption-Devil",
+    "description": ""
+  },
+  {
+    "name": "War-Devil",
+    "description": ""
+  },
+  {
+    "name": "Torment-Fiend",
+    "description": ""
+  },
+  {
+    "name": "Abyss-Spawn",
+    "description": ""
+  },
+  {
+    "name": "Hellfire-Engine",
+    "description": ""
+  },
+  {
+    "name": "Styx-Dragon",
+    "description": ""
+  },
+  {
+    "name": "Infernal-Wurm",
+    "description": ""
+  },
+  {
+    "name": "Soul-Ripper",
+    "description": ""
+  },
+  {
+    "name": "Void-Leech",
+    "description": ""
+  },
+  {
+    "name": "Chaos-Spawn",
+    "description": ""
+  },
+  {
+    "name": "Ruin-Demon",
+    "description": ""
+  },
+  {
+    "name": "Plague-Fiend",
+    "description": ""
+  },
+  {
+    "name": "Infernal-Duke",
+    "description": ""
+  },
+  {
+    "name": "Prince-of-Demons",
+    "description": ""
+  },
+  {
+    "name": "Fiendish-Spider",
+    "description": ""
+  },
+  {
+    "name": "Hell-Wasp",
+    "description": ""
+  },
+  {
+    "name": "Infernal-Scorpion",
+    "description": ""
+  },
+  {
+    "name": "Stench-Kow",
+    "description": ""
+  },
+  {
+    "name": "Wrath-Demon",
+    "description": ""
+  },
+  {
+    "name": "Sloth-Demon",
+    "description": ""
+  },
+  {
+    "name": "Envy-Demon",
+    "description": ""
+  },
+  {
+    "name": "Gluttony-Demon",
+    "description": ""
+  },
+  {
+    "name": "Pride-Demon",
+    "description": ""
+  },
+  {
+    "name": "Lust-Demon",
+    "description": ""
+  },
+  {
+    "name": "Greed-Demon",
+    "description": ""
+  },
+  {
+    "name": "Pain-Mistress",
+    "description": ""
+  }
+]

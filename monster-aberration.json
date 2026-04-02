@@ -1,0 +1,394 @@
+[
+  {
+    "name": "Beholder",
+    "description": ""
+  },
+  {
+    "name": "Mind-Flayer",
+    "description": ""
+  },
+  {
+    "name": "Aboleth",
+    "description": ""
+  },
+  {
+    "name": "Slaad",
+    "description": ""
+  },
+  {
+    "name": "Gibbering-Mouther",
+    "description": ""
+  },
+  {
+    "name": "Gelatinous-Cube",
+    "description": ""
+  },
+  {
+    "name": "Black-Pudding",
+    "description": ""
+  },
+  {
+    "name": "Ochre-Jelly",
+    "description": ""
+  },
+  {
+    "name": "Gray-Ooze",
+    "description": ""
+  },
+  {
+    "name": "Mimic",
+    "description": ""
+  },
+  {
+    "name": "Intellect-Devourer",
+    "description": ""
+  },
+  {
+    "name": "Grick",
+    "description": ""
+  },
+  {
+    "name": "Grell",
+    "description": ""
+  },
+  {
+    "name": "Umber-Hulk",
+    "description": ""
+  },
+  {
+    "name": "Chuul",
+    "description": ""
+  },
+  {
+    "name": "Flumph",
+    "description": ""
+  },
+  {
+    "name": "Cloaker",
+    "description": ""
+  },
+  {
+    "name": "Darkmantle",
+    "description": ""
+  },
+  {
+    "name": "Ettercap",
+    "description": ""
+  },
+  {
+    "name": "Drider",
+    "description": ""
+  },
+  {
+    "name": "Neogi",
+    "description": ""
+  },
+  {
+    "name": "Roper",
+    "description": ""
+  },
+  {
+    "name": "Tarrasque",
+    "description": ""
+  },
+  {
+    "name": "Beholder-Zombie",
+    "description": ""
+  },
+  {
+    "name": "Mind-Witness",
+    "description": ""
+  },
+  {
+    "name": "Nothic",
+    "description": ""
+  },
+  {
+    "name": "Otyugh",
+    "description": ""
+  },
+  {
+    "name": "Psychic-Slime",
+    "description": ""
+  },
+  {
+    "name": "Shoggoth",
+    "description": ""
+  },
+  {
+    "name": "Elder-Thing",
+    "description": ""
+  },
+  {
+    "name": "Mi-Go",
+    "description": ""
+  },
+  {
+    "name": "Flying-Polyp",
+    "description": ""
+  },
+  {
+    "name": "Great-Old-One",
+    "description": ""
+  },
+  {
+    "name": "Star-Spawn",
+    "description": ""
+  },
+  {
+    "name": "Chaos-Beast",
+    "description": ""
+  },
+  {
+    "name": "Dimensional-Shambler",
+    "description": ""
+  },
+  {
+    "name": "Formless-Spawn",
+    "description": ""
+  },
+  {
+    "name": "Gug",
+    "description": ""
+  },
+  {
+    "name": "Hound-of-Tindalos",
+    "description": ""
+  },
+  {
+    "name": "Moon-Beast",
+    "description": ""
+  },
+  {
+    "name": "Night-gaunt",
+    "description": ""
+  },
+  {
+    "name": "Shantak",
+    "description": ""
+  },
+  {
+    "name": "Yithian",
+    "description": ""
+  },
+  {
+    "name": "Astral-Stalker",
+    "description": ""
+  },
+  {
+    "name": "Balhannoth",
+    "description": ""
+  },
+  {
+    "name": "Brain-Golem",
+    "description": ""
+  },
+  {
+    "name": "Choker",
+    "description": ""
+  },
+  {
+    "name": "Death-Kiss",
+    "description": ""
+  },
+  {
+    "name": "Eye-Tyrant",
+    "description": ""
+  },
+  {
+    "name": "Elder-Brain",
+    "description": ""
+  },
+  {
+    "name": "Ulitharid",
+    "description": ""
+  },
+  {
+    "name": "Alhoon",
+    "description": ""
+  },
+  {
+    "name": "Destrachan",
+    "description": ""
+  },
+  {
+    "name": "Ether-Eater",
+    "description": ""
+  },
+  {
+    "name": "Far-Realm-Anomaly",
+    "description": ""
+  },
+  {
+    "name": "Flesh-Warp",
+    "description": ""
+  },
+  {
+    "name": "Void-Wurm",
+    "description": ""
+  },
+  {
+    "name": "Grue",
+    "description": ""
+  },
+  {
+    "name": "Intellect-Snatcher",
+    "description": ""
+  },
+  {
+    "name": "Kaorti",
+    "description": ""
+  },
+  {
+    "name": "Khyber-Spawn",
+    "description": ""
+  },
+  {
+    "name": "Living-Spell",
+    "description": ""
+  },
+  {
+    "name": "Madness-Grub",
+    "description": ""
+  },
+  {
+    "name": "Morkoth",
+    "description": ""
+  },
+  {
+    "name": "Neothelid",
+    "description": ""
+  },
+  {
+    "name": "Observer",
+    "description": ""
+  },
+  {
+    "name": "Phase-Doppelganger",
+    "description": ""
+  },
+  {
+    "name": "Planet-Eater",
+    "description": ""
+  },
+  {
+    "name": "Psionic-Terror",
+    "description": ""
+  },
+  {
+    "name": "Quori",
+    "description": ""
+  },
+  {
+    "name": "Reality-Warper",
+    "description": ""
+  },
+  {
+    "name": "Seeker-Spawn",
+    "description": ""
+  },
+  {
+    "name": "Shadow-Parasite",
+    "description": ""
+  },
+  {
+    "name": "Skin-Kite",
+    "description": ""
+  },
+  {
+    "name": "Skittering-Maw",
+    "description": ""
+  },
+  {
+    "name": "Slaad-Lord",
+    "description": ""
+  },
+  {
+    "name": "Slithering-Tracker",
+    "description": ""
+  },
+  {
+    "name": "Spawn-of-Kyuss",
+    "description": ""
+  },
+  {
+    "name": "Spectator",
+    "description": ""
+  },
+  {
+    "name": "Star-Nose-Horror",
+    "description": ""
+  },
+  {
+    "name": "Sussurus",
+    "description": ""
+  },
+  {
+    "name": "Thought-Eater",
+    "description": ""
+  },
+  {
+    "name": "Tsochar",
+    "description": ""
+  },
+  {
+    "name": "Uvuudaum",
+    "description": ""
+  },
+  {
+    "name": "Vargouille",
+    "description": ""
+  },
+  {
+    "name": "Void-Horror",
+    "description": ""
+  },
+  {
+    "name": "Wailing-Thing",
+    "description": ""
+  },
+  {
+    "name": "Warped-One",
+    "description": ""
+  },
+  {
+    "name": "Whispering-Terror",
+    "description": ""
+  },
+  {
+    "name": "Worm-That-Walks",
+    "description": ""
+  },
+  {
+    "name": "Xill",
+    "description": ""
+  },
+  {
+    "name": "Xorn",
+    "description": ""
+  },
+  {
+    "name": "Zern",
+    "description": ""
+  },
+  {
+    "name": "Anchorite-of-Chaos",
+    "description": ""
+  },
+  {
+    "name": "Nihileth",
+    "description": ""
+  },
+  {
+    "name": "Brain-stealer",
+    "description": ""
+  },
+  {
+    "name": "Reality-Leach",
+    "description": ""
+  },
+  {
+    "name": "Flesh-shifter",
+    "description": ""
+  }
+]

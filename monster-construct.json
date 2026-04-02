@@ -1,0 +1,410 @@
+[
+  {
+    "name": "Iron-Golem",
+    "description": ""
+  },
+  {
+    "name": "Clay-Golem",
+    "description": ""
+  },
+  {
+    "name": "Stone-Golem",
+    "description": ""
+  },
+  {
+    "name": "Flesh-Golem",
+    "description": ""
+  },
+  {
+    "name": "Adamantine-Golem",
+    "description": ""
+  },
+  {
+    "name": "Mithral-Golem",
+    "description": ""
+  },
+  {
+    "name": "Glass-Golem",
+    "description": ""
+  },
+  {
+    "name": "Wood-Golem",
+    "description": ""
+  },
+  {
+    "name": "Bone-Golem",
+    "description": ""
+  },
+  {
+    "name": "Animated-Armor",
+    "description": ""
+  },
+  {
+    "name": "Animated-Sword",
+    "description": ""
+  },
+  {
+    "name": "Flying-Sword",
+    "description": ""
+  },
+  {
+    "name": "Rug-of-Smothering",
+    "description": ""
+  },
+  {
+    "name": "Animated-Statue",
+    "description": ""
+  },
+  {
+    "name": "Gargoyle",
+    "description": ""
+  },
+  {
+    "name": "Caryatid-Column",
+    "description": ""
+  },
+  {
+    "name": "Shield-Guardian",
+    "description": ""
+  },
+  {
+    "name": "Homunculus",
+    "description": ""
+  },
+  {
+    "name": "Modron",
+    "description": ""
+  },
+  {
+    "name": "Clockwork-Soldier",
+    "description": ""
+  },
+  {
+    "name": "Clockwork-Dragon",
+    "description": ""
+  },
+  {
+    "name": "Clockwork-Behemoth",
+    "description": ""
+  },
+  {
+    "name": "Clockwork-Scout",
+    "description": ""
+  },
+  {
+    "name": "Clockwork-Mage",
+    "description": ""
+  },
+  {
+    "name": "Clockwork-Spider",
+    "description": ""
+  },
+  {
+    "name": "Zoblin",
+    "description": ""
+  },
+  {
+    "name": "Scarecrow",
+    "description": ""
+  },
+  {
+    "name": "Living-Doll",
+    "description": ""
+  },
+  {
+    "name": "Mannequin",
+    "description": ""
+  },
+  {
+    "name": "Marionette",
+    "description": ""
+  },
+  {
+    "name": "Automaton",
+    "description": ""
+  },
+  {
+    "name": "Warforged-Titan",
+    "description": ""
+  },
+  {
+    "name": "Iron-Cobra",
+    "description": ""
+  },
+  {
+    "name": "Necro-golem",
+    "description": ""
+  },
+  {
+    "name": "Soul-powered-Construct",
+    "description": ""
+  },
+  {
+    "name": "Steam-Mephit",
+    "description": ""
+  },
+  {
+    "name": "Gear-Knight",
+    "description": ""
+  },
+  {
+    "name": "Bronze-Minotaur",
+    "description": ""
+  },
+  {
+    "name": "Talos",
+    "description": ""
+  },
+  {
+    "name": "Colossus",
+    "description": ""
+  },
+  {
+    "name": "Effigy",
+    "description": ""
+  },
+  {
+    "name": "Spell-stitched-Horror",
+    "description": ""
+  },
+  {
+    "name": "Clockwork-Leviathan",
+    "description": ""
+  },
+  {
+    "name": "Helmed-Horror",
+    "description": ""
+  },
+  {
+    "name": "Arbalest-Turret",
+    "description": ""
+  },
+  {
+    "name": "Flame-Turret",
+    "description": ""
+  },
+  {
+    "name": "Iron-Defender",
+    "description": ""
+  },
+  {
+    "name": "Mechanical-Familiar",
+    "description": ""
+  },
+  {
+    "name": "Alchemical-Gargoyle",
+    "description": ""
+  },
+  {
+    "name": "Ambulatory-Chest",
+    "description": ""
+  },
+  {
+    "name": "Animated-Carriage",
+    "description": ""
+  },
+  {
+    "name": "Animated-Ship",
+    "description": ""
+  },
+  {
+    "name": "Animated-Broom",
+    "description": ""
+  },
+  {
+    "name": "Animated-Book",
+    "description": ""
+  },
+  {
+    "name": "Arcane-Sentinel",
+    "description": ""
+  },
+  {
+    "name": "Arrow-Turret",
+    "description": ""
+  },
+  {
+    "name": "Battle-Automaton",
+    "description": ""
+  },
+  {
+    "name": "Blade-Trap-Construct",
+    "description": ""
+  },
+  {
+    "name": "Bronze-Serpent",
+    "description": ""
+  },
+  {
+    "name": "Cadaver-Collector",
+    "description": ""
+  },
+  {
+    "name": "Caltrop-Spitter",
+    "description": ""
+  },
+  {
+    "name": "Chain-Gun-Construct",
+    "description": ""
+  },
+  {
+    "name": "Clockwork-Assassin",
+    "description": ""
+  },
+  {
+    "name": "Clockwork-Gnome",
+    "description": ""
+  },
+  {
+    "name": "Clockwork-Hound",
+    "description": ""
+  },
+  {
+    "name": "Clockwork-Juggernaut",
+    "description": ""
+  },
+  {
+    "name": "Clockwork-Stalker",
+    "description": ""
+  },
+  {
+    "name": "Cog-crawler",
+    "description": ""
+  },
+  {
+    "name": "Crystal-Golem",
+    "description": ""
+  },
+  {
+    "name": "Demon-powered-Engine",
+    "description": ""
+  },
+  {
+    "name": "Dragon-Effigy",
+    "description": ""
+  },
+  {
+    "name": "Dwarven-Automaton",
+    "description": ""
+  },
+  {
+    "name": "Eldritch-Turret",
+    "description": ""
+  },
+  {
+    "name": "Emerald-Golem",
+    "description": ""
+  },
+  {
+    "name": "Forge-Wraith",
+    "description": ""
+  },
+  {
+    "name": "Gear-Golem",
+    "description": ""
+  },
+  {
+    "name": "Glass-Spider",
+    "description": ""
+  },
+  {
+    "name": "Golden-Guardian",
+    "description": ""
+  },
+  {
+    "name": "Hammer-Bot",
+    "description": ""
+  },
+  {
+    "name": "Hex-engine",
+    "description": ""
+  },
+  {
+    "name": "Idol-Construct",
+    "description": ""
+  },
+  {
+    "name": "Inevitable",
+    "description": ""
+  },
+  {
+    "name": "Iron-Lung-construct",
+    "description": ""
+  },
+  {
+    "name": "Jade-Guardian",
+    "description": ""
+  },
+  {
+    "name": "Juggernaut",
+    "description": ""
+  },
+  {
+    "name": "Lodestone-Golem",
+    "description": ""
+  },
+  {
+    "name": "Magma-Golem",
+    "description": ""
+  },
+  {
+    "name": "Marble-Gentry",
+    "description": ""
+  },
+  {
+    "name": "Monolith-Construct",
+    "description": ""
+  },
+  {
+    "name": "Obsidian-Golem",
+    "description": ""
+  },
+  {
+    "name": "Onyx-Guardian",
+    "description": ""
+  },
+  {
+    "name": "Oracle-Machine",
+    "description": ""
+  },
+  {
+    "name": "Platinum-Knight",
+    "description": ""
+  },
+  {
+    "name": "Porcelain-Doll",
+    "description": ""
+  },
+  {
+    "name": "Quartz-Quarry",
+    "description": ""
+  },
+  {
+    "name": "Retribution-Engine",
+    "description": ""
+  },
+  {
+    "name": "Ruby-Golem",
+    "description": ""
+  },
+  {
+    "name": "Runic-Guardian",
+    "description": ""
+  },
+  {
+    "name": "Sand-Golem",
+    "description": ""
+  },
+  {
+    "name": "Scrap-Golem",
+    "description": ""
+  },
+  {
+    "name": "Siege-Automaton",
+    "description": ""
+  },
+  {
+    "name": "Silver-Sentinel",
+    "description": ""
+  }
+]
