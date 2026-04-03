@@ -1,10 +1,30 @@
 import { extension_settings } from '../../../../extensions.js';
 
-/** Must match the extension folder name under `third-party/` (used in URLs for `/scripts/extensions/third-party/.../data/*.json`). */
+/**
+ * Stable key in `extension_settings` (not tied to install folder name so saves survive renames / different release zips).
+ */
 export const extensionName = 'Subarashimos-Tools';
 
-/** Static path segment for this extension (no leading slash). */
-export const extensionFolderPath = `scripts/extensions/third-party/${extensionName}`;
+/**
+ * Resolves `scripts/extensions/third-party/<folder>/...` from this file's URL (`<folder>/src/config.js`).
+ * Works when the repo folder is `Subarashimos-Tools`, `sillytavern-tools`, or any other name.
+ */
+function extensionFolderPathFromImportMeta() {
+    const pathname = decodeURIComponent(new URL(import.meta.url).pathname).replace(/\\/g, '/');
+    const suffix = '/src/config.js';
+    const i = pathname.toLowerCase().endsWith(suffix.toLowerCase())
+        ? pathname.length - suffix.length
+        : -1;
+    const dir = i >= 0 ? pathname.slice(0, i).replace(/\/+$/, '') : '';
+    const folder = dir ? dir.split('/').pop() || '' : '';
+    if (!folder) {
+        return `scripts/extensions/third-party/${extensionName}`;
+    }
+    return `scripts/extensions/third-party/${folder}`;
+}
+
+/** URL path prefix for this extension (no leading slash). */
+export const extensionFolderPath = extensionFolderPathFromImportMeta();
 
 /** JSON data files live under `data/` — URL path is `/${dataUrlPath}/filename.json`. */
 export const dataUrlPath = `${extensionFolderPath}/data`;
