@@ -2,7 +2,8 @@ import { extension_settings } from '../../../extensions.js';
 import { saveSettingsDebounced } from '../../../../script.js';
 import { extensionFolderPath, extensionName, loadSettings } from './src/config.js';
 import { dedent } from './src/dedent.js';
-import { initMessageInterception } from './src/messages.js';
+import { initMessageInterception } from './src/interceptor.js';
+import { initJudge } from './src/judge.js';
 import { registerCharacterTools } from './src/tools.js';
 
 const EXTENSION_SETTINGS_HTML = dedent(`
@@ -57,6 +58,52 @@ const EXTENSION_SETTINGS_HTML = dedent(`
             <div class="flex-container marginTop5">
                 <div id="subarashimos-restore-interception-prompt" class="menu_button">Restore default interception prompt</div>
             </div>
+
+            <hr class="marginTop10" />
+            <h4 class="margin0 marginTop5">Judge (rule compliance)</h4>
+            <p class="margin0 subarashimos-judge-help marginTop5">
+                After each assistant message, runs a separate check against this character's card (description, personality, scenario, instructions) and recent chat (same style of context as message interception).
+                If the reply breaks those rules, it is regenerated with a short explanation of what went wrong. Uses one extra API call per assistant message when enabled (more if it retries).
+                Not used in group chats.
+            </p>
+            <label class="checkbox flex-container">
+                <input id="subarashimos-toggle-judge" type="checkbox" />
+                <span>Enable judge</span>
+            </label>
+            <div class="flex-container flexFlowColumn marginTop5">
+                <label for="subarashimos-judge-context-depth">Context depth (messages before the reply being judged)</label>
+                <input
+                    id="subarashimos-judge-context-depth"
+                    class="text_pole"
+                    type="number"
+                    min="0"
+                    max="99"
+                    step="1"
+                />
+            </div>
+            <div class="flex-container flexFlowColumn marginTop5">
+                <label for="subarashimos-judge-max-retries">Max regeneration attempts per reply</label>
+                <input
+                    id="subarashimos-judge-max-retries"
+                    class="text_pole"
+                    type="number"
+                    min="0"
+                    max="20"
+                    step="1"
+                />
+            </div>
+            <div class="flex-container flexFlowColumn marginTop5">
+                <label for="subarashimos-custom-judge-prompt">Judge system prompt</label>
+                <textarea
+                    id="subarashimos-custom-judge-prompt"
+                    class="text_pole wide"
+                    rows="10"
+                    placeholder="Edit to override the built-in default."
+                ></textarea>
+            </div>
+            <div class="flex-container marginTop5">
+                <div id="subarashimos-restore-judge-prompt" class="menu_button">Restore default judge prompt</div>
+            </div>
         </div>
     </div>
 `);
@@ -86,6 +133,7 @@ jQuery(async () => {
 
     syncUiFromSettings();
     initMessageInterception();
+    initJudge();
 
     function applyJson() {
         const raw = String($json.val() || '').trim();

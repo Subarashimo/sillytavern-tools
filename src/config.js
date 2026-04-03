@@ -15,7 +15,7 @@ export const dataUrlPath = `${extensionFolderPath}/data`;
  */
 export const defaultSettings = {
     bindings: {
-        'Devious Dungeon (ST)': ['random_devious_room', 'roll_d20', 'timeskip'],
+        'Devious Dungeon (ST)': ['random_devious_room', 'roll_d20', 'timeskip', 'death'],
     },
     /** LLM rewrites the outgoing user message using persona + recent chat (RPG Companion–style flow). */
     enableMessageInterception: false,
@@ -23,6 +23,14 @@ export const defaultSettings = {
     messageInterceptionActive: true,
     messageInterceptionContextDepth: 4,
     customMessageInterceptionPrompt: '',
+    /** After each assistant reply, an extra model call checks compliance with character rules; failed replies trigger Regenerate with feedback. */
+    enableJudge: false,
+    /** When false, judge stays enabled in settings but skips checks until toggled back on (chat bar button). */
+    judgeActive: true,
+    judgeMaxRetries: 3,
+    /** Messages before the assistant line the judge evaluates (same idea as message interception depth). */
+    judgeContextDepth: 4,
+    customJudgeSystemPrompt: '',
 };
 
 export function loadSettings() {

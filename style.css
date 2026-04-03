@@ -10,7 +10,8 @@
     overflow-y: auto;
 }
 
-#subarashimo-tools-settings .subarashimos-interception-help {
+#subarashimo-tools-settings .subarashimos-interception-help,
+#subarashimo-tools-settings .subarashimos-judge-help {
     line-height: 1.45;
     margin-bottom: 0.75em;
 }
@@ -29,5 +30,21 @@
 }
 
 #extension-buttons-wrapper #subarashimos-interception-toggle.subarashimos-interception-toggle i {
+    margin-inline-end: 0.35em;
+}
+
+#extension-buttons-wrapper #subarashimos-judge-toggle.subarashimos-judge-toggle {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+    margin: 0 4px;
+    display: inline-block;
+    line-height: 1.2;
+    vertical-align: middle;
+}
+
+#extension-buttons-wrapper #subarashimos-judge-toggle.subarashimos-judge-toggle i {
     margin-inline-end: 0.35em;
 }

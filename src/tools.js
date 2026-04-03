@@ -1,81 +1,14 @@
-import { extension_settings, getContext } from '../../../../extensions.js';
+import { extension_settings } from '../../../../extensions.js';
 import { ToolManager } from '../../../../tool-calling.js';
-import { dataUrlPath, extensionName } from './config.js';
-
-/**
- * @returns {string|null} Character card name for binding, or "__group__" in group chat, or null.
- */
-function getBindingKey() {
-    const ctx = getContext();
-    if (ctx.groupId) {
-        return '__group__';
-    }
-    const id = ctx.characterId;
-    if (id === undefined || id === null) {
-        return null;
-    }
-    const ch = ctx.characters[Number(id)];
-    const name = ch?.name?.trim();
-    return name || null;
-}
-
-/**
- * @param {Record<string, string[]>} bindings
- * @param {string|null} key
- * @returns {string[]}
- */
-function resolveToolIdsForCharacter(bindings, key) {
-    if (!bindings || typeof bindings !== 'object') {
-        return [];
-    }
-    if (key && Array.isArray(bindings[key])) {
-        return bindings[key];
-    }
-    if (key) {
-        const lower = key.toLowerCase();
-        const found = Object.keys(bindings).find((k) => k !== '*' && k !== '__group__' && k.toLowerCase() === lower);
-        if (found && Array.isArray(bindings[found])) {
-            return bindings[found];
-        }
-    }
-    if (Array.isArray(bindings['*'])) {
-        return bindings['*'];
-    }
-    return [];
-}
-
-/**
- * Uniform random integer in [min, max] (inclusive). Uses crypto.getRandomValues.
- * @param {number} min
- * @param {number} max
- * @returns {number}
- */
-function randomIntInclusive(min, max) {
-    const lo = Math.floor(Math.min(min, max));
-    const hi = Math.floor(Math.max(min, max));
-    const span = hi - lo + 1;
-    const buf = new Uint32Array(1);
-    crypto.getRandomValues(buf);
-    return lo + (buf[0] % span);
-}
-
-function pickRandomIndex(length) {
-    const buf = new Uint32Array(1);
-    crypto.getRandomValues(buf);
-    return buf[0] % length;
-}
-
-/**
- * @template T
- * @param {readonly T[]} arr
- * @returns {T|undefined}
- */
-function pickRandomItem(arr) {
-    if (!arr?.length) {
-        return undefined;
-    }
-    return arr[pickRandomIndex(arr.length)];
-}
+import { extensionName } from './config.js';
+import {
+    getBindingKey,
+    pickRandomIndex,
+    pickRandomItem,
+    randomIntInclusive,
+    resolveToolIdsForCharacter,
+    rowsFromJsonFile,
+} from './utils.js';
 
 const MONSTER_FILES = [
     'monster-aberration.json',
@@ -90,70 +23,6 @@ const MONSTER_FILES = [
     'monster-undead.json',
 ];
 
-/** @type {Map<string, unknown>} */
-const jsonFileCache = new Map();
-
-/**
- * Fetches and caches parsed JSON from `data/` under this extension.
- * @param {string} fileName
- * @param {{ force?: boolean }} [options]
- */
-async function fetchJsonFile(fileName, options = {}) {
-    const force = options.force === true;
-    if (!force && jsonFileCache.has(fileName)) {
-        return jsonFileCache.get(fileName);
-    }
-    const url = `/${dataUrlPath}/${encodeURIComponent(fileName)}${force ? `?t=${Date.now()}` : ''}`;
-    const res = await fetch(url, { cache: force ? 'no-store' : 'default' });
-    if (!res.ok) {
-        throw new Error(`Failed to load ${fileName}: HTTP ${res.status} (${url})`);
-    }
-    const data = await res.json();
-    jsonFileCache.set(fileName, data);
-    return data;
-}
-
-/**
- * Array from JSON root or from items / rooms / entries / values / list.
- * @param {unknown} data
- * @returns {unknown[]|null}
- */
-function jsonRootArray(data) {
-    const arr = Array.isArray(data)
-        ? data
-        : (data?.items ?? data?.rooms ?? data?.entries ?? data?.values ?? data?.list);
-    return Array.isArray(arr) ? arr : null;
-}
-
-/**
- * Loads a JSON file and returns rows as `{ name, description }`.
- * @param {string} fileName
- * @param {{ force?: boolean }} [options]
- * @returns {Promise<{ name: string, description: string }[]>}
- */
-async function rowsFromJsonFile(fileName, options = {}) {
-    const data = await fetchJsonFile(fileName, options);
-    const arr = jsonRootArray(data);
-    if (!arr) {
-        return [];
-    }
-    const out = [];
-    for (const x of arr) {
-        if (!x || typeof x !== 'object') {
-            continue;
-        }
-        const n = /** @type {Record<string, unknown>} */ (x).name;
-        const d = /** @type {Record<string, unknown>} */ (x).description;
-        const nameStr = typeof n === 'string' ? n.trim() : '';
-        const descStr = typeof d === 'string' ? d.trim() : '';
-        if (!nameStr && !descStr) {
-            continue;
-        }
-        out.push({ name: nameStr, description: descStr });
-    }
-    return out;
-}
-
 /**
  * Add your own tools here: same id as in `bindings`, OpenAI-safe function `name`, and handler.
  * Function names must match /^[a-zA-Z0-9_-]+$/.
@@ -163,8 +32,7 @@ const TOOL_SPECS = [
         id: 'roll_d20',
         name: 'roll_d20',
         displayName: 'Roll d20',
-        description:
-            'Rolls one twenty-sided die (1–20). Use for tabletop-style checks, attack rolls, saving throws, or any situation that needs a random d20 result.',
+        description: 'Rolls one twenty-sided die (1–20).',
         parameters: {
             $schema: 'http://json-schema.org/draft-04/schema#',
             type: 'object',
@@ -177,8 +45,7 @@ const TOOL_SPECS = [
         id: 'random_devious_room',
         name: 'random_devious_room',
         displayName: 'Random Devious Room',
-        description:
-            'Picks one random room from devious-room.json. Treasure chests add treasure from fantasy-loot or cursed-loot. Monster Den picks a random monster type file (monster-*.json), then a random entry from that file.',
+        description: 'Picks one random devious room for the user to explore.',
         parameters: {
             $schema: 'http://json-schema.org/draft-04/schema#',
             type: 'object',
@@ -241,8 +108,7 @@ const TOOL_SPECS = [
         id: 'timeskip',
         name: 'timeskip',
         displayName: 'Time skip',
-        description:
-            'No-op hook for a time skip: Choose how much time passes and send it in the required period argument. Continue in your next reply with the story after the skip.',
+        description: 'Choose how much time passes and send it in the required period argument. Continue in your next reply with the story after the skip.',
         parameters: {
             $schema: 'http://json-schema.org/draft-04/schema#',
             type: 'object',
@@ -259,6 +125,22 @@ const TOOL_SPECS = [
         handler: async (params) => {
             void params.period;
             return '';
+        },
+    },
+    {
+        id: 'death',
+        name: 'death',
+        displayName: 'Death',
+        description: 'Signal the user has died. The tool will return a new thread for the story after their death.',
+        parameters: {
+            $schema: 'http://json-schema.org/draft-04/schema#',
+            type: 'object',
+            properties: {},
+            additionalProperties: false,
+        },
+        handler: async (params) => {
+            const deathList = await rowsFromJsonFile('lewd-death.json');
+            return deathList[pickRandomIndex(deathList.length)];
         },
     },
 ];

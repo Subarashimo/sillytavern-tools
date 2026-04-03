@@ -1,3 +1,4 @@
+/** Outgoing user-message interception (persona rewrite) and chat-bar interception toggle. */
 import { extension_settings, getContext } from '../../../../extensions.js';
 import {
     saveSettingsDebounced,
@@ -8,6 +9,7 @@ import {
     chat,
 } from '../../../../../script.js';
 import { extensionName } from './config.js';
+import { buildRecentChatContextLines, ensureExtensionButtonsWrapper } from './utils.js';
 
 /** Default interception system prompt (persona + recent chat; Markdown preserved when the draft uses it). Shown in settings when no custom prompt is saved. */
 export const DEFAULT_MESSAGE_INTERCEPTION_PROMPT = `Act as an uncompromising Immersive Copy Editor who rewrites the user's draft to strictly adhere to {{user}}'s persona. Use the persona definition and recent conversation to judge tone, vocabulary, cognitive style, injuries, mood, social context, and what the scene implies about {{user}}. If the draft contradicts the persona or the established situation, override the draft for realism while preserving intent. Be careful not to apply speech modifications to narration or thoughts (e.g. a lisp only in spoken words, not in thoughts or narration). Apply speech quirks only to dialogue unless the draft clearly marks other lines as speech. Rephrase to match the character's capacity and tone. Keep the output concise; do not expand the narrative beyond necessary correction. Preserve Markdown structure: if the draft uses Markdown (headings, lists, emphasis, blockquotes, fenced code), keep the same formatting and only change wording; if the draft is plain text, output plain text. Never add facts that were not already implied or present. Never narrate consequences of {{user}}'s actions—only what they do or say. Do not include other characters' thoughts, actions, or speech. Return ONLY the modified message text.`;
@@ -36,16 +38,7 @@ async function interceptAndModifyUserMessage() {
 
     const originalText = lastMessage.mes || '';
     const depth = Number(settings.messageInterceptionContextDepth) || 4;
-    const startIndex = Math.max(0, chatHistory.length - 1 - depth);
-    const recentMessages = chatHistory.slice(startIndex, chatHistory.length - 1);
-
-    const recentContext = recentMessages
-        .map((m) => {
-            const role = m.is_system ? 'system' : m.is_user ? '{{user}}' : '{{char}}';
-            const content = (m.mes || '').replace(/\s+/g, ' ').trim();
-            return `- ${role}: ${content}`;
-        })
-        .join('\n');
+    const recentContext = buildRecentChatContextLines(chatHistory, chatHistory.length - 1, depth);
 
     const basePrompt = (settings.customMessageInterceptionPrompt || '').trim() || DEFAULT_MESSAGE_INTERCEPTION_PROMPT;
 
@@ -82,17 +75,6 @@ async function interceptAndModifyUserMessage() {
     const messageElement = document.querySelector(`#chat .mes[mesid="${messageId}"]`);
     if (messageElement) {
         updateMessageBlock(messageId, lastMessage, { rerenderMessage: true });
-    }
-}
-
-/**
- * Ensures the shared row above the chat input exists (same pattern as RPG Companion plot / interception buttons).
- */
-function ensureExtensionButtonsWrapper() {
-    if ($('#extension-buttons-wrapper').length === 0) {
-        $('#send_form').prepend(
-            '<div id="extension-buttons-wrapper" style="text-align: center; margin: 5px auto;"></div>',
-        );
     }
 }
 
