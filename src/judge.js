@@ -137,6 +137,11 @@ async function onAssistantMessageReceived(messageId, type) {
         return;
     }
 
+    // Skip the opening line (first message in the chat, e.g. greeting / first message)—nothing to ground it on yet.
+    if (messageId === 0) {
+        return;
+    }
+
     const msg = chat[messageId];
     if (!msg || msg.is_user) {
         return;
