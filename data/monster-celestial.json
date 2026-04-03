@@ -1,394 +1,394 @@
 [
-  {
-    "name": "Angel",
-    "description": ""
-  },
-  {
-    "name": "Archangel",
-    "description": ""
-  },
-  {
-    "name": "Deva",
-    "description": ""
-  },
-  {
-    "name": "Planetar",
-    "description": ""
-  },
-  {
-    "name": "Solar",
-    "description": ""
-  },
-  {
-    "name": "Cherub",
-    "description": ""
-  },
-  {
-    "name": "Seraph",
-    "description": ""
-  },
-  {
-    "name": "Angel-of-Vengeance",
-    "description": ""
-  },
-  {
-    "name": "Angel-of-Mercy",
-    "description": ""
-  },
-  {
-    "name": "Angelic-Guardian",
-    "description": ""
-  },
-  {
-    "name": "Valkyrie",
-    "description": ""
-  },
-  {
-    "name": "Ki-Rin",
-    "description": ""
-  },
-  {
-    "name": "Couatl",
-    "description": ""
-  },
-  {
-    "name": "Guardian-Naga",
-    "description": ""
-  },
-  {
-    "name": "Hollyphant",
-    "description": ""
-  },
-  {
-    "name": "Arkon",
-    "description": ""
-  },
-  {
-    "name": "Celestial-Lion",
-    "description": ""
-  },
-  {
-    "name": "Celestial-Eagle",
-    "description": ""
-  },
-  {
-    "name": "Celestial-Shark",
-    "description": ""
-  },
-  {
-    "name": "Celestial-Badger",
-    "description": ""
-  },
-  {
-    "name": "Celestial-Elk",
-    "description": ""
-  },
-  {
-    "name": "Lammasu",
-    "description": ""
-  },
-  {
-    "name": "Shedu",
-    "description": ""
-  },
-  {
-    "name": "Androsphinx",
-    "description": ""
-  },
-  {
-    "name": "Gynosphinx",
-    "description": ""
-  },
-  {
-    "name": "Criosphinx",
-    "description": ""
-  },
-  {
-    "name": "Hieracosphinx",
-    "description": ""
-  },
-  {
-    "name": "Astral-Deva",
-    "description": ""
-  },
-  {
-    "name": "Monadic-Deva",
-    "description": ""
-  },
-  {
-    "name": "Movanic-Deva",
-    "description": ""
-  },
-  {
-    "name": "Balisse",
-    "description": ""
-  },
-  {
-    "name": "Cervinal",
-    "description": ""
-  },
-  {
-    "name": "Draconal",
-    "description": ""
-  },
-  {
-    "name": "Leonal",
-    "description": ""
-  },
-  {
-    "name": "Silvanshee",
-    "description": ""
-  },
-  {
-    "name": "Vulpinal",
-    "description": ""
-  },
-  {
-    "name": "Avoral",
-    "description": ""
-  },
-  {
-    "name": "Cetaceal",
-    "description": ""
-  },
-  {
-    "name": "Equinal",
-    "description": ""
-  },
-  {
-    "name": "Guardinal",
-    "description": ""
-  },
-  {
-    "name": "Lupinal",
-    "description": ""
-  },
-  {
-    "name": "Musteval",
-    "description": ""
-  },
-  {
-    "name": "Ursinal",
-    "description": ""
-  },
-  {
-    "name": "Bralani",
-    "description": ""
-  },
-  {
-    "name": "Coure",
-    "description": ""
-  },
-  {
-    "name": "Firre",
-    "description": ""
-  },
-  {
-    "name": "Ghaele",
-    "description": ""
-  },
-  {
-    "name": "Noviere",
-    "description": ""
-  },
-  {
-    "name": "Shiere",
-    "description": ""
-  },
-  {
-    "name": "Tulani",
-    "description": ""
-  },
-  {
-    "name": "Warden-Archon",
-    "description": ""
-  },
-  {
-    "name": "Sword-Archon",
-    "description": ""
-  },
-  {
-    "name": "Shield-Archon",
-    "description": ""
-  },
-  {
-    "name": "Trumpet-Archon",
-    "description": ""
-  },
-  {
-    "name": "Hound-Archon",
-    "description": ""
-  },
-  {
-    "name": "Lantern-Archon",
-    "description": ""
-  },
-  {
-    "name": "Throne-Archon",
-    "description": ""
-  },
-  {
-    "name": "Justice-Archon",
-    "description": ""
-  },
-  {
-    "name": "Light-Archon",
-    "description": ""
-  },
-  {
-    "name": "Owl-Archon",
-    "description": ""
-  },
-  {
-    "name": "Rabbit-Archon",
-    "description": ""
-  },
-  {
-    "name": "Radiant-Idol",
-    "description": ""
-  },
-  {
-    "name": "Solar-Dragon",
-    "description": ""
-  },
-  {
-    "name": "Lunar-Dragon",
-    "description": ""
-  },
-  {
-    "name": "Stellar-Dragon",
-    "description": ""
-  },
-  {
-    "name": "Constellation-Beast",
-    "description": ""
-  },
-  {
-    "name": "Holy-Light",
-    "description": ""
-  },
-  {
-    "name": "Avatar-of-Truth",
-    "description": ""
-  },
-  {
-    "name": "Avatar-of-Courage",
-    "description": ""
-  },
-  {
-    "name": "Avatar-of-Justice",
-    "description": ""
-  },
-  {
-    "name": "Avatar-of-Hope",
-    "description": ""
-  },
-  {
-    "name": "Messenger-of-the-Gods",
-    "description": ""
-  },
-  {
-    "name": "Divine-Retribution",
-    "description": ""
-  },
-  {
-    "name": "Spirit-of-Purity",
-    "description": ""
-  },
-  {
-    "name": "Star-Spawn-of-Good",
-    "description": ""
-  },
-  {
-    "name": "Light-Spawn",
-    "description": ""
-  },
-  {
-    "name": "Asura",
-    "description": ""
-  },
-  {
-    "name": "Einherjar",
-    "description": ""
-  },
-  {
-    "name": "Empyrean",
-    "description": ""
-  },
-  {
-    "name": "Empyreal-Lord",
-    "description": ""
-  },
-  {
-    "name": "Light-Elemental",
-    "description": ""
-  },
-  {
-    "name": "Holy-Fire",
-    "description": ""
-  },
-  {
-    "name": "Sacred-Water",
-    "description": ""
-  },
-  {
-    "name": "Consecrated-Earth",
-    "description": ""
-  },
-  {
-    "name": "Pure-Air",
-    "description": ""
-  },
-  {
-    "name": "Aasimar",
-    "description": ""
-  },
-  {
-    "name": "Angelic-Guide",
-    "description": ""
-  },
-  {
-    "name": "Astral-Whale",
-    "description": ""
-  },
-  {
-    "name": "Celestial-Griffon",
-    "description": ""
-  },
-  {
-    "name": "Celestial-Hippogriff",
-    "description": ""
-  },
-  {
-    "name": "Celestial-Wurm",
-    "description": ""
-  },
-  {
-    "name": "Chariot-of-the-Gods",
-    "description": ""
-  },
-  {
-    "name": "Choir-Angel",
-    "description": ""
-  },
-  {
-    "name": "Divine-Stallion",
-    "description": ""
-  },
-  {
-    "name": "Dove-Spirit",
-    "description": ""
-  },
-  {
-    "name": "Faith-Spirit",
-    "description": ""
-  },
-  {
-    "name": "Glory-Spirit",
-    "description": ""
-  },
-  {
-    "name": "Golden-Serpent",
-    "description": ""
-  }
+    {
+        "name": "Angel",
+        "description": ""
+    },
+    {
+        "name": "Archangel",
+        "description": ""
+    },
+    {
+        "name": "Deva",
+        "description": ""
+    },
+    {
+        "name": "Planetar",
+        "description": ""
+    },
+    {
+        "name": "Solar",
+        "description": ""
+    },
+    {
+        "name": "Cherub",
+        "description": ""
+    },
+    {
+        "name": "Seraph",
+        "description": ""
+    },
+    {
+        "name": "Angel-of-Vengeance",
+        "description": ""
+    },
+    {
+        "name": "Angel-of-Mercy",
+        "description": ""
+    },
+    {
+        "name": "Angelic-Guardian",
+        "description": ""
+    },
+    {
+        "name": "Valkyrie",
+        "description": ""
+    },
+    {
+        "name": "Ki-Rin",
+        "description": ""
+    },
+    {
+        "name": "Couatl",
+        "description": ""
+    },
+    {
+        "name": "Guardian-Naga",
+        "description": ""
+    },
+    {
+        "name": "Hollyphant",
+        "description": ""
+    },
+    {
+        "name": "Arkon",
+        "description": ""
+    },
+    {
+        "name": "Celestial-Lion",
+        "description": ""
+    },
+    {
+        "name": "Celestial-Eagle",
+        "description": ""
+    },
+    {
+        "name": "Celestial-Shark",
+        "description": ""
+    },
+    {
+        "name": "Celestial-Badger",
+        "description": ""
+    },
+    {
+        "name": "Celestial-Elk",
+        "description": ""
+    },
+    {
+        "name": "Lammasu",
+        "description": ""
+    },
+    {
+        "name": "Shedu",
+        "description": ""
+    },
+    {
+        "name": "Androsphinx",
+        "description": ""
+    },
+    {
+        "name": "Gynosphinx",
+        "description": ""
+    },
+    {
+        "name": "Criosphinx",
+        "description": ""
+    },
+    {
+        "name": "Hieracosphinx",
+        "description": ""
+    },
+    {
+        "name": "Astral-Deva",
+        "description": ""
+    },
+    {
+        "name": "Monadic-Deva",
+        "description": ""
+    },
+    {
+        "name": "Movanic-Deva",
+        "description": ""
+    },
+    {
+        "name": "Balisse",
+        "description": ""
+    },
+    {
+        "name": "Cervinal",
+        "description": ""
+    },
+    {
+        "name": "Draconal",
+        "description": ""
+    },
+    {
+        "name": "Leonal",
+        "description": ""
+    },
+    {
+        "name": "Silvanshee",
+        "description": ""
+    },
+    {
+        "name": "Vulpinal",
+        "description": ""
+    },
+    {
+        "name": "Avoral",
+        "description": ""
+    },
+    {
+        "name": "Cetaceal",
+        "description": ""
+    },
+    {
+        "name": "Equinal",
+        "description": ""
+    },
+    {
+        "name": "Guardinal",
+        "description": ""
+    },
+    {
+        "name": "Lupinal",
+        "description": ""
+    },
+    {
+        "name": "Musteval",
+        "description": ""
+    },
+    {
+        "name": "Ursinal",
+        "description": ""
+    },
+    {
+        "name": "Bralani",
+        "description": ""
+    },
+    {
+        "name": "Coure",
+        "description": ""
+    },
+    {
+        "name": "Firre",
+        "description": ""
+    },
+    {
+        "name": "Ghaele",
+        "description": ""
+    },
+    {
+        "name": "Noviere",
+        "description": ""
+    },
+    {
+        "name": "Shiere",
+        "description": ""
+    },
+    {
+        "name": "Tulani",
+        "description": ""
+    },
+    {
+        "name": "Warden-Archon",
+        "description": ""
+    },
+    {
+        "name": "Sword-Archon",
+        "description": ""
+    },
+    {
+        "name": "Shield-Archon",
+        "description": ""
+    },
+    {
+        "name": "Trumpet-Archon",
+        "description": ""
+    },
+    {
+        "name": "Hound-Archon",
+        "description": ""
+    },
+    {
+        "name": "Lantern-Archon",
+        "description": ""
+    },
+    {
+        "name": "Throne-Archon",
+        "description": ""
+    },
+    {
+        "name": "Justice-Archon",
+        "description": ""
+    },
+    {
+        "name": "Light-Archon",
+        "description": ""
+    },
+    {
+        "name": "Owl-Archon",
+        "description": ""
+    },
+    {
+        "name": "Rabbit-Archon",
+        "description": ""
+    },
+    {
+        "name": "Radiant-Idol",
+        "description": ""
+    },
+    {
+        "name": "Solar-Dragon",
+        "description": ""
+    },
+    {
+        "name": "Lunar-Dragon",
+        "description": ""
+    },
+    {
+        "name": "Stellar-Dragon",
+        "description": ""
+    },
+    {
+        "name": "Constellation-Beast",
+        "description": ""
+    },
+    {
+        "name": "Holy-Light",
+        "description": ""
+    },
+    {
+        "name": "Avatar-of-Truth",
+        "description": ""
+    },
+    {
+        "name": "Avatar-of-Courage",
+        "description": ""
+    },
+    {
+        "name": "Avatar-of-Justice",
+        "description": ""
+    },
+    {
+        "name": "Avatar-of-Hope",
+        "description": ""
+    },
+    {
+        "name": "Messenger-of-the-Gods",
+        "description": ""
+    },
+    {
+        "name": "Divine-Retribution",
+        "description": ""
+    },
+    {
+        "name": "Spirit-of-Purity",
+        "description": ""
+    },
+    {
+        "name": "Star-Spawn-of-Good",
+        "description": ""
+    },
+    {
+        "name": "Light-Spawn",
+        "description": ""
+    },
+    {
+        "name": "Asura",
+        "description": ""
+    },
+    {
+        "name": "Einherjar",
+        "description": ""
+    },
+    {
+        "name": "Empyrean",
+        "description": ""
+    },
+    {
+        "name": "Empyreal-Lord",
+        "description": ""
+    },
+    {
+        "name": "Light-Elemental",
+        "description": ""
+    },
+    {
+        "name": "Holy-Fire",
+        "description": ""
+    },
+    {
+        "name": "Sacred-Water",
+        "description": ""
+    },
+    {
+        "name": "Consecrated-Earth",
+        "description": ""
+    },
+    {
+        "name": "Pure-Air",
+        "description": ""
+    },
+    {
+        "name": "Aasimar",
+        "description": ""
+    },
+    {
+        "name": "Angelic-Guide",
+        "description": ""
+    },
+    {
+        "name": "Astral-Whale",
+        "description": ""
+    },
+    {
+        "name": "Celestial-Griffon",
+        "description": ""
+    },
+    {
+        "name": "Celestial-Hippogriff",
+        "description": ""
+    },
+    {
+        "name": "Celestial-Wurm",
+        "description": ""
+    },
+    {
+        "name": "Chariot-of-the-Gods",
+        "description": ""
+    },
+    {
+        "name": "Choir-Angel",
+        "description": ""
+    },
+    {
+        "name": "Divine-Stallion",
+        "description": ""
+    },
+    {
+        "name": "Dove-Spirit",
+        "description": ""
+    },
+    {
+        "name": "Faith-Spirit",
+        "description": ""
+    },
+    {
+        "name": "Glory-Spirit",
+        "description": ""
+    },
+    {
+        "name": "Golden-Serpent",
+        "description": ""
+    }
 ]

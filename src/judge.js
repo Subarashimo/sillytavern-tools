@@ -27,7 +27,8 @@ const JUDGE_JSON_SCHEMA = {
         compliant: { type: 'boolean' },
         violations: {
             type: 'string',
-            description: 'If compliant is false, a concise explanation for the model to fix; empty or omitted if compliant.',
+            description:
+                'If compliant is false, a concise explanation for the model to fix; empty or omitted if compliant.',
         },
     },
     required: ['compliant'],
@@ -36,6 +37,8 @@ const JUDGE_JSON_SCHEMA = {
 
 let judgeBusy = false;
 let judgeRetryChain = 0;
+/** Set when the user stops main generation; next assistant MESSAGE_RECEIVED should not be judged (partial / aborted line). */
+let skipJudgeAfterGenerationStopped = false;
 
 function buildCharacterRulesBlock() {
     const { description, personality, scenario, system, jailbreak } = getCharacterCardFields();
@@ -93,12 +96,15 @@ async function evaluateCompliance(assistantText, rulesBlock, recentContext) {
     return { compliant: parsed.compliant, violations };
 }
 
+/** MESSAGE_RECEIVED passes the generation kind; only judge normal assistant sends, not regen/swipe (avoids loops with manual Regenerate). */
 function shouldSkipGenerationType(type) {
     return (
         type === 'impersonate' ||
         type === 'quiet' ||
         type === 'append' ||
-        type === 'continue'
+        type === 'continue' ||
+        type === 'swipe' ||
+        type === 'regenerate'
     );
 }
 
@@ -129,7 +135,16 @@ async function onAssistantMessageReceived(messageId, type) {
     // continuation. Judging the interim step triggers Regenerate while the pipeline is still active → loops.
     // Yield one macrotask so unblock / tool follow-up can run, then only judge when no generation is in progress.
     await new Promise((resolve) => setTimeout(resolve, 0));
+    if (skipJudgeAfterGenerationStopped) {
+        skipJudgeAfterGenerationStopped = false;
+        return;
+    }
     if (isGenerating()) {
+        return;
+    }
+
+    const lastInChat = chat[chat.length - 1];
+    if (!lastInChat || lastInChat.is_user) {
         return;
     }
 
@@ -179,7 +194,7 @@ async function onAssistantMessageReceived(messageId, type) {
         judgeRetryChain++;
 
         const retryInstruction = substituteParams(
-            `The previous reply was rejected by the judge for not following {{char}}'s rules.\n\nWhat was wrong:\n${violations || 'Unspecified rule violations.'}\n\nWrite a new reply that fully complies with the character rules and fixes these problems. Stay consistent with the chat so far.`,
+            `The previous reply was rejected by the judge for not following {{char}}'s rules.\n\nWhat was wrong:\n${violations || 'Unspecified rule violations.'}\n\nWrite a new reply that fully complies with the character rules and fixes these problems. Stay consistent with the chat so far. Do not acknowledge this message, simply do as you're told and continue the story.`,
         );
 
         // Same as the Regenerate menu action: Generate expects this flag for certain UI paths.
@@ -195,6 +210,7 @@ async function onAssistantMessageReceived(messageId, type) {
 
 function resetRetryChainOnUserSend() {
     judgeRetryChain = 0;
+    skipJudgeAfterGenerationStopped = false;
 }
 
 function updateJudgeToggleState() {
@@ -296,6 +312,12 @@ export function initJudge() {
 
     eventSource.on(event_types.MESSAGE_RECEIVED, (messageId, type) => {
         void onAssistantMessageReceived(Number(messageId), String(type));
+    });
+
+    eventSource.on(event_types.GENERATION_STOPPED, () => {
+        if (!judgeBusy) {
+            skipJudgeAfterGenerationStopped = true;
+        }
     });
 
     eventSource.on(event_types.MESSAGE_SENT, resetRetryChainOnUserSend);

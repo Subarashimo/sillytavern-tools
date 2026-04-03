@@ -1,42 +1,54 @@
 [
-  {
-    "name": "Treasure Chest",
-    "description": "The user is currently in a treasure chest room. They have to decide if they want to open it. They can't tell if it contains cursed loot or actual helpful gear until they decide to open it. Nor should the narration give any clues. Normal treasure rooms like this one contain uncursed items that will help the user in their adventures."
-  },
-  {
-    "name": "Cursed Treasure Chest",
-    "description": "The user is currently in a cursed treasure chest room. They have to decide if they want to open the chest. They can't tell if it contains cursed loot or actual helpful gear until they decide to open it. Nor should the narration give any clues. If the contents of a chest is a cursed item (such as now), it will equip itself to the user on its own, as long as it's physically possible. Cursed items can't be removed by normal means."
-  },
-  {
-    "name": "Monster Den",
-    "description": "The user is currently in a monster den room. Monsters generally want to subdue and capture them for a variety of reasons, from breeding, to mere entertainment. That said, they will go for the kill if pressed enough. Most monsters can't speak and can only make noises, such as grunts, chirps, cries, etc. If one or more slaves are present, their behavior and state will depend on the monster type. If the monster has human limbs and some intelligence, the slaves will be in bondage. If the monster is a beast, the slaves will only be naked and covered in grime. If the monster is a construct, they might be otherwise trapped. If the monster can control minds, the slaves will be mind controlled. In other words, the monster's characteristics will determine the state that the slaves are found in. Monster dens are where said monsters live, which is why one may find a large number of them, as well as slaves, and possibly treasure waiting to be claimed."
-  },
-  {
-    "name": "Monster Encounter",
-    "description": "The user is currently in a monster encounter room. Monsters generally want to subdue and capture them for a variety of reasons, from breeding, to mere entertainment. That said, they will go for the kill if pressed enough. Most monsters can't speak and can only make noises, such as grunts, chirps, cries, etc. If one or more slaves are present, their behavior and state will depend on the monster type. If the monster has human limbs and some intelligence, the slaves will be in bondage. If the monster is a beast, the slaves will only be naked and covered in grime. If the monster is a construct, they might be otherwise trapped. If the monster can control minds, the slaves will be mind controlled. In other words, the monster's characteristics will determine the state that the slaves are found in."
-  },
-  {
-    "name": "Monster Girl Encounter",
-    "description": "The user is currently in a monster girl encounter room. Monster girls have human level intelligence and very distinct personalities based on their race. Not all of them are malicious, and some may offer assistance. They are individuals with their own interests and desires. Monster girls may have slaves serving them. Depending on the monster girl's nature, the slaves will be treated differently, wear different clothes or bondage, serve them in one way or another."
-  },
-  {
-    "name": "Special Encounter",
-    "description": "The user is currently in a special encounter room. It defines a specific circumstance that narration must elaborate on. Some of these events might allow the user to recruit companions for their journey. It all depends on the specific circumstances, and their actions."
-  },
-  {
-    "name": "Parasite Encounter",
-    "description": "The user is currently in a parasite encounter room. It occurs in a room with an ambience that fits the corresponding parasite. Parasites are beings that seek to become one with the user. If they are infected, they will have to carry the parasite with them from now on, until they find a way to be freed. Parasites will generally lie in ambush, and the user will not be able to perceive them until they attach, and then it will be too late to defend against it. It is possible to avoid or fight them, but also very easy to get infected by them. If they are not extremely cautious, they will be infected by them without fail."
-  },
-  {
-    "name": "Succubus Merchant",
-    "description": "The user is currently in a succubus merchant room, where a trickster succubus will offer salvation to them from one of their afflictions or curses, but at a cost. The must always be a brand, and the user is free to accept or refuse the offer. The succubus is under no obligation of telling them what the cost will be, though they may be compelled to do so through sexual favors, or other schemes. If accepted, the succubus will always comply and remove the chosen curse from the user, and then apply the brand. The succubus merchant will never lie, but they will seek to trick them. Any clues given are always cryptic and unhelpful. If the user does not carry a curse, the succubus will offer other trades, in exchange for branding them."
-  },
-  {
-    "name": "Faeries Encounter",
-    "description": "The user is currently in a faeries encounter room. Here, small and mischievous fairies the size of one's palm have prepared a simple mechanical trap that will immobilize them for a short while. In this time, they will equip them with a locked piece of bondage and take away the key. After doing so, they will taunt them for a while, until the user manages to break free of the simple trap, then they will flee while laughing. If the user has been tricked previously, the faeries will taunt them about that too: how they keep falling for it, etc. The faeries must speak when taunting them, and do so in a childlike and mischievous manner. The narration must not give the user any hints that there is a trap in the room, unless they explicitly look for it."
-  },
-  {
-    "name": "Empty Room",
-    "description": "The user is currently in an empty ambiance room. There's nothing of interest here. No traps, no monsters, nothing. It serves as a reprieve and as a way to lower their guard for later rooms. It only has some atmospheric decorations that the narration will comment on, to make it feel like a natural part of the dungeon. The user can leave and move on whenever they want, nothing will happen as long as they stay in this room. The narration must give subtle hints of there being some danger in this room, to keep the user on edge."
-  }
+    {
+        "name": "Treasure Chest",
+        "description": "The user is currently in a treasure chest room. They have to decide if they want to open it. They can't tell if it contains cursed loot or actual helpful gear until they decide to open it. Nor should the narration give any clues. Normal treasure rooms like this one contain uncursed items that will help the user in their adventures."
+    },
+    {
+        "name": "Cursed Treasure Chest",
+        "description": "The user is currently in a cursed treasure chest room. They have to decide if they want to open the chest. They can't tell if it contains cursed loot or actual helpful gear until they decide to open it. Nor should the narration give any clues. If the contents of a chest is a cursed item (such as now), it will equip itself to the user on its own, as long as it's physically possible. Cursed items can't be removed by normal means."
+    },
+    {
+        "name": "Monster Den",
+        "description": "The user is currently in a monster den room. Monsters generally want to subdue and capture them for a variety of reasons, from breeding, to mere entertainment. That said, they will go for the kill if pressed enough. Most monsters can't speak and can only make noises, such as grunts, chirps, cries, etc. If one or more slaves are present, their behavior and state will depend on the monster type. If the monster has human limbs and some intelligence, the slaves will be in bondage. If the monster is a beast, the slaves will only be naked and covered in grime. If the monster is a construct, they might be otherwise trapped. If the monster can control minds, the slaves will be mind controlled. In other words, the monster's characteristics will determine the state that the slaves are found in. Monster dens are where said monsters live, which is why one may find a large number of them, as well as slaves, and possibly treasure waiting to be claimed."
+    },
+    {
+        "name": "Monster Encounter",
+        "description": "The user is currently in a monster encounter room. Monsters generally want to subdue and capture them for a variety of reasons, from breeding, to mere entertainment. That said, they will go for the kill if pressed enough. Most monsters can't speak and can only make noises, such as grunts, chirps, cries, etc. If one or more slaves are present, their behavior and state will depend on the monster type. If the monster has human limbs and some intelligence, the slaves will be in bondage. If the monster is a beast, the slaves will only be naked and covered in grime. If the monster is a construct, they might be otherwise trapped. If the monster can control minds, the slaves will be mind controlled. In other words, the monster's characteristics will determine the state that the slaves are found in."
+    },
+    {
+        "name": "Monster Girl Encounter",
+        "description": "The user is currently in a monster girl encounter room. Monster girls have human level intelligence and very distinct personalities based on their race. Not all of them are malicious, and some may offer assistance. They are individuals with their own interests and desires. Monster girls may have slaves serving them. Depending on the monster girl's nature, the slaves will be treated differently, wear different clothes or bondage, serve them in one way or another."
+    },
+    {
+        "name": "Special Encounter",
+        "description": "The user is currently in a special encounter room. It defines a specific circumstance that narration must elaborate on. Some of these events might allow the user to recruit companions for their journey. It all depends on the specific circumstances, and their actions."
+    },
+    {
+        "name": "Parasite Encounter",
+        "description": "The user is currently in a parasite encounter room. It occurs in a room with an ambience that fits the corresponding parasite. Parasites are beings that seek to become one with the user. If they are infected, they will have to carry the parasite with them from now on, until they find a way to be freed. Parasites will generally lie in ambush, and the user will not be able to perceive them until they attach, and then it will be too late to defend against it. It is possible to avoid or fight them, but also very easy to get infected by them. If they are not extremely cautious, they will be infected by them without fail."
+    },
+    {
+        "name": "Succubus Merchant",
+        "description": "The user is currently in a succubus merchant room, where a trickster succubus will offer salvation to them from one of their afflictions or curses, but at a cost. The must always be a brand, and the user is free to accept or refuse the offer. The succubus is under no obligation of telling them what the cost will be, though they may be compelled to do so through sexual favors, or other schemes. If accepted, the succubus will always comply and remove the chosen curse from the user, and then apply the brand. The succubus merchant will never lie, but they will seek to trick them. Any clues given are always cryptic and unhelpful. If the user does not carry a curse, the succubus will offer other trades, in exchange for branding them."
+    },
+    {
+        "name": "Faeries Encounter",
+        "description": "The user is currently in a faeries encounter room. Here, small and mischievous fairies the size of one's palm have prepared a simple mechanical trap that will immobilize them for a short while. In this time, they will equip them with a locked piece of bondage and take away the key. After doing so, they will taunt them for a while, until the user manages to break free of the simple trap, then they will flee while laughing. If the user has been tricked previously, the faeries will taunt them about that too: how they keep falling for it, etc. The faeries must speak when taunting them, and do so in a childlike and mischievous manner. The narration must not give the user any hints that there is a trap in the room, unless they explicitly look for it."
+    },
+    {
+        "name": "Empty Room",
+        "description": "The user is currently in an empty ambiance room. There's nothing of interest here. No traps, no monsters, nothing. It serves as a reprieve and as a way to lower their guard for later rooms. It only has some atmospheric decorations that the narration will comment on, to make it feel like a natural part of the dungeon. The user can leave and move on whenever they want, nothing will happen as long as they stay in this room. The narration must give subtle hints of there being some danger in this room, to keep the user on edge."
+    },
+    {
+        "name": "Altar of the Divine",
+        "description": "The user is currently in a room dominated by an altar dedicated to a specific deity. The altar's design, symbols, and offerings left upon it reflect the god's domain. The user may make a sacrifice to the altar. In return, the deity may grant a boon. The specific god determines the required sacrifice, and the nature of the boon. The altar may also react negatively if disrespected or ignored, depending on the deity. The altar always includes a tablet with a script describing the expected sacrifice and likely boons."
+    },
+    {
+        "name": "Summoning Circle",
+        "description": "The user is currently in a room with a large, intricate summoning circle drawn on the floor. The circle is active and humming with magical energy. By simply getting close to it, the user will summon another being, typically another dungeon delver who just now walked into another summoning circle elsewhere, bringing them together. The summoned individual may be friendly and willing to join the party, hostile and seeking to fight, or neutral and open to negotiation."
+    },
+    {
+        "name": "Pool of Metamorphosis",
+        "description": "The user is currently in a room centered around a glowing, viscous pool. The pool radiates a powerful blue energy. If the user enters or submerges themselves in the pool, they will undergo a complete physical transformation, emerging as a different species of monster girl. The transformation is permanent unless reversed by powerful magic, or another visit to the pool."
+    }
 ]

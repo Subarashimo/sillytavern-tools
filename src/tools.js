@@ -84,7 +84,7 @@ const TOOL_SPECS = [
             } else if (pick.name === 'Monster Girl Encounter') {
                 const monsterList = await rowsFromJsonFile('monster-girl.json');
                 const bondageList = await rowsFromJsonFile('bondage.json');
-                result.monster = monsterList[pickRandomIndex(monsterList.length)];
+                result.monsterGirl = monsterList[pickRandomIndex(monsterList.length)];
                 result.slaveNumber = randomIntInclusive(0, 3);
                 result.slaveStatus = pickRandomItem(['domesticated', 'trained', 'untrained']);
                 result.slaveBondage = bondageList[pickRandomIndex(bondageList.length)];
@@ -100,6 +100,19 @@ const TOOL_SPECS = [
             } else if (pick.name === 'Faeries Encounter') {
                 const bondageList = await rowsFromJsonFile('bondage.json');
                 result.bondage = bondageList[pickRandomIndex(bondageList.length)];
+            } else if (pick.name === 'Altar of the Divine') {
+                const deityList = await rowsFromJsonFile('lewd-god.json');
+                result.deity = deityList[pickRandomIndex(deityList.length)];
+                if (result.deity.name === 'Vex\'ara, the Sultress of Chains') {
+                    const bondageList = await rowsFromJsonFile('bondage.json');
+                    result.bondage = bondageList[pickRandomIndex(bondageList.length)];
+                }
+            } else if (pick.name === 'Summoning Circle') {
+                const summonedList = await rowsFromJsonFile('lewd-summon.json');
+                result.summoned = summonedList[pickRandomIndex(summonedList.length)];
+            } else if (pick.name === 'Pool of Metamorphosis') {
+                const monsterList = await rowsFromJsonFile('monster-girl.json');
+                result.monsterGirl = monsterList[pickRandomIndex(monsterList.length)];
             }
             return result;
         },
@@ -108,7 +121,8 @@ const TOOL_SPECS = [
         id: 'timeskip',
         name: 'timeskip',
         displayName: 'Time skip',
-        description: 'Choose how much time passes and send it in the required period argument. Continue in your next reply with the story after the skip.',
+        description:
+            'Choose how much time passes and send it in the required period argument. Continue in your next reply with the story after the skip.',
         parameters: {
             $schema: 'http://json-schema.org/draft-04/schema#',
             type: 'object',

@@ -12,9 +12,7 @@ export const extensionName = 'Subarashimos-Tools';
 function extensionFolderPathFromImportMeta() {
     const pathname = decodeURIComponent(new URL(import.meta.url).pathname).replace(/\\/g, '/');
     const suffix = '/src/config.js';
-    const i = pathname.toLowerCase().endsWith(suffix.toLowerCase())
-        ? pathname.length - suffix.length
-        : -1;
+    const i = pathname.toLowerCase().endsWith(suffix.toLowerCase()) ? pathname.length - suffix.length : -1;
     const dir = i >= 0 ? pathname.slice(0, i).replace(/\/+$/, '') : '';
     const folder = dir ? dir.split('/').pop() || '' : '';
     if (!folder) {

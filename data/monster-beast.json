@@ -1,402 +1,402 @@
 [
-  {
-    "name": "Dire Wolf",
-    "description": ""
-  },
-  {
-    "name": "Giant Spider",
-    "description": ""
-  },
-  {
-    "name": "Giant Bat",
-    "description": ""
-  },
-  {
-    "name": "Giant Rat",
-    "description": ""
-  },
-  {
-    "name": "Giant Boar",
-    "description": ""
-  },
-  {
-    "name": "Giant Snake",
-    "description": ""
-  },
-  {
-    "name": "Giant Scorpion",
-    "description": ""
-  },
-  {
-    "name": "Giant Eagle",
-    "description": ""
-  },
-  {
-    "name": "Giant Owl",
-    "description": ""
-  },
-  {
-    "name": "Giant Toad",
-    "description": ""
-  },
-  {
-    "name": "Griffon",
-    "description": ""
-  },
-  {
-    "name": "Hippogriff",
-    "description": ""
-  },
-  {
-    "name": "Manticore",
-    "description": ""
-  },
-  {
-    "name": "Chimera",
-    "description": ""
-  },
-  {
-    "name": "Sphinx",
-    "description": ""
-  },
-  {
-    "name": "Cockatrice",
-    "description": ""
-  },
-  {
-    "name": "Basilisk",
-    "description": ""
-  },
-  {
-    "name": "Peryton",
-    "description": ""
-  },
-  {
-    "name": "Tyrannosaurus Rex",
-    "description": ""
-  },
-  {
-    "name": "Triceratops",
-    "description": ""
-  },
-  {
-    "name": "Velociraptor",
-    "description": ""
-  },
-  {
-    "name": "Pteranodon",
-    "description": ""
-  },
-  {
-    "name": "Ankylosaurus",
-    "description": ""
-  },
-  {
-    "name": "Brontosaurus",
-    "description": ""
-  },
-  {
-    "name": "Stegosaurus",
-    "description": ""
-  },
-  {
-    "name": "Mammoth",
-    "description": ""
-  },
-  {
-    "name": "Sabre-toothed Tiger",
-    "description": ""
-  },
-  {
-    "name": "Giant Sloth",
-    "description": ""
-  },
-  {
-    "name": "Giant Wasp",
-    "description": ""
-  },
-  {
-    "name": "Giant Ant",
-    "description": ""
-  },
-  {
-    "name": "Giant Beetle",
-    "description": ""
-  },
-  {
-    "name": "Giant Centipede",
-    "description": ""
-  },
-  {
-    "name": "Giant Millipede",
-    "description": ""
-  },
-  {
-    "name": "Giant Leech",
-    "description": ""
-  },
-  {
-    "name": "Giant Slug",
-    "description": ""
-  },
-  {
-    "name": "Giant Fly",
-    "description": ""
-  },
-  {
-    "name": "Giant Praying Mantis",
-    "description": ""
-  },
-  {
-    "name": "Carrion Crawler",
-    "description": ""
-  },
-  {
-    "name": "Bulette",
-    "description": ""
-  },
-  {
-    "name": "Owlbear",
-    "description": ""
-  },
-  {
-    "name": "Displacer Beast",
-    "description": ""
-  },
-  {
-    "name": "Phase Spider",
-    "description": ""
-  },
-  {
-    "name": "Winter Wolf",
-    "description": ""
-  },
-  {
-    "name": "Blink Dog",
-    "description": ""
-  },
-  {
-    "name": "Rust Monster",
-    "description": ""
-  },
-  {
-    "name": "Giant Shark",
-    "description": ""
-  },
-  {
-    "name": "Giant Octopus",
-    "description": ""
-  },
-  {
-    "name": "Giant Squid",
-    "description": ""
-  },
-  {
-    "name": "Giant Crab",
-    "description": ""
-  },
-  {
-    "name": "Giant Eel",
-    "description": ""
-  },
-  {
-    "name": "Plesiosaurus",
-    "description": ""
-  },
-  {
-    "name": "Megalodon",
-    "description": ""
-  },
-  {
-    "name": "Giant Piranha",
-    "description": ""
-  },
-  {
-    "name": "Giant Anglerfish",
-    "description": ""
-  },
-  {
-    "name": "Giant Walrus",
-    "description": ""
-  },
-  {
-    "name": "Dire Bear",
-    "description": ""
-  },
-  {
-    "name": "Dire Lion",
-    "description": ""
-  },
-  {
-    "name": "Dire Tiger",
-    "description": ""
-  },
-  {
-    "name": "Dire Ape",
-    "description": ""
-  },
-  {
-    "name": "Giant Ape",
-    "description": ""
-  },
-  {
-    "name": "Giant Crocodile",
-    "description": ""
-  },
-  {
-    "name": "Giant Vulture",
-    "description": ""
-  },
-  {
-    "name": "Giant Hyena",
-    "description": ""
-  },
-  {
-    "name": "Wyrm-hound",
-    "description": ""
-  },
-  {
-    "name": "Spider-eater",
-    "description": ""
-  },
-  {
-    "name": "Roc",
-    "description": ""
-  },
-  {
-    "name": "Thunderbird",
-    "description": ""
-  },
-  {
-    "name": "Simurgh",
-    "description": ""
-  },
-  {
-    "name": "Hippocampus",
-    "description": ""
-  },
-  {
-    "name": "Leucrotta",
-    "description": ""
-  },
-  {
-    "name": "Catoblepas",
-    "description": ""
-  },
-  {
-    "name": "Dire-weasel",
-    "description": ""
-  },
-  {
-    "name": "Giant-constrictor-snake",
-    "description": ""
-  },
-  {
-    "name": "Giant-poisonous-snake",
-    "description": ""
-  },
-  {
-    "name": "Giant-elk",
-    "description": ""
-  },
-  {
-    "name": "Giant-goat",
-    "description": ""
-  },
-  {
-    "name": "Giant-lizard",
-    "description": ""
-  },
-  {
-    "name": "Giant-badger",
-    "description": ""
-  },
-  {
-    "name": "Giant-vulture",
-    "description": ""
-  },
-  {
-    "name": "Giant-fire-beetle",
-    "description": ""
-  },
-  {
-    "name": "Axe-beak",
-    "description": ""
-  },
-  {
-    "name": "Giant-weasel",
-    "description": ""
-  },
-  {
-    "name": "Giant-baboon",
-    "description": ""
-  },
-  {
-    "name": "Giant-sea-horse",
-    "description": ""
-  },
-  {
-    "name": "Giant-wolf-spider",
-    "description": ""
-  },
-  {
-    "name": "Phase-Panther",
-    "description": ""
-  },
-  {
-    "name": "Shadow-Mastiff",
-    "description": ""
-  },
-  {
-    "name": "Behir",
-    "description": ""
-  },
-  {
-    "name": "Cave-Fisher",
-    "description": ""
-  },
-  {
-    "name": "Deep-hunter",
-    "description": ""
-  },
-  {
-    "name": "Giant-dragonfly",
-    "description": ""
-  },
-  {
-    "name": "Giant-gecko",
-    "description": ""
-  },
-  {
-    "name": "Giant-mantis-shrimp",
-    "description": ""
-  },
-  {
-    "name": "Giant-remora",
-    "description": ""
-  },
-  {
-    "name": "Giant-solifugid",
-    "description": ""
-  },
-  {
-    "name": "Giant-snapping-turtle",
-    "description": ""
-  },
-  {
-    "name": "Giant-tuna",
-    "description": ""
-  },
-  {
-    "name": "Terror-bird",
-    "description": ""
-  },
-  {
-    "name": "Woolly-Rhinoceros",
-    "description": ""
-  },
-  {
-    "name": "Dire-bat",
-    "description": ""
-  }
+    {
+        "name": "Dire Wolf",
+        "description": ""
+    },
+    {
+        "name": "Giant Spider",
+        "description": ""
+    },
+    {
+        "name": "Giant Bat",
+        "description": ""
+    },
+    {
+        "name": "Giant Rat",
+        "description": ""
+    },
+    {
+        "name": "Giant Boar",
+        "description": ""
+    },
+    {
+        "name": "Giant Snake",
+        "description": ""
+    },
+    {
+        "name": "Giant Scorpion",
+        "description": ""
+    },
+    {
+        "name": "Giant Eagle",
+        "description": ""
+    },
+    {
+        "name": "Giant Owl",
+        "description": ""
+    },
+    {
+        "name": "Giant Toad",
+        "description": ""
+    },
+    {
+        "name": "Griffon",
+        "description": ""
+    },
+    {
+        "name": "Hippogriff",
+        "description": ""
+    },
+    {
+        "name": "Manticore",
+        "description": ""
+    },
+    {
+        "name": "Chimera",
+        "description": ""
+    },
+    {
+        "name": "Sphinx",
+        "description": ""
+    },
+    {
+        "name": "Cockatrice",
+        "description": ""
+    },
+    {
+        "name": "Basilisk",
+        "description": ""
+    },
+    {
+        "name": "Peryton",
+        "description": ""
+    },
+    {
+        "name": "Tyrannosaurus Rex",
+        "description": ""
+    },
+    {
+        "name": "Triceratops",
+        "description": ""
+    },
+    {
+        "name": "Velociraptor",
+        "description": ""
+    },
+    {
+        "name": "Pteranodon",
+        "description": ""
+    },
+    {
+        "name": "Ankylosaurus",
+        "description": ""
+    },
+    {
+        "name": "Brontosaurus",
+        "description": ""
+    },
+    {
+        "name": "Stegosaurus",
+        "description": ""
+    },
+    {
+        "name": "Mammoth",
+        "description": ""
+    },
+    {
+        "name": "Sabre-toothed Tiger",
+        "description": ""
+    },
+    {
+        "name": "Giant Sloth",
+        "description": ""
+    },
+    {
+        "name": "Giant Wasp",
+        "description": ""
+    },
+    {
+        "name": "Giant Ant",
+        "description": ""
+    },
+    {
+        "name": "Giant Beetle",
+        "description": ""
+    },
+    {
+        "name": "Giant Centipede",
+        "description": ""
+    },
+    {
+        "name": "Giant Millipede",
+        "description": ""
+    },
+    {
+        "name": "Giant Leech",
+        "description": ""
+    },
+    {
+        "name": "Giant Slug",
+        "description": ""
+    },
+    {
+        "name": "Giant Fly",
+        "description": ""
+    },
+    {
+        "name": "Giant Praying Mantis",
+        "description": ""
+    },
+    {
+        "name": "Carrion Crawler",
+        "description": ""
+    },
+    {
+        "name": "Bulette",
+        "description": ""
+    },
+    {
+        "name": "Owlbear",
+        "description": ""
+    },
+    {
+        "name": "Displacer Beast",
+        "description": ""
+    },
+    {
+        "name": "Phase Spider",
+        "description": ""
+    },
+    {
+        "name": "Winter Wolf",
+        "description": ""
+    },
+    {
+        "name": "Blink Dog",
+        "description": ""
+    },
+    {
+        "name": "Rust Monster",
+        "description": ""
+    },
+    {
+        "name": "Giant Shark",
+        "description": ""
+    },
+    {
+        "name": "Giant Octopus",
+        "description": ""
+    },
+    {
+        "name": "Giant Squid",
+        "description": ""
+    },
+    {
+        "name": "Giant Crab",
+        "description": ""
+    },
+    {
+        "name": "Giant Eel",
+        "description": ""
+    },
+    {
+        "name": "Plesiosaurus",
+        "description": ""
+    },
+    {
+        "name": "Megalodon",
+        "description": ""
+    },
+    {
+        "name": "Giant Piranha",
+        "description": ""
+    },
+    {
+        "name": "Giant Anglerfish",
+        "description": ""
+    },
+    {
+        "name": "Giant Walrus",
+        "description": ""
+    },
+    {
+        "name": "Dire Bear",
+        "description": ""
+    },
+    {
+        "name": "Dire Lion",
+        "description": ""
+    },
+    {
+        "name": "Dire Tiger",
+        "description": ""
+    },
+    {
+        "name": "Dire Ape",
+        "description": ""
+    },
+    {
+        "name": "Giant Ape",
+        "description": ""
+    },
+    {
+        "name": "Giant Crocodile",
+        "description": ""
+    },
+    {
+        "name": "Giant Vulture",
+        "description": ""
+    },
+    {
+        "name": "Giant Hyena",
+        "description": ""
+    },
+    {
+        "name": "Wyrm-hound",
+        "description": ""
+    },
+    {
+        "name": "Spider-eater",
+        "description": ""
+    },
+    {
+        "name": "Roc",
+        "description": ""
+    },
+    {
+        "name": "Thunderbird",
+        "description": ""
+    },
+    {
+        "name": "Simurgh",
+        "description": ""
+    },
+    {
+        "name": "Hippocampus",
+        "description": ""
+    },
+    {
+        "name": "Leucrotta",
+        "description": ""
+    },
+    {
+        "name": "Catoblepas",
+        "description": ""
+    },
+    {
+        "name": "Dire-weasel",
+        "description": ""
+    },
+    {
+        "name": "Giant-constrictor-snake",
+        "description": ""
+    },
+    {
+        "name": "Giant-poisonous-snake",
+        "description": ""
+    },
+    {
+        "name": "Giant-elk",
+        "description": ""
+    },
+    {
+        "name": "Giant-goat",
+        "description": ""
+    },
+    {
+        "name": "Giant-lizard",
+        "description": ""
+    },
+    {
+        "name": "Giant-badger",
+        "description": ""
+    },
+    {
+        "name": "Giant-vulture",
+        "description": ""
+    },
+    {
+        "name": "Giant-fire-beetle",
+        "description": ""
+    },
+    {
+        "name": "Axe-beak",
+        "description": ""
+    },
+    {
+        "name": "Giant-weasel",
+        "description": ""
+    },
+    {
+        "name": "Giant-baboon",
+        "description": ""
+    },
+    {
+        "name": "Giant-sea-horse",
+        "description": ""
+    },
+    {
+        "name": "Giant-wolf-spider",
+        "description": ""
+    },
+    {
+        "name": "Phase-Panther",
+        "description": ""
+    },
+    {
+        "name": "Shadow-Mastiff",
+        "description": ""
+    },
+    {
+        "name": "Behir",
+        "description": ""
+    },
+    {
+        "name": "Cave-Fisher",
+        "description": ""
+    },
+    {
+        "name": "Deep-hunter",
+        "description": ""
+    },
+    {
+        "name": "Giant-dragonfly",
+        "description": ""
+    },
+    {
+        "name": "Giant-gecko",
+        "description": ""
+    },
+    {
+        "name": "Giant-mantis-shrimp",
+        "description": ""
+    },
+    {
+        "name": "Giant-remora",
+        "description": ""
+    },
+    {
+        "name": "Giant-solifugid",
+        "description": ""
+    },
+    {
+        "name": "Giant-snapping-turtle",
+        "description": ""
+    },
+    {
+        "name": "Giant-tuna",
+        "description": ""
+    },
+    {
+        "name": "Terror-bird",
+        "description": ""
+    },
+    {
+        "name": "Woolly-Rhinoceros",
+        "description": ""
+    },
+    {
+        "name": "Dire-bat",
+        "description": ""
+    }
 ]

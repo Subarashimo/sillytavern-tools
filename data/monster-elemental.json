@@ -1,430 +1,430 @@
 [
-  {
-    "name": "Fire-Elemental",
-    "description": ""
-  },
-  {
-    "name": "Water-Elemental",
-    "description": ""
-  },
-  {
-    "name": "Earth-Elemental",
-    "description": ""
-  },
-  {
-    "name": "Air-Elemental",
-    "description": ""
-  },
-  {
-    "name": "Magma-Mephit",
-    "description": ""
-  },
-  {
-    "name": "Steam-Mephit",
-    "description": ""
-  },
-  {
-    "name": "Ice-Mephit",
-    "description": ""
-  },
-  {
-    "name": "Dust-Mephit",
-    "description": ""
-  },
-  {
-    "name": "Mud-Mephit",
-    "description": ""
-  },
-  {
-    "name": "Smoke-Mephit",
-    "description": ""
-  },
-  {
-    "name": "Djinni",
-    "description": ""
-  },
-  {
-    "name": "Efreeti",
-    "description": ""
-  },
-  {
-    "name": "Marid",
-    "description": ""
-  },
-  {
-    "name": "Dao",
-    "description": ""
-  },
-  {
-    "name": "Salamander",
-    "description": ""
-  },
-  {
-    "name": "Azer",
-    "description": ""
-  },
-  {
-    "name": "Invisible-Stalker",
-    "description": ""
-  },
-  {
-    "name": "Galeb-Duhr",
-    "description": ""
-  },
-  {
-    "name": "Fire-Snake",
-    "description": ""
-  },
-  {
-    "name": "Magmin",
-    "description": ""
-  },
-  {
-    "name": "Water-Weird",
-    "description": ""
-  },
-  {
-    "name": "Ice-Paraelemental",
-    "description": ""
-  },
-  {
-    "name": "Smoke-Paraelemental",
-    "description": ""
-  },
-  {
-    "name": "Ooze-Paraelemental",
-    "description": ""
-  },
-  {
-    "name": "Magma-Paraelemental",
-    "description": ""
-  },
-  {
-    "name": "Storm-Elemental",
-    "description": ""
-  },
-  {
-    "name": "Sand-Elemental",
-    "description": ""
-  },
-  {
-    "name": "Ash-Elemental",
-    "description": ""
-  },
-  {
-    "name": "Cinder-Elemental",
-    "description": ""
-  },
-  {
-    "name": "Lightning-Elemental",
-    "description": ""
-  },
-  {
-    "name": "Positive-Energy-Elemental",
-    "description": ""
-  },
-  {
-    "name": "Negative-Energy-Elemental",
-    "description": ""
-  },
-  {
-    "name": "Primal-Elemental",
-    "description": ""
-  },
-  {
-    "name": "Elemental-Myrmidon",
-    "description": ""
-  },
-  {
-    "name": "Prince-of-Elemental-Fire",
-    "description": ""
-  },
-  {
-    "name": "Prince-of-Elemental-Water",
-    "description": ""
-  },
-  {
-    "name": "Prince-of-Elemental-Earth",
-    "description": ""
-  },
-  {
-    "name": "Prince-of-Elemental-Air",
-    "description": ""
-  },
-  {
-    "name": "Phoenix",
-    "description": ""
-  },
-  {
-    "name": "Living-Flame",
-    "description": ""
-  },
-  {
-    "name": "Living-Tornado",
-    "description": ""
-  },
-  {
-    "name": "Living-Avalanche",
-    "description": ""
-  },
-  {
-    "name": "Living-Whirlpool",
-    "description": ""
-  },
-  {
-    "name": "Sand-Storm-Spirit",
-    "description": ""
-  },
-  {
-    "name": "Blizzard-Spirit",
-    "description": ""
-  },
-  {
-    "name": "Volcano-Spirit",
-    "description": ""
-  },
-  {
-    "name": "Earthquake-Spirit",
-    "description": ""
-  },
-  {
-    "name": "Fire-Bat",
-    "description": ""
-  },
-  {
-    "name": "Ice-Lizard",
-    "description": ""
-  },
-  {
-    "name": "Stone-Badger",
-    "description": ""
-  },
-  {
-    "name": "Air-Serpent",
-    "description": ""
-  },
-  {
-    "name": "Lava-Child",
-    "description": ""
-  },
-  {
-    "name": "Geonid",
-    "description": ""
-  },
-  {
-    "name": "Crysmal",
-    "description": ""
-  },
-  {
-    "name": "Chraal",
-    "description": ""
-  },
-  {
-    "name": "Sylph",
-    "description": ""
-  },
-  {
-    "name": "Undine",
-    "description": ""
-  },
-  {
-    "name": "Gnome-Elemental",
-    "description": ""
-  },
-  {
-    "name": "Pech",
-    "description": ""
-  },
-  {
-    "name": "Thoqqua",
-    "description": ""
-  },
-  {
-    "name": "Earth-Wurm",
-    "description": ""
-  },
-  {
-    "name": "Fire-Whirl",
-    "description": ""
-  },
-  {
-    "name": "Water-Serpent",
-    "description": ""
-  },
-  {
-    "name": "Air-Gale",
-    "description": ""
-  },
-  {
-    "name": "Dust-Devil",
-    "description": ""
-  },
-  {
-    "name": "Magma-Hulk",
-    "description": ""
-  },
-  {
-    "name": "Ice-Colossus",
-    "description": ""
-  },
-  {
-    "name": "Stone-Titan",
-    "description": ""
-  },
-  {
-    "name": "Storm-Titan",
-    "description": ""
-  },
-  {
-    "name": "Cloud-Titan",
-    "description": ""
-  },
-  {
-    "name": "Fire-Titan",
-    "description": ""
-  },
-  {
-    "name": "Frost-Titan",
-    "description": ""
-  },
-  {
-    "name": "Primordial",
-    "description": ""
-  },
-  {
-    "name": "Elemental-Lord",
-    "description": ""
-  },
-  {
-    "name": "Spirit-of-the-Land",
-    "description": ""
-  },
-  {
-    "name": "Genius-Loci",
-    "description": ""
-  },
-  {
-    "name": "Elder-Tempest",
-    "description": ""
-  },
-  {
-    "name": "Archomental",
-    "description": ""
-  },
-  {
-    "name": "Avalanche-Elemental",
-    "description": ""
-  },
-  {
-    "name": "Cinder-Spawn",
-    "description": ""
-  },
-  {
-    "name": "Crystal-Cluster",
-    "description": ""
-  },
-  {
-    "name": "Ember-Guard",
-    "description": ""
-  },
-  {
-    "name": "Fire-Stalker",
-    "description": ""
-  },
-  {
-    "name": "Frost-Worm",
-    "description": ""
-  },
-  {
-    "name": "Geyser-Elemental",
-    "description": ""
-  },
-  {
-    "name": "Hail-Spirit",
-    "description": ""
-  },
-  {
-    "name": "Lava-Lurk",
-    "description": ""
-  },
-  {
-    "name": "Lightning-Bolt-Elemental",
-    "description": ""
-  },
-  {
-    "name": "Living-Mirage",
-    "description": ""
-  },
-  {
-    "name": "Molten-Walker",
-    "description": ""
-  },
-  {
-    "name": "Obsidian-Elemental",
-    "description": ""
-  },
-  {
-    "name": "Petrification-Elemental",
-    "description": ""
-  },
-  {
-    "name": "Salt-Elemental",
-    "description": ""
-  },
-  {
-    "name": "Sea-foam-Spirit",
-    "description": ""
-  },
-  {
-    "name": "Sleet-Storm",
-    "description": ""
-  },
-  {
-    "name": "Slush-Elemental",
-    "description": ""
-  },
-  {
-    "name": "Spark-Elemental",
-    "description": ""
-  },
-  {
-    "name": "Steam-Weird",
-    "description": ""
-  },
-  {
-    "name": "Stone-Guardian",
-    "description": ""
-  },
-  {
-    "name": "Storm-Wraith",
-    "description": ""
-  },
-  {
-    "name": "Tidal-Elemental",
-    "description": ""
-  },
-  {
-    "name": "Tsunami-Elemental",
-    "description": ""
-  },
-  {
-    "name": "Wind-Walker",
-    "description": ""
-  },
-  {
-    "name": "Void-Elemental",
-    "description": ""
-  },
-  {
-    "name": "Poison-Elemental",
-    "description": ""
-  },
-  {
-    "name": "Wood-Elemental",
-    "description": ""
-  },
-  {
-    "name": "Metal-Elemental",
-    "description": ""
-  }
+    {
+        "name": "Fire-Elemental",
+        "description": ""
+    },
+    {
+        "name": "Water-Elemental",
+        "description": ""
+    },
+    {
+        "name": "Earth-Elemental",
+        "description": ""
+    },
+    {
+        "name": "Air-Elemental",
+        "description": ""
+    },
+    {
+        "name": "Magma-Mephit",
+        "description": ""
+    },
+    {
+        "name": "Steam-Mephit",
+        "description": ""
+    },
+    {
+        "name": "Ice-Mephit",
+        "description": ""
+    },
+    {
+        "name": "Dust-Mephit",
+        "description": ""
+    },
+    {
+        "name": "Mud-Mephit",
+        "description": ""
+    },
+    {
+        "name": "Smoke-Mephit",
+        "description": ""
+    },
+    {
+        "name": "Djinni",
+        "description": ""
+    },
+    {
+        "name": "Efreeti",
+        "description": ""
+    },
+    {
+        "name": "Marid",
+        "description": ""
+    },
+    {
+        "name": "Dao",
+        "description": ""
+    },
+    {
+        "name": "Salamander",
+        "description": ""
+    },
+    {
+        "name": "Azer",
+        "description": ""
+    },
+    {
+        "name": "Invisible-Stalker",
+        "description": ""
+    },
+    {
+        "name": "Galeb-Duhr",
+        "description": ""
+    },
+    {
+        "name": "Fire-Snake",
+        "description": ""
+    },
+    {
+        "name": "Magmin",
+        "description": ""
+    },
+    {
+        "name": "Water-Weird",
+        "description": ""
+    },
+    {
+        "name": "Ice-Paraelemental",
+        "description": ""
+    },
+    {
+        "name": "Smoke-Paraelemental",
+        "description": ""
+    },
+    {
+        "name": "Ooze-Paraelemental",
+        "description": ""
+    },
+    {
+        "name": "Magma-Paraelemental",
+        "description": ""
+    },
+    {
+        "name": "Storm-Elemental",
+        "description": ""
+    },
+    {
+        "name": "Sand-Elemental",
+        "description": ""
+    },
+    {
+        "name": "Ash-Elemental",
+        "description": ""
+    },
+    {
+        "name": "Cinder-Elemental",
+        "description": ""
+    },
+    {
+        "name": "Lightning-Elemental",
+        "description": ""
+    },
+    {
+        "name": "Positive-Energy-Elemental",
+        "description": ""
+    },
+    {
+        "name": "Negative-Energy-Elemental",
+        "description": ""
+    },
+    {
+        "name": "Primal-Elemental",
+        "description": ""
+    },
+    {
+        "name": "Elemental-Myrmidon",
+        "description": ""
+    },
+    {
+        "name": "Prince-of-Elemental-Fire",
+        "description": ""
+    },
+    {
+        "name": "Prince-of-Elemental-Water",
+        "description": ""
+    },
+    {
+        "name": "Prince-of-Elemental-Earth",
+        "description": ""
+    },
+    {
+        "name": "Prince-of-Elemental-Air",
+        "description": ""
+    },
+    {
+        "name": "Phoenix",
+        "description": ""
+    },
+    {
+        "name": "Living-Flame",
+        "description": ""
+    },
+    {
+        "name": "Living-Tornado",
+        "description": ""
+    },
+    {
+        "name": "Living-Avalanche",
+        "description": ""
+    },
+    {
+        "name": "Living-Whirlpool",
+        "description": ""
+    },
+    {
+        "name": "Sand-Storm-Spirit",
+        "description": ""
+    },
+    {
+        "name": "Blizzard-Spirit",
+        "description": ""
+    },
+    {
+        "name": "Volcano-Spirit",
+        "description": ""
+    },
+    {
+        "name": "Earthquake-Spirit",
+        "description": ""
+    },
+    {
+        "name": "Fire-Bat",
+        "description": ""
+    },
+    {
+        "name": "Ice-Lizard",
+        "description": ""
+    },
+    {
+        "name": "Stone-Badger",
+        "description": ""
+    },
+    {
+        "name": "Air-Serpent",
+        "description": ""
+    },
+    {
+        "name": "Lava-Child",
+        "description": ""
+    },
+    {
+        "name": "Geonid",
+        "description": ""
+    },
+    {
+        "name": "Crysmal",
+        "description": ""
+    },
+    {
+        "name": "Chraal",
+        "description": ""
+    },
+    {
+        "name": "Sylph",
+        "description": ""
+    },
+    {
+        "name": "Undine",
+        "description": ""
+    },
+    {
+        "name": "Gnome-Elemental",
+        "description": ""
+    },
+    {
+        "name": "Pech",
+        "description": ""
+    },
+    {
+        "name": "Thoqqua",
+        "description": ""
+    },
+    {
+        "name": "Earth-Wurm",
+        "description": ""
+    },
+    {
+        "name": "Fire-Whirl",
+        "description": ""
+    },
+    {
+        "name": "Water-Serpent",
+        "description": ""
+    },
+    {
+        "name": "Air-Gale",
+        "description": ""
+    },
+    {
+        "name": "Dust-Devil",
+        "description": ""
+    },
+    {
+        "name": "Magma-Hulk",
+        "description": ""
+    },
+    {
+        "name": "Ice-Colossus",
+        "description": ""
+    },
+    {
+        "name": "Stone-Titan",
+        "description": ""
+    },
+    {
+        "name": "Storm-Titan",
+        "description": ""
+    },
+    {
+        "name": "Cloud-Titan",
+        "description": ""
+    },
+    {
+        "name": "Fire-Titan",
+        "description": ""
+    },
+    {
+        "name": "Frost-Titan",
+        "description": ""
+    },
+    {
+        "name": "Primordial",
+        "description": ""
+    },
+    {
+        "name": "Elemental-Lord",
+        "description": ""
+    },
+    {
+        "name": "Spirit-of-the-Land",
+        "description": ""
+    },
+    {
+        "name": "Genius-Loci",
+        "description": ""
+    },
+    {
+        "name": "Elder-Tempest",
+        "description": ""
+    },
+    {
+        "name": "Archomental",
+        "description": ""
+    },
+    {
+        "name": "Avalanche-Elemental",
+        "description": ""
+    },
+    {
+        "name": "Cinder-Spawn",
+        "description": ""
+    },
+    {
+        "name": "Crystal-Cluster",
+        "description": ""
+    },
+    {
+        "name": "Ember-Guard",
+        "description": ""
+    },
+    {
+        "name": "Fire-Stalker",
+        "description": ""
+    },
+    {
+        "name": "Frost-Worm",
+        "description": ""
+    },
+    {
+        "name": "Geyser-Elemental",
+        "description": ""
+    },
+    {
+        "name": "Hail-Spirit",
+        "description": ""
+    },
+    {
+        "name": "Lava-Lurk",
+        "description": ""
+    },
+    {
+        "name": "Lightning-Bolt-Elemental",
+        "description": ""
+    },
+    {
+        "name": "Living-Mirage",
+        "description": ""
+    },
+    {
+        "name": "Molten-Walker",
+        "description": ""
+    },
+    {
+        "name": "Obsidian-Elemental",
+        "description": ""
+    },
+    {
+        "name": "Petrification-Elemental",
+        "description": ""
+    },
+    {
+        "name": "Salt-Elemental",
+        "description": ""
+    },
+    {
+        "name": "Sea-foam-Spirit",
+        "description": ""
+    },
+    {
+        "name": "Sleet-Storm",
+        "description": ""
+    },
+    {
+        "name": "Slush-Elemental",
+        "description": ""
+    },
+    {
+        "name": "Spark-Elemental",
+        "description": ""
+    },
+    {
+        "name": "Steam-Weird",
+        "description": ""
+    },
+    {
+        "name": "Stone-Guardian",
+        "description": ""
+    },
+    {
+        "name": "Storm-Wraith",
+        "description": ""
+    },
+    {
+        "name": "Tidal-Elemental",
+        "description": ""
+    },
+    {
+        "name": "Tsunami-Elemental",
+        "description": ""
+    },
+    {
+        "name": "Wind-Walker",
+        "description": ""
+    },
+    {
+        "name": "Void-Elemental",
+        "description": ""
+    },
+    {
+        "name": "Poison-Elemental",
+        "description": ""
+    },
+    {
+        "name": "Wood-Elemental",
+        "description": ""
+    },
+    {
+        "name": "Metal-Elemental",
+        "description": ""
+    }
 ]

@@ -1,402 +1,402 @@
 [
-  {
-    "name": "Goblin",
-    "description": ""
-  },
-  {
-    "name": "Hobgoblin",
-    "description": ""
-  },
-  {
-    "name": "Bugbear",
-    "description": ""
-  },
-  {
-    "name": "Orc",
-    "description": ""
-  },
-  {
-    "name": "Ogre",
-    "description": ""
-  },
-  {
-    "name": "Troll",
-    "description": ""
-  },
-  {
-    "name": "Hill Giant",
-    "description": ""
-  },
-  {
-    "name": "Frost Giant",
-    "description": ""
-  },
-  {
-    "name": "Fire Giant",
-    "description": ""
-  },
-  {
-    "name": "Stone Giant",
-    "description": ""
-  },
-  {
-    "name": "Cloud Giant",
-    "description": ""
-  },
-  {
-    "name": "Storm Giant",
-    "description": ""
-  },
-  {
-    "name": "Ettin",
-    "description": ""
-  },
-  {
-    "name": "Cyclops",
-    "description": ""
-  },
-  {
-    "name": "Gnoll",
-    "description": ""
-  },
-  {
-    "name": "Minotaur",
-    "description": ""
-  },
-  {
-    "name": "Centaur",
-    "description": ""
-  },
-  {
-    "name": "Harpy",
-    "description": ""
-  },
-  {
-    "name": "Werewolf",
-    "description": ""
-  },
-  {
-    "name": "Werebear",
-    "description": ""
-  },
-  {
-    "name": "Wererat",
-    "description": ""
-  },
-  {
-    "name": "Weretiger",
-    "description": ""
-  },
-  {
-    "name": "Wereboar",
-    "description": ""
-  },
-  {
-    "name": "Drow",
-    "description": ""
-  },
-  {
-    "name": "Duergar",
-    "description": ""
-  },
-  {
-    "name": "Svirfneblin",
-    "description": ""
-  },
-  {
-    "name": "Fomorian",
-    "description": ""
-  },
-  {
-    "name": "Quaggoth",
-    "description": ""
-  },
-  {
-    "name": "Merfolk",
-    "description": ""
-  },
-  {
-    "name": "Sahuagin",
-    "description": ""
-  },
-  {
-    "name": "Lizardfolk",
-    "description": ""
-  },
-  {
-    "name": "Kobold",
-    "description": ""
-  },
-  {
-    "name": "Troglodyte",
-    "description": ""
-  },
-  {
-    "name": "Naga",
-    "description": ""
-  },
-  {
-    "name": "Yuan-Ti",
-    "description": ""
-  },
-  {
-    "name": "Goblin-Chief",
-    "description": ""
-  },
-  {
-    "name": "Goblin-Shaman",
-    "description": ""
-  },
-  {
-    "name": "Orc-Chieftain",
-    "description": ""
-  },
-  {
-    "name": "Orc-Shaman",
-    "description": ""
-  },
-  {
-    "name": "Half-Orc",
-    "description": ""
-  },
-  {
-    "name": "Orog",
-    "description": ""
-  },
-  {
-    "name": "Gnoll-Packlord",
-    "description": ""
-  },
-  {
-    "name": "Cyclops-Mage",
-    "description": ""
-  },
-  {
-    "name": "Giant-King",
-    "description": ""
-  },
-  {
-    "name": "Troll-Shaman",
-    "description": ""
-  },
-  {
-    "name": "Centaur-Chief",
-    "description": ""
-  },
-  {
-    "name": "Minotaur-Priest",
-    "description": ""
-  },
-  {
-    "name": "Harpy-Matriarch",
-    "description": ""
-  },
-  {
-    "name": "Harpy-Singer",
-    "description": ""
-  },
-  {
-    "name": "Oni",
-    "description": ""
-  },
-  {
-    "name": "Kappa",
-    "description": ""
-  },
-  {
-    "name": "Tengu",
-    "description": ""
-  },
-  {
-    "name": "Boggart",
-    "description": ""
-  },
-  {
-    "name": "Gremlin",
-    "description": ""
-  },
-  {
-    "name": "Kinnara",
-    "description": ""
-  },
-  {
-    "name": "Rakshasa",
-    "description": ""
-  },
-  {
-    "name": "Lamia",
-    "description": ""
-  },
-  {
-    "name": "Medusa",
-    "description": ""
-  },
-  {
-    "name": "Gorgon",
-    "description": ""
-  },
-  {
-    "name": "Kenku",
-    "description": ""
-  },
-  {
-    "name": "Aarakocra",
-    "description": ""
-  },
-  {
-    "name": "Tabaxi",
-    "description": ""
-  },
-  {
-    "name": "Leonin",
-    "description": ""
-  },
-  {
-    "name": "Loxodon",
-    "description": ""
-  },
-  {
-    "name": "Kuo-Toa",
-    "description": ""
-  },
-  {
-    "name": "Merrow",
-    "description": ""
-  },
-  {
-    "name": "Skum",
-    "description": ""
-  },
-  {
-    "name": "Deep One",
-    "description": ""
-  },
-  {
-    "name": "Triton",
-    "description": ""
-  },
-  {
-    "name": "Myconid",
-    "description": ""
-  },
-  {
-    "name": "Vine-folk",
-    "description": ""
-  },
-  {
-    "name": "Wood-Man",
-    "description": ""
-  },
-  {
-    "name": "Blighted-Humanoid",
-    "description": ""
-  },
-  {
-    "name": "Bark-skin",
-    "description": ""
-  },
-  {
-    "name": "Yeti",
-    "description": ""
-  },
-  {
-    "name": "Sasquatch",
-    "description": ""
-  },
-  {
-    "name": "Wendigo",
-    "description": ""
-  },
-  {
-    "name": "Changeling",
-    "description": ""
-  },
-  {
-    "name": "Doppelganger",
-    "description": ""
-  },
-  {
-    "name": "Orc-Warlord",
-    "description": ""
-  },
-  {
-    "name": "Goblin-King",
-    "description": ""
-  },
-  {
-    "name": "Hobgoblin-Captain",
-    "description": ""
-  },
-  {
-    "name": "Troll-King",
-    "description": ""
-  },
-  {
-    "name": "Giant-Queen",
-    "description": ""
-  },
-  {
-    "name": "Gnoll-Flind",
-    "description": ""
-  },
-  {
-    "name": "Kobold-Trapmaster",
-    "description": ""
-  },
-  {
-    "name": "Lizardfolk-Priest",
-    "description": ""
-  },
-  {
-    "name": "Sahuagin-Baron",
-    "description": ""
-  },
-  {
-    "name": "Orc-Eye-of-Gruumsh",
-    "description": ""
-  },
-  {
-    "name": "Bugbear-Assassin",
-    "description": ""
-  },
-  {
-    "name": "Minotaur-Guardian",
-    "description": ""
-  },
-  {
-    "name": "Centaur-Scout",
-    "description": ""
-  },
-  {
-    "name": "Drow-Priestess",
-    "description": ""
-  },
-  {
-    "name": "Duergar-Slaver",
-    "description": ""
-  },
-  {
-    "name": "Yeti-Matriarch",
-    "description": ""
-  },
-  {
-    "name": "Oni-Mage",
-    "description": ""
-  },
-  {
-    "name": "Cyclops-Hulk",
-    "description": ""
-  },
-  {
-    "name": "Ettin-Brute",
-    "description": ""
-  },
-  {
-    "name": "Ogre-Glutton",
-    "description": ""
-  },
-  {
-    "name": "Jackal-fiend",
-    "description": ""
-  }
+    {
+        "name": "Goblin",
+        "description": ""
+    },
+    {
+        "name": "Hobgoblin",
+        "description": ""
+    },
+    {
+        "name": "Bugbear",
+        "description": ""
+    },
+    {
+        "name": "Orc",
+        "description": ""
+    },
+    {
+        "name": "Ogre",
+        "description": ""
+    },
+    {
+        "name": "Troll",
+        "description": ""
+    },
+    {
+        "name": "Hill Giant",
+        "description": ""
+    },
+    {
+        "name": "Frost Giant",
+        "description": ""
+    },
+    {
+        "name": "Fire Giant",
+        "description": ""
+    },
+    {
+        "name": "Stone Giant",
+        "description": ""
+    },
+    {
+        "name": "Cloud Giant",
+        "description": ""
+    },
+    {
+        "name": "Storm Giant",
+        "description": ""
+    },
+    {
+        "name": "Ettin",
+        "description": ""
+    },
+    {
+        "name": "Cyclops",
+        "description": ""
+    },
+    {
+        "name": "Gnoll",
+        "description": ""
+    },
+    {
+        "name": "Minotaur",
+        "description": ""
+    },
+    {
+        "name": "Centaur",
+        "description": ""
+    },
+    {
+        "name": "Harpy",
+        "description": ""
+    },
+    {
+        "name": "Werewolf",
+        "description": ""
+    },
+    {
+        "name": "Werebear",
+        "description": ""
+    },
+    {
+        "name": "Wererat",
+        "description": ""
+    },
+    {
+        "name": "Weretiger",
+        "description": ""
+    },
+    {
+        "name": "Wereboar",
+        "description": ""
+    },
+    {
+        "name": "Drow",
+        "description": ""
+    },
+    {
+        "name": "Duergar",
+        "description": ""
+    },
+    {
+        "name": "Svirfneblin",
+        "description": ""
+    },
+    {
+        "name": "Fomorian",
+        "description": ""
+    },
+    {
+        "name": "Quaggoth",
+        "description": ""
+    },
+    {
+        "name": "Merfolk",
+        "description": ""
+    },
+    {
+        "name": "Sahuagin",
+        "description": ""
+    },
+    {
+        "name": "Lizardfolk",
+        "description": ""
+    },
+    {
+        "name": "Kobold",
+        "description": ""
+    },
+    {
+        "name": "Troglodyte",
+        "description": ""
+    },
+    {
+        "name": "Naga",
+        "description": ""
+    },
+    {
+        "name": "Yuan-Ti",
+        "description": ""
+    },
+    {
+        "name": "Goblin-Chief",
+        "description": ""
+    },
+    {
+        "name": "Goblin-Shaman",
+        "description": ""
+    },
+    {
+        "name": "Orc-Chieftain",
+        "description": ""
+    },
+    {
+        "name": "Orc-Shaman",
+        "description": ""
+    },
+    {
+        "name": "Half-Orc",
+        "description": ""
+    },
+    {
+        "name": "Orog",
+        "description": ""
+    },
+    {
+        "name": "Gnoll-Packlord",
+        "description": ""
+    },
+    {
+        "name": "Cyclops-Mage",
+        "description": ""
+    },
+    {
+        "name": "Giant-King",
+        "description": ""
+    },
+    {
+        "name": "Troll-Shaman",
+        "description": ""
+    },
+    {
+        "name": "Centaur-Chief",
+        "description": ""
+    },
+    {
+        "name": "Minotaur-Priest",
+        "description": ""
+    },
+    {
+        "name": "Harpy-Matriarch",
+        "description": ""
+    },
+    {
+        "name": "Harpy-Singer",
+        "description": ""
+    },
+    {
+        "name": "Oni",
+        "description": ""
+    },
+    {
+        "name": "Kappa",
+        "description": ""
+    },
+    {
+        "name": "Tengu",
+        "description": ""
+    },
+    {
+        "name": "Boggart",
+        "description": ""
+    },
+    {
+        "name": "Gremlin",
+        "description": ""
+    },
+    {
+        "name": "Kinnara",
+        "description": ""
+    },
+    {
+        "name": "Rakshasa",
+        "description": ""
+    },
+    {
+        "name": "Lamia",
+        "description": ""
+    },
+    {
+        "name": "Medusa",
+        "description": ""
+    },
+    {
+        "name": "Gorgon",
+        "description": ""
+    },
+    {
+        "name": "Kenku",
+        "description": ""
+    },
+    {
+        "name": "Aarakocra",
+        "description": ""
+    },
+    {
+        "name": "Tabaxi",
+        "description": ""
+    },
+    {
+        "name": "Leonin",
+        "description": ""
+    },
+    {
+        "name": "Loxodon",
+        "description": ""
+    },
+    {
+        "name": "Kuo-Toa",
+        "description": ""
+    },
+    {
+        "name": "Merrow",
+        "description": ""
+    },
+    {
+        "name": "Skum",
+        "description": ""
+    },
+    {
+        "name": "Deep One",
+        "description": ""
+    },
+    {
+        "name": "Triton",
+        "description": ""
+    },
+    {
+        "name": "Myconid",
+        "description": ""
+    },
+    {
+        "name": "Vine-folk",
+        "description": ""
+    },
+    {
+        "name": "Wood-Man",
+        "description": ""
+    },
+    {
+        "name": "Blighted-Humanoid",
+        "description": ""
+    },
+    {
+        "name": "Bark-skin",
+        "description": ""
+    },
+    {
+        "name": "Yeti",
+        "description": ""
+    },
+    {
+        "name": "Sasquatch",
+        "description": ""
+    },
+    {
+        "name": "Wendigo",
+        "description": ""
+    },
+    {
+        "name": "Changeling",
+        "description": ""
+    },
+    {
+        "name": "Doppelganger",
+        "description": ""
+    },
+    {
+        "name": "Orc-Warlord",
+        "description": ""
+    },
+    {
+        "name": "Goblin-King",
+        "description": ""
+    },
+    {
+        "name": "Hobgoblin-Captain",
+        "description": ""
+    },
+    {
+        "name": "Troll-King",
+        "description": ""
+    },
+    {
+        "name": "Giant-Queen",
+        "description": ""
+    },
+    {
+        "name": "Gnoll-Flind",
+        "description": ""
+    },
+    {
+        "name": "Kobold-Trapmaster",
+        "description": ""
+    },
+    {
+        "name": "Lizardfolk-Priest",
+        "description": ""
+    },
+    {
+        "name": "Sahuagin-Baron",
+        "description": ""
+    },
+    {
+        "name": "Orc-Eye-of-Gruumsh",
+        "description": ""
+    },
+    {
+        "name": "Bugbear-Assassin",
+        "description": ""
+    },
+    {
+        "name": "Minotaur-Guardian",
+        "description": ""
+    },
+    {
+        "name": "Centaur-Scout",
+        "description": ""
+    },
+    {
+        "name": "Drow-Priestess",
+        "description": ""
+    },
+    {
+        "name": "Duergar-Slaver",
+        "description": ""
+    },
+    {
+        "name": "Yeti-Matriarch",
+        "description": ""
+    },
+    {
+        "name": "Oni-Mage",
+        "description": ""
+    },
+    {
+        "name": "Cyclops-Hulk",
+        "description": ""
+    },
+    {
+        "name": "Ettin-Brute",
+        "description": ""
+    },
+    {
+        "name": "Ogre-Glutton",
+        "description": ""
+    },
+    {
+        "name": "Jackal-fiend",
+        "description": ""
+    }
 ]
