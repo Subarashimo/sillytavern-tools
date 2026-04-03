@@ -1,4 +1,33 @@
 /* Subarashimo's Tools */
-#subarashimos-tools-settings .ct-instructions {
+#subarashimo-tools-settings .subarashimos-bindings-instructions {
     line-height: 1.45;
+}
+
+#subarashimo-tools-settings textarea.subarashimos-bindings-json {
+    max-height: 11rem;
+    min-height: 6rem;
+    resize: vertical;
+    overflow-y: auto;
+}
+
+#subarashimo-tools-settings .subarashimos-interception-help {
+    line-height: 1.45;
+    margin-bottom: 0.75em;
+}
+
+/* Chat bar interception toggle — layout matches RPG Companion (#extension-buttons-wrapper row above #send_form) */
+#extension-buttons-wrapper #subarashimos-interception-toggle.subarashimos-interception-toggle {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+    margin: 0 4px;
+    display: inline-block;
+    line-height: 1.2;
+    vertical-align: middle;
+}
+
+#extension-buttons-wrapper #subarashimos-interception-toggle.subarashimos-interception-toggle i {
+    margin-inline-end: 0.35em;
 }
