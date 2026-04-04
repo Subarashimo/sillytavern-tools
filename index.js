@@ -22,7 +22,7 @@ const EXTENSION_SETTINGS_HTML = dedent(`
                 id="subarashimos-bindings-json"
                 class="text_pole wide marginTop5 subarashimos-bindings-json"
                 rows="8"
-                placeholder='{"*":["roll_d20","random_devious_room","timeskip"]}'
+                placeholder='{"*":["roll_d20","timeskip"]}'
             ></textarea>
 
             <hr class="marginTop10" />
@@ -36,7 +36,7 @@ const EXTENSION_SETTINGS_HTML = dedent(`
                 <span>Enable message interception</span>
             </label>
             <div class="flex-container flexFlowColumn marginTop5">
-                <label for="subarashimos-message-interception-depth">Context depth (messages before your line)</label>
+                <label for="subarashimos-message-interception-depth">Context depth (messages before your message)</label>
                 <input
                     id="subarashimos-message-interception-depth"
                     class="text_pole"
@@ -64,7 +64,6 @@ const EXTENSION_SETTINGS_HTML = dedent(`
             <p class="margin0 subarashimos-judge-help marginTop5">
                 After each assistant message, runs a separate check against this character's card (description, personality, scenario, instructions) and recent chat (same style of context as message interception).
                 If the reply breaks those rules, it is regenerated with a short explanation of what went wrong. Uses one extra API call per assistant message when enabled (more if it retries).
-                Not used in group chats.
             </p>
             <label class="checkbox flex-container">
                 <input id="subarashimos-toggle-judge" type="checkbox" />

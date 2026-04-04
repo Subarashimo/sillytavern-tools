@@ -113,6 +113,9 @@ const TOOL_SPECS = [
             } else if (pick.name === 'Pool of Metamorphosis') {
                 const monsterList = await rowsFromJsonFile('monster-girl.json');
                 result.monsterGirl = monsterList[pickRandomIndex(monsterList.length)];
+            } else if (pick.name === 'The Murmuring Hall') {
+                const hypnosisList = await rowsFromJsonFile('lewd-hypnosis.json');
+                result.hypnosis = hypnosisList[pickRandomIndex(hypnosisList.length)];
             }
             return result;
         },

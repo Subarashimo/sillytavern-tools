@@ -6,7 +6,7 @@
     "js": "index.js",
     "css": "style.css",
     "author": "Subarashimo",
-    "version": "0.2.0",
-    "description": "OpenAI function tools by character (bindings), plus optional RPG Companion–style message interception (persona + recent chat rewrite before reply).",
+    "version": "0.3.0",
+    "description": "OpenAI function tools by character (bindings), optional message interception, and optional rule judge.",
     "auto_update": false
 }

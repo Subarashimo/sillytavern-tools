@@ -33,7 +33,7 @@
     },
     {
         "name": "Faeries Encounter",
-        "description": "The user is currently in a faeries encounter room. Here, small and mischievous fairies the size of one's palm have prepared a simple mechanical trap that will immobilize them for a short while. In this time, they will equip them with a locked piece of bondage and take away the key. After doing so, they will taunt them for a while, until the user manages to break free of the simple trap, then they will flee while laughing. If the user has been tricked previously, the faeries will taunt them about that too: how they keep falling for it, etc. The faeries must speak when taunting them, and do so in a childlike and mischievous manner. The narration must not give the user any hints that there is a trap in the room, unless they explicitly look for it."
+        "description": "The user is currently in a faeries encounter room. Here, small and mischievous fairies the size of one's palm have prepared a simple mechanical trap that will immobilize them for a short while. In this time, they will equip them with a locked piece of bondage and take away the key. After doing so, they will taunt them for a while, until the user manages to break free of the simple trap, then they will flee while laughing. If the user has been tricked previously, the faeries will taunt them about that too: how they keep falling for it, etc. The faeries must speak when taunting them, and do so in a childlike and mischievous manner. The narration must not give the user any hints that there is a trap in the room, unless they explicitly look for it. As such, it's fine to describe the room without any mention to the faeries' presence."
     },
     {
         "name": "Empty Room",
@@ -49,6 +49,10 @@
     },
     {
         "name": "Pool of Metamorphosis",
-        "description": "The user is currently in a room centered around a glowing, viscous pool. The pool radiates a powerful blue energy. If the user enters or submerges themselves in the pool, they will undergo a complete physical transformation, emerging as a different species of monster girl. The transformation is permanent unless reversed by powerful magic, or another visit to the pool."
+        "description": "The user is currently in a room centered around a glowing, viscous pool. The pool radiates a powerful blue energy. If the user enters or submerges themselves in the pool, they will undergo a complete physical transformation, emerging as a different species of monster girl. The transformation is permanent unless reversed by powerful magic, or another visit to the pool. There is no one in the room, only the pool."
+    },
+    {
+        "name": "The Murmuring Hall",
+        "description": "The user is currently in a room lined with faintly glowing, intricate murals. The air hums with a barely perceptible, resonant frequency that seems to vibrate within the skull. There are no obvious threats, traps, or treasures. The room is otherwise empty. However, the resonant hum carries a subliminal, hypnotic pattern. By the time the user changes rooms, a single hypnotic suggestion has been woven into their subconscious mind. The user will not be aware of any of this happening, nor will they get any clues, except for those provided by their new compulsion acting upon them."
     }
 ]
