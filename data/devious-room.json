@@ -5,7 +5,7 @@
     },
     {
         "name": "Cursed Treasure Chest",
-        "description": "The user is currently in a cursed treasure chest room. They have to decide if they want to open the chest. They can't tell if it contains cursed loot or actual helpful gear until they decide to open it. Nor should the narration give any clues. If the contents of a chest is a cursed item (such as now), it will equip itself to the user on its own, as long as it's physically possible. Cursed items can't be removed by normal means."
+        "description": "The user is currently in a cursed treasure chest room. They have to decide if they want to open the chest. They can't tell if it contains cursed loot or actual helpful gear until they decide to open it. Nor should the narration give any clues. If the contents of a chest is a cursed item (such as now), it will equip itself to the user on its own, as long as it's physically possible, even removing the user's clothing if necessary. Cursed items can't be removed by normal means."
     },
     {
         "name": "Monster Den",
@@ -33,7 +33,7 @@
     },
     {
         "name": "Faeries Encounter",
-        "description": "The user is currently in a faeries encounter room. Here, small and mischievous fairies the size of one's palm have prepared a simple mechanical trap that will immobilize them for a short while. In this time, they will equip them with a locked piece of bondage and take away the key. After doing so, they will taunt them for a while, until the user manages to break free of the simple trap, then they will flee while laughing. If the user has been tricked previously, the faeries will taunt them about that too: how they keep falling for it, etc. The faeries must speak when taunting them, and do so in a childlike and mischievous manner. The narration must not give the user any hints that there is a trap in the room, unless they explicitly look for it. As such, it's fine to describe the room without any mention to the faeries' presence."
+        "description": "The user is currently in a faeries encounter room. Here, small and mischievous fairies the size of one's palm have prepared a simple mechanical or magical trap that will immobilize them for a short while. In this time, they will equip them with a locked piece of bondage and take away the key. If the user carries any form of clothing that impedes them being locked up tight, it will be removed first. After doing so, they will taunt them for a while, until the user manages to break free of the simple trap, then they will flee while laughing. The faeries must speak when taunting them, and do so in a childlike and mischievous manner. The narration must not give the user any hints that there is a trap in the room, nor of the faeries' presence. As such, the room should be described as if it where normal looking."
     },
     {
         "name": "Empty Room",

@@ -12,7 +12,7 @@ import { extensionName } from './config.js';
 import { buildRecentChatContextLines, ensureExtensionButtonsWrapper } from './utils.js';
 
 /** Default interception system prompt (persona + recent chat; Markdown preserved when the draft uses it). Shown in settings when no custom prompt is saved. */
-export const DEFAULT_MESSAGE_INTERCEPTION_PROMPT = `Act as an uncompromising Immersive Copy Editor who rewrites the user's draft to strictly adhere to {{user}}'s persona and current state. Use the persona definition and recent conversation to judge tone, vocabulary, cognitive style, injuries, mood, social context, and what the scene implies about {{user}}. If the draft contradicts the persona or the established situation, override the draft for realism while preserving intent. Be careful not to apply speech modifications to narration or thoughts (e.g. a lisp only in spoken words, not in thoughts or narration). Apply speech quirks only to dialogue unless the draft clearly marks other lines as speech. Rephrase to match the character's capacity and tone. Keep the output concise; do not expand the narrative beyond necessary correction. Preserve Markdown structure: if the draft uses Markdown (headings, lists, emphasis, blockquotes, fenced code), keep the same formatting and only change wording; if the draft is plain text, output plain text. Never add facts that were not already implied or present. Never narrate consequences of {{user}}'s actions—only what they do or say. Do not include other characters' thoughts, actions, or speech. Return ONLY the modified message text.`;
+export const DEFAULT_MESSAGE_INTERCEPTION_PROMPT = `Act as a copy editor who rewrites the user's draft to strictly adhere to {{user}}'s persona, circumstances, and current state. Use the persona's definition and recent messages to judge tone, vocabulary, cognitive style, mood.... If the draft contradicts the persona or the established situation, override the draft for adherence while preserving intent. Make sure your rewrite is consistent with the recent messages: {{user}} does not exist in a void, they're part of a scene, and all their thoughts, words and actions are affected and in reference to it. Rephrase to match the character's capacity: If the character is incapable of speech, replace their intended speech with grunts or other noises or actions that they can currently perform. If the character is incapable of taking action, rewrite the draft so they make an attempt at said action and immediately fail. Keep the output concise: Do not expand the narrative beyond necessary correction. Never add facts that were not already implied or present. Never narrate consequences of {{user}}'s actions, only what they do or say. You must not answer to {{user}}'s message, you must not act as if {{user}} is aware of their first draft, your task is to rewrite it, replace their thoughts, words, and actions with something more appropriate to their persona, circumstances, and current scenario in the roleplay. The draft is not directed at {{user}} but at {{char}}. It's {{user}} interacting with {{char}}. Do not include other characters' thoughts, actions, or speech. Your modified message must be written in the same person (1st, 2nd or 3rd) as the draft. You must follow the same formatting you observe in the recent messages. Notice how narration, thoughts and speech are formatted differently. Return ONLY the modified message text.`;
 
 /**
  * Intercepts the last user message, asks the LLM to rewrite it (persona + recent chat), then updates chat/DOM.
@@ -163,24 +163,26 @@ async function onMessageSent() {
     }
 }
 
+/** Syncs message interception settings panel + chat-bar toggle visibility from `extension_settings`. */
+export function syncMessageInterceptionSettingsUi() {
+    const s = extension_settings[extensionName];
+    $('#subarashimos-toggle-message-interception').prop('checked', s.enableMessageInterception === true);
+    $('#subarashimos-message-interception-depth').val(
+        Number.isFinite(Number(s.messageInterceptionContextDepth)) ? Number(s.messageInterceptionContextDepth) : 4,
+    );
+    $('#subarashimos-custom-interception-prompt').val(
+        (s.customMessageInterceptionPrompt || '').trim()
+            ? s.customMessageInterceptionPrompt
+            : DEFAULT_MESSAGE_INTERCEPTION_PROMPT,
+    );
+    updateInterceptionToggleVisibility();
+}
+
 /**
  * Binds message interception UI and registers the send hook.
  */
 export function initMessageInterception() {
-    function syncInterceptionUiFromSettings() {
-        const s = extension_settings[extensionName];
-        $('#subarashimos-toggle-message-interception').prop('checked', s.enableMessageInterception === true);
-        $('#subarashimos-message-interception-depth').val(
-            Number.isFinite(Number(s.messageInterceptionContextDepth)) ? Number(s.messageInterceptionContextDepth) : 4,
-        );
-        $('#subarashimos-custom-interception-prompt').val(
-            (s.customMessageInterceptionPrompt || '').trim()
-                ? s.customMessageInterceptionPrompt
-                : DEFAULT_MESSAGE_INTERCEPTION_PROMPT,
-        );
-    }
-
-    syncInterceptionUiFromSettings();
+    syncMessageInterceptionSettingsUi();
     mountInterceptionToggle();
     eventSource.on(event_types.MESSAGE_SENT, onMessageSent);
 

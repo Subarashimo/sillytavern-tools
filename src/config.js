@@ -28,13 +28,14 @@ export const extensionFolderPath = extensionFolderPathFromImportMeta();
 export const dataUrlPath = `${extensionFolderPath}/data`;
 
 /**
- * Per-character tool bindings: keys are character card names (as shown in the UI),
- * or "*" / "__group__" — Values are arrays of tool ids from TOOL_SPECS (e.g. "roll_d20").
+ * Comma-separated tool ids from TOOL_SPECS (e.g. "roll_d20, timeskip"). Applies to all chats.
  */
 export const defaultSettings = {
-    bindings: {
-        'Devious Dungeon (ST)': ['random_devious_room', 'roll_d20', 'timeskip', 'death'],
-    },
+    enabledTools: '',
+    /** Last loaded preset: `file:Default.json` or `custom:<uuid>`. */
+    activePresetRef: 'file:Default.json',
+    /** User-created presets (not files); each `data` matches preset JSON shape. */
+    userPresets: [],
     /** LLM rewrites the outgoing user message using persona + recent chat (RPG Companion–style flow). */
     enableMessageInterception: false,
     /** When false, interception stays enabled in settings but skips the extra API call until toggled back on. */
@@ -56,9 +57,6 @@ export function loadSettings() {
     const s = extension_settings[extensionName];
     if (Object.keys(s).length === 0) {
         Object.assign(s, structuredClone(defaultSettings));
-    }
-    if (!s.bindings || typeof s.bindings !== 'object') {
-        s.bindings = {};
     }
     for (const [key, val] of Object.entries(defaultSettings)) {
         if (s[key] === undefined) {

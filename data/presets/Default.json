@@ -1,0 +1,10 @@
+{
+    "enabledTools": "",
+    "enableMessageInterception": false,
+    "messageInterceptionContextDepth": 4,
+    "customMessageInterceptionPrompt": "",
+    "enableJudge": false,
+    "judgeMaxRetries": 3,
+    "judgeContextDepth": 4,
+    "customJudgeSystemPrompt": ""
+}

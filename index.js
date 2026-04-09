@@ -2,9 +2,19 @@ import { extension_settings } from '../../../extensions.js';
 import { saveSettingsDebounced } from '../../../../script.js';
 import { extensionFolderPath, extensionName, loadSettings } from './src/config.js';
 import { dedent } from './src/dedent.js';
-import { initMessageInterception } from './src/interceptor.js';
-import { initJudge } from './src/judge.js';
+import { initMessageInterception, syncMessageInterceptionSettingsUi } from './src/interceptor.js';
+import { initJudge, syncJudgeSettingsUi } from './src/judge.js';
+import {
+    applyPresetPayloadToSettings,
+    bundledPresetLabel,
+    fetchBundledPresetFilenames,
+    fetchBundledPresetPayload,
+    parsePresetRef,
+    presetPayloadFromSettings,
+} from './src/presets.js';
 import { registerCharacterTools } from './src/tools.js';
+
+// TODO: Make lorebook entries into callable tools.
 
 const EXTENSION_SETTINGS_HTML = dedent(`
     <div class="inline-drawer">
@@ -13,17 +23,27 @@ const EXTENSION_SETTINGS_HTML = dedent(`
             <div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div>
         </div>
         <div class="inline-drawer-content">
-            <h4 class="margin0 marginTop5">Tool bindings</h4>
-            <p class="margin0 subarashimos-bindings-instructions marginTop5">
-                Each key is a character card name, <code>*</code> (any name), or <code>__group__</code> (group chat).
-                Each value is a list of tool ids.
+            <h4 class="margin0 marginTop5">Presets</h4>
+            <div class="flex-container flexFlowColumn marginTop5">
+                <div class="flex-container flexFlowRow marginTop5" style="flex-wrap: wrap; align-items: center; gap: 8px;">
+                    <select id="subarashimos-preset-select" class="text_pole" style="flex: 1; min-width: 12rem;"></select>
+                    <div id="subarashimos-save-user-preset" class="menu_button">Save</div>
+                    <div id="subarashimos-delete-preset" class="menu_button" title="Built-in presets cannot be deleted">Delete</div>
+                </div>
+            </div>
+
+            <hr class="marginTop10" />
+            <h4 class="margin0 marginTop5">Enabled tools</h4>
+            <p class="margin0 marginTop5">
+                Comma-separated tool ids for this session (all chats). Example: <code>roll_d20, timeskip</code>
             </p>
-            <textarea
-                id="subarashimos-bindings-json"
-                class="text_pole wide marginTop5 subarashimos-bindings-json"
-                rows="8"
-                placeholder='{"*":["roll_d20","timeskip"]}'
-            ></textarea>
+            <input
+                id="subarashimos-enabled-tools"
+                class="text_pole wide marginTop5"
+                type="text"
+                autocomplete="off"
+                placeholder="(none)"
+            />
 
             <hr class="marginTop10" />
             <h4 class="margin0 marginTop5">Message interception</h4>
@@ -119,43 +139,163 @@ jQuery(async () => {
 
     $('#extensions_settings2').append(settingsHtml);
 
-    const $json = $('#subarashimos-bindings-json');
+    const $presetSelect = $('#subarashimos-preset-select');
+    const $enabledTools = $('#subarashimos-enabled-tools');
+    let presetSelectBusy = false;
 
-    function syncUiFromSettings() {
-        const s = extension_settings[extensionName];
-        try {
-            $json.val(JSON.stringify(s.bindings || {}, null, 2));
-        } catch {
-            $json.val('{}');
-        }
+    function syncEnabledToolsFromSettings() {
+        $enabledTools.val(extension_settings[extensionName].enabledTools || '');
     }
 
-    syncUiFromSettings();
+    function updateDeletePresetButton() {
+        const ref = parsePresetRef(String($presetSelect.val() || ''));
+        const $btn = $('#subarashimos-delete-preset');
+        const canDelete = ref?.kind === 'custom';
+        $btn.prop('disabled', !canDelete);
+        $btn.attr('title', canDelete ? 'Delete this preset permanently' : 'Built-in presets cannot be deleted');
+    }
+
+    async function rebuildPresetDropdown() {
+        presetSelectBusy = true;
+        const s = extension_settings[extensionName];
+        let bundled = [];
+        try {
+            bundled = await fetchBundledPresetFilenames();
+        } catch {
+            bundled = ['Default.json', 'Devious Dungeon (ST).json'];
+        }
+        $presetSelect.empty();
+        for (const f of bundled) {
+            $presetSelect.append(
+                $('<option></option>').attr('value', `file:${f}`).text(bundledPresetLabel(f)),
+            );
+        }
+        for (const p of s.userPresets || []) {
+            $presetSelect.append($('<option></option>').attr('value', `custom:${p.id}`).text(p.name));
+        }
+
+        const ref = s.activePresetRef;
+        const hasRef = $presetSelect.find('option').filter(function () {
+            return this.value === ref;
+        }).length > 0;
+        if (hasRef) {
+            $presetSelect.val(ref);
+        } else if (bundled.length > 0) {
+            const fallback = `file:${bundled[0]}`;
+            s.activePresetRef = fallback;
+            saveSettingsDebounced();
+            $presetSelect.val(fallback);
+        }
+        presetSelectBusy = false;
+        updateDeletePresetButton();
+    }
+
+    async function loadPresetByRef(ref) {
+        const parsed = parsePresetRef(ref);
+        if (!parsed) {
+            throw new Error('Invalid preset selection.');
+        }
+        let payload;
+        if (parsed.kind === 'file') {
+            payload = await fetchBundledPresetPayload(parsed.fileName);
+        } else {
+            const p = (extension_settings[extensionName].userPresets || []).find((x) => x.id === parsed.id);
+            if (!p) {
+                await rebuildPresetDropdown();
+                throw new Error('That preset no longer exists.');
+            }
+            payload = p.data;
+        }
+        applyPresetPayloadToSettings(extension_settings[extensionName], payload);
+        extension_settings[extensionName].activePresetRef = ref;
+        saveSettingsDebounced();
+        syncEnabledToolsFromSettings();
+        syncMessageInterceptionSettingsUi();
+        syncJudgeSettingsUi();
+        updateDeletePresetButton();
+    }
+
     initMessageInterception();
     initJudge();
 
-    function applyJson() {
-        const raw = String($json.val() || '').trim();
-        if (!raw) {
-            extension_settings[extensionName].bindings = {};
-            saveSettingsDebounced();
+    $enabledTools.on('blur', function () {
+        extension_settings[extensionName].enabledTools = String($(this).val() || '').trim();
+        saveSettingsDebounced();
+    });
+
+    await rebuildPresetDropdown();
+    syncEnabledToolsFromSettings();
+
+    $presetSelect.on('change', async function () {
+        if (presetSelectBusy) {
             return;
         }
+        const ref = String($(this).val() || '');
         try {
-            const parsed = JSON.parse(raw);
-            if (typeof parsed !== 'object' || parsed === null || Array.isArray(parsed)) {
-                throw new Error('Must be a JSON object.');
-            }
-            extension_settings[extensionName].bindings = parsed;
-            saveSettingsDebounced();
-            $json.css('border-color', '');
+            await loadPresetByRef(ref);
+            toastr.success('Preset loaded.', "Subarashimo's Tools");
         } catch (e) {
-            $json.css('border-color', 'var(--SmartThemeQuoteColor)');
-            toastr.error(`Invalid JSON: ${e.message}`, "Subarashimo's Tools");
+            console.error("[Subarashimo's Tools] Preset load failed:", e);
+            toastr.error(String(e?.message || e), "Subarashimo's Tools");
         }
-    }
+    });
 
-    $json.on('blur', applyJson);
+    $('#subarashimos-save-user-preset').on('click', () => {
+        const name = prompt('Name for this preset?', '');
+        if (name === null) {
+            return;
+        }
+        const trimmed = name.trim();
+        if (!trimmed) {
+            toastr.warning('Enter a name for the preset.', "Subarashimo's Tools");
+            return;
+        }
+        const s = extension_settings[extensionName];
+        const data = presetPayloadFromSettings(s);
+        const id = crypto.randomUUID();
+        s.userPresets.push({ id, name: trimmed, data });
+        s.activePresetRef = `custom:${id}`;
+        saveSettingsDebounced();
+        void rebuildPresetDropdown().then(() => {
+            $presetSelect.val(s.activePresetRef);
+            updateDeletePresetButton();
+        });
+        toastr.success('Preset saved.', "Subarashimo's Tools");
+    });
 
-    console.log(`[Subarashimo's Tools] loaded; tools registered (filtered by character). Path: ${extensionFolderPath}`);
+    $('#subarashimos-delete-preset').on('click', async () => {
+        const ref = parsePresetRef(String($presetSelect.val() || ''));
+        if (!ref || ref.kind !== 'custom') {
+            toastr.info('Only presets you created can be deleted. Built-in presets are part of the extension.', "Subarashimo's Tools");
+            return;
+        }
+        const presetLabel = String($presetSelect.find('option:selected').text() || '').trim() || 'this preset';
+        if (
+            !confirm(
+                `Delete preset "${presetLabel}"?\n\nThis cannot be undone. Your other settings will switch to the default preset.`,
+            )
+        ) {
+            return;
+        }
+        const s = extension_settings[extensionName];
+        s.userPresets = (s.userPresets || []).filter((p) => p.id !== ref.id);
+        s.activePresetRef = 'file:Default.json';
+        saveSettingsDebounced();
+        try {
+            const payload = await fetchBundledPresetPayload('Default.json');
+            applyPresetPayloadToSettings(s, payload);
+            saveSettingsDebounced();
+        } catch (e) {
+            console.error("[Subarashimo's Tools] Failed to load Default.json:", e);
+        }
+        syncEnabledToolsFromSettings();
+        syncMessageInterceptionSettingsUi();
+        syncJudgeSettingsUi();
+        await rebuildPresetDropdown();
+        $presetSelect.val(s.activePresetRef);
+        updateDeletePresetButton();
+        toastr.success('Preset removed; defaults applied.', "Subarashimo's Tools");
+    });
+
+    console.log(`[Subarashimo's Tools] loaded; tools registered. Path: ${extensionFolderPath}`);
 });

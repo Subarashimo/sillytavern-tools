@@ -16,7 +16,7 @@ import { extensionName } from './config.js';
 import { buildRecentChatContextLines, ensureExtensionButtonsWrapper, tryParseJsonLenient } from './utils.js';
 
 /** Default judge system prompt (macros like {{char}} are expanded). Character rules are sent in a following system message. */
-export const DEFAULT_JUDGE_SYSTEM_PROMPT = `You are an impartial compliance judge for {{char}}'s latest assistant reply in this chat. Use "{{char}}'s rules", the recent conversation, and the message under review. Decide whether that reply follows the rules. Respond with a JSON object only (no markdown fences), using this exact shape: {"compliant":true} if the reply is acceptable, or {"compliant":false,"violations":"short explanation of what broke the rules and how to fix it"} if it is not. Be very strict about function calls and tool usage. If {{char}} did not call a tool when it should have, the message is not compliant. If {{char}} did not give a turn to the user when it should have, or is stuck in a loop, the message is not compliant.`;
+export const DEFAULT_JUDGE_SYSTEM_PROMPT = `You are an impartial compliance judge for {{char}}'s latest assistant reply in this chat. Use "{{char}}'s rules", the recent conversation, and the message under review. Decide whether that reply follows the rules. Respond with a JSON object only (no markdown fences), using this exact shape: {"compliant":true} if the reply is acceptable, or {"compliant":false,"violations":"short explanation of what broke the rules and how to fix it"} if it is not. Be very strict about function calls and tool usage. If {{char}} did not call a tool when it should have, the message is not compliant. Do note that function calls may be called "tool calls" instead, and may be performed by the system rather than {{char}}, these are still compliant. If {{char}} did not give a turn to the user when it should have, or is stuck in a loop, the message is not compliant.`;
 
 const JUDGE_JSON_SCHEMA = {
     type: 'object',
@@ -286,25 +286,27 @@ function mountJudgeToggle() {
     updateJudgeToggleVisibility();
 }
 
+/** Syncs judge settings panel + chat-bar toggle visibility from `extension_settings`. */
+export function syncJudgeSettingsUi() {
+    const s = extension_settings[extensionName];
+    $('#subarashimos-toggle-judge').prop('checked', s.enableJudge === true);
+    $('#subarashimos-judge-max-retries').val(
+        Number.isFinite(Number(s.judgeMaxRetries)) ? Number(s.judgeMaxRetries) : 3,
+    );
+    $('#subarashimos-judge-context-depth').val(
+        Number.isFinite(Number(s.judgeContextDepth)) ? Number(s.judgeContextDepth) : 4,
+    );
+    $('#subarashimos-custom-judge-prompt').val(
+        (s.customJudgeSystemPrompt || '').trim() ? s.customJudgeSystemPrompt : DEFAULT_JUDGE_SYSTEM_PROMPT,
+    );
+    updateJudgeToggleVisibility();
+}
+
 /**
  * Settings UI + MESSAGE_RECEIVED hook for the judge.
  */
 export function initJudge() {
-    function syncJudgeUiFromSettings() {
-        const s = extension_settings[extensionName];
-        $('#subarashimos-toggle-judge').prop('checked', s.enableJudge === true);
-        $('#subarashimos-judge-max-retries').val(
-            Number.isFinite(Number(s.judgeMaxRetries)) ? Number(s.judgeMaxRetries) : 3,
-        );
-        $('#subarashimos-judge-context-depth').val(
-            Number.isFinite(Number(s.judgeContextDepth)) ? Number(s.judgeContextDepth) : 4,
-        );
-        $('#subarashimos-custom-judge-prompt').val(
-            (s.customJudgeSystemPrompt || '').trim() ? s.customJudgeSystemPrompt : DEFAULT_JUDGE_SYSTEM_PROMPT,
-        );
-    }
-
-    syncJudgeUiFromSettings();
+    syncJudgeSettingsUi();
     mountJudgeToggle();
 
     eventSource.on(event_types.MESSAGE_RECEIVED, (messageId, type) => {

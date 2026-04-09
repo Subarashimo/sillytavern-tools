@@ -1,14 +1,7 @@
 import { extension_settings } from '../../../../extensions.js';
 import { ToolManager } from '../../../../tool-calling.js';
 import { extensionName } from './config.js';
-import {
-    getBindingKey,
-    pickRandomIndex,
-    pickRandomItem,
-    randomIntInclusive,
-    resolveToolIdsForCharacter,
-    rowsFromJsonFile,
-} from './utils.js';
+import { pickRandomIndex, pickRandomItem, parseEnabledToolIds, randomIntInclusive, rowsFromJsonFile } from './utils.js';
 
 const MONSTER_FILES = [
     'monster-aberration.json',
@@ -24,7 +17,7 @@ const MONSTER_FILES = [
 ];
 
 /**
- * Add your own tools here: same id as in `bindings`, OpenAI-safe function `name`, and handler.
+ * Add your own tools here: same id as in the enabled-tools list / presets, OpenAI-safe function `name`, and handler.
  * Function names must match /^[a-zA-Z0-9_-]+$/.
  */
 const TOOL_SPECS = [
@@ -175,8 +168,7 @@ export function registerCharacterTools() {
                     return false;
                 }
                 const settings = extension_settings[extensionName];
-                const key = getBindingKey();
-                const ids = resolveToolIdsForCharacter(settings?.bindings || {}, key);
+                const ids = parseEnabledToolIds(settings?.enabledTools);
                 return ids.includes(spec.id);
             },
         });

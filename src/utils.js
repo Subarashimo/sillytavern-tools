@@ -1,6 +1,5 @@
 /** Shared helpers for Subarashimo's Tools. */
 
-import { getContext } from '../../../../extensions.js';
 import { dataUrlPath } from './config.js';
 
 /**
@@ -98,45 +97,15 @@ export function pickRandomItem(arr) {
 }
 
 /**
- * @returns {string|null} Character card name for binding, or "__group__" in group chat, or null.
- */
-export function getBindingKey() {
-    const ctx = getContext();
-    if (ctx.groupId) {
-        return '__group__';
-    }
-    const id = ctx.characterId;
-    if (id === undefined || id === null) {
-        return null;
-    }
-    const ch = ctx.characters[Number(id)];
-    const name = ch?.name?.trim();
-    return name || null;
-}
-
-/**
- * @param {Record<string, string[]>} bindings
- * @param {string|null} key
+ * Parses comma-separated tool ids (whitespace trimmed; empty entries ignored).
+ * @param {string} csv
  * @returns {string[]}
  */
-export function resolveToolIdsForCharacter(bindings, key) {
-    if (!bindings || typeof bindings !== 'object') {
-        return [];
-    }
-    if (key && Array.isArray(bindings[key])) {
-        return bindings[key];
-    }
-    if (key) {
-        const lower = key.toLowerCase();
-        const found = Object.keys(bindings).find((k) => k !== '*' && k !== '__group__' && k.toLowerCase() === lower);
-        if (found && Array.isArray(bindings[found])) {
-            return bindings[found];
-        }
-    }
-    if (Array.isArray(bindings['*'])) {
-        return bindings['*'];
-    }
-    return [];
+export function parseEnabledToolIds(csv) {
+    return String(csv || '')
+        .split(',')
+        .map((x) => x.trim())
+        .filter(Boolean);
 }
 
 /** @type {Map<string, unknown>} */
