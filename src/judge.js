@@ -11,12 +11,20 @@ import {
     main_api,
     setSendButtonState,
     isGenerating,
+    extension_prompt_types,
+    extension_prompt_roles,
+    setExtensionPrompt,
 } from '../../../../../script.js';
 import { extensionName } from './config.js';
-import { buildRecentChatContextLines, ensureExtensionButtonsWrapper, tryParseJsonLenient } from './utils.js';
+import {
+    buildRecentChatContextLines,
+    ensureExtensionButtonsWrapper,
+    tryParseJsonLenient,
+    withExtensionPromptFirstApiHopOnly,
+} from './utils.js';
 
 /** Default judge system prompt (macros like {{char}} are expanded). Character rules are sent in a following system message. */
-export const DEFAULT_JUDGE_SYSTEM_PROMPT = `You are an impartial compliance judge for {{char}}'s latest assistant reply in this chat. Use "{{char}}'s rules", the recent conversation, and the message under review. Decide whether that reply follows the rules. Respond with a JSON object only (no markdown fences), using this exact shape: {"compliant":true} if the reply is acceptable, or {"compliant":false,"violations":"short explanation of what broke the rules and how to fix it"} if it is not. Be very strict about function calls and tool usage. If {{char}} did not call a tool when it should have, the message is not compliant. Do note that function calls may be called "tool calls" instead, and may be performed by the system rather than {{char}}, these are still compliant. If {{char}} did not give a turn to the user when it should have, or is stuck in a loop, the message is not compliant.`;
+export const DEFAULT_JUDGE_SYSTEM_PROMPT = `You are an impartial compliance judge for {{char}}'s latest assistant reply in this chat. Use "{{char}}'s rules", the recent conversation, and the message under review. Decide whether that reply follows the rules. Respond with a JSON object only (no markdown fences), using this exact shape: {"compliant":true} if the reply is acceptable, or {"compliant":false,"violations":"short explanation of what broke the rules and how to fix it"} if it is not. Be very strict about function calls and tool usage. If {{char}} did not call a tool when it should have, the message is not compliant. Do note that function calls may be called "tool calls" instead, and may be performed by the system rather than {{char}}, these are still compliant.`;
 
 const JUDGE_JSON_SCHEMA = {
     type: 'object',
@@ -31,6 +39,9 @@ const JUDGE_JSON_SCHEMA = {
     required: ['compliant'],
     additionalProperties: false,
 };
+
+/** Injected for judge-triggered regen only; cleared after the first `GENERATE_AFTER_DATA` so tool continuations do not repeat it. */
+const JUDGE_REGEN_PROMPT_KEY = 'SubarashimosTools_JudgeRegen';
 
 let judgeBusy = false;
 let judgeRetryChain = 0;
@@ -109,7 +120,7 @@ function shouldSkipGenerationType(type) {
  * @param {number} messageId
  * @param {string} type
  */
-async function onAssistantMessageReceived(messageId, type) {
+export async function handleJudge(messageId, type) {
     const settings = extension_settings[extensionName];
     if (!settings.enableJudge || settings.judgeActive === false) {
         return;
@@ -167,6 +178,7 @@ async function onAssistantMessageReceived(messageId, type) {
     const maxRetries = Math.max(0, Number(settings.judgeMaxRetries) || 3);
 
     judgeBusy = true;
+    setSendButtonState(true);
     try {
         const chatHistory = ctx.chat || chat;
         const depth = Number(settings.judgeContextDepth) || 4;
@@ -194,14 +206,30 @@ async function onAssistantMessageReceived(messageId, type) {
             `The previous reply was rejected by the judge for not following {{char}}'s rules.\n\nWhat was wrong:\n${violations || 'Unspecified rule violations.'}\n\nWrite a new reply that fully complies with the character rules and fixes these problems. Stay consistent with the chat so far. Do not acknowledge this message, simply do as you're told and continue the story.`,
         );
 
-        // Same as the Regenerate menu action: Generate expects this flag for certain UI paths.
-        setSendButtonState(true);
-        await Generate('regenerate', { quiet_prompt: retryInstruction, quietToLoud: true });
+        /**
+         * Do not use `quiet_prompt`: ST threads it into nested `Generate('normal', { quiet_prompt, ... })`. Use an extension
+         * prompt and remove it on the first `GENERATE_AFTER_DATA` (first `generate_data` already includes the text; tool
+         * follow-ups rebuild without it).
+         */
+        await withExtensionPromptFirstApiHopOnly(
+            JUDGE_REGEN_PROMPT_KEY,
+            () =>
+                setExtensionPrompt(
+                    JUDGE_REGEN_PROMPT_KEY,
+                    retryInstruction,
+                    extension_prompt_types.IN_PROMPT,
+                    0,
+                    false,
+                    extension_prompt_roles.SYSTEM,
+                ),
+            () => Generate('regenerate', {}),
+        );
     } catch (error) {
         console.error("[Subarashimo's Tools] Judge failed:", error);
         toastr.error(String(error?.message || error), "Subarashimo's Tools");
     } finally {
         judgeBusy = false;
+        setSendButtonState(false);
     }
 }
 
@@ -308,10 +336,6 @@ export function syncJudgeSettingsUi() {
 export function initJudge() {
     syncJudgeSettingsUi();
     mountJudgeToggle();
-
-    eventSource.on(event_types.MESSAGE_RECEIVED, (messageId, type) => {
-        void onAssistantMessageReceived(Number(messageId), String(type));
-    });
 
     eventSource.on(event_types.GENERATION_STOPPED, () => {
         if (!judgeBusy) {

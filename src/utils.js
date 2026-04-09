@@ -1,6 +1,59 @@
 /** Shared helpers for Subarashimo's Tools. */
 
 import { dataUrlPath } from './config.js';
+import { eventSource, event_types, extension_prompts } from '../../../../../script.js';
+
+/**
+ * @typedef {{ mes?: string, is_user?: boolean, is_system?: boolean, extra?: { tool_invocations?: unknown } }} ChatLikeMessage
+ */
+
+/**
+ * Normalizes message text for duplicate comparison (same idea as `buildRecentChatContextLines`).
+ * @param {string} [text]
+ * @returns {string}
+ */
+export function normalizeMessageTextForComparison(text) {
+    return String(text || '')
+        .replace(/\s+/g, ' ')
+        .trim();
+}
+
+/**
+ * Index of the prior assistant content message before `beforeIndex` (skips user, system/tool bubbles).
+ * @param {ChatLikeMessage[]} chatHistory
+ * @param {number} beforeIndex
+ * @returns {number} index or -1
+ */
+/**
+ * Index of the most recent user message, or -1.
+ * @param {ChatLikeMessage[]} chatHistory
+ * @returns {number}
+ */
+export function findLastUserMessageIndex(chatHistory) {
+    for (let i = chatHistory.length - 1; i >= 0; i--) {
+        if (chatHistory[i]?.is_user) {
+            return i;
+        }
+    }
+    return -1;
+}
+
+export function findPreviousAssistantMessageIndex(chatHistory, beforeIndex) {
+    for (let i = beforeIndex - 1; i >= 0; i--) {
+        const m = chatHistory[i];
+        if (!m || m.is_user) {
+            continue;
+        }
+        if (m.is_system) {
+            continue;
+        }
+        if (m.extra?.tool_invocations) {
+            continue;
+        }
+        return i;
+    }
+    return -1;
+}
 
 /**
  * Ensures the shared row above the chat input exists (RPG Companion–style; used by interception / judge toggles).
@@ -170,4 +223,35 @@ export async function rowsFromJsonFile(fileName, options = {}) {
         out.push({ name: nameStr, description: descStr });
     }
     return out;
+}
+
+/**
+ * Injects an extension prompt for the first API hop only: SillyTavern emits `GENERATE_AFTER_DATA` after the first
+ * `generate_data` is built (prompt already includes this inject), then nested `Generate` (e.g. tool continuations)
+ * rebuild prompts without it. If generation ends before that event, the key is removed in `finally`.
+ *
+ * @param {string} key
+ * @param {() => void} setup Call `setExtensionPrompt(key, ...)` here.
+ * @param {() => Promise<unknown>} runGenerate e.g. `() => Generate('regenerate', {})`
+ */
+export async function withExtensionPromptFirstApiHopOnly(key, setup, runGenerate) {
+    setup();
+    let cleared = false;
+    const onAfterData = () => {
+        if (cleared) {
+            return;
+        }
+        cleared = true;
+        delete extension_prompts[key];
+        eventSource.removeListener(event_types.GENERATE_AFTER_DATA, onAfterData);
+    };
+    eventSource.on(event_types.GENERATE_AFTER_DATA, onAfterData);
+    try {
+        await runGenerate();
+    } finally {
+        eventSource.removeListener(event_types.GENERATE_AFTER_DATA, onAfterData);
+        if (!cleared) {
+            delete extension_prompts[key];
+        }
+    }
 }

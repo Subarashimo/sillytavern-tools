@@ -50,6 +50,12 @@ export const defaultSettings = {
     /** Messages before the assistant line the judge evaluates (same idea as message interception depth). */
     judgeContextDepth: 4,
     customJudgeSystemPrompt: '',
+    /** Before each main generation, an extra model call proposes a short scene-direction hint injected into the prompt. */
+    enableDirector: false,
+    /** When false, director stays enabled in settings but skips the extra API call until toggled back on (chat bar button). */
+    directorActive: true,
+    directorContextDepth: 4,
+    customDirectorSystemPrompt: '',
 };
 
 export function loadSettings() {
@@ -62,5 +68,13 @@ export function loadSettings() {
         if (s[key] === undefined) {
             s[key] = typeof val === 'object' && val !== null && !Array.isArray(val) ? structuredClone(val) : val;
         }
+    }
+    for (const key of [
+        'enableLoopDetector',
+        'loopDetectorActive',
+        'loopDetectorMaxRetries',
+        'enableLoopDetectorDuplicateToolCalls',
+    ]) {
+        delete s[key];
     }
 }

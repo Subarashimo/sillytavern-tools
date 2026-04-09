@@ -6,5 +6,8 @@
     "enableJudge": false,
     "judgeMaxRetries": 3,
     "judgeContextDepth": 4,
-    "customJudgeSystemPrompt": ""
+    "customJudgeSystemPrompt": "",
+    "enableDirector": false,
+    "directorContextDepth": 4,
+    "customDirectorSystemPrompt": ""
 }

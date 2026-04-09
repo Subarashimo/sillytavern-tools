@@ -12,6 +12,9 @@ export const PRESET_FIELD_KEYS = [
     'judgeMaxRetries',
     'judgeContextDepth',
     'customJudgeSystemPrompt',
+    'enableDirector',
+    'directorContextDepth',
+    'customDirectorSystemPrompt',
 ];
 
 /**

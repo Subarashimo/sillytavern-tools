@@ -1,9 +1,10 @@
 import { extension_settings } from '../../../extensions.js';
-import { saveSettingsDebounced } from '../../../../script.js';
+import { eventSource, event_types, saveSettingsDebounced } from '../../../../script.js';
 import { extensionFolderPath, extensionName, loadSettings } from './src/config.js';
 import { dedent } from './src/dedent.js';
 import { initMessageInterception, syncMessageInterceptionSettingsUi } from './src/interceptor.js';
-import { initJudge, syncJudgeSettingsUi } from './src/judge.js';
+import { handleJudge, initJudge, syncJudgeSettingsUi } from './src/judge.js';
+import { initDirector, syncDirectorSettingsUi } from './src/director.js';
 import {
     applyPresetPayloadToSettings,
     bundledPresetLabel,
@@ -67,7 +68,7 @@ const EXTENSION_SETTINGS_HTML = dedent(`
                 />
             </div>
             <div class="flex-container flexFlowColumn marginTop5">
-                <label for="subarashimos-custom-interception-prompt">Custom system prompt</label>
+                <label for="subarashimos-custom-interception-prompt">Interceptor system prompt</label>
                 <textarea
                     id="subarashimos-custom-interception-prompt"
                     class="text_pole wide"
@@ -122,6 +123,43 @@ const EXTENSION_SETTINGS_HTML = dedent(`
             </div>
             <div class="flex-container marginTop5">
                 <div id="subarashimos-restore-judge-prompt" class="menu_button">Restore default judge prompt</div>
+            </div>
+
+            <hr class="marginTop10" />
+            <h4 class="margin0 marginTop5">Director (pre-generation scene hint)</h4>
+            <p class="margin0 subarashimos-director-help marginTop5">
+                Before the main assistant reply, runs a separate call with this character&apos;s card and recent chat (same style
+                of context as the judge). If message interception is enabled, the director runs only after your outgoing line
+                has been rewritten. For regenerate/continue/swipe (no new user send), it runs at generation start instead. Uses
+                one extra API call per generation when enabled. Skipped for automatic follow-up generations (e.g. tool
+                continuation).
+            </p>
+            <label class="checkbox flex-container">
+                <input id="subarashimos-toggle-director" type="checkbox" />
+                <span>Enable director</span>
+            </label>
+            <div class="flex-container flexFlowColumn marginTop5">
+                <label for="subarashimos-director-context-depth">Context depth (messages included for the director)</label>
+                <input
+                    id="subarashimos-director-context-depth"
+                    class="text_pole"
+                    type="number"
+                    min="0"
+                    max="99"
+                    step="1"
+                />
+            </div>
+            <div class="flex-container flexFlowColumn marginTop5">
+                <label for="subarashimos-custom-director-prompt">Director system prompt</label>
+                <textarea
+                    id="subarashimos-custom-director-prompt"
+                    class="text_pole wide"
+                    rows="8"
+                    placeholder="Edit to override the built-in default."
+                ></textarea>
+            </div>
+            <div class="flex-container marginTop5">
+                <div id="subarashimos-restore-director-prompt" class="menu_button">Restore default director prompt</div>
             </div>
         </div>
     </div>
@@ -212,11 +250,17 @@ jQuery(async () => {
         syncEnabledToolsFromSettings();
         syncMessageInterceptionSettingsUi();
         syncJudgeSettingsUi();
+        syncDirectorSettingsUi();
         updateDeletePresetButton();
     }
 
     initMessageInterception();
     initJudge();
+    initDirector();
+
+    eventSource.on(event_types.MESSAGE_RECEIVED, (messageId, type) => {
+        void handleJudge(Number(messageId), String(type));
+    });
 
     $enabledTools.on('blur', function () {
         extension_settings[extensionName].enabledTools = String($(this).val() || '').trim();
@@ -291,6 +335,7 @@ jQuery(async () => {
         syncEnabledToolsFromSettings();
         syncMessageInterceptionSettingsUi();
         syncJudgeSettingsUi();
+        syncDirectorSettingsUi();
         await rebuildPresetDropdown();
         $presetSelect.val(s.activePresetRef);
         updateDeletePresetButton();
