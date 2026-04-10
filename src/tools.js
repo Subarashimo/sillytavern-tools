@@ -1,7 +1,14 @@
 import { extension_settings } from '../../../../extensions.js';
 import { ToolManager } from '../../../../tool-calling.js';
 import { extensionName } from './config.js';
-import { pickRandomIndex, pickRandomItem, parseEnabledToolIds, randomIntInclusive, rowsFromJsonFile } from './utils.js';
+import {
+    pickRandomIndex,
+    pickRandomItem,
+    parseEnabledToolIds,
+    randomIntInclusive,
+    randomColor,
+    rowsFromJsonFile,
+} from './utils.js';
 
 const MONSTER_FILES = [
     'monster-aberration.json',
@@ -33,6 +40,107 @@ const TOOL_SPECS = [
             additionalProperties: false,
         },
         handler: async () => randomIntInclusive(1, 20),
+    },
+    {
+        id: 'random_slave',
+        name: 'random_slave',
+        displayName: 'Random Slave',
+        description: 'Generate a randomized female slave. Returns JSON with all fields. Optional setting chooses pool: real (default), fantasy, or puppy.',
+        parameters: {
+            $schema: 'http://json-schema.org/draft-04/schema#',
+            type: 'object',
+            properties: {
+                setting: {
+                    type: 'string',
+                    enum: ['fantasy', 'real', 'puppy'],
+                    description: 'Which pool to use: real, fantasy, or puppy.',
+                },
+            },
+            additionalProperties: false,
+        },
+        handler: async (params) => {
+            const setting = params?.setting ?? 'real';
+            const nameList = await rowsFromJsonFile(
+                setting === 'fantasy'
+                ? 'fantasy-name.json'
+                : setting === 'real'
+                ? 'real-name.json'
+                : 'puppy-name.json',
+            );
+            const surnameList = setting === 'real'
+                ? await rowsFromJsonFile('real-surname.json') : [];
+
+            const careerList = await rowsFromJsonFile('real-career.json');
+            const sexualFlawList = await rowsFromJsonFile('sexual-flaw.json');
+            const sexualParaphiliaList = await rowsFromJsonFile('sexual-paraphilia.json');
+            const sexualQuirkList = await rowsFromJsonFile('sexual-quirk.json');
+            const behaviouralFlawList = await rowsFromJsonFile('behavioural-flaw.json');
+            const behaviouralQuirkList = await rowsFromJsonFile('behavioural-quirk.json');
+            const pregnancyList = await rowsFromJsonFile('lewd-pregnancy.json');
+            const tattooList = await rowsFromJsonFile('lewd-tattoo.json');
+            const bondageList = await rowsFromJsonFile('bondage.json');
+
+            const name = pickRandomItem(nameList);
+            const surname = pickRandomItem(surnameList);
+            const career = pickRandomItem(careerList);
+
+            const noItem = {name: "", description: ""}
+            const sexualFlaw = pickRandomItem(sexualFlawList, noItem, 0.5);
+            const sexualParaphilia = pickRandomItem(sexualParaphiliaList, noItem, 0.5);
+            const sexualQuirk = pickRandomItem(sexualQuirkList, noItem, 0.5);
+            const behaviouralFlaw = pickRandomItem(behaviouralFlawList, noItem, 0.5);
+            const behaviouralQuirk = pickRandomItem(behaviouralQuirkList, noItem, 0.5);
+            const pregnancy = pickRandomItem(pregnancyList, noItem, 0.5);
+            const tattoo = pickRandomItem(tattooList, noItem, 0.5);
+            const bondage = pickRandomItem(bondageList, noItem, 0.5);
+
+            const race = pickRandomItem(['Caucasian', 'South African', 'East Asian', 'South Asian', 'Southeast Asian', 'Native American', 'Middle Eastern', 'North African', 'Aboriginal Australian', 'Polynesian', 'Melanesian'], 'Mixed', 0.5)
+            const frame = pickRandomItem(['Lithe', 'Chubby', 'Overweight', 'Muscular'], 'Normal', 0.5)
+            const height = pickRandomItem(['Petite', 'Short', 'Tall', 'Very tall'], 'Average', 0.5)
+
+            const breastShape = pickRandomItem(['Perky', 'Saggy', 'Torpedo-shaped', 'Downward-facing', 'Wide-set', 'Spherical'], 'Normal', 0.5)
+            const breastSize = pickRandomItem(['Flat (AA-cup)', 'Small (A-cup)', 'Healthy (C-cup)', 'Large (DD-cup)', 'Very Large (G-cup)', 'Huge (K-cup)', 'Massive (Q-cup)'], 'Medium (B-cup)', 0.5)
+            const nippleSize = pickRandomItem(['Huge', 'Puffy', 'Inverted', 'Partially Inverted', 'Tiny', 'Cute'], 'Normal', 0.5)
+
+            const lips = pickRandomItem(['Thin', 'Pretty', 'Large', 'Enormous'], 'Normal', 0.5)
+            const vagina = pickRandomItem(['Virgin', 'Veteran', 'Gaping', 'Ruined'], 'Normal', 0.5)
+            const anus = pickRandomItem(['Virgin', 'Veteran', 'Gaping', 'Ruined'], 'Normal', 0.5)
+
+            const prestige = pickRandomItem(['Some', 'Recognized', 'Famous', 'World Renowned'], 'Unknown', 0.5)
+            const intellect = pickRandomItem(['Retarded', 'Very Slow', 'Slow', 'Intelligent', 'Highly Intelligent', 'Brilliant'], 'Average', 0.5)
+            const devotion = pickRandomItem(['Hate Filled', 'Hateful', 'Reluctant', 'Careful', 'Accepting', 'Devoted', 'Worshipful'], 'Reluctant', 0.5)
+            const trust = pickRandomItem(['Abjectly Terrified', 'Terrified', 'Frightened', 'Fearful', 'Careful', 'Trusting', 'Profoundly Trusting'], 'Frightened', 0.5)
+
+            return {
+                name: name?.name ?? '',
+                surname: surname?.name ?? '',
+                age: randomIntInclusive(18, 45),
+                eyeColor: randomColor(),
+                hairColor: randomColor(),
+                career: career,
+                sexualFlaw: sexualFlaw,
+                sexualParaphilia: sexualParaphilia,
+                sexualQuirk: sexualQuirk,
+                behaviouralFlaw: behaviouralFlaw,
+                behaviouralQuirk: behaviouralQuirk,
+                belly: pregnancy,
+                tattoo: tattoo,
+                bondage: bondage,
+                race: race,
+                frame: frame,
+                height: height,
+                breastSize: breastSize,
+                breastShape: breastShape,
+                nippleSize: nippleSize,
+                lips: lips,
+                vagina: vagina,
+                anus: anus,
+                prestige: prestige,
+                intellect: intellect,
+                devotion: devotion,
+                trust: trust,
+            };
+        },
     },
     {
         id: 'random_devious_room',

@@ -83,7 +83,7 @@ const EXTENSION_SETTINGS_HTML = dedent(`
             <hr class="marginTop10" />
             <h4 class="margin0 marginTop5">Judge (rule compliance)</h4>
             <p class="margin0 subarashimos-judge-help marginTop5">
-                After each assistant message, runs a separate check against this character's card (description, personality, scenario, instructions) and recent chat (same style of context as message interception).
+                After each assistant message, runs a separate check against this character's card (description, personality, scenario, instructions) and recent chat.
                 If the reply breaks those rules, it is regenerated with a short explanation of what went wrong. Uses one extra API call per assistant message when enabled (more if it retries).
             </p>
             <label class="checkbox flex-container">
@@ -128,11 +128,8 @@ const EXTENSION_SETTINGS_HTML = dedent(`
             <hr class="marginTop10" />
             <h4 class="margin0 marginTop5">Director (pre-generation scene hint)</h4>
             <p class="margin0 subarashimos-director-help marginTop5">
-                Before the main assistant reply, runs a separate call with this character&apos;s card and recent chat (same style
-                of context as the judge). If message interception is enabled, the director runs only after your outgoing line
-                has been rewritten. For regenerate/continue/swipe (no new user send), it runs at generation start instead. Uses
-                one extra API call per generation when enabled. Skipped for automatic follow-up generations (e.g. tool
-                continuation).
+                Before the main assistant reply, runs a separate call with this character&apos;s card and recent chat,
+                to generate a short scene-direction hint injected into the prompt. Uses one extra API call per generation when enabled.
             </p>
             <label class="checkbox flex-container">
                 <input id="subarashimos-toggle-director" type="checkbox" />

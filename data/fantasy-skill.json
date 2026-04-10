@@ -1,0 +1,10670 @@
+[
+  {
+    "name": "Flame Control",
+    "description": ""
+  },
+  {
+    "name": "Water Shaping",
+    "description": ""
+  },
+  {
+    "name": "Wind Command",
+    "description": ""
+  },
+  {
+    "name": "Earth Shaping",
+    "description": ""
+  },
+  {
+    "name": "Lightning Channeling",
+    "description": ""
+  },
+  {
+    "name": "Ice Forging",
+    "description": ""
+  },
+  {
+    "name": "Metal Manipulation",
+    "description": ""
+  },
+  {
+    "name": "Plant Dominion",
+    "description": ""
+  },
+  {
+    "name": "Sand Sculpting",
+    "description": ""
+  },
+  {
+    "name": "Crystal Growth",
+    "description": ""
+  },
+  {
+    "name": "Magma Flow",
+    "description": ""
+  },
+  {
+    "name": "Steam Weaving",
+    "description": ""
+  },
+  {
+    "name": "Smoke Veil",
+    "description": ""
+  },
+  {
+    "name": "Storm Calling",
+    "description": ""
+  },
+  {
+    "name": "Shadow Shroud",
+    "description": ""
+  },
+  {
+    "name": "Light Weaving",
+    "description": ""
+  },
+  {
+    "name": "Void Touch",
+    "description": ""
+  },
+  {
+    "name": "Aether Manipulation",
+    "description": ""
+  },
+  {
+    "name": "Gravity Shift",
+    "description": ""
+  },
+  {
+    "name": "Time Dilation",
+    "description": ""
+  },
+  {
+    "name": "Space Folding",
+    "description": ""
+  },
+  {
+    "name": "Entropy Surge",
+    "description": ""
+  },
+  {
+    "name": "Order Seal",
+    "description": ""
+  },
+  {
+    "name": "Life Weaving",
+    "description": ""
+  },
+  {
+    "name": "Death Touch",
+    "description": ""
+  },
+  {
+    "name": "Spirit Binding",
+    "description": ""
+  },
+  {
+    "name": "Soul Harvest",
+    "description": ""
+  },
+  {
+    "name": "Astral Projection",
+    "description": ""
+  },
+  {
+    "name": "Dream Walking",
+    "description": ""
+  },
+  {
+    "name": "Memory Rewrite",
+    "description": ""
+  },
+  {
+    "name": "Mind Domination",
+    "description": ""
+  },
+  {
+    "name": "Thought Insertion",
+    "description": ""
+  },
+  {
+    "name": "Emotion Weaving",
+    "description": ""
+  },
+  {
+    "name": "Fear Induction",
+    "description": ""
+  },
+  {
+    "name": "Rage Trigger",
+    "description": ""
+  },
+  {
+    "name": "Truth Sight",
+    "description": ""
+  },
+  {
+    "name": "Illusion Craft",
+    "description": ""
+  },
+  {
+    "name": "Invisibility Field",
+    "description": ""
+  },
+  {
+    "name": "Telekinesis",
+    "description": ""
+  },
+  {
+    "name": "Telepathy",
+    "description": ""
+  },
+  {
+    "name": "Teleportation",
+    "description": ""
+  },
+  {
+    "name": "Clairvoyance",
+    "description": ""
+  },
+  {
+    "name": "Precognition",
+    "description": ""
+  },
+  {
+    "name": "Retrocognition",
+    "description": ""
+  },
+  {
+    "name": "Probability Twist",
+    "description": ""
+  },
+  {
+    "name": "Fate Weaving",
+    "description": ""
+  },
+  {
+    "name": "Luck Theft",
+    "description": ""
+  },
+  {
+    "name": "Curse Casting",
+    "description": ""
+  },
+  {
+    "name": "Blessing Aura",
+    "description": ""
+  },
+  {
+    "name": "Summon Pact",
+    "description": ""
+  },
+  {
+    "name": "Banishment",
+    "description": ""
+  },
+  {
+    "name": "Binding Chains",
+    "description": ""
+  },
+  {
+    "name": "Puppet Strings",
+    "description": ""
+  },
+  {
+    "name": "Blood Magic",
+    "description": ""
+  },
+  {
+    "name": "Bone Shaping",
+    "description": ""
+  },
+  {
+    "name": "Plague Nimbus",
+    "description": ""
+  },
+  {
+    "name": "Poison Synthesis",
+    "description": ""
+  },
+  {
+    "name": "Acid Control",
+    "description": ""
+  },
+  {
+    "name": "Sound Manipulation",
+    "description": ""
+  },
+  {
+    "name": "Vibration Control",
+    "description": ""
+  },
+  {
+    "name": "Resonance Field",
+    "description": ""
+  },
+  {
+    "name": "Sonic Force",
+    "description": ""
+  },
+  {
+    "name": "Echo Tracing",
+    "description": ""
+  },
+  {
+    "name": "Heat Absorption",
+    "description": ""
+  },
+  {
+    "name": "Cold Generation",
+    "description": ""
+  },
+  {
+    "name": "Energy Absorption",
+    "description": ""
+  },
+  {
+    "name": "Energy Projection",
+    "description": ""
+  },
+  {
+    "name": "Force Shield",
+    "description": ""
+  },
+  {
+    "name": "Force Impact",
+    "description": ""
+  },
+  {
+    "name": "Kinetic Redirection",
+    "description": ""
+  },
+  {
+    "name": "Inertia Control",
+    "description": ""
+  },
+  {
+    "name": "Momentum Shift",
+    "description": ""
+  },
+  {
+    "name": "Magnetic Pull",
+    "description": ""
+  },
+  {
+    "name": "Electric Glow",
+    "description": ""
+  },
+  {
+    "name": "Radiant Healing",
+    "description": ""
+  },
+  {
+    "name": "Umbral Passage",
+    "description": ""
+  },
+  {
+    "name": "Camouflage",
+    "description": ""
+  },
+  {
+    "name": "Shapeshifting",
+    "description": ""
+  },
+  {
+    "name": "Metamorphosis",
+    "description": ""
+  },
+  {
+    "name": "Size Alteration",
+    "description": ""
+  },
+  {
+    "name": "Density Control",
+    "description": ""
+  },
+  {
+    "name": "Duplication",
+    "description": ""
+  },
+  {
+    "name": "Phasing",
+    "description": ""
+  },
+  {
+    "name": "Regeneration",
+    "description": ""
+  },
+  {
+    "name": "Pain Transfer",
+    "description": ""
+  },
+  {
+    "name": "Power Theft",
+    "description": ""
+  },
+  {
+    "name": "Power Amplification",
+    "description": ""
+  },
+  {
+    "name": "Power Nullification",
+    "description": ""
+  },
+  {
+    "name": "Barrier Craft",
+    "description": ""
+  },
+  {
+    "name": "Warding Radiance",
+    "description": ""
+  },
+  {
+    "name": "Beast Taming",
+    "description": ""
+  },
+  {
+    "name": "Swarm Command",
+    "description": ""
+  },
+  {
+    "name": "Petrification",
+    "description": ""
+  },
+  {
+    "name": "Corrosion Touch",
+    "description": ""
+  },
+  {
+    "name": "Weather Weaving",
+    "description": ""
+  },
+  {
+    "name": "Intellect Aegis",
+    "description": ""
+  },
+  {
+    "name": "Reverie Snare",
+    "description": ""
+  },
+  {
+    "name": "Nightmare Craft",
+    "description": ""
+  },
+  {
+    "name": "Anima Anchor",
+    "description": ""
+  },
+  {
+    "name": "Necromancy",
+    "description": ""
+  },
+  {
+    "name": "Chaos Rush",
+    "description": ""
+  },
+  {
+    "name": "Harmony Flow",
+    "description": ""
+  },
+  {
+    "name": "Destiny Anchor",
+    "description": ""
+  },
+  {
+    "name": "Ancestral Reverb",
+    "description": ""
+  },
+  {
+    "name": "Totem Calling",
+    "description": ""
+  },
+  {
+    "name": "Rune Carving",
+    "description": ""
+  },
+  {
+    "name": "Glyph Weaving",
+    "description": ""
+  },
+  {
+    "name": "Sigil Craft",
+    "description": ""
+  },
+  {
+    "name": "Oath Binding",
+    "description": ""
+  },
+  {
+    "name": "Geas Mark",
+    "description": ""
+  },
+  {
+    "name": "Hex Break",
+    "description": ""
+  },
+  {
+    "name": "Sacred Fire",
+    "description": ""
+  },
+  {
+    "name": "Profane Rite",
+    "description": ""
+  },
+  {
+    "name": "Demonic Pact",
+    "description": ""
+  },
+  {
+    "name": "Angelic Chorus",
+    "description": ""
+  },
+  {
+    "name": "Celestial Descent",
+    "description": ""
+  },
+  {
+    "name": "Eldritch Whispers",
+    "description": ""
+  },
+  {
+    "name": "Abyssal Vortex",
+    "description": ""
+  },
+  {
+    "name": "Primal Howl",
+    "description": ""
+  },
+  {
+    "name": "Feral Instinct",
+    "description": ""
+  },
+  {
+    "name": "Beast Merge",
+    "description": ""
+  },
+  {
+    "name": "Wraith Guide",
+    "description": ""
+  },
+  {
+    "name": "Ancestor Call",
+    "description": ""
+  },
+  {
+    "name": "Totem Fusion",
+    "description": ""
+  },
+  {
+    "name": "Elemental Fusion",
+    "description": ""
+  },
+  {
+    "name": "Season Shift",
+    "description": ""
+  },
+  {
+    "name": "Tidal Pull",
+    "description": ""
+  },
+  {
+    "name": "Moonlight Mantle",
+    "description": ""
+  },
+  {
+    "name": "Solar Flare",
+    "description": ""
+  },
+  {
+    "name": "Starlight Path",
+    "description": ""
+  },
+  {
+    "name": "Cosmic Gaze",
+    "description": ""
+  },
+  {
+    "name": "Comet Summon",
+    "description": ""
+  },
+  {
+    "name": "Meteor Rain",
+    "description": ""
+  },
+  {
+    "name": "Nova Burst",
+    "description": ""
+  },
+  {
+    "name": "Black Hole",
+    "description": ""
+  },
+  {
+    "name": "Singularity Grip",
+    "description": ""
+  },
+  {
+    "name": "Aurora Pall",
+    "description": ""
+  },
+  {
+    "name": "Eclipse Veil",
+    "description": ""
+  },
+  {
+    "name": "Twilight Step",
+    "description": ""
+  },
+  {
+    "name": "Dawn Flood",
+    "description": ""
+  },
+  {
+    "name": "Dusk Binding",
+    "description": ""
+  },
+  {
+    "name": "Vision Feast",
+    "description": ""
+  },
+  {
+    "name": "Slumber Hex",
+    "description": ""
+  },
+  {
+    "name": "Lucid Gate",
+    "description": ""
+  },
+  {
+    "name": "Night Curtain",
+    "description": ""
+  },
+  {
+    "name": "Daylight Ward",
+    "description": ""
+  },
+  {
+    "name": "Hunger Presence",
+    "description": ""
+  },
+  {
+    "name": "Gluttony Mark",
+    "description": ""
+  },
+  {
+    "name": "Greed Chain",
+    "description": ""
+  },
+  {
+    "name": "Wrath Blaze",
+    "description": ""
+  },
+  {
+    "name": "Envy Gaze",
+    "description": ""
+  },
+  {
+    "name": "Pride Cloak",
+    "description": ""
+  },
+  {
+    "name": "Sloth Cloud",
+    "description": ""
+  },
+  {
+    "name": "Lust Charm",
+    "description": ""
+  },
+  {
+    "name": "Virtue Bond",
+    "description": ""
+  },
+  {
+    "name": "Sin Brand",
+    "description": ""
+  },
+  {
+    "name": "Chaos Seed",
+    "description": ""
+  },
+  {
+    "name": "Order Covering",
+    "description": ""
+  },
+  {
+    "name": "Balance Knot",
+    "description": ""
+  },
+  {
+    "name": "Harmony Bell",
+    "description": ""
+  },
+  {
+    "name": "Discord Chant",
+    "description": ""
+  },
+  {
+    "name": "Frenzy Wave",
+    "description": ""
+  },
+  {
+    "name": "Tranquil Emanation",
+    "description": ""
+  },
+  {
+    "name": "Calm Heart",
+    "description": ""
+  },
+  {
+    "name": "Torment Field",
+    "description": ""
+  },
+  {
+    "name": "Agony Lash",
+    "description": ""
+  },
+  {
+    "name": "Ecstasy Wave",
+    "description": ""
+  },
+  {
+    "name": "Silence Field",
+    "description": ""
+  },
+  {
+    "name": "Word Bind",
+    "description": ""
+  },
+  {
+    "name": "Tongue Stamp",
+    "description": ""
+  },
+  {
+    "name": "Chorus Song",
+    "description": ""
+  },
+  {
+    "name": "Battle Cry",
+    "description": ""
+  },
+  {
+    "name": "Victory Outpouring",
+    "description": ""
+  },
+  {
+    "name": "Defeat Jinx",
+    "description": ""
+  },
+  {
+    "name": "Ichor Oath",
+    "description": ""
+  },
+  {
+    "name": "Essence Forge",
+    "description": ""
+  },
+  {
+    "name": "Specter Ember",
+    "description": ""
+  },
+  {
+    "name": "Ghost Stride",
+    "description": ""
+  },
+  {
+    "name": "Wraith Form",
+    "description": ""
+  },
+  {
+    "name": "Specter Call",
+    "description": ""
+  },
+  {
+    "name": "Phantom Grasp",
+    "description": ""
+  },
+  {
+    "name": "Ghoul Famine",
+    "description": ""
+  },
+  {
+    "name": "Zombie Rot",
+    "description": ""
+  },
+  {
+    "name": "Vampiric Touch",
+    "description": ""
+  },
+  {
+    "name": "Lycan Shift",
+    "description": ""
+  },
+  {
+    "name": "Chimera Form",
+    "description": ""
+  },
+  {
+    "name": "Hydra Spawn",
+    "description": ""
+  },
+  {
+    "name": "Serpent Call",
+    "description": ""
+  },
+  {
+    "name": "Dragon Roar",
+    "description": ""
+  },
+  {
+    "name": "Phoenix Rise",
+    "description": ""
+  },
+  {
+    "name": "Kraken Wrath",
+    "description": ""
+  },
+  {
+    "name": "Titan Clutch",
+    "description": ""
+  },
+  {
+    "name": "Golem Core",
+    "description": ""
+  },
+  {
+    "name": "Djinn Wish",
+    "description": ""
+  },
+  {
+    "name": "Ifrit Blaze",
+    "description": ""
+  },
+  {
+    "name": "Sylph Dance",
+    "description": ""
+  },
+  {
+    "name": "Undine Flow",
+    "description": ""
+  },
+  {
+    "name": "Dryad Chant",
+    "description": ""
+  },
+  {
+    "name": "Nymph Lure",
+    "description": ""
+  },
+  {
+    "name": "Fae Trick",
+    "description": ""
+  },
+  {
+    "name": "Goblin Cunning",
+    "description": ""
+  },
+  {
+    "name": "Ogre Might",
+    "description": ""
+  },
+  {
+    "name": "Troll Regrowth",
+    "description": ""
+  },
+  {
+    "name": "Basilisk Gaze",
+    "description": ""
+  },
+  {
+    "name": "Manticore Sting",
+    "description": ""
+  },
+  {
+    "name": "Oblivion Pulse",
+    "description": ""
+  },
+  {
+    "name": "Godspark Fracture",
+    "description": ""
+  },
+  {
+    "name": "Infinity Shard",
+    "description": ""
+  },
+  {
+    "name": "Dreamquake",
+    "description": ""
+  },
+  {
+    "name": "Rift Aperture",
+    "description": ""
+  },
+  {
+    "name": "Cinder Halo",
+    "description": ""
+  },
+  {
+    "name": "Carnage Bloom",
+    "description": ""
+  },
+  {
+    "name": "Paradox Spiral",
+    "description": ""
+  },
+  {
+    "name": "Ashen Crown",
+    "description": ""
+  },
+  {
+    "name": "Hollow Choir",
+    "description": ""
+  },
+  {
+    "name": "Gore Occultation",
+    "description": ""
+  },
+  {
+    "name": "Flesh Smithy",
+    "description": ""
+  },
+  {
+    "name": "Neon Howl",
+    "description": ""
+  },
+  {
+    "name": "Static Wyrm",
+    "description": ""
+  },
+  {
+    "name": "Resonance Resonator",
+    "description": ""
+  },
+  {
+    "name": "Decay Engine",
+    "description": ""
+  },
+  {
+    "name": "Os Cathedral",
+    "description": ""
+  },
+  {
+    "name": "Iron Lament",
+    "description": ""
+  },
+  {
+    "name": "Wound Lantern",
+    "description": ""
+  },
+  {
+    "name": "Eternal Starvation",
+    "description": ""
+  },
+  {
+    "name": "Glass Mirage",
+    "description": ""
+  },
+  {
+    "name": "Ash Maelstrom",
+    "description": ""
+  },
+  {
+    "name": "Shattered Nimbus",
+    "description": ""
+  },
+  {
+    "name": "Skinshift",
+    "description": ""
+  },
+  {
+    "name": "Throb Diadem",
+    "description": ""
+  },
+  {
+    "name": "Remembrance Furnace",
+    "description": ""
+  },
+  {
+    "name": "Psyche Devourer",
+    "description": ""
+  },
+  {
+    "name": "Shriek Coil",
+    "description": ""
+  },
+  {
+    "name": "Hate Motor",
+    "description": ""
+  },
+  {
+    "name": "Bliss Torrent",
+    "description": ""
+  },
+  {
+    "name": "Warp Appetite",
+    "description": ""
+  },
+  {
+    "name": "Psyche Reverb",
+    "description": ""
+  },
+  {
+    "name": "Grave Blossom",
+    "description": ""
+  },
+  {
+    "name": "Spine Circlet",
+    "description": ""
+  },
+  {
+    "name": "Chasm Lord",
+    "description": ""
+  },
+  {
+    "name": "Vein Tempest",
+    "description": ""
+  },
+  {
+    "name": "Glory Whirl",
+    "description": ""
+  },
+  {
+    "name": "Rust Flowering",
+    "description": ""
+  },
+  {
+    "name": "Meat Oracle",
+    "description": ""
+  },
+  {
+    "name": "Phantasm Scars",
+    "description": ""
+  },
+  {
+    "name": "Obsidian Beat",
+    "description": ""
+  },
+  {
+    "name": "Howling Coronet",
+    "description": ""
+  },
+  {
+    "name": "Grief Kiln",
+    "description": ""
+  },
+  {
+    "name": "Night Helix",
+    "description": ""
+  },
+  {
+    "name": "Aether Gyre",
+    "description": ""
+  },
+  {
+    "name": "Muscle Chorus",
+    "description": ""
+  },
+  {
+    "name": "Tiara Viper",
+    "description": ""
+  },
+  {
+    "name": "Squall Husk",
+    "description": ""
+  },
+  {
+    "name": "Skull Tide",
+    "description": ""
+  },
+  {
+    "name": "Rapture Fang",
+    "description": ""
+  },
+  {
+    "name": "Sorrow Prism",
+    "description": ""
+  },
+  {
+    "name": "Venom Clock",
+    "description": ""
+  },
+  {
+    "name": "Wraith Stove",
+    "description": ""
+  },
+  {
+    "name": "Fever Sprout",
+    "description": ""
+  },
+  {
+    "name": "Scream Splinter",
+    "description": ""
+  },
+  {
+    "name": "Twilight Eddy",
+    "description": ""
+  },
+  {
+    "name": "Rust Corona",
+    "description": ""
+  },
+  {
+    "name": "Skeleton Star",
+    "description": ""
+  },
+  {
+    "name": "Darkening Cyclone",
+    "description": ""
+  },
+  {
+    "name": "Ghoul Lamp",
+    "description": ""
+  },
+  {
+    "name": "Cinder Ensemble",
+    "description": ""
+  },
+  {
+    "name": "Upsurge Swirl",
+    "description": ""
+  },
+  {
+    "name": "Tissue Mirage",
+    "description": ""
+  },
+  {
+    "name": "Gale Craving",
+    "description": ""
+  },
+  {
+    "name": "Chasm Wreath",
+    "description": ""
+  },
+  {
+    "name": "Steel Grinder",
+    "description": ""
+  },
+  {
+    "name": "Bleed Machine",
+    "description": ""
+  },
+  {
+    "name": "Chaos Bud",
+    "description": ""
+  },
+  {
+    "name": "Vessel Churn",
+    "description": ""
+  },
+  {
+    "name": "Night Aureole",
+    "description": ""
+  },
+  {
+    "name": "Warp Flush",
+    "description": ""
+  },
+  {
+    "name": "Scar Clock",
+    "description": ""
+  },
+  {
+    "name": "Wraith Reaper",
+    "description": ""
+  },
+  {
+    "name": "Blight Halo",
+    "description": ""
+  },
+  {
+    "name": "Hollow Beacon",
+    "description": ""
+  },
+  {
+    "name": "Rift Snake",
+    "description": ""
+  },
+  {
+    "name": "Dread Whirlpool",
+    "description": ""
+  },
+  {
+    "name": "Tomb Coil",
+    "description": ""
+  },
+  {
+    "name": "Oblivion Eruption",
+    "description": ""
+  },
+  {
+    "name": "Lust Pull",
+    "description": ""
+  },
+  {
+    "name": "Rust Adder",
+    "description": ""
+  },
+  {
+    "name": "Skin Pit",
+    "description": ""
+  },
+  {
+    "name": "Rhythm Husk",
+    "description": ""
+  },
+  {
+    "name": "Rib Pit",
+    "description": ""
+  },
+  {
+    "name": "Hate Blaze",
+    "description": ""
+  },
+  {
+    "name": "Trance Twister",
+    "description": ""
+  },
+  {
+    "name": "Ferrous Flourish",
+    "description": ""
+  },
+  {
+    "name": "Static Maelstrom",
+    "description": ""
+  },
+  {
+    "name": "Artery Efflorescence",
+    "description": ""
+  },
+  {
+    "name": "Molder Maelstrom",
+    "description": ""
+  },
+  {
+    "name": "Soot Whirl",
+    "description": ""
+  },
+  {
+    "name": "Deluge Gyre",
+    "description": ""
+  },
+  {
+    "name": "Crystal Shattergate",
+    "description": ""
+  },
+  {
+    "name": "Skin Pit",
+    "description": ""
+  },
+  {
+    "name": "Consciousness Blossom",
+    "description": ""
+  },
+  {
+    "name": "Everlasting Eddy",
+    "description": ""
+  },
+  {
+    "name": "Vitae Pit",
+    "description": ""
+  },
+  {
+    "name": "Warp Cyclone",
+    "description": ""
+  },
+  {
+    "name": "Hollow Swirl",
+    "description": ""
+  },
+  {
+    "name": "Chasm Churn",
+    "description": ""
+  },
+  {
+    "name": "Life Blossom",
+    "description": ""
+  },
+  {
+    "name": "Grief Pull",
+    "description": ""
+  },
+  {
+    "name": "Banana Beam",
+    "description": ""
+  },
+  {
+    "name": "Sock Summon",
+    "description": ""
+  },
+  {
+    "name": "Chair Control",
+    "description": ""
+  },
+  {
+    "name": "Bubble Beard",
+    "description": ""
+  },
+  {
+    "name": "Toast Teleport",
+    "description": ""
+  },
+  {
+    "name": "Spoon Bend",
+    "description": ""
+  },
+  {
+    "name": "Duck Command",
+    "description": ""
+  },
+  {
+    "name": "Lawnmower Fury",
+    "description": ""
+  },
+  {
+    "name": "Cheese Thunder",
+    "description": ""
+  },
+  {
+    "name": "Mustard Wave",
+    "description": ""
+  },
+  {
+    "name": "Pillow Smash",
+    "description": ""
+  },
+  {
+    "name": "Rubber Chicken",
+    "description": ""
+  },
+  {
+    "name": "Pizza Ray",
+    "description": ""
+  },
+  {
+    "name": "Jelly Legs",
+    "description": ""
+  },
+  {
+    "name": "Toothpaste Blast",
+    "description": ""
+  },
+  {
+    "name": "Penguin Whisper",
+    "description": ""
+  },
+  {
+    "name": "Cabbage Spin",
+    "description": ""
+  },
+  {
+    "name": "Taco Mirage",
+    "description": ""
+  },
+  {
+    "name": "Spaghetti Hold",
+    "description": ""
+  },
+  {
+    "name": "Banjo Shriek",
+    "description": ""
+  },
+  {
+    "name": "Ketchup Geyser",
+    "description": ""
+  },
+  {
+    "name": "Pickle Cannon",
+    "description": ""
+  },
+  {
+    "name": "Sock Puppet Army",
+    "description": ""
+  },
+  {
+    "name": "Donut Guard",
+    "description": ""
+  },
+  {
+    "name": "Marshmallow Shower",
+    "description": ""
+  },
+  {
+    "name": "Treadmill Warp",
+    "description": ""
+  },
+  {
+    "name": "Stapler Bite",
+    "description": ""
+  },
+  {
+    "name": "Yawn Wave",
+    "description": ""
+  },
+  {
+    "name": "Homework Banish",
+    "description": ""
+  },
+  {
+    "name": "Carpet Glide",
+    "description": ""
+  },
+  {
+    "name": "Banana Peel Trap",
+    "description": ""
+  },
+  {
+    "name": "Waffle Punch",
+    "description": ""
+  },
+  {
+    "name": "Soda Spray",
+    "description": ""
+  },
+  {
+    "name": "Lamp Hug",
+    "description": ""
+  },
+  {
+    "name": "Toilet Blush Whirlpool",
+    "description": ""
+  },
+  {
+    "name": "Banjo Kick",
+    "description": ""
+  },
+  {
+    "name": "Glitter Bomb",
+    "description": ""
+  },
+  {
+    "name": "Fart Propulsion",
+    "description": ""
+  },
+  {
+    "name": "Crayon Flame",
+    "description": ""
+  },
+  {
+    "name": "Goose Dive",
+    "description": ""
+  },
+  {
+    "name": "Pogo Slam",
+    "description": ""
+  },
+  {
+    "name": "Bubblegum Bind",
+    "description": ""
+  },
+  {
+    "name": "Snail Speed",
+    "description": ""
+  },
+  {
+    "name": "Banana Sword",
+    "description": ""
+  },
+  {
+    "name": "Cowbell Summon",
+    "description": ""
+  },
+  {
+    "name": "Popcorn Explosion",
+    "description": ""
+  },
+  {
+    "name": "Trombone Roar",
+    "description": ""
+  },
+  {
+    "name": "Bagel Spin",
+    "description": ""
+  },
+  {
+    "name": "Milk Wave",
+    "description": ""
+  },
+  {
+    "name": "Potato Throw",
+    "description": ""
+  },
+  {
+    "name": "Ice Cream Buckler",
+    "description": ""
+  },
+  {
+    "name": "Cat Hair Cyclone",
+    "description": ""
+  },
+  {
+    "name": "Goldfish Punch",
+    "description": ""
+  },
+  {
+    "name": "Sock Twister",
+    "description": ""
+  },
+  {
+    "name": "Mustache Beam",
+    "description": ""
+  },
+  {
+    "name": "Chair Throw",
+    "description": ""
+  },
+  {
+    "name": "Nap Time Field",
+    "description": ""
+  },
+  {
+    "name": "Fidget Spin",
+    "description": ""
+  },
+  {
+    "name": "Couch Surf",
+    "description": ""
+  },
+  {
+    "name": "Alarm Shriek",
+    "description": ""
+  },
+  {
+    "name": "Muffin Blast",
+    "description": ""
+  },
+  {
+    "name": "Pickle Gust",
+    "description": ""
+  },
+  {
+    "name": "Biscuit Barrier",
+    "description": ""
+  },
+  {
+    "name": "Pizza Armor",
+    "description": ""
+  },
+  {
+    "name": "Turkey Slap",
+    "description": ""
+  },
+  {
+    "name": "Noodle Net",
+    "description": ""
+  },
+  {
+    "name": "Banana Phone",
+    "description": ""
+  },
+  {
+    "name": "Ham Slam",
+    "description": ""
+  },
+  {
+    "name": "Saxophone Howl",
+    "description": ""
+  },
+  {
+    "name": "Cereal Ward",
+    "description": ""
+  },
+  {
+    "name": "Toothbrush Stab",
+    "description": ""
+  },
+  {
+    "name": "Nacho Net",
+    "description": ""
+  },
+  {
+    "name": "Cheese Screen",
+    "description": ""
+  },
+  {
+    "name": "Penguin Glide",
+    "description": ""
+  },
+  {
+    "name": "Disco Spin",
+    "description": ""
+  },
+  {
+    "name": "Cupcake Cannon",
+    "description": ""
+  },
+  {
+    "name": "Frog Leap",
+    "description": ""
+  },
+  {
+    "name": "Hamster Stampede",
+    "description": ""
+  },
+  {
+    "name": "Gnome Toss",
+    "description": ""
+  },
+  {
+    "name": "Rubber Duck Downpour",
+    "description": ""
+  },
+  {
+    "name": "Toilet Paper Wrap",
+    "description": ""
+  },
+  {
+    "name": "Soap Bubble Barrage",
+    "description": ""
+  },
+  {
+    "name": "Clown Nose Beam",
+    "description": ""
+  },
+  {
+    "name": "Banana Rocket",
+    "description": ""
+  },
+  {
+    "name": "Sausage Whip",
+    "description": ""
+  },
+  {
+    "name": "Broccoli Outbreak",
+    "description": ""
+  },
+  {
+    "name": "Goat Charge",
+    "description": ""
+  },
+  {
+    "name": "Chili Blast",
+    "description": ""
+  },
+  {
+    "name": "Pogo Launch",
+    "description": ""
+  },
+  {
+    "name": "Sock Downpour",
+    "description": ""
+  },
+  {
+    "name": "Pizza Slice Shuriken",
+    "description": ""
+  },
+  {
+    "name": "Soda Geyser",
+    "description": ""
+  },
+  {
+    "name": "Trampoline Slam",
+    "description": ""
+  },
+  {
+    "name": "Banana Tornado",
+    "description": ""
+  },
+  {
+    "name": "Cabbage Cannon",
+    "description": ""
+  },
+  {
+    "name": "Tuba Roar",
+    "description": ""
+  },
+  {
+    "name": "Cup Noodle Drizzle",
+    "description": ""
+  },
+  {
+    "name": "Karaoke Blast",
+    "description": ""
+  },
+  {
+    "name": "Donut Whirl",
+    "description": ""
+  },
+  {
+    "name": "Cheeseburger Smash",
+    "description": ""
+  },
+  {
+    "name": "Rubber Band Snap",
+    "description": ""
+  },
+  {
+    "name": "Hemal Orchard",
+    "description": ""
+  },
+  {
+    "name": "Sorrow Hive",
+    "description": ""
+  },
+  {
+    "name": "Capillary Puppetry",
+    "description": ""
+  },
+  {
+    "name": "Hate Carving",
+    "description": ""
+  },
+  {
+    "name": "Whispered Blasphemy",
+    "description": ""
+  },
+  {
+    "name": "Candle of Flies",
+    "description": ""
+  },
+  {
+    "name": "Hide Library",
+    "description": ""
+  },
+  {
+    "name": "Grief Sculpture",
+    "description": ""
+  },
+  {
+    "name": "Parasite Throne",
+    "description": ""
+  },
+  {
+    "name": "Tear Forge",
+    "description": ""
+  },
+  {
+    "name": "Ribcage Throne",
+    "description": ""
+  },
+  {
+    "name": "Funeral Nectar",
+    "description": ""
+  },
+  {
+    "name": "Scab Mosaic",
+    "description": ""
+  },
+  {
+    "name": "Howl of Crows",
+    "description": ""
+  },
+  {
+    "name": "Hollowed Offspring",
+    "description": ""
+  },
+  {
+    "name": "Viscera Glow",
+    "description": ""
+  },
+  {
+    "name": "Lament Apparatus",
+    "description": ""
+  },
+  {
+    "name": "Exile Mark",
+    "description": ""
+  },
+  {
+    "name": "Rust Gospel",
+    "description": ""
+  },
+  {
+    "name": "Wound Geometry",
+    "description": ""
+  },
+  {
+    "name": "Worm Chaplet",
+    "description": ""
+  },
+  {
+    "name": "Char Sermon",
+    "description": ""
+  },
+  {
+    "name": "Skeletal Orchestra",
+    "description": ""
+  },
+  {
+    "name": "Cyst Flowering",
+    "description": ""
+  },
+  {
+    "name": "Tongue Crucible",
+    "description": ""
+  },
+  {
+    "name": "Backbone Gate",
+    "description": ""
+  },
+  {
+    "name": "Abyss Chorale",
+    "description": ""
+  },
+  {
+    "name": "Unbirth Womb",
+    "description": ""
+  },
+  {
+    "name": "Charred Prayer",
+    "description": ""
+  },
+  {
+    "name": "Pane Bones",
+    "description": ""
+  },
+  {
+    "name": "Sinew Mill",
+    "description": ""
+  },
+  {
+    "name": "Nerve Harp",
+    "description": ""
+  },
+  {
+    "name": "Sin Harvest",
+    "description": ""
+  },
+  {
+    "name": "Hate Altar",
+    "description": ""
+  },
+  {
+    "name": "Cathedral of Quiet",
+    "description": ""
+  },
+  {
+    "name": "Severed Hymn",
+    "description": ""
+  },
+  {
+    "name": "Rancid Embrace",
+    "description": ""
+  },
+  {
+    "name": "Eyeless Oracle",
+    "description": ""
+  },
+  {
+    "name": "Soot Baptism",
+    "description": ""
+  },
+  {
+    "name": "Putrefied Aster",
+    "description": ""
+  },
+  {
+    "name": "Marrow Hymn",
+    "description": ""
+  },
+  {
+    "name": "Blight Covenant",
+    "description": ""
+  },
+  {
+    "name": "Fever Sanctuary",
+    "description": ""
+  },
+  {
+    "name": "Scorn Glory",
+    "description": ""
+  },
+  {
+    "name": "Hollow Benediction",
+    "description": ""
+  },
+  {
+    "name": "Weeping Reliquary",
+    "description": ""
+  },
+  {
+    "name": "Shattered Covenant",
+    "description": ""
+  },
+  {
+    "name": "Charnel Communion",
+    "description": ""
+  },
+  {
+    "name": "Slaughter Psalm",
+    "description": ""
+  },
+  {
+    "name": "Gallows Obscuration",
+    "description": ""
+  },
+  {
+    "name": "Shame Crucible",
+    "description": ""
+  },
+  {
+    "name": "Rotting Sermon",
+    "description": ""
+  },
+  {
+    "name": "Desecration Rite",
+    "description": ""
+  },
+  {
+    "name": "Corpse Gospel",
+    "description": ""
+  },
+  {
+    "name": "Funeral Scripture",
+    "description": ""
+  },
+  {
+    "name": "Withering Icon",
+    "description": ""
+  },
+  {
+    "name": "Forsaken Hymn",
+    "description": ""
+  },
+  {
+    "name": "Plague Invocation",
+    "description": ""
+  },
+  {
+    "name": "Infernal Benediction",
+    "description": ""
+  },
+  {
+    "name": "Pain Oracle",
+    "description": ""
+  },
+  {
+    "name": "Desecrated Radiance",
+    "description": ""
+  },
+  {
+    "name": "Sinister Testament",
+    "description": ""
+  },
+  {
+    "name": "Blasphemer’s Garland",
+    "description": ""
+  },
+  {
+    "name": "Sanguine Reliquary",
+    "description": ""
+  },
+  {
+    "name": "Unholy Glee",
+    "description": ""
+  },
+  {
+    "name": "Choke Altar",
+    "description": ""
+  },
+  {
+    "name": "Desecration Chant",
+    "description": ""
+  },
+  {
+    "name": "Obsidian Covenant",
+    "description": ""
+  },
+  {
+    "name": "Writhing Crown",
+    "description": ""
+  },
+  {
+    "name": "Profane Generator",
+    "description": ""
+  },
+  {
+    "name": "Dread Icon",
+    "description": ""
+  },
+  {
+    "name": "Pestilent Reliquary",
+    "description": ""
+  },
+  {
+    "name": "Bitter Relic",
+    "description": ""
+  },
+  {
+    "name": "Sepulcher Covenant",
+    "description": ""
+  },
+  {
+    "name": "Exsanguination Rite",
+    "description": ""
+  },
+  {
+    "name": "Gnashing Idol",
+    "description": ""
+  },
+  {
+    "name": "Ashen Testament",
+    "description": ""
+  },
+  {
+    "name": "Harlot’s Benediction",
+    "description": ""
+  },
+  {
+    "name": "Damned Reliquary",
+    "description": ""
+  },
+  {
+    "name": "Twisted Canticle",
+    "description": ""
+  },
+  {
+    "name": "Nihil Invocation",
+    "description": ""
+  },
+  {
+    "name": "Penance of Slag",
+    "description": ""
+  },
+  {
+    "name": "Carnage Liturgy",
+    "description": ""
+  },
+  {
+    "name": "Withered Testament",
+    "description": ""
+  },
+  {
+    "name": "Tithe of Flies",
+    "description": ""
+  },
+  {
+    "name": "Shadowing Sermon",
+    "description": ""
+  },
+  {
+    "name": "Screaming Icon",
+    "description": ""
+  },
+  {
+    "name": "Martyr’s Blight",
+    "description": ""
+  },
+  {
+    "name": "Gore Cathedral",
+    "description": ""
+  },
+  {
+    "name": "Yearning Reliquary",
+    "description": ""
+  },
+  {
+    "name": "Unending Agony",
+    "description": ""
+  },
+  {
+    "name": "Desecration Bell",
+    "description": ""
+  },
+  {
+    "name": "Exiled Benediction",
+    "description": ""
+  },
+  {
+    "name": "Parasite Creed",
+    "description": ""
+  },
+  {
+    "name": "Funeral Incantation",
+    "description": ""
+  },
+  {
+    "name": "Broken Ring",
+    "description": ""
+  },
+  {
+    "name": "Apostate Fillet",
+    "description": ""
+  },
+  {
+    "name": "Venom Chorale",
+    "description": ""
+  },
+  {
+    "name": "Torment Scripture",
+    "description": ""
+  },
+  {
+    "name": "Blackened Sanctuary",
+    "description": ""
+  },
+  {
+    "name": "Suffering Reliquary",
+    "description": ""
+  },
+  {
+    "name": "Crypt Benediction",
+    "description": ""
+  },
+  {
+    "name": "Wretched Testament",
+    "description": ""
+  },
+  {
+    "name": "Abyssal Hymn",
+    "description": ""
+  },
+  {
+    "name": "Starvation Eclipse",
+    "description": ""
+  },
+  {
+    "name": "Immortal Howl",
+    "description": ""
+  },
+  {
+    "name": "Throat of the Nothingness",
+    "description": ""
+  },
+  {
+    "name": "Sunken Oracle",
+    "description": ""
+  },
+  {
+    "name": "Entropy Cantilena",
+    "description": ""
+  },
+  {
+    "name": "Galaxy Burial",
+    "description": ""
+  },
+  {
+    "name": "Oblivion Shoot",
+    "description": ""
+  },
+  {
+    "name": "Fractured Cosmos",
+    "description": ""
+  },
+  {
+    "name": "Body Constellation",
+    "description": ""
+  },
+  {
+    "name": "Dead Luminary Baptism",
+    "description": ""
+  },
+  {
+    "name": "Gravity Putrefaction",
+    "description": ""
+  },
+  {
+    "name": "Screaming Nebula",
+    "description": ""
+  },
+  {
+    "name": "Eventide Cover",
+    "description": ""
+  },
+  {
+    "name": "Cosmic Infection",
+    "description": ""
+  },
+  {
+    "name": "Orbit of Knives",
+    "description": ""
+  },
+  {
+    "name": "Planet Flayer",
+    "description": ""
+  },
+  {
+    "name": "Astral Disease",
+    "description": ""
+  },
+  {
+    "name": "Wailing Singularity",
+    "description": ""
+  },
+  {
+    "name": "Collapsed Dawn",
+    "description": ""
+  },
+  {
+    "name": "Time Erosion",
+    "description": ""
+  },
+  {
+    "name": "Epoch Parasite",
+    "description": ""
+  },
+  {
+    "name": "Unlight Genesis",
+    "description": ""
+  },
+  {
+    "name": "Starlit Carrion",
+    "description": ""
+  },
+  {
+    "name": "Solar Ruin",
+    "description": ""
+  },
+  {
+    "name": "Annihilation Gospel",
+    "description": ""
+  },
+  {
+    "name": "Orbit Decay",
+    "description": ""
+  },
+  {
+    "name": "Nightmare Galaxy",
+    "description": ""
+  },
+  {
+    "name": "Null Reliquary",
+    "description": ""
+  },
+  {
+    "name": "Black Hole Sermon",
+    "description": ""
+  },
+  {
+    "name": "Perpetual Occultation",
+    "description": ""
+  },
+  {
+    "name": "Nova Decompose",
+    "description": ""
+  },
+  {
+    "name": "Moonblood Covenant",
+    "description": ""
+  },
+  {
+    "name": "Chasmic Oracle",
+    "description": ""
+  },
+  {
+    "name": "Heavenly Crucifixion",
+    "description": ""
+  },
+  {
+    "name": "Death Planet",
+    "description": ""
+  },
+  {
+    "name": "Vacuum Paeans",
+    "description": ""
+  },
+  {
+    "name": "Wormhole Vocalists",
+    "description": ""
+  },
+  {
+    "name": "Radiant Blasphemy",
+    "description": ""
+  },
+  {
+    "name": "Sky Collapse",
+    "description": ""
+  },
+  {
+    "name": "Comet Crucible",
+    "description": ""
+  },
+  {
+    "name": "Inverted Wreath",
+    "description": ""
+  },
+  {
+    "name": "Bleeding Horizon",
+    "description": ""
+  },
+  {
+    "name": "Nether Genesis",
+    "description": ""
+  },
+  {
+    "name": "Infinite Emptiness",
+    "description": ""
+  },
+  {
+    "name": "Maelstrom Laurel",
+    "description": ""
+  },
+  {
+    "name": "Shattered Infinity",
+    "description": ""
+  },
+  {
+    "name": "Astral Scar",
+    "description": ""
+  },
+  {
+    "name": "Astral Famine",
+    "description": ""
+  },
+  {
+    "name": "Oblivion Torrent",
+    "description": ""
+  },
+  {
+    "name": "Sunless Benediction",
+    "description": ""
+  },
+  {
+    "name": "Aether Parasite",
+    "description": ""
+  },
+  {
+    "name": "Corrupted Orbit",
+    "description": ""
+  },
+  {
+    "name": "Oneiric Eater’s Throne",
+    "description": ""
+  },
+  {
+    "name": "Hollow Cosmos",
+    "description": ""
+  },
+  {
+    "name": "Meteor Feast",
+    "description": ""
+  },
+  {
+    "name": "Orbit Shatter",
+    "description": ""
+  },
+  {
+    "name": "Galaxy Whirl",
+    "description": ""
+  },
+  {
+    "name": "Nebula Funeral",
+    "description": ""
+  },
+  {
+    "name": "Darkening Reliquary",
+    "description": ""
+  },
+  {
+    "name": "Pale Infinity",
+    "description": ""
+  },
+  {
+    "name": "Silent Supernova",
+    "description": ""
+  },
+  {
+    "name": "Stellar Need",
+    "description": ""
+  },
+  {
+    "name": "Cosmos Tooth",
+    "description": ""
+  },
+  {
+    "name": "Entropy Kiss",
+    "description": ""
+  },
+  {
+    "name": "Universe Pall",
+    "description": ""
+  },
+  {
+    "name": "Starless Gospel",
+    "description": ""
+  },
+  {
+    "name": "Astral Guillotine",
+    "description": ""
+  },
+  {
+    "name": "Endless Cataclysm",
+    "description": ""
+  },
+  {
+    "name": "Gravitic Hymn",
+    "description": ""
+  },
+  {
+    "name": "Saturn’s Spoilage",
+    "description": ""
+  },
+  {
+    "name": "Martyr of Moons",
+    "description": ""
+  },
+  {
+    "name": "Comet Wraith",
+    "description": ""
+  },
+  {
+    "name": "Oblivion Sacrament",
+    "description": ""
+  },
+  {
+    "name": "Asteroid Crucible",
+    "description": ""
+  },
+  {
+    "name": "Lunar Betrayal",
+    "description": ""
+  },
+  {
+    "name": "Ethereal Charnel",
+    "description": ""
+  },
+  {
+    "name": "Screaming Orbit",
+    "description": ""
+  },
+  {
+    "name": "Solar Tomb",
+    "description": ""
+  },
+  {
+    "name": "Venom Galaxy",
+    "description": ""
+  },
+  {
+    "name": "Aether Desecration",
+    "description": ""
+  },
+  {
+    "name": "Night’s Fall",
+    "description": ""
+  },
+  {
+    "name": "Planet’s Dirge",
+    "description": ""
+  },
+  {
+    "name": "Starquake Anthem",
+    "description": ""
+  },
+  {
+    "name": "Endless Skyline",
+    "description": ""
+  },
+  {
+    "name": "Blinding Abyss",
+    "description": ""
+  },
+  {
+    "name": "Galactic Decay",
+    "description": ""
+  },
+  {
+    "name": "Dark Matter Covenant",
+    "description": ""
+  },
+  {
+    "name": "Astroplague",
+    "description": ""
+  },
+  {
+    "name": "Singularity Throne",
+    "description": ""
+  },
+  {
+    "name": "Cave-In of Hours",
+    "description": ""
+  },
+  {
+    "name": "Nebula Scar",
+    "description": ""
+  },
+  {
+    "name": "Oath of the Abyss",
+    "description": ""
+  },
+  {
+    "name": "Rift’s Cathedral",
+    "description": ""
+  },
+  {
+    "name": "Obsidian Orbit",
+    "description": ""
+  },
+  {
+    "name": "Endless Exile",
+    "description": ""
+  },
+  {
+    "name": "Cosmic Tomb",
+    "description": ""
+  },
+  {
+    "name": "Vista Event View",
+    "description": ""
+  },
+  {
+    "name": "Universe Crucible",
+    "description": ""
+  },
+  {
+    "name": "Forgotten Starseed",
+    "description": ""
+  },
+  {
+    "name": "Unmaking Cadence",
+    "description": ""
+  },
+  {
+    "name": "Paradox Womb",
+    "description": ""
+  },
+  {
+    "name": "Hush Geometry",
+    "description": ""
+  },
+  {
+    "name": "Infinite Crumble",
+    "description": ""
+  },
+  {
+    "name": "Broken Continuum",
+    "description": ""
+  },
+  {
+    "name": "Unreality Bud",
+    "description": ""
+  },
+  {
+    "name": "Timeless Contradiction",
+    "description": ""
+  },
+  {
+    "name": "Fractured Cause",
+    "description": ""
+  },
+  {
+    "name": "Unbirth of Meaning",
+    "description": ""
+  },
+  {
+    "name": "Lawless Curl",
+    "description": ""
+  },
+  {
+    "name": "Causality Shatter",
+    "description": ""
+  },
+  {
+    "name": "Inverse Dawn",
+    "description": ""
+  },
+  {
+    "name": "Endless Undoing",
+    "description": ""
+  },
+  {
+    "name": "Null Ascension",
+    "description": ""
+  },
+  {
+    "name": "Ceaseless Drowning",
+    "description": ""
+  },
+  {
+    "name": "Prospect Without End",
+    "description": ""
+  },
+  {
+    "name": "Weight of Nothing",
+    "description": ""
+  },
+  {
+    "name": "Daydream Extinction",
+    "description": ""
+  },
+  {
+    "name": "Reply Without Source",
+    "description": ""
+  },
+  {
+    "name": "Unbound Lattice",
+    "description": ""
+  },
+  {
+    "name": "Breakdown of Will",
+    "description": ""
+  },
+  {
+    "name": "Infinity’s Barrow",
+    "description": ""
+  },
+  {
+    "name": "Godless Axis",
+    "description": ""
+  },
+  {
+    "name": "End of Direction",
+    "description": ""
+  },
+  {
+    "name": "Bleeding Concept",
+    "description": ""
+  },
+  {
+    "name": "Name Erosion",
+    "description": ""
+  },
+  {
+    "name": "Recollection Obscuration",
+    "description": ""
+  },
+  {
+    "name": "Unraveled Truth",
+    "description": ""
+  },
+  {
+    "name": "Diadem of Absence",
+    "description": ""
+  },
+  {
+    "name": "Ceaseless Regression",
+    "description": ""
+  },
+  {
+    "name": "Theorem Decay",
+    "description": ""
+  },
+  {
+    "name": "Impossible Outlook",
+    "description": ""
+  },
+  {
+    "name": "Thoughtless Singing Group",
+    "description": ""
+  },
+  {
+    "name": "Idea Scourge",
+    "description": ""
+  },
+  {
+    "name": "Concept Guillotine",
+    "description": ""
+  },
+  {
+    "name": "Identity Fracture",
+    "description": ""
+  },
+  {
+    "name": "Formless Realm",
+    "description": ""
+  },
+  {
+    "name": "Neverborn Carol",
+    "description": ""
+  },
+  {
+    "name": "Origin Gyre",
+    "description": ""
+  },
+  {
+    "name": "Rootless Lust",
+    "description": ""
+  },
+  {
+    "name": "Axiom Shatter",
+    "description": ""
+  },
+  {
+    "name": "Logic Blight",
+    "description": ""
+  },
+  {
+    "name": "Voice Without Mouth",
+    "description": ""
+  },
+  {
+    "name": "Endless Becoming",
+    "description": ""
+  },
+  {
+    "name": "Hollow Law",
+    "description": ""
+  },
+  {
+    "name": "Abyss of Certainty",
+    "description": ""
+  },
+  {
+    "name": "Infinite Scar",
+    "description": ""
+  },
+  {
+    "name": "The Answer Unspoken",
+    "description": ""
+  },
+  {
+    "name": "Disintegration of Is",
+    "description": ""
+  },
+  {
+    "name": "Undying Misdirection",
+    "description": ""
+  },
+  {
+    "name": "Unfinished Circle",
+    "description": ""
+  },
+  {
+    "name": "Nameless Birth",
+    "description": ""
+  },
+  {
+    "name": "Originless Hunger",
+    "description": ""
+  },
+  {
+    "name": "Fate’s Erasure",
+    "description": ""
+  },
+  {
+    "name": "Lattice of Lies",
+    "description": ""
+  },
+  {
+    "name": "Unscripted Ending",
+    "description": ""
+  },
+  {
+    "name": "Never-Ending End",
+    "description": ""
+  },
+  {
+    "name": "Mouth of Stillness",
+    "description": ""
+  },
+  {
+    "name": "Ceaseless Paradox",
+    "description": ""
+  },
+  {
+    "name": "Unbeing Sermon",
+    "description": ""
+  },
+  {
+    "name": "Unfound Scope",
+    "description": ""
+  },
+  {
+    "name": "Inverted Cause",
+    "description": ""
+  },
+  {
+    "name": "Erasure Diadem",
+    "description": ""
+  },
+  {
+    "name": "Endless Pause",
+    "description": ""
+  },
+  {
+    "name": "Unending Pause",
+    "description": ""
+  },
+  {
+    "name": "Formless Choir",
+    "description": ""
+  },
+  {
+    "name": "Symmetry Molder",
+    "description": ""
+  },
+  {
+    "name": "Diadem of Nothing",
+    "description": ""
+  },
+  {
+    "name": "The Inversion Rite",
+    "description": ""
+  },
+  {
+    "name": "Dreamless Continuum",
+    "description": ""
+  },
+  {
+    "name": "Frozen Will",
+    "description": ""
+  },
+  {
+    "name": "Endless Denial",
+    "description": ""
+  },
+  {
+    "name": "Inverse Testament",
+    "description": ""
+  },
+  {
+    "name": "The No-Path",
+    "description": ""
+  },
+  {
+    "name": "Wordless Hymn",
+    "description": ""
+  },
+  {
+    "name": "Shattered Infinity",
+    "description": ""
+  },
+  {
+    "name": "Meaning Crucible",
+    "description": ""
+  },
+  {
+    "name": "Nonexistence Glow",
+    "description": ""
+  },
+  {
+    "name": "Impossible Prayer",
+    "description": ""
+  },
+  {
+    "name": "The Unchosen",
+    "description": ""
+  },
+  {
+    "name": "Thought Devourer",
+    "description": ""
+  },
+  {
+    "name": "Answerless Question",
+    "description": ""
+  },
+  {
+    "name": "Ruin of Choice",
+    "description": ""
+  },
+  {
+    "name": "The Oath Unmade",
+    "description": ""
+  },
+  {
+    "name": "Endless Twist",
+    "description": ""
+  },
+  {
+    "name": "Selfless Famine",
+    "description": ""
+  },
+  {
+    "name": "Forgotten Axiom",
+    "description": ""
+  },
+  {
+    "name": "Nameless Will",
+    "description": ""
+  },
+  {
+    "name": "The No-Name Coronet",
+    "description": ""
+  },
+  {
+    "name": "Law Erosion",
+    "description": ""
+  },
+  {
+    "name": "Reflection Unborn",
+    "description": ""
+  },
+  {
+    "name": "Paradox Feast",
+    "description": ""
+  },
+  {
+    "name": "Vacancy Script",
+    "description": ""
+  },
+  {
+    "name": "Calm Cathedral",
+    "description": ""
+  },
+  {
+    "name": "The Dreamless God",
+    "description": ""
+  },
+  {
+    "name": "Unfounded Geometry",
+    "description": ""
+  },
+  {
+    "name": "The End That Never Ends",
+    "description": ""
+  },
+  {
+    "name": "Collapse of Recall",
+    "description": ""
+  },
+  {
+    "name": "Eternal Erasure",
+    "description": ""
+  },
+  {
+    "name": "Thought Leash",
+    "description": ""
+  },
+  {
+    "name": "Neural Rewrite",
+    "description": ""
+  },
+  {
+    "name": "Will Suppression",
+    "description": ""
+  },
+  {
+    "name": "Obedience Mark",
+    "description": ""
+  },
+  {
+    "name": "Nightmare Implant",
+    "description": ""
+  },
+  {
+    "name": "Hallucination Drape",
+    "description": ""
+  },
+  {
+    "name": "Awareness Fracture",
+    "description": ""
+  },
+  {
+    "name": "Obsession Seed",
+    "description": ""
+  },
+  {
+    "name": "Insanity Flare",
+    "description": ""
+  },
+  {
+    "name": "Delirium Impulse",
+    "description": ""
+  },
+  {
+    "name": "Emotion Drain",
+    "description": ""
+  },
+  {
+    "name": "Ecstasy Snare",
+    "description": ""
+  },
+  {
+    "name": "Fear Leech",
+    "description": ""
+  },
+  {
+    "name": "Impression Theft",
+    "description": ""
+  },
+  {
+    "name": "Fantasy Shackles",
+    "description": ""
+  },
+  {
+    "name": "Amnesia Swell",
+    "description": ""
+  },
+  {
+    "name": "Phobia Trigger",
+    "description": ""
+  },
+  {
+    "name": "Paranoia Fog",
+    "description": ""
+  },
+  {
+    "name": "Suggestion Thread",
+    "description": ""
+  },
+  {
+    "name": "Impulse Hijack",
+    "description": ""
+  },
+  {
+    "name": "Belief Shaper",
+    "description": ""
+  },
+  {
+    "name": "Identity Melt",
+    "description": ""
+  },
+  {
+    "name": "Personality Split",
+    "description": ""
+  },
+  {
+    "name": "Conscience Erosion",
+    "description": ""
+  },
+  {
+    "name": "Truth Warp",
+    "description": ""
+  },
+  {
+    "name": "Oblivion Whisper",
+    "description": ""
+  },
+  {
+    "name": "Conviction Drain",
+    "description": ""
+  },
+  {
+    "name": "Addiction Logo",
+    "description": ""
+  },
+  {
+    "name": "Apathy Touch",
+    "description": ""
+  },
+  {
+    "name": "Rage Incinerator",
+    "description": ""
+  },
+  {
+    "name": "Serenity Theft",
+    "description": ""
+  },
+  {
+    "name": "Obsession Chain",
+    "description": ""
+  },
+  {
+    "name": "Revelation Imprecation",
+    "description": ""
+  },
+  {
+    "name": "Subjugation Tiara",
+    "description": ""
+  },
+  {
+    "name": "Hypnosis Field",
+    "description": ""
+  },
+  {
+    "name": "Doubt Infusion",
+    "description": ""
+  },
+  {
+    "name": "Lucidity Break",
+    "description": ""
+  },
+  {
+    "name": "Hallucination Torrent",
+    "description": ""
+  },
+  {
+    "name": "Reverie Shackles",
+    "description": ""
+  },
+  {
+    "name": "Confusion Tempest",
+    "description": ""
+  },
+  {
+    "name": "Obedience Tempo",
+    "description": ""
+  },
+  {
+    "name": "Zealotry Symbol",
+    "description": ""
+  },
+  {
+    "name": "Certainty Fall",
+    "description": ""
+  },
+  {
+    "name": "Brain Labyrinth",
+    "description": ""
+  },
+  {
+    "name": "Neural Fracture",
+    "description": ""
+  },
+  {
+    "name": "Madness Chorus",
+    "description": ""
+  },
+  {
+    "name": "Guilt Emblem",
+    "description": ""
+  },
+  {
+    "name": "Reverie Parasite",
+    "description": ""
+  },
+  {
+    "name": "Puppet Wreath",
+    "description": ""
+  },
+  {
+    "name": "Suggestion Surge",
+    "description": ""
+  },
+  {
+    "name": "Cognitive Erosion",
+    "description": ""
+  },
+  {
+    "name": "Convulsion Trigger",
+    "description": ""
+  },
+  {
+    "name": "Pain Mirage",
+    "description": ""
+  },
+  {
+    "name": "Thought Bleed",
+    "description": ""
+  },
+  {
+    "name": "Euphoria Eddy",
+    "description": ""
+  },
+  {
+    "name": "Psychic Scream",
+    "description": ""
+  },
+  {
+    "name": "Delusion Flash",
+    "description": ""
+  },
+  {
+    "name": "Instinct Override",
+    "description": ""
+  },
+  {
+    "name": "Impulse Shaper",
+    "description": ""
+  },
+  {
+    "name": "Belief Anchor",
+    "description": ""
+  },
+  {
+    "name": "Mindquake",
+    "description": ""
+  },
+  {
+    "name": "Oblivion Throb",
+    "description": ""
+  },
+  {
+    "name": "False Souvenir Nest",
+    "description": ""
+  },
+  {
+    "name": "Waking Nightmare",
+    "description": ""
+  },
+  {
+    "name": "Synapse Burn",
+    "description": ""
+  },
+  {
+    "name": "Lucid Hijack",
+    "description": ""
+  },
+  {
+    "name": "Reverie Carving",
+    "description": ""
+  },
+  {
+    "name": "Personality Sculptor",
+    "description": ""
+  },
+  {
+    "name": "Desire Theft",
+    "description": ""
+  },
+  {
+    "name": "Night Terror Signet",
+    "description": ""
+  },
+  {
+    "name": "Addiction Cyclone",
+    "description": ""
+  },
+  {
+    "name": "Conviction Bend",
+    "description": ""
+  },
+  {
+    "name": "Madness Swirl",
+    "description": ""
+  },
+  {
+    "name": "Thought Parasite",
+    "description": ""
+  },
+  {
+    "name": "Apathy Field",
+    "description": ""
+  },
+  {
+    "name": "Emotion Sculptor",
+    "description": ""
+  },
+  {
+    "name": "Phantom Sensation",
+    "description": ""
+  },
+  {
+    "name": "Hysteria Wave",
+    "description": ""
+  },
+  {
+    "name": "Laughter Plague",
+    "description": ""
+  },
+  {
+    "name": "Muteness of Will",
+    "description": ""
+  },
+  {
+    "name": "Identity Theft",
+    "description": ""
+  },
+  {
+    "name": "Being Suggestion",
+    "description": ""
+  },
+  {
+    "name": "Psychic Leash",
+    "description": ""
+  },
+  {
+    "name": "Dementia Aureole",
+    "description": ""
+  },
+  {
+    "name": "Cognitive Shatter",
+    "description": ""
+  },
+  {
+    "name": "Panic Horde",
+    "description": ""
+  },
+  {
+    "name": "Neural Infection",
+    "description": ""
+  },
+  {
+    "name": "Voice Insertion",
+    "description": ""
+  },
+  {
+    "name": "Brainstorm Rush",
+    "description": ""
+  },
+  {
+    "name": "Ecstasy Trademark",
+    "description": ""
+  },
+  {
+    "name": "Thought Putrefaction",
+    "description": ""
+  },
+  {
+    "name": "Memory Erosion",
+    "description": ""
+  },
+  {
+    "name": "Conviction Seed",
+    "description": ""
+  },
+  {
+    "name": "Waking Madness",
+    "description": ""
+  },
+  {
+    "name": "Unwilling Rapture",
+    "description": ""
+  },
+  {
+    "name": "Cognitive Cage",
+    "description": ""
+  },
+  {
+    "name": "Nightmare Crystal",
+    "description": ""
+  },
+  {
+    "name": "Emotion Foundry",
+    "description": ""
+  },
+  {
+    "name": "Mental Shackles",
+    "description": ""
+  },
+  {
+    "name": "Synapse Lock",
+    "description": ""
+  },
+  {
+    "name": "Hallucination Fragment",
+    "description": ""
+  },
+  {
+    "name": "Puppet Channels",
+    "description": ""
+  },
+  {
+    "name": "Flesh Puppet",
+    "description": ""
+  },
+  {
+    "name": "Vertebrae Marionette",
+    "description": ""
+  },
+  {
+    "name": "Tendril Threads",
+    "description": ""
+  },
+  {
+    "name": "Muscle Twist",
+    "description": ""
+  },
+  {
+    "name": "Epidermis Flourish",
+    "description": ""
+  },
+  {
+    "name": "Sinew Chains",
+    "description": ""
+  },
+  {
+    "name": "Ridge Anchor",
+    "description": ""
+  },
+  {
+    "name": "Tendon Lash",
+    "description": ""
+  },
+  {
+    "name": "Sanguine Sculptor",
+    "description": ""
+  },
+  {
+    "name": "Cartilage Cage",
+    "description": ""
+  },
+  {
+    "name": "Viscera Threads",
+    "description": ""
+  },
+  {
+    "name": "Meat Colony",
+    "description": ""
+  },
+  {
+    "name": "Nerve Loom",
+    "description": ""
+  },
+  {
+    "name": "Limb Graft",
+    "description": ""
+  },
+  {
+    "name": "Tongue Leash",
+    "description": ""
+  },
+  {
+    "name": "Marrow Anvil",
+    "description": ""
+  },
+  {
+    "name": "Ligament Grasp",
+    "description": ""
+  },
+  {
+    "name": "Joint Lock",
+    "description": ""
+  },
+  {
+    "name": "Ribcage Snare",
+    "description": ""
+  },
+  {
+    "name": "Meat Sculpture",
+    "description": ""
+  },
+  {
+    "name": "Cyst Efflorescence",
+    "description": ""
+  },
+  {
+    "name": "Tumor Infusion",
+    "description": ""
+  },
+  {
+    "name": "Parasite Nest",
+    "description": ""
+  },
+  {
+    "name": "Muscle Spore",
+    "description": ""
+  },
+  {
+    "name": "Worm Infestation",
+    "description": ""
+  },
+  {
+    "name": "Eye Flowering",
+    "description": ""
+  },
+  {
+    "name": "Tooth Bud",
+    "description": ""
+  },
+  {
+    "name": "Claw Eruption",
+    "description": ""
+  },
+  {
+    "name": "Horn Blossom",
+    "description": ""
+  },
+  {
+    "name": "Tentacle Growth",
+    "description": ""
+  },
+  {
+    "name": "Thorn Forest",
+    "description": ""
+  },
+  {
+    "name": "Jaw Unhinge",
+    "description": ""
+  },
+  {
+    "name": "Tissue Vines",
+    "description": ""
+  },
+  {
+    "name": "Extra Limb Malison",
+    "description": ""
+  },
+  {
+    "name": "Pelt Husk",
+    "description": ""
+  },
+  {
+    "name": "Viscera Flowering",
+    "description": ""
+  },
+  {
+    "name": "Mouth Spawn",
+    "description": ""
+  },
+  {
+    "name": "Marrowbone Mask",
+    "description": ""
+  },
+  {
+    "name": "Knuckle Spikes",
+    "description": ""
+  },
+  {
+    "name": "Gore Chains",
+    "description": ""
+  },
+  {
+    "name": "Skin Knot",
+    "description": ""
+  },
+  {
+    "name": "Organ Harvest",
+    "description": ""
+  },
+  {
+    "name": "Lung Theft",
+    "description": ""
+  },
+  {
+    "name": "Nexus Seize",
+    "description": ""
+  },
+  {
+    "name": "Dermis Mask",
+    "description": ""
+  },
+  {
+    "name": "Tongue Spawn",
+    "description": ""
+  },
+  {
+    "name": "Crimson Vines",
+    "description": ""
+  },
+  {
+    "name": "Muscle Pit",
+    "description": ""
+  },
+  {
+    "name": "Sinew Grab",
+    "description": ""
+  },
+  {
+    "name": "Boneyard Blades",
+    "description": ""
+  },
+  {
+    "name": "Filament Needles",
+    "description": ""
+  },
+  {
+    "name": "Integument Wings",
+    "description": ""
+  },
+  {
+    "name": "Sinew Sheen",
+    "description": ""
+  },
+  {
+    "name": "Finger Growth",
+    "description": ""
+  },
+  {
+    "name": "Tooth Germinate",
+    "description": ""
+  },
+  {
+    "name": "Eye Throng",
+    "description": ""
+  },
+  {
+    "name": "Maggot Strands",
+    "description": ""
+  },
+  {
+    "name": "Cyst Torch",
+    "description": ""
+  },
+  {
+    "name": "Support Bud",
+    "description": ""
+  },
+  {
+    "name": "Organ Twist",
+    "description": ""
+  },
+  {
+    "name": "Jaw Chaplet",
+    "description": ""
+  },
+  {
+    "name": "Meat Swarm",
+    "description": ""
+  },
+  {
+    "name": "Claw Garland",
+    "description": ""
+  },
+  {
+    "name": "Flesh Graft Bane",
+    "description": ""
+  },
+  {
+    "name": "Ribcage Pinions",
+    "description": ""
+  },
+  {
+    "name": "Body Web",
+    "description": ""
+  },
+  {
+    "name": "Limb Rush",
+    "description": ""
+  },
+  {
+    "name": "Viscera Nimbus",
+    "description": ""
+  },
+  {
+    "name": "Nerve Spikes",
+    "description": ""
+  },
+  {
+    "name": "Flesh Antlers",
+    "description": ""
+  },
+  {
+    "name": "Joint Blast",
+    "description": ""
+  },
+  {
+    "name": "Osseous Chip Tempest",
+    "description": ""
+  },
+  {
+    "name": "Skin Tentacles",
+    "description": ""
+  },
+  {
+    "name": "Meat Churn",
+    "description": ""
+  },
+  {
+    "name": "Muscle Glare",
+    "description": ""
+  },
+  {
+    "name": "Lung Vines",
+    "description": ""
+  },
+  {
+    "name": "Marrow Lanthorn",
+    "description": ""
+  },
+  {
+    "name": "Spinal Flourish",
+    "description": ""
+  },
+  {
+    "name": "Lifeblood Husk",
+    "description": ""
+  },
+  {
+    "name": "Skinless Ensemble",
+    "description": ""
+  },
+  {
+    "name": "Sinew Cords",
+    "description": ""
+  },
+  {
+    "name": "Tongue Efflorescence",
+    "description": ""
+  },
+  {
+    "name": "Meat Spikes",
+    "description": ""
+  },
+  {
+    "name": "Organ Pit",
+    "description": ""
+  },
+  {
+    "name": "Limb Threads",
+    "description": ""
+  },
+  {
+    "name": "Kernel Sprout",
+    "description": ""
+  },
+  {
+    "name": "Meat Guidelight",
+    "description": ""
+  },
+  {
+    "name": "Ribcage Blades",
+    "description": ""
+  },
+  {
+    "name": "Tumor Nest",
+    "description": ""
+  },
+  {
+    "name": "Eye Whirlpool",
+    "description": ""
+  },
+  {
+    "name": "Jaw Blades",
+    "description": ""
+  },
+  {
+    "name": "Cartilage Fillet",
+    "description": ""
+  },
+  {
+    "name": "Finger Vines",
+    "description": ""
+  },
+  {
+    "name": "Nerve Laurel",
+    "description": ""
+  },
+  {
+    "name": "Spine Whips",
+    "description": ""
+  },
+  {
+    "name": "Hide Curtain",
+    "description": ""
+  },
+  {
+    "name": "Muscle Fountain",
+    "description": ""
+  },
+  {
+    "name": "Tooth Apiary",
+    "description": ""
+  },
+  {
+    "name": "Maggot Circlet",
+    "description": ""
+  },
+  {
+    "name": "Os Mass",
+    "description": ""
+  },
+  {
+    "name": "Viscera Chains",
+    "description": ""
+  },
+  {
+    "name": "Muscle Net",
+    "description": ""
+  },
+  {
+    "name": "Organ Threads",
+    "description": ""
+  },
+  {
+    "name": "Radiant Blossom",
+    "description": ""
+  },
+  {
+    "name": "Harmony Canopy",
+    "description": ""
+  },
+  {
+    "name": "Starlight Aria",
+    "description": ""
+  },
+  {
+    "name": "Aurora Diadem",
+    "description": ""
+  },
+  {
+    "name": "Dawn’s Embrace",
+    "description": ""
+  },
+  {
+    "name": "Divine Whisper",
+    "description": ""
+  },
+  {
+    "name": "Solar Benediction",
+    "description": ""
+  },
+  {
+    "name": "Moonlight Caress",
+    "description": ""
+  },
+  {
+    "name": "Elysian Field",
+    "description": ""
+  },
+  {
+    "name": "Seraphic Plume",
+    "description": ""
+  },
+  {
+    "name": "Everlasting Spring",
+    "description": ""
+  },
+  {
+    "name": "Blessed Tide",
+    "description": ""
+  },
+  {
+    "name": "Sacred Pyre",
+    "description": ""
+  },
+  {
+    "name": "Heaven’s Breath",
+    "description": ""
+  },
+  {
+    "name": "Luminous Way",
+    "description": ""
+  },
+  {
+    "name": "Sanctuary Nimbus",
+    "description": ""
+  },
+  {
+    "name": "Virtue Coronet",
+    "description": ""
+  },
+  {
+    "name": "Tranquil Garden",
+    "description": ""
+  },
+  {
+    "name": "Kindred Bond",
+    "description": ""
+  },
+  {
+    "name": "Joyful Chorus",
+    "description": ""
+  },
+  {
+    "name": "Everbright Corona",
+    "description": ""
+  },
+  {
+    "name": "Compassion Thread",
+    "description": ""
+  },
+  {
+    "name": "Hope Luminary",
+    "description": ""
+  },
+  {
+    "name": "Mercy Burst",
+    "description": ""
+  },
+  {
+    "name": "Serenity Storm",
+    "description": ""
+  },
+  {
+    "name": "Stellar Tide",
+    "description": ""
+  },
+  {
+    "name": "Aurora Bulwark",
+    "description": ""
+  },
+  {
+    "name": "Grace Flowering",
+    "description": ""
+  },
+  {
+    "name": "Pureheart Inferno",
+    "description": ""
+  },
+  {
+    "name": "Golden Hymn",
+    "description": ""
+  },
+  {
+    "name": "Divine Embrace",
+    "description": ""
+  },
+  {
+    "name": "Charity Flow",
+    "description": ""
+  },
+  {
+    "name": "Innocence Glow",
+    "description": ""
+  },
+  {
+    "name": "Starlit Screen",
+    "description": ""
+  },
+  {
+    "name": "Healing Dawn",
+    "description": ""
+  },
+  {
+    "name": "Blessed Harvest",
+    "description": ""
+  },
+  {
+    "name": "Everflow Stream",
+    "description": ""
+  },
+  {
+    "name": "Ethereal Bell",
+    "description": ""
+  },
+  {
+    "name": "Virtue Carol",
+    "description": ""
+  },
+  {
+    "name": "Celestial Ladder",
+    "description": ""
+  },
+  {
+    "name": "Peace Current",
+    "description": ""
+  },
+  {
+    "name": "Harmony Fountain",
+    "description": ""
+  },
+  {
+    "name": "Kindness Bloom",
+    "description": ""
+  },
+  {
+    "name": "Warmth Cape",
+    "description": ""
+  },
+  {
+    "name": "Elysian Label",
+    "description": ""
+  },
+  {
+    "name": "Hopeful Bud",
+    "description": ""
+  },
+  {
+    "name": "Quintessence Sanctuary",
+    "description": ""
+  },
+  {
+    "name": "Seraphic Chorale",
+    "description": ""
+  },
+  {
+    "name": "Aurora Chorus",
+    "description": ""
+  },
+  {
+    "name": "Blessed Meadow",
+    "description": ""
+  },
+  {
+    "name": "Coronet of Mercy",
+    "description": ""
+  },
+  {
+    "name": "Immortal Grove",
+    "description": ""
+  },
+  {
+    "name": "Sunrise Nimbus",
+    "description": ""
+  },
+  {
+    "name": "Hallowed Waters",
+    "description": ""
+  },
+  {
+    "name": "Graceful Spark",
+    "description": ""
+  },
+  {
+    "name": "Tranquility Wave",
+    "description": ""
+  },
+  {
+    "name": "Dove’s Airfoil",
+    "description": ""
+  },
+  {
+    "name": "Heavenly Bond",
+    "description": ""
+  },
+  {
+    "name": "Sanctum Haze",
+    "description": ""
+  },
+  {
+    "name": "Glow of Truth",
+    "description": ""
+  },
+  {
+    "name": "Heartfire Glow",
+    "description": ""
+  },
+  {
+    "name": "Compassion Torch",
+    "description": ""
+  },
+  {
+    "name": "Healing Whisper",
+    "description": ""
+  },
+  {
+    "name": "Aurora Robe",
+    "description": ""
+  },
+  {
+    "name": "Peaceful Fire",
+    "description": ""
+  },
+  {
+    "name": "Blessed Harmony",
+    "description": ""
+  },
+  {
+    "name": "Evergreen Torrent",
+    "description": ""
+  },
+  {
+    "name": "Radiant Hub",
+    "description": ""
+  },
+  {
+    "name": "Innocent Blaze",
+    "description": ""
+  },
+  {
+    "name": "Sacred Canticle",
+    "description": ""
+  },
+  {
+    "name": "Sanctuary Discharge",
+    "description": ""
+  },
+  {
+    "name": "Luminous Tiara",
+    "description": ""
+  },
+  {
+    "name": "Anima Bond",
+    "description": ""
+  },
+  {
+    "name": "Merciful Hand",
+    "description": ""
+  },
+  {
+    "name": "Perpetual Gleam",
+    "description": ""
+  },
+  {
+    "name": "Sacred Breath",
+    "description": ""
+  },
+  {
+    "name": "Seraph’s Gift",
+    "description": ""
+  },
+  {
+    "name": "Hopeful Blaze",
+    "description": ""
+  },
+  {
+    "name": "Starlight Glint",
+    "description": ""
+  },
+  {
+    "name": "Aurora Ember",
+    "description": ""
+  },
+  {
+    "name": "Grace of Dawn",
+    "description": ""
+  },
+  {
+    "name": "Pure Eidolon",
+    "description": ""
+  },
+  {
+    "name": "Blessed Pyre",
+    "description": ""
+  },
+  {
+    "name": "Numen Embrace",
+    "description": ""
+  },
+  {
+    "name": "Astral Spark",
+    "description": ""
+  },
+  {
+    "name": "Radiant Precipitation",
+    "description": ""
+  },
+  {
+    "name": "Harmony Inferno",
+    "description": ""
+  },
+  {
+    "name": "Peaceful Glow",
+    "description": ""
+  },
+  {
+    "name": "Virtuous Brand",
+    "description": ""
+  },
+  {
+    "name": "Golden Nimbus",
+    "description": ""
+  },
+  {
+    "name": "Blessed Sky",
+    "description": ""
+  },
+  {
+    "name": "Tranquil Nova",
+    "description": ""
+  },
+  {
+    "name": "Lightbearer’s Spark",
+    "description": ""
+  },
+  {
+    "name": "Mercy Flourish",
+    "description": ""
+  },
+  {
+    "name": "Ethereal Torch",
+    "description": ""
+  },
+  {
+    "name": "Aurora Bond",
+    "description": ""
+  },
+  {
+    "name": "Circle of Dawn",
+    "description": ""
+  },
+  {
+    "name": "Sacred Grace",
+    "description": ""
+  },
+  {
+    "name": "Soulfire Efflorescence",
+    "description": ""
+  },
+  {
+    "name": "Endless Blaze",
+    "description": ""
+  },
+  {
+    "name": "Blessed Spark",
+    "description": ""
+  },
+  {
+    "name": "Hope Bud",
+    "description": ""
+  },
+  {
+    "name": "Balloon Pace",
+    "description": ""
+  },
+  {
+    "name": "Rainbow Trail",
+    "description": ""
+  },
+  {
+    "name": "Confetti Burst",
+    "description": ""
+  },
+  {
+    "name": "Giggle Hex",
+    "description": ""
+  },
+  {
+    "name": "Teacup Spin",
+    "description": ""
+  },
+  {
+    "name": "Lollipop Lash",
+    "description": ""
+  },
+  {
+    "name": "Bumble Bounce",
+    "description": ""
+  },
+  {
+    "name": "Marble Multitude",
+    "description": ""
+  },
+  {
+    "name": "Whistle Charm",
+    "description": ""
+  },
+  {
+    "name": "Sugar Spark",
+    "description": ""
+  },
+  {
+    "name": "Tickle Blight",
+    "description": ""
+  },
+  {
+    "name": "Soap Bubble Dance",
+    "description": ""
+  },
+  {
+    "name": "Jelly Bounce",
+    "description": ""
+  },
+  {
+    "name": "Glitter Gust",
+    "description": ""
+  },
+  {
+    "name": "Ribbon Snare",
+    "description": ""
+  },
+  {
+    "name": "Sparkle Net",
+    "description": ""
+  },
+  {
+    "name": "Cotton Cloud",
+    "description": ""
+  },
+  {
+    "name": "Sundae Rain",
+    "description": ""
+  },
+  {
+    "name": "Trumpet Shriek",
+    "description": ""
+  },
+  {
+    "name": "Jester’s Leap",
+    "description": ""
+  },
+  {
+    "name": "Featherstorm",
+    "description": ""
+  },
+  {
+    "name": "Candyfloss Gossamer",
+    "description": ""
+  },
+  {
+    "name": "Hiccup Curse",
+    "description": ""
+  },
+  {
+    "name": "Topsy-Turvy",
+    "description": ""
+  },
+  {
+    "name": "Banana Blink",
+    "description": ""
+  },
+  {
+    "name": "Prankster’s Mark",
+    "description": ""
+  },
+  {
+    "name": "Toy Parade",
+    "description": ""
+  },
+  {
+    "name": "Humming Aureole",
+    "description": ""
+  },
+  {
+    "name": "Button Blossom",
+    "description": ""
+  },
+  {
+    "name": "Slinky Coil",
+    "description": ""
+  },
+  {
+    "name": "Marzipan Mist",
+    "description": ""
+  },
+  {
+    "name": "Cupcake Toss",
+    "description": ""
+  },
+  {
+    "name": "Carousel Spin",
+    "description": ""
+  },
+  {
+    "name": "Hopscotch Warp",
+    "description": ""
+  },
+  {
+    "name": "Bubblewrap Armor",
+    "description": ""
+  },
+  {
+    "name": "Origami Flock",
+    "description": ""
+  },
+  {
+    "name": "Trumpet Tread",
+    "description": ""
+  },
+  {
+    "name": "Jack-in-the-Box",
+    "description": ""
+  },
+  {
+    "name": "Kite Glide",
+    "description": ""
+  },
+  {
+    "name": "Sock Tangle",
+    "description": ""
+  },
+  {
+    "name": "Fizzy Pop",
+    "description": ""
+  },
+  {
+    "name": "Paper Lamps",
+    "description": ""
+  },
+  {
+    "name": "Wobble Walk",
+    "description": ""
+  },
+  {
+    "name": "Dizzy Field",
+    "description": ""
+  },
+  {
+    "name": "Lullaby Haze",
+    "description": ""
+  },
+  {
+    "name": "Chalk Charm",
+    "description": ""
+  },
+  {
+    "name": "Dandelion Drift",
+    "description": ""
+  },
+  {
+    "name": "Firefly Waltz",
+    "description": ""
+  },
+  {
+    "name": "Skipping Stone",
+    "description": ""
+  },
+  {
+    "name": "Candy Cane Javelin",
+    "description": ""
+  },
+  {
+    "name": "Bouncing Ball",
+    "description": ""
+  },
+  {
+    "name": "Balloon Knot",
+    "description": ""
+  },
+  {
+    "name": "Jigsaw Snare",
+    "description": ""
+  },
+  {
+    "name": "Polka-Dot Mesh",
+    "description": ""
+  },
+  {
+    "name": "Trumpet Eruption",
+    "description": ""
+  },
+  {
+    "name": "Hobby Horse Charge",
+    "description": ""
+  },
+  {
+    "name": "Kettle Whistle",
+    "description": ""
+  },
+  {
+    "name": "Snowglobe Footfall",
+    "description": ""
+  },
+  {
+    "name": "Rubber Duck Shower",
+    "description": ""
+  },
+  {
+    "name": "Icicle Candy",
+    "description": ""
+  },
+  {
+    "name": "Pinwheel Spin",
+    "description": ""
+  },
+  {
+    "name": "Yo-Yo Chain",
+    "description": ""
+  },
+  {
+    "name": "Bubblegum Pop",
+    "description": ""
+  },
+  {
+    "name": "Magic Crayons",
+    "description": ""
+  },
+  {
+    "name": "Swing March",
+    "description": ""
+  },
+  {
+    "name": "Puppet Prank",
+    "description": ""
+  },
+  {
+    "name": "Accordion Roar",
+    "description": ""
+  },
+  {
+    "name": "Kite Strand Bind",
+    "description": ""
+  },
+  {
+    "name": "Popcorn Spray",
+    "description": ""
+  },
+  {
+    "name": "Chuckle Hex",
+    "description": ""
+  },
+  {
+    "name": "Toybox Cluster",
+    "description": ""
+  },
+  {
+    "name": "Rainbow Ribbon",
+    "description": ""
+  },
+  {
+    "name": "Marble Maze",
+    "description": ""
+  },
+  {
+    "name": "Feather Boa",
+    "description": ""
+  },
+  {
+    "name": "Confetti Cannon",
+    "description": ""
+  },
+  {
+    "name": "Glowworm Trail",
+    "description": ""
+  },
+  {
+    "name": "Candy Button",
+    "description": ""
+  },
+  {
+    "name": "Gumdrop Net",
+    "description": ""
+  },
+  {
+    "name": "Pogo Advance",
+    "description": ""
+  },
+  {
+    "name": "Teaspoon Squall",
+    "description": ""
+  },
+  {
+    "name": "Caramel Melt",
+    "description": ""
+  },
+  {
+    "name": "Sock Puppet Summon",
+    "description": ""
+  },
+  {
+    "name": "Skipping Rope Snare",
+    "description": ""
+  },
+  {
+    "name": "Chalk Dust Shroud",
+    "description": ""
+  },
+  {
+    "name": "Music Box Charm",
+    "description": ""
+  },
+  {
+    "name": "Trumpet Ring",
+    "description": ""
+  },
+  {
+    "name": "Wind-Up March",
+    "description": ""
+  },
+  {
+    "name": "Balloon Elephant",
+    "description": ""
+  },
+  {
+    "name": "Fairground Gate",
+    "description": ""
+  },
+  {
+    "name": "Carousel Chant",
+    "description": ""
+  },
+  {
+    "name": "Puppet Twines",
+    "description": ""
+  },
+  {
+    "name": "Clown’s Glory",
+    "description": ""
+  },
+  {
+    "name": "Parade Ode",
+    "description": ""
+  },
+  {
+    "name": "Paper Dragon",
+    "description": ""
+  },
+  {
+    "name": "Confetti Gale",
+    "description": ""
+  },
+  {
+    "name": "Bubblegum Bridge",
+    "description": ""
+  },
+  {
+    "name": "Rainbow Swing",
+    "description": ""
+  },
+  {
+    "name": "Toy Soldier Stomp",
+    "description": ""
+  },
+  {
+    "name": "Whistle Deluge",
+    "description": ""
+  },
+  {
+    "name": "Party Mask",
+    "description": ""
+  },
+  {
+    "name": "Festival Glow",
+    "description": ""
+  },
+  {
+    "name": "Carnival Gate",
+    "description": ""
+  },
+  {
+    "name": "Firebrand",
+    "description": ""
+  },
+  {
+    "name": "Tidecaller",
+    "description": ""
+  },
+  {
+    "name": "Stonewarden",
+    "description": ""
+  },
+  {
+    "name": "Stormbringer",
+    "description": ""
+  },
+  {
+    "name": "Sunforged",
+    "description": ""
+  },
+  {
+    "name": "Moonveil",
+    "description": ""
+  },
+  {
+    "name": "Starcaller",
+    "description": ""
+  },
+  {
+    "name": "Skyblade",
+    "description": ""
+  },
+  {
+    "name": "Earthshaper",
+    "description": ""
+  },
+  {
+    "name": "Wavebinder",
+    "description": ""
+  },
+  {
+    "name": "Thunderheart",
+    "description": ""
+  },
+  {
+    "name": "Windrider",
+    "description": ""
+  },
+  {
+    "name": "Dawnbreaker",
+    "description": ""
+  },
+  {
+    "name": "Duskwalker",
+    "description": ""
+  },
+  {
+    "name": "Ironwill",
+    "description": ""
+  },
+  {
+    "name": "Steelheart",
+    "description": ""
+  },
+  {
+    "name": "Shadowveil",
+    "description": ""
+  },
+  {
+    "name": "Lightbearer",
+    "description": ""
+  },
+  {
+    "name": "Spiritbound",
+    "description": ""
+  },
+  {
+    "name": "Runesmith",
+    "description": ""
+  },
+  {
+    "name": "Wardkeeper",
+    "description": ""
+  },
+  {
+    "name": "Spellweaver",
+    "description": ""
+  },
+  {
+    "name": "Dragonfire",
+    "description": ""
+  },
+  {
+    "name": "Phoenix Plumage",
+    "description": ""
+  },
+  {
+    "name": "Frostfang",
+    "description": ""
+  },
+  {
+    "name": "Flameheart",
+    "description": ""
+  },
+  {
+    "name": "Stormborn",
+    "description": ""
+  },
+  {
+    "name": "Windcaller",
+    "description": ""
+  },
+  {
+    "name": "Seabinder",
+    "description": ""
+  },
+  {
+    "name": "Ashen Lord",
+    "description": ""
+  },
+  {
+    "name": "Crystalborn",
+    "description": ""
+  },
+  {
+    "name": "Blazefury",
+    "description": ""
+  },
+  {
+    "name": "Deepwarden",
+    "description": ""
+  },
+  {
+    "name": "Brightshield",
+    "description": ""
+  },
+  {
+    "name": "Darkbane",
+    "description": ""
+  },
+  {
+    "name": "Soulforged",
+    "description": ""
+  },
+  {
+    "name": "Grimwarden",
+    "description": ""
+  },
+  {
+    "name": "Ironclad",
+    "description": ""
+  },
+  {
+    "name": "Runeweaver",
+    "description": ""
+  },
+  {
+    "name": "Oathkeeper",
+    "description": ""
+  },
+  {
+    "name": "Truthseeker",
+    "description": ""
+  },
+  {
+    "name": "Lorekeeper",
+    "description": ""
+  },
+  {
+    "name": "Stormspear",
+    "description": ""
+  },
+  {
+    "name": "Moonblade",
+    "description": ""
+  },
+  {
+    "name": "Starforge",
+    "description": ""
+  },
+  {
+    "name": "Nightwarden",
+    "description": ""
+  },
+  {
+    "name": "Dawncaller",
+    "description": ""
+  },
+  {
+    "name": "Skywarden",
+    "description": ""
+  },
+  {
+    "name": "Flamewarden",
+    "description": ""
+  },
+  {
+    "name": "Frostveil",
+    "description": ""
+  },
+  {
+    "name": "Stoneheart",
+    "description": ""
+  },
+  {
+    "name": "Spiritflame",
+    "description": ""
+  },
+  {
+    "name": "Sunveil",
+    "description": ""
+  },
+  {
+    "name": "Stormveil",
+    "description": ""
+  },
+  {
+    "name": "Oathbound",
+    "description": ""
+  },
+  {
+    "name": "Shadowbrand",
+    "description": ""
+  },
+  {
+    "name": "Lightshield",
+    "description": ""
+  },
+  {
+    "name": "Starveil",
+    "description": ""
+  },
+  {
+    "name": "Dragonheart",
+    "description": ""
+  },
+  {
+    "name": "Frostfire",
+    "description": ""
+  },
+  {
+    "name": "Waveforged",
+    "description": ""
+  },
+  {
+    "name": "Emberlord",
+    "description": ""
+  },
+  {
+    "name": "Seawarden",
+    "description": ""
+  },
+  {
+    "name": "Skyforged",
+    "description": ""
+  },
+  {
+    "name": "Stormfang",
+    "description": ""
+  },
+  {
+    "name": "Ironfang",
+    "description": ""
+  },
+  {
+    "name": "Runeforge",
+    "description": ""
+  },
+  {
+    "name": "Moonfire",
+    "description": ""
+  },
+  {
+    "name": "Starfire",
+    "description": ""
+  },
+  {
+    "name": "Earthsong",
+    "description": ""
+  },
+  {
+    "name": "Stormsong",
+    "description": ""
+  },
+  {
+    "name": "Flamesong",
+    "description": ""
+  },
+  {
+    "name": "Dreamweaver",
+    "description": ""
+  },
+  {
+    "name": "Soulwarden",
+    "description": ""
+  },
+  {
+    "name": "Ashforge",
+    "description": ""
+  },
+  {
+    "name": "Steelbrand",
+    "description": ""
+  },
+  {
+    "name": "Bloodforged",
+    "description": ""
+  },
+  {
+    "name": "Stoneveil",
+    "description": ""
+  },
+  {
+    "name": "Frostfang",
+    "description": ""
+  },
+  {
+    "name": "Dragonfang",
+    "description": ""
+  },
+  {
+    "name": "Sunshield",
+    "description": ""
+  },
+  {
+    "name": "Moonshield",
+    "description": ""
+  },
+  {
+    "name": "Starshield",
+    "description": ""
+  },
+  {
+    "name": "Lightveil",
+    "description": ""
+  },
+  {
+    "name": "Shadowfang",
+    "description": ""
+  },
+  {
+    "name": "Seaborn",
+    "description": ""
+  },
+  {
+    "name": "Waveblade",
+    "description": ""
+  },
+  {
+    "name": "Stormblade",
+    "description": ""
+  },
+  {
+    "name": "Runeveil",
+    "description": ""
+  },
+  {
+    "name": "Fireveil",
+    "description": ""
+  },
+  {
+    "name": "Iceveil",
+    "description": ""
+  },
+  {
+    "name": "Skyveil",
+    "description": ""
+  },
+  {
+    "name": "Earthveil",
+    "description": ""
+  },
+  {
+    "name": "Spiritveil",
+    "description": ""
+  },
+  {
+    "name": "Ashveil",
+    "description": ""
+  },
+  {
+    "name": "Starborn",
+    "description": ""
+  },
+  {
+    "name": "Moonborn",
+    "description": ""
+  },
+  {
+    "name": "Sunborn",
+    "description": ""
+  },
+  {
+    "name": "Frostborn",
+    "description": ""
+  },
+  {
+    "name": "Flameborn",
+    "description": ""
+  },
+  {
+    "name": "Stormborn",
+    "description": ""
+  },
+  {
+    "name": "Oathbrand",
+    "description": ""
+  },
+  {
+    "name": "Truthbrand",
+    "description": ""
+  },
+  {
+    "name": "Thunderwielder",
+    "description": ""
+  },
+  {
+    "name": "Skysplitter",
+    "description": ""
+  },
+  {
+    "name": "Earthbinder",
+    "description": ""
+  },
+  {
+    "name": "Seabreaker",
+    "description": ""
+  },
+  {
+    "name": "Flamebearer",
+    "description": ""
+  },
+  {
+    "name": "Stormrider",
+    "description": ""
+  },
+  {
+    "name": "Wolftamer",
+    "description": ""
+  },
+  {
+    "name": "Lionhearted",
+    "description": ""
+  },
+  {
+    "name": "Spearsinger",
+    "description": ""
+  },
+  {
+    "name": "Shieldbreaker",
+    "description": ""
+  },
+  {
+    "name": "Bladedancer",
+    "description": ""
+  },
+  {
+    "name": "Arrowguide",
+    "description": ""
+  },
+  {
+    "name": "Oathsworn",
+    "description": ""
+  },
+  {
+    "name": "Truthspeaker",
+    "description": ""
+  },
+  {
+    "name": "Starseer",
+    "description": ""
+  },
+  {
+    "name": "Moonwalker",
+    "description": ""
+  },
+  {
+    "name": "Suntouched",
+    "description": ""
+  },
+  {
+    "name": "Waverider",
+    "description": ""
+  },
+  {
+    "name": "Mountainhewer",
+    "description": ""
+  },
+  {
+    "name": "Stonesinger",
+    "description": ""
+  },
+  {
+    "name": "Runecarver",
+    "description": ""
+  },
+  {
+    "name": "Fatebinder",
+    "description": ""
+  },
+  {
+    "name": "Doombringer",
+    "description": ""
+  },
+  {
+    "name": "Warsinger",
+    "description": ""
+  },
+  {
+    "name": "Songweaver",
+    "description": ""
+  },
+  {
+    "name": "Dreamwalker",
+    "description": ""
+  },
+  {
+    "name": "Deathtouched",
+    "description": ""
+  },
+  {
+    "name": "Lifegiver",
+    "description": ""
+  },
+  {
+    "name": "Worldshaker",
+    "description": ""
+  },
+  {
+    "name": "Skyforged",
+    "description": ""
+  },
+  {
+    "name": "Firedrinker",
+    "description": ""
+  },
+  {
+    "name": "Icebreaker",
+    "description": ""
+  },
+  {
+    "name": "Stormcaller",
+    "description": ""
+  },
+  {
+    "name": "Beastspeaker",
+    "description": ""
+  },
+  {
+    "name": "Dragonblooded",
+    "description": ""
+  },
+  {
+    "name": "Phoenixborn",
+    "description": ""
+  },
+  {
+    "name": "Crowfeeder",
+    "description": ""
+  },
+  {
+    "name": "Wolfskinner",
+    "description": ""
+  },
+  {
+    "name": "Serpentslayer",
+    "description": ""
+  },
+  {
+    "name": "Hammerborn",
+    "description": ""
+  },
+  {
+    "name": "Spearforged",
+    "description": ""
+  },
+  {
+    "name": "Shieldmaiden",
+    "description": ""
+  },
+  {
+    "name": "Oathkeeper",
+    "description": ""
+  },
+  {
+    "name": "Bloodbinder",
+    "description": ""
+  },
+  {
+    "name": "Warborn",
+    "description": ""
+  },
+  {
+    "name": "Battlecrowned",
+    "description": ""
+  },
+  {
+    "name": "Heromarked",
+    "description": ""
+  },
+  {
+    "name": "Starborn",
+    "description": ""
+  },
+  {
+    "name": "Moonblessed",
+    "description": ""
+  },
+  {
+    "name": "Suntouched",
+    "description": ""
+  },
+  {
+    "name": "Seavoice",
+    "description": ""
+  },
+  {
+    "name": "Earthshaker",
+    "description": ""
+  },
+  {
+    "name": "Skybanner",
+    "description": ""
+  },
+  {
+    "name": "Fireheart",
+    "description": ""
+  },
+  {
+    "name": "Icehanded",
+    "description": ""
+  },
+  {
+    "name": "Stormbrand",
+    "description": ""
+  },
+  {
+    "name": "Shadowwalker",
+    "description": ""
+  },
+  {
+    "name": "Lightbringer",
+    "description": ""
+  },
+  {
+    "name": "Fatechosen",
+    "description": ""
+  },
+  {
+    "name": "Doomcrowned",
+    "description": ""
+  },
+  {
+    "name": "Gloryseeker",
+    "description": ""
+  },
+  {
+    "name": "Honorbound",
+    "description": ""
+  },
+  {
+    "name": "Spiritwalker",
+    "description": ""
+  },
+  {
+    "name": "Soulbinder",
+    "description": ""
+  },
+  {
+    "name": "Ghostspeaker",
+    "description": ""
+  },
+  {
+    "name": "Ancestorcrowned",
+    "description": ""
+  },
+  {
+    "name": "Ashborn",
+    "description": ""
+  },
+  {
+    "name": "Flametouched",
+    "description": ""
+  },
+  {
+    "name": "Ironblooded",
+    "description": ""
+  },
+  {
+    "name": "Stonehanded",
+    "description": ""
+  },
+  {
+    "name": "Skysworn",
+    "description": ""
+  },
+  {
+    "name": "Thunderheart",
+    "description": ""
+  },
+  {
+    "name": "Stormsworn",
+    "description": ""
+  },
+  {
+    "name": "Beastbane",
+    "description": ""
+  },
+  {
+    "name": "Serpentcaller",
+    "description": ""
+  },
+  {
+    "name": "Dragonsworn",
+    "description": ""
+  },
+  {
+    "name": "Wolfhowler",
+    "description": ""
+  },
+  {
+    "name": "Crowsworn",
+    "description": ""
+  },
+  {
+    "name": "Eagleeyed",
+    "description": ""
+  },
+  {
+    "name": "Lionmarked",
+    "description": ""
+  },
+  {
+    "name": "Bearclad",
+    "description": ""
+  },
+  {
+    "name": "Staghorned",
+    "description": ""
+  },
+  {
+    "name": "Boartusked",
+    "description": ""
+  },
+  {
+    "name": "Ramhelmed",
+    "description": ""
+  },
+  {
+    "name": "Houndfriend",
+    "description": ""
+  },
+  {
+    "name": "Horselord",
+    "description": ""
+  },
+  {
+    "name": "Swanmaiden",
+    "description": ""
+  },
+  {
+    "name": "Dovevoice",
+    "description": ""
+  },
+  {
+    "name": "Hawkwinged",
+    "description": ""
+  },
+  {
+    "name": "Falconeyed",
+    "description": ""
+  },
+  {
+    "name": "Owlwise",
+    "description": ""
+  },
+  {
+    "name": "Serpenttongued",
+    "description": ""
+  },
+  {
+    "name": "Ravencrowned",
+    "description": ""
+  },
+  {
+    "name": "Wolfblooded",
+    "description": ""
+  },
+  {
+    "name": "Dragontongue",
+    "description": ""
+  },
+  {
+    "name": "Stormherald",
+    "description": ""
+  },
+  {
+    "name": "Warfather",
+    "description": ""
+  },
+  {
+    "name": "Battlemother",
+    "description": ""
+  },
+  {
+    "name": "Fatewoven",
+    "description": ""
+  },
+  {
+    "name": "Godtouched",
+    "description": ""
+  },
+  {
+    "name": "Eternalsworn",
+    "description": ""
+  },
+  {
+    "name": "Aegis",
+    "description": ""
+  },
+  {
+    "name": "Nike",
+    "description": ""
+  },
+  {
+    "name": "Helios",
+    "description": ""
+  },
+  {
+    "name": "Erebos",
+    "description": ""
+  },
+  {
+    "name": "Nyxen",
+    "description": ""
+  },
+  {
+    "name": "Thanis",
+    "description": ""
+  },
+  {
+    "name": "Hypnos",
+    "description": ""
+  },
+  {
+    "name": "Moira",
+    "description": ""
+  },
+  {
+    "name": "Chaos",
+    "description": ""
+  },
+  {
+    "name": "Gaia",
+    "description": ""
+  },
+  {
+    "name": "Atlas",
+    "description": ""
+  },
+  {
+    "name": "Kronos",
+    "description": ""
+  },
+  {
+    "name": "Rhea",
+    "description": ""
+  },
+  {
+    "name": "Ouran",
+    "description": ""
+  },
+  {
+    "name": "Eos",
+    "description": ""
+  },
+  {
+    "name": "Selas",
+    "description": ""
+  },
+  {
+    "name": "Phobos",
+    "description": ""
+  },
+  {
+    "name": "Deimos",
+    "description": ""
+  },
+  {
+    "name": "Styx",
+    "description": ""
+  },
+  {
+    "name": "Charon",
+    "description": ""
+  },
+  {
+    "name": "Doros",
+    "description": ""
+  },
+  {
+    "name": "Zephy",
+    "description": ""
+  },
+  {
+    "name": "Boreas",
+    "description": ""
+  },
+  {
+    "name": "Notos",
+    "description": ""
+  },
+  {
+    "name": "Eurus",
+    "description": ""
+  },
+  {
+    "name": "Hydra",
+    "description": ""
+  },
+  {
+    "name": "Siren",
+    "description": ""
+  },
+  {
+    "name": "Chiron",
+    "description": ""
+  },
+  {
+    "name": "Sphinx",
+    "description": ""
+  },
+  {
+    "name": "Eris",
+    "description": ""
+  },
+  {
+    "name": "Nemis",
+    "description": ""
+  },
+  {
+    "name": "Hekas",
+    "description": ""
+  },
+  {
+    "name": "Hera",
+    "description": ""
+  },
+  {
+    "name": "Apollo",
+    "description": ""
+  },
+  {
+    "name": "Ares",
+    "description": ""
+  },
+  {
+    "name": "Hermes",
+    "description": ""
+  },
+  {
+    "name": "Hades",
+    "description": ""
+  },
+  {
+    "name": "Posei",
+    "description": ""
+  },
+  {
+    "name": "Zeus",
+    "description": ""
+  },
+  {
+    "name": "Artemis",
+    "description": ""
+  },
+  {
+    "name": "Athena",
+    "description": ""
+  },
+  {
+    "name": "Demet",
+    "description": ""
+  },
+  {
+    "name": "Diony",
+    "description": ""
+  },
+  {
+    "name": "Perse",
+    "description": ""
+  },
+  {
+    "name": "Nikea",
+    "description": ""
+  },
+  {
+    "name": "Phoebos",
+    "description": ""
+  },
+  {
+    "name": "Eoson",
+    "description": ""
+  },
+  {
+    "name": "Ephyra",
+    "description": ""
+  },
+  {
+    "name": "Leto",
+    "description": ""
+  },
+  {
+    "name": "Iris",
+    "description": ""
+  },
+  {
+    "name": "Selene",
+    "description": ""
+  },
+  {
+    "name": "Callio",
+    "description": ""
+  },
+  {
+    "name": "Clio",
+    "description": ""
+  },
+  {
+    "name": "Euter",
+    "description": ""
+  },
+  {
+    "name": "Thale",
+    "description": ""
+  },
+  {
+    "name": "Melpo",
+    "description": ""
+  },
+  {
+    "name": "Terps",
+    "description": ""
+  },
+  {
+    "name": "Polyh",
+    "description": ""
+  },
+  {
+    "name": "Urania",
+    "description": ""
+  },
+  {
+    "name": "Hestia",
+    "description": ""
+  },
+  {
+    "name": "Hecate",
+    "description": ""
+  },
+  {
+    "name": "Nycto",
+    "description": ""
+  },
+  {
+    "name": "Erebos",
+    "description": ""
+  },
+  {
+    "name": "Titan",
+    "description": ""
+  },
+  {
+    "name": "Okean",
+    "description": ""
+  },
+  {
+    "name": "Pontus",
+    "description": ""
+  },
+  {
+    "name": "Phorcys",
+    "description": ""
+  },
+  {
+    "name": "Ceto",
+    "description": ""
+  },
+  {
+    "name": "Nereus",
+    "description": ""
+  },
+  {
+    "name": "Tethys",
+    "description": ""
+  },
+  {
+    "name": "Metis",
+    "description": ""
+  },
+  {
+    "name": "Mneme",
+    "description": ""
+  },
+  {
+    "name": "Themis",
+    "description": ""
+  },
+  {
+    "name": "Dike",
+    "description": ""
+  },
+  {
+    "name": "Eirene",
+    "description": ""
+  },
+  {
+    "name": "Tyche",
+    "description": ""
+  },
+  {
+    "name": "Thanat",
+    "description": ""
+  },
+  {
+    "name": "Achlys",
+    "description": ""
+  },
+  {
+    "name": "Ker",
+    "description": ""
+  },
+  {
+    "name": "Moros",
+    "description": ""
+  },
+  {
+    "name": "Anank",
+    "description": ""
+  },
+  {
+    "name": "Apate",
+    "description": ""
+  },
+  {
+    "name": "Gerus",
+    "description": ""
+  },
+  {
+    "name": "Nemis",
+    "description": ""
+  },
+  {
+    "name": "Peitho",
+    "description": ""
+  },
+  {
+    "name": "Bia",
+    "description": ""
+  },
+  {
+    "name": "Kratos",
+    "description": ""
+  },
+  {
+    "name": "Zelos",
+    "description": ""
+  },
+  {
+    "name": "Nikeph",
+    "description": ""
+  },
+  {
+    "name": "Aether",
+    "description": ""
+  },
+  {
+    "name": "Hemera",
+    "description": ""
+  },
+  {
+    "name": "Phanes",
+    "description": ""
+  },
+  {
+    "name": "Chrono",
+    "description": ""
+  },
+  {
+    "name": "Eros",
+    "description": ""
+  },
+  {
+    "name": "Eriska",
+    "description": ""
+  },
+  {
+    "name": "Philotes",
+    "description": ""
+  },
+  {
+    "name": "Thalys",
+    "description": ""
+  },
+  {
+    "name": "Chasm",
+    "description": ""
+  },
+  {
+    "name": "Ourea",
+    "description": ""
+  },
+  {
+    "name": "Nysa",
+    "description": ""
+  },
+  {
+    "name": "Delos",
+    "description": ""
+  },
+  {
+    "name": "Aegae",
+    "description": ""
+  },
+  {
+    "name": "Ares",
+    "description": ""
+  },
+  {
+    "name": "Nike",
+    "description": ""
+  },
+  {
+    "name": "Kratos",
+    "description": ""
+  },
+  {
+    "name": "Bia",
+    "description": ""
+  },
+  {
+    "name": "Zelos",
+    "description": ""
+  },
+  {
+    "name": "Phobos",
+    "description": ""
+  },
+  {
+    "name": "Deimos",
+    "description": ""
+  },
+  {
+    "name": "Thanes",
+    "description": ""
+  },
+  {
+    "name": "Styx",
+    "description": ""
+  },
+  {
+    "name": "Nyx",
+    "description": ""
+  },
+  {
+    "name": "Erebos",
+    "description": ""
+  },
+  {
+    "name": "Gaia",
+    "description": ""
+  },
+  {
+    "name": "Chaos",
+    "description": ""
+  },
+  {
+    "name": "Moira",
+    "description": ""
+  },
+  {
+    "name": "Tyche",
+    "description": ""
+  },
+  {
+    "name": "Nemis",
+    "description": ""
+  },
+  {
+    "name": "Eris",
+    "description": ""
+  },
+  {
+    "name": "Hekas",
+    "description": ""
+  },
+  {
+    "name": "Hera",
+    "description": ""
+  },
+  {
+    "name": "Apollo",
+    "description": ""
+  },
+  {
+    "name": "Zeus",
+    "description": ""
+  },
+  {
+    "name": "Hades",
+    "description": ""
+  },
+  {
+    "name": "Posei",
+    "description": ""
+  },
+  {
+    "name": "Atlas",
+    "description": ""
+  },
+  {
+    "name": "Kronos",
+    "description": ""
+  },
+  {
+    "name": "Rhea",
+    "description": ""
+  },
+  {
+    "name": "Ouran",
+    "description": ""
+  },
+  {
+    "name": "Helios",
+    "description": ""
+  },
+  {
+    "name": "Selas",
+    "description": ""
+  },
+  {
+    "name": "Eos",
+    "description": ""
+  },
+  {
+    "name": "Iris",
+    "description": ""
+  },
+  {
+    "name": "Leto",
+    "description": ""
+  },
+  {
+    "name": "Ephy",
+    "description": ""
+  },
+  {
+    "name": "Doros",
+    "description": ""
+  },
+  {
+    "name": "Hydra",
+    "description": ""
+  },
+  {
+    "name": "Siren",
+    "description": ""
+  },
+  {
+    "name": "Chiron",
+    "description": ""
+  },
+  {
+    "name": "Sphinx",
+    "description": ""
+  },
+  {
+    "name": "Medus",
+    "description": ""
+  },
+  {
+    "name": "Gorgon",
+    "description": ""
+  },
+  {
+    "name": "Cerber",
+    "description": ""
+  },
+  {
+    "name": "Chimra",
+    "description": ""
+  },
+  {
+    "name": "Harpys",
+    "description": ""
+  },
+  {
+    "name": "Cyclos",
+    "description": ""
+  },
+  {
+    "name": "Titan",
+    "description": ""
+  },
+  {
+    "name": "Okean",
+    "description": ""
+  },
+  {
+    "name": "Pontus",
+    "description": ""
+  },
+  {
+    "name": "Tethys",
+    "description": ""
+  },
+  {
+    "name": "Phorc",
+    "description": ""
+  },
+  {
+    "name": "Ceto",
+    "description": ""
+  },
+  {
+    "name": "Nereus",
+    "description": ""
+  },
+  {
+    "name": "Mneme",
+    "description": ""
+  },
+  {
+    "name": "Themis",
+    "description": ""
+  },
+  {
+    "name": "Dike",
+    "description": ""
+  },
+  {
+    "name": "Anank",
+    "description": ""
+  },
+  {
+    "name": "Moros",
+    "description": ""
+  },
+  {
+    "name": "Achlys",
+    "description": ""
+  },
+  {
+    "name": "Ker",
+    "description": ""
+  },
+  {
+    "name": "Apate",
+    "description": ""
+  },
+  {
+    "name": "Peitho",
+    "description": ""
+  },
+  {
+    "name": "Brimo",
+    "description": ""
+  },
+  {
+    "name": "Eros",
+    "description": ""
+  },
+  {
+    "name": "Phane",
+    "description": ""
+  },
+  {
+    "name": "Hemra",
+    "description": ""
+  },
+  {
+    "name": "Aethon",
+    "description": ""
+  },
+  {
+    "name": "Uran",
+    "description": ""
+  },
+  {
+    "name": "Ourea",
+    "description": ""
+  },
+  {
+    "name": "Nysa",
+    "description": ""
+  },
+  {
+    "name": "Delos",
+    "description": ""
+  },
+  {
+    "name": "Aegae",
+    "description": ""
+  },
+  {
+    "name": "Pallas",
+    "description": ""
+  },
+  {
+    "name": "Aion",
+    "description": ""
+  },
+  {
+    "name": "Hyper",
+    "description": ""
+  },
+  {
+    "name": "Ereb",
+    "description": ""
+  },
+  {
+    "name": "Thalos",
+    "description": ""
+  },
+  {
+    "name": "Eryx",
+    "description": ""
+  },
+  {
+    "name": "Meno",
+    "description": ""
+  },
+  {
+    "name": "Adras",
+    "description": ""
+  },
+  {
+    "name": "Aionis",
+    "description": ""
+  },
+  {
+    "name": "Kleos",
+    "description": ""
+  },
+  {
+    "name": "Argo",
+    "description": ""
+  },
+  {
+    "name": "Patro",
+    "description": ""
+  },
+  {
+    "name": "Ajax",
+    "description": ""
+  },
+  {
+    "name": "Melea",
+    "description": ""
+  },
+  {
+    "name": "Leon",
+    "description": ""
+  },
+  {
+    "name": "Doros",
+    "description": ""
+  },
+  {
+    "name": "Kyros",
+    "description": ""
+  },
+  {
+    "name": "Theron",
+    "description": ""
+  },
+  {
+    "name": "Damon",
+    "description": ""
+  },
+  {
+    "name": "Xanth",
+    "description": ""
+  },
+  {
+    "name": "Lycus",
+    "description": ""
+  },
+  {
+    "name": "Orphe",
+    "description": ""
+  },
+  {
+    "name": "Alecto",
+    "description": ""
+  },
+  {
+    "name": "Megaer",
+    "description": ""
+  },
+  {
+    "name": "Tisiph",
+    "description": ""
+  },
+  {
+    "name": "Charon",
+    "description": ""
+  },
+  {
+    "name": "Aeon",
+    "description": ""
+  },
+  {
+    "name": "Peleus",
+    "description": ""
+  },
+  {
+    "name": "Theseu",
+    "description": ""
+  },
+  {
+    "name": "Achil",
+    "description": ""
+  },
+  {
+    "name": "Hector",
+    "description": ""
+  },
+  {
+    "name": "Perse",
+    "description": ""
+  },
+  {
+    "name": "Cadmus",
+    "description": ""
+  },
+  {
+    "name": "Neutrino Drift",
+    "description": ""
+  },
+  {
+    "name": "Tachyon Leap",
+    "description": ""
+  },
+  {
+    "name": "Quantum Frost",
+    "description": ""
+  },
+  {
+    "name": "Gravity Fold",
+    "description": ""
+  },
+  {
+    "name": "Black Downpour",
+    "description": ""
+  },
+  {
+    "name": "Color Drain",
+    "description": ""
+  },
+  {
+    "name": "Sound Sliver",
+    "description": ""
+  },
+  {
+    "name": "Touch Aftertone",
+    "description": ""
+  },
+  {
+    "name": "Taste Burn",
+    "description": ""
+  },
+  {
+    "name": "Smell Mirage",
+    "description": ""
+  },
+  {
+    "name": "Doubt Blade",
+    "description": ""
+  },
+  {
+    "name": "Hope Whorl",
+    "description": ""
+  },
+  {
+    "name": "Grief Ink",
+    "description": ""
+  },
+  {
+    "name": "Joy Leech",
+    "description": ""
+  },
+  {
+    "name": "Rage Smoke",
+    "description": ""
+  },
+  {
+    "name": "Lust Glass",
+    "description": ""
+  },
+  {
+    "name": "Shame Lamp",
+    "description": ""
+  },
+  {
+    "name": "Fear Lens",
+    "description": ""
+  },
+  {
+    "name": "Regret Drive",
+    "description": ""
+  },
+  {
+    "name": "Euphoria Cage",
+    "description": ""
+  },
+  {
+    "name": "Guilt Hook",
+    "description": ""
+  },
+  {
+    "name": "Pain Geometry",
+    "description": ""
+  },
+  {
+    "name": "Tranquility Tether",
+    "description": ""
+  },
+  {
+    "name": "Noise Beacon",
+    "description": ""
+  },
+  {
+    "name": "Truth Virus",
+    "description": ""
+  },
+  {
+    "name": "Lie Mask",
+    "description": ""
+  },
+  {
+    "name": "Thought Static",
+    "description": ""
+  },
+  {
+    "name": "Mind Cage",
+    "description": ""
+  },
+  {
+    "name": "Vision Leech",
+    "description": ""
+  },
+  {
+    "name": "Remembrance Net",
+    "description": ""
+  },
+  {
+    "name": "Belief Fracture",
+    "description": ""
+  },
+  {
+    "name": "Emotion Map",
+    "description": ""
+  },
+  {
+    "name": "Obsession Cloud",
+    "description": ""
+  },
+  {
+    "name": "Impulse Sword",
+    "description": ""
+  },
+  {
+    "name": "Conscious Thread",
+    "description": ""
+  },
+  {
+    "name": "Subconscious Gate",
+    "description": ""
+  },
+  {
+    "name": "Judgment Tower",
+    "description": ""
+  },
+  {
+    "name": "Forgiveness Pit",
+    "description": ""
+  },
+  {
+    "name": "Mercy Needle",
+    "description": ""
+  },
+  {
+    "name": "Penance Rock",
+    "description": ""
+  },
+  {
+    "name": "Unbirth Loop",
+    "description": ""
+  },
+  {
+    "name": "Past Cave-In",
+    "description": ""
+  },
+  {
+    "name": "Future Grasp",
+    "description": ""
+  },
+  {
+    "name": "Timeline Knot",
+    "description": ""
+  },
+  {
+    "name": "Chrono Reverb",
+    "description": ""
+  },
+  {
+    "name": "Age Thief",
+    "description": ""
+  },
+  {
+    "name": "Recollection Gyre",
+    "description": ""
+  },
+  {
+    "name": "Name Tether",
+    "description": ""
+  },
+  {
+    "name": "Self Descent",
+    "description": ""
+  },
+  {
+    "name": "Identity Knot",
+    "description": ""
+  },
+  {
+    "name": "Mirror Shattergate",
+    "description": ""
+  },
+  {
+    "name": "Face Theft",
+    "description": ""
+  },
+  {
+    "name": "Neural Stitch",
+    "description": ""
+  },
+  {
+    "name": "Spark Code",
+    "description": ""
+  },
+  {
+    "name": "Center Script",
+    "description": ""
+  },
+  {
+    "name": "Ichor Cipher",
+    "description": ""
+  },
+  {
+    "name": "Os Syntax",
+    "description": ""
+  },
+  {
+    "name": "Code Siphon",
+    "description": ""
+  },
+  {
+    "name": "Bitstream Burn",
+    "description": ""
+  },
+  {
+    "name": "Signal Piece",
+    "description": ""
+  },
+  {
+    "name": "Data Tusk",
+    "description": ""
+  },
+  {
+    "name": "Firewall Radiance",
+    "description": ""
+  },
+  {
+    "name": "Error Wreath",
+    "description": ""
+  },
+  {
+    "name": "Glitch Throb",
+    "description": ""
+  },
+  {
+    "name": "Program Cage",
+    "description": ""
+  },
+  {
+    "name": "AI Whisper",
+    "description": ""
+  },
+  {
+    "name": "Malware Flowering",
+    "description": ""
+  },
+  {
+    "name": "Virus Eye",
+    "description": ""
+  },
+  {
+    "name": "Wrought Nerve",
+    "description": ""
+  },
+  {
+    "name": "Muscle Spark",
+    "description": ""
+  },
+  {
+    "name": "Nerve Emerge",
+    "description": ""
+  },
+  {
+    "name": "Phantasm Muscle",
+    "description": ""
+  },
+  {
+    "name": "Neuro Ascension",
+    "description": ""
+  },
+  {
+    "name": "Skeleton Overclock",
+    "description": ""
+  },
+  {
+    "name": "Epidermis Patch",
+    "description": ""
+  },
+  {
+    "name": "Organ Spectrum-Splitter",
+    "description": ""
+  },
+  {
+    "name": "Tissue Patch",
+    "description": ""
+  },
+  {
+    "name": "Viscera Bud",
+    "description": ""
+  },
+  {
+    "name": "Eye Root",
+    "description": ""
+  },
+  {
+    "name": "Tongue Claw",
+    "description": ""
+  },
+  {
+    "name": "Mouth Spiral",
+    "description": ""
+  },
+  {
+    "name": "Lung Rime",
+    "description": ""
+  },
+  {
+    "name": "Backbone Fog",
+    "description": ""
+  },
+  {
+    "name": "Organ Drizzle",
+    "description": ""
+  },
+  {
+    "name": "Tooth Fog",
+    "description": ""
+  },
+  {
+    "name": "Cord Swarm",
+    "description": ""
+  },
+  {
+    "name": "Reverb Room",
+    "description": ""
+  },
+  {
+    "name": "Doorless Room",
+    "description": ""
+  },
+  {
+    "name": "Corridor Trap",
+    "description": ""
+  },
+  {
+    "name": "Ceiling Wrapping",
+    "description": ""
+  },
+  {
+    "name": "Floortrap",
+    "description": ""
+  },
+  {
+    "name": "Wall Shift",
+    "description": ""
+  },
+  {
+    "name": "Pillar Cage",
+    "description": ""
+  },
+  {
+    "name": "Window Lure",
+    "description": ""
+  },
+  {
+    "name": "Staircase Loop",
+    "description": ""
+  },
+  {
+    "name": "Chamber Starvation",
+    "description": ""
+  },
+  {
+    "name": "Hallway Chant",
+    "description": ""
+  },
+  {
+    "name": "Threshold Burn",
+    "description": ""
+  },
+  {
+    "name": "Ceiling Jaw",
+    "description": ""
+  },
+  {
+    "name": "Basement Decompose",
+    "description": ""
+  },
+  {
+    "name": "Attic Whisper",
+    "description": ""
+  },
+  {
+    "name": "Closet Trap",
+    "description": ""
+  },
+  {
+    "name": "Lightless Corner",
+    "description": ""
+  },
+  {
+    "name": "Stair Grasp",
+    "description": ""
+  },
+  {
+    "name": "Wallpaper Bleed",
+    "description": ""
+  },
+  {
+    "name": "Mirror Trap",
+    "description": ""
+  },
+  {
+    "name": "Keyless Door",
+    "description": ""
+  },
+  {
+    "name": "Forgotten Room",
+    "description": ""
+  },
+  {
+    "name": "Gearheart Beat",
+    "description": ""
+  },
+  {
+    "name": "Cast Glee",
+    "description": ""
+  },
+  {
+    "name": "Copper Lines",
+    "description": ""
+  },
+  {
+    "name": "Clockwork Flood",
+    "description": ""
+  },
+  {
+    "name": "Cogstorm",
+    "description": ""
+  },
+  {
+    "name": "Steam Vertebrae",
+    "description": ""
+  },
+  {
+    "name": "Rust Shroud",
+    "description": ""
+  },
+  {
+    "name": "Chain Gospel",
+    "description": ""
+  },
+  {
+    "name": "Piston Clench",
+    "description": ""
+  },
+  {
+    "name": "Smokestack Wreath",
+    "description": ""
+  },
+  {
+    "name": "Factory Grinder",
+    "description": ""
+  },
+  {
+    "name": "Wire Nest",
+    "description": ""
+  },
+  {
+    "name": "Circuit Appetite",
+    "description": ""
+  },
+  {
+    "name": "Neon Pall",
+    "description": ""
+  },
+  {
+    "name": "Pixel Storm",
+    "description": ""
+  },
+  {
+    "name": "Signal Chain",
+    "description": ""
+  },
+  {
+    "name": "Error Explosion",
+    "description": ""
+  },
+  {
+    "name": "Static Crown",
+    "description": ""
+  },
+  {
+    "name": "Glitch Barb",
+    "description": ""
+  },
+  {
+    "name": "Data Wraith",
+    "description": ""
+  },
+  {
+    "name": "Firewall Breach",
+    "description": ""
+  },
+  {
+    "name": "Archive Shatter",
+    "description": ""
+  },
+  {
+    "name": "Server Ghost",
+    "description": ""
+  },
+  {
+    "name": "Neural Ink",
+    "description": ""
+  },
+  {
+    "name": "Hologram Curtain",
+    "description": ""
+  },
+  {
+    "name": "Neon Husk",
+    "description": ""
+  },
+  {
+    "name": "Fiber Threads",
+    "description": ""
+  },
+  {
+    "name": "Magnet Flake",
+    "description": ""
+  },
+  {
+    "name": "Voltage Flare",
+    "description": ""
+  },
+  {
+    "name": "Frequency Snare",
+    "description": ""
+  },
+  {
+    "name": "Color Heater",
+    "description": ""
+  },
+  {
+    "name": "Ink Twister",
+    "description": ""
+  },
+  {
+    "name": "Canvas Gyre",
+    "description": ""
+  },
+  {
+    "name": "Palette Inferno",
+    "description": ""
+  },
+  {
+    "name": "Brushstroke Drape",
+    "description": ""
+  },
+  {
+    "name": "Symphony Coil",
+    "description": ""
+  },
+  {
+    "name": "Harmony Canine",
+    "description": ""
+  },
+  {
+    "name": "Dissonance Flourish",
+    "description": ""
+  },
+  {
+    "name": "Lyric Snare",
+    "description": ""
+  },
+  {
+    "name": "Trumpet Crescendo",
+    "description": ""
+  },
+  {
+    "name": "Drumskin Chaplet",
+    "description": ""
+  },
+  {
+    "name": "Chisel Thunder",
+    "description": ""
+  },
+  {
+    "name": "Marble Axis",
+    "description": ""
+  },
+  {
+    "name": "Sculptor’s Spike",
+    "description": ""
+  },
+  {
+    "name": "Statue Craving",
+    "description": ""
+  },
+  {
+    "name": "Cathedral Bones",
+    "description": ""
+  },
+  {
+    "name": "Labyrinth Trap",
+    "description": ""
+  },
+  {
+    "name": "Tower Efflorescence",
+    "description": ""
+  },
+  {
+    "name": "Bridge Sinews",
+    "description": ""
+  },
+  {
+    "name": "Vault Envelopment",
+    "description": ""
+  },
+  {
+    "name": "Gate Flood",
+    "description": ""
+  },
+  {
+    "name": "Corridor Garland",
+    "description": ""
+  },
+  {
+    "name": "Elevator Trap",
+    "description": ""
+  },
+  {
+    "name": "Insect Cantilena",
+    "description": ""
+  },
+  {
+    "name": "Locust Canopy",
+    "description": ""
+  },
+  {
+    "name": "Beetle Husk",
+    "description": ""
+  },
+  {
+    "name": "Spider Fillet",
+    "description": ""
+  },
+  {
+    "name": "Centipede Lines",
+    "description": ""
+  },
+  {
+    "name": "Scarab Flush",
+    "description": ""
+  },
+  {
+    "name": "Antline Horde",
+    "description": ""
+  },
+  {
+    "name": "Worm Vocalists",
+    "description": ""
+  },
+  {
+    "name": "Leech Ducts",
+    "description": ""
+  },
+  {
+    "name": "Jellyfish Rhythm",
+    "description": ""
+  },
+  {
+    "name": "Shark Prong",
+    "description": ""
+  },
+  {
+    "name": "Eel Laurel",
+    "description": ""
+  },
+  {
+    "name": "Lanternfish Screen",
+    "description": ""
+  },
+  {
+    "name": "Crab Throng",
+    "description": ""
+  },
+  {
+    "name": "Barnacle Grip",
+    "description": ""
+  },
+  {
+    "name": "Coral Yearning",
+    "description": ""
+  },
+  {
+    "name": "Dinosaur Cusp",
+    "description": ""
+  },
+  {
+    "name": "Mammoth Runs",
+    "description": ""
+  },
+  {
+    "name": "Sabertooth Maelstrom",
+    "description": ""
+  },
+  {
+    "name": "Pterosaur Mantle",
+    "description": ""
+  },
+  {
+    "name": "Fossil Blossom",
+    "description": ""
+  },
+  {
+    "name": "Amber Coronet",
+    "description": ""
+  },
+  {
+    "name": "Gameboard Haze",
+    "description": ""
+  },
+  {
+    "name": "Dice Emptiness",
+    "description": ""
+  },
+  {
+    "name": "Card Hook",
+    "description": ""
+  },
+  {
+    "name": "Chess Gambit",
+    "description": ""
+  },
+  {
+    "name": "Puzzle Vessels",
+    "description": ""
+  },
+  {
+    "name": "Marble Cadence",
+    "description": ""
+  },
+  {
+    "name": "Hopscotch Diadem",
+    "description": ""
+  },
+  {
+    "name": "Labyrinth Game",
+    "description": ""
+  },
+  {
+    "name": "Kaleidoscope Gossamer",
+    "description": ""
+  },
+  {
+    "name": "Polyhedron Clutch",
+    "description": ""
+  },
+  {
+    "name": "Fractal Crumble",
+    "description": ""
+  },
+  {
+    "name": "Tesseract Flowering",
+    "description": ""
+  },
+  {
+    "name": "Infinite Gaits",
+    "description": ""
+  },
+  {
+    "name": "Helix Vessels",
+    "description": ""
+  },
+  {
+    "name": "Prime Needle",
+    "description": ""
+  },
+  {
+    "name": "Number Singing Group",
+    "description": ""
+  },
+  {
+    "name": "Equation Snare",
+    "description": ""
+  },
+  {
+    "name": "Axis Breakdown",
+    "description": ""
+  },
+  {
+    "name": "Vector Prism",
+    "description": ""
+  },
+  {
+    "name": "Glazing Tooth",
+    "description": ""
+  },
+  {
+    "name": "Sand Arterys",
+    "description": ""
+  },
+  {
+    "name": "Ember-Dust Loom",
+    "description": ""
+  },
+  {
+    "name": "Paper Tiara",
+    "description": ""
+  },
+  {
+    "name": "Chalk Shattergate",
+    "description": ""
+  },
+  {
+    "name": "Brick Grow",
+    "description": ""
+  },
+  {
+    "name": "Candle Husk",
+    "description": ""
+  },
+  {
+    "name": "Beacon Mesh",
+    "description": ""
+  },
+  {
+    "name": "Pollen Mantle",
+    "description": ""
+  },
+  {
+    "name": "Drought Tooth",
+    "description": ""
+  },
+  {
+    "name": "Frostbite Whirl",
+    "description": ""
+  },
+  {
+    "name": "Hail Coronet",
+    "description": ""
+  },
+  {
+    "name": "Aurora Walk",
+    "description": ""
+  },
+  {
+    "name": "Thunder Capillarys",
+    "description": ""
+  },
+  {
+    "name": "Monsoon Shroud",
+    "description": ""
+  },
+  {
+    "name": "Blizzard Road",
+    "description": ""
+  },
+  {
+    "name": "Shadowing Wind",
+    "description": ""
+  },
+  {
+    "name": "Harvest Cyclone",
+    "description": ""
+  },
+  {
+    "name": "Salt Bud",
+    "description": ""
+  },
+  {
+    "name": "Obsidian Tusk",
+    "description": ""
+  },
+  {
+    "name": "Jade Channels",
+    "description": ""
+  },
+  {
+    "name": "Ivory Splinter",
+    "description": ""
+  },
+  {
+    "name": "Quartz Impulse",
+    "description": ""
+  },
+  {
+    "name": "Goldleaf Hold",
+    "description": ""
+  },
+  {
+    "name": "Amber Spire",
+    "description": ""
+  },
+  {
+    "name": "Onyx Matrix",
+    "description": ""
+  },
+  {
+    "name": "Pearl Veil",
+    "description": ""
+  },
+  {
+    "name": "Ruby Barb",
+    "description": ""
+  },
+  {
+    "name": "Nostalgia Cover",
+    "description": ""
+  },
+  {
+    "name": "Longing Canine",
+    "description": ""
+  },
+  {
+    "name": "Reverence Flush",
+    "description": ""
+  },
+  {
+    "name": "Melancholy Grasp",
+    "description": ""
+  },
+  {
+    "name": "Elation Tiara",
+    "description": ""
+  },
+  {
+    "name": "Jealousy Thread",
+    "description": ""
+  },
+  {
+    "name": "Awe Tendrils",
+    "description": ""
+  },
+  {
+    "name": "Yearning Pull",
+    "description": ""
+  },
+  {
+    "name": "Regret Ring",
+    "description": ""
+  },
+  {
+    "name": "Envy Gleam",
+    "description": ""
+  },
+  {
+    "name": "Mask Need",
+    "description": ""
+  },
+  {
+    "name": "Festival Outbreak",
+    "description": ""
+  },
+  {
+    "name": "Torch Pass",
+    "description": ""
+  },
+  {
+    "name": "Bonfire Wreath",
+    "description": ""
+  },
+  {
+    "name": "Riddle Filaments",
+    "description": ""
+  },
+  {
+    "name": "Carnival Spike",
+    "description": ""
+  },
+  {
+    "name": "Harvest Reaper",
+    "description": ""
+  },
+  {
+    "name": "Totem Lanthorn",
+    "description": ""
+  },
+  {
+    "name": "Effigy Pall",
+    "description": ""
+  },
+  {
+    "name": "Offering Blaze",
+    "description": ""
+  },
+  {
+    "name": "Oracle Drum",
+    "description": ""
+  },
+  {
+    "name": "Mirror Lust",
+    "description": ""
+  },
+  {
+    "name": "Upside Strands",
+    "description": ""
+  },
+  {
+    "name": "Resonance Chamber",
+    "description": ""
+  },
+  {
+    "name": "Backward Paradox",
+    "description": ""
+  },
+  {
+    "name": "Stairwell Prong",
+    "description": ""
+  },
+  {
+    "name": "Ceiling Walk",
+    "description": ""
+  },
+  {
+    "name": "Nonsense Flourish",
+    "description": ""
+  },
+  {
+    "name": "Trance Coil",
+    "description": ""
+  },
+  {
+    "name": "Anchor Seize",
+    "description": ""
+  },
+  {
+    "name": "Harpoon Cusp",
+    "description": ""
+  },
+  {
+    "name": "Sail Cords",
+    "description": ""
+  },
+  {
+    "name": "Deck Wrapping",
+    "description": ""
+  },
+  {
+    "name": "Compass Whirlpool",
+    "description": ""
+  },
+  {
+    "name": "Keel Nimbus",
+    "description": ""
+  },
+  {
+    "name": "Harbor Hook",
+    "description": ""
+  },
+  {
+    "name": "Tide Guidelight",
+    "description": ""
+  },
+  {
+    "name": "Krill Lines",
+    "description": ""
+  },
+  {
+    "name": "Gull Mass",
+    "description": ""
+  },
+  {
+    "name": "Featherwing Threads",
+    "description": ""
+  },
+  {
+    "name": "Feather Chaplet",
+    "description": ""
+  },
+  {
+    "name": "Talonstrike",
+    "description": ""
+  },
+  {
+    "name": "Flock Hunger",
+    "description": ""
+  },
+  {
+    "name": "Migration Tempo",
+    "description": ""
+  },
+  {
+    "name": "Nest Multitude",
+    "description": ""
+  },
+  {
+    "name": "Beak Needle",
+    "description": ""
+  },
+  {
+    "name": "Owl Pall",
+    "description": ""
+  },
+  {
+    "name": "Heron Stride",
+    "description": ""
+  },
+  {
+    "name": "Desert Efflorescence",
+    "description": ""
+  },
+  {
+    "name": "Dune Garland",
+    "description": ""
+  },
+  {
+    "name": "Mirage Tusk",
+    "description": ""
+  },
+  {
+    "name": "Sirocco Sinews",
+    "description": ""
+  },
+  {
+    "name": "Caravan Beat",
+    "description": ""
+  },
+  {
+    "name": "Salt Envelopment",
+    "description": ""
+  },
+  {
+    "name": "Rib Stride",
+    "description": ""
+  },
+  {
+    "name": "Cactus Sinkhole",
+    "description": ""
+  },
+  {
+    "name": "Scarab Dune",
+    "description": ""
+  },
+  {
+    "name": "Dust Luminary",
+    "description": ""
+  },
+  {
+    "name": "Elixir Tooth",
+    "description": ""
+  },
+  {
+    "name": "Potion Burst",
+    "description": ""
+  },
+  {
+    "name": "Distill Ducts",
+    "description": ""
+  },
+  {
+    "name": "Sublimation Gyre",
+    "description": ""
+  },
+  {
+    "name": "Transmute Pace",
+    "description": ""
+  },
+  {
+    "name": "Alloy Fillet",
+    "description": ""
+  },
+  {
+    "name": "Philosopher’s Spark",
+    "description": ""
+  },
+  {
+    "name": "Tincture Pall",
+    "description": ""
+  },
+  {
+    "name": "Mercury Grab",
+    "description": ""
+  },
+  {
+    "name": "Spectrum Tusk",
+    "description": ""
+  },
+  {
+    "name": "Crystal Blossom",
+    "description": ""
+  },
+  {
+    "name": "Ultraviolet Runs",
+    "description": ""
+  },
+  {
+    "name": "Infrared Aperture",
+    "description": ""
+  },
+  {
+    "name": "Color Mantle",
+    "description": ""
+  },
+  {
+    "name": "Indigo Barb",
+    "description": ""
+  },
+  {
+    "name": "Crimson Arterys",
+    "description": ""
+  },
+  {
+    "name": "Golden Wreath",
+    "description": ""
+  },
+  {
+    "name": "Silver Flowering",
+    "description": ""
+  },
+  {
+    "name": "Emerald Track",
+    "description": ""
+  },
+  {
+    "name": "Cobalt Curtain",
+    "description": ""
+  },
+  {
+    "name": "Chalk Dust",
+    "description": ""
+  },
+  {
+    "name": "Sepia Laurel",
+    "description": ""
+  },
+  {
+    "name": "Shade Hue",
+    "description": ""
+  },
+  {
+    "name": "Rainbow Canine",
+    "description": ""
+  },
+  {
+    "name": "Empire Tiara",
+    "description": ""
+  },
+  {
+    "name": "Legion Caller",
+    "description": ""
+  },
+  {
+    "name": "Banner Sovereign",
+    "description": ""
+  },
+  {
+    "name": "Diplomacy Drape",
+    "description": ""
+  },
+  {
+    "name": "Lawbringer’s Drape",
+    "description": ""
+  },
+  {
+    "name": "Language Kiln",
+    "description": ""
+  },
+  {
+    "name": "Tongue of Nations",
+    "description": ""
+  },
+  {
+    "name": "Cultural Sprout",
+    "description": ""
+  },
+  {
+    "name": "Trade Nexus",
+    "description": ""
+  },
+  {
+    "name": "Diadem of Cities",
+    "description": ""
+  },
+  {
+    "name": "Worldsmith",
+    "description": ""
+  },
+  {
+    "name": "Workshop of Peoples",
+    "description": ""
+  },
+  {
+    "name": "Invention Throb",
+    "description": ""
+  },
+  {
+    "name": "Library Spire",
+    "description": ""
+  },
+  {
+    "name": "Archive Redaction",
+    "description": ""
+  },
+  {
+    "name": "Codex Bud",
+    "description": ""
+  },
+  {
+    "name": "Scrollbinder",
+    "description": ""
+  },
+  {
+    "name": "Scribe of Truths",
+    "description": ""
+  },
+  {
+    "name": "Cipher Lord",
+    "description": ""
+  },
+  {
+    "name": "Lexicon Vessels",
+    "description": ""
+  },
+  {
+    "name": "Warpath Ruler",
+    "description": ""
+  },
+  {
+    "name": "General’s Shell",
+    "description": ""
+  },
+  {
+    "name": "Tactic Canopy",
+    "description": ""
+  },
+  {
+    "name": "Siege Circlet",
+    "description": ""
+  },
+  {
+    "name": "Fortress Crux",
+    "description": ""
+  },
+  {
+    "name": "March of Legions",
+    "description": ""
+  },
+  {
+    "name": "Drum of Conquest",
+    "description": ""
+  },
+  {
+    "name": "Ambush Spike",
+    "description": ""
+  },
+  {
+    "name": "Shieldwall Tread",
+    "description": ""
+  },
+  {
+    "name": "Victory Banner",
+    "description": ""
+  },
+  {
+    "name": "Root Monarch",
+    "description": ""
+  },
+  {
+    "name": "Spore Territory",
+    "description": ""
+  },
+  {
+    "name": "Canopy Screen",
+    "description": ""
+  },
+  {
+    "name": "Predator’s Coronet",
+    "description": ""
+  },
+  {
+    "name": "Feral Mantle",
+    "description": ""
+  },
+  {
+    "name": "Cycle Caller",
+    "description": ""
+  },
+  {
+    "name": "Migration Arterys",
+    "description": ""
+  },
+  {
+    "name": "Herd Binder",
+    "description": ""
+  },
+  {
+    "name": "Harvest Overlord",
+    "description": ""
+  },
+  {
+    "name": "Gust of Seasons",
+    "description": ""
+  },
+  {
+    "name": "Trickster’s Haze",
+    "description": ""
+  },
+  {
+    "name": "Mask of Guile",
+    "description": ""
+  },
+  {
+    "name": "Wanderer’s Cloak",
+    "description": ""
+  },
+  {
+    "name": "Seeker’s Beat",
+    "description": ""
+  },
+  {
+    "name": "Judge’s Prong",
+    "description": ""
+  },
+  {
+    "name": "Martyr’s Blush",
+    "description": ""
+  },
+  {
+    "name": "Sage Beacon",
+    "description": ""
+  },
+  {
+    "name": "Oracle Footfall",
+    "description": ""
+  },
+  {
+    "name": "Threshold King",
+    "description": ""
+  },
+  {
+    "name": "Gatewalker",
+    "description": ""
+  },
+  {
+    "name": "Trail Weaver",
+    "description": ""
+  },
+  {
+    "name": "Bridge Tiara",
+    "description": ""
+  },
+  {
+    "name": "River Queen",
+    "description": ""
+  },
+  {
+    "name": "Horizon Caller",
+    "description": ""
+  },
+  {
+    "name": "Wanderer’s Capillarys",
+    "description": ""
+  },
+  {
+    "name": "Journey Covering",
+    "description": ""
+  },
+  {
+    "name": "Timeless Pilgrim",
+    "description": ""
+  },
+  {
+    "name": "Era Wreath",
+    "description": ""
+  },
+  {
+    "name": "Legacy Blaze",
+    "description": ""
+  },
+  {
+    "name": "Chronicle Binder",
+    "description": ""
+  },
+  {
+    "name": "Heirloom Wave",
+    "description": ""
+  },
+  {
+    "name": "Inheritance Channels",
+    "description": ""
+  },
+  {
+    "name": "Ancestor’s Call",
+    "description": ""
+  },
+  {
+    "name": "Dynasty Mint",
+    "description": ""
+  },
+  {
+    "name": "Monument Flare",
+    "description": ""
+  },
+  {
+    "name": "Archive of Ages",
+    "description": ""
+  },
+  {
+    "name": "Patience Cape",
+    "description": ""
+  },
+  {
+    "name": "Ambition Cusp",
+    "description": ""
+  },
+  {
+    "name": "Despair Corona",
+    "description": ""
+  },
+  {
+    "name": "Triumph Smeltery",
+    "description": ""
+  },
+  {
+    "name": "Betrayal Tendrils",
+    "description": ""
+  },
+  {
+    "name": "Revenge Flash",
+    "description": ""
+  },
+  {
+    "name": "Glory Famine",
+    "description": ""
+  },
+  {
+    "name": "Honor Banner",
+    "description": ""
+  },
+  {
+    "name": "Shame Shroud",
+    "description": ""
+  },
+  {
+    "name": "Storyforge",
+    "description": ""
+  },
+  {
+    "name": "Narrative Robe",
+    "description": ""
+  },
+  {
+    "name": "Ballad Flourish",
+    "description": ""
+  },
+  {
+    "name": "Songweaver’s Throne",
+    "description": ""
+  },
+  {
+    "name": "Prophecy Gossamer",
+    "description": ""
+  },
+  {
+    "name": "Destiny Quill",
+    "description": ""
+  },
+  {
+    "name": "Mythmaker’s Chaplet",
+    "description": ""
+  },
+  {
+    "name": "Legend Smithy",
+    "description": ""
+  },
+  {
+    "name": "Fable Lamp",
+    "description": ""
+  },
+  {
+    "name": "Epic Empire",
+    "description": ""
+  },
+  {
+    "name": "Drama Rhythm",
+    "description": ""
+  },
+  {
+    "name": "Ritual Caller",
+    "description": ""
+  },
+  {
+    "name": "Oath Emperor",
+    "description": ""
+  },
+  {
+    "name": "Covenant Ember",
+    "description": ""
+  },
+  {
+    "name": "Pact Garland",
+    "description": ""
+  },
+  {
+    "name": "Vow Chains",
+    "description": ""
+  },
+  {
+    "name": "Inheritance Imprint",
+    "description": ""
+  },
+  {
+    "name": "Kinship Efflorescence",
+    "description": ""
+  },
+  {
+    "name": "Bloodline Shroud",
+    "description": ""
+  },
+  {
+    "name": "Clan Filaments",
+    "description": ""
+  },
+  {
+    "name": "Totem Lord",
+    "description": ""
+  },
+  {
+    "name": "Ancestor’s Banner",
+    "description": ""
+  },
+  {
+    "name": "Heritage Pyre",
+    "description": ""
+  },
+  {
+    "name": "Nation Smithy",
+    "description": ""
+  },
+  {
+    "name": "Parable March",
+    "description": ""
+  },
+  {
+    "name": "Oneiric Chronicle",
+    "description": ""
+  },
+  {
+    "name": "Saga Erasure",
+    "description": ""
+  },
+  {
+    "name": "Endless Legacy",
+    "description": ""
+  },
+  {
+    "name": "Storyforger’s Quill",
+    "description": ""
+  },
+  {
+    "name": "World Rewrite",
+    "description": ""
+  },
+  {
+    "name": "Page Shatter",
+    "description": ""
+  },
+  {
+    "name": "Ink of Creation",
+    "description": ""
+  },
+  {
+    "name": "Margin Flare",
+    "description": ""
+  },
+  {
+    "name": "Endless Draft",
+    "description": ""
+  },
+  {
+    "name": "Fiction Fillet",
+    "description": ""
+  },
+  {
+    "name": "Unwritten Eddy",
+    "description": ""
+  },
+  {
+    "name": "Forgotten Chapter",
+    "description": ""
+  },
+  {
+    "name": "Epilogue Hook",
+    "description": ""
+  },
+  {
+    "name": "Player’s Pall",
+    "description": ""
+  },
+  {
+    "name": "Dice Sovereign",
+    "description": ""
+  },
+  {
+    "name": "Rulebender",
+    "description": ""
+  },
+  {
+    "name": "Stage Starvation",
+    "description": ""
+  },
+  {
+    "name": "Audience Mesh",
+    "description": ""
+  },
+  {
+    "name": "Victory Script",
+    "description": ""
+  },
+  {
+    "name": "Loser’s Laurel",
+    "description": ""
+  },
+  {
+    "name": "Gamebreaker",
+    "description": ""
+  },
+  {
+    "name": "Checkpoint Gambit",
+    "description": ""
+  },
+  {
+    "name": "Savepoint Glare",
+    "description": ""
+  },
+  {
+    "name": "Fourth Wall Needle",
+    "description": ""
+  },
+  {
+    "name": "Perspective Strands",
+    "description": ""
+  },
+  {
+    "name": "Narrator’s Drape",
+    "description": ""
+  },
+  {
+    "name": "Observer Wreath",
+    "description": ""
+  },
+  {
+    "name": "Camera Shift",
+    "description": ""
+  },
+  {
+    "name": "Scene Splice",
+    "description": ""
+  },
+  {
+    "name": "Cutaway Pall",
+    "description": ""
+  },
+  {
+    "name": "Retcon Foundry",
+    "description": ""
+  },
+  {
+    "name": "Flashback Barb",
+    "description": ""
+  },
+  {
+    "name": "Plot Twist Erasure",
+    "description": ""
+  },
+  {
+    "name": "Trope Shaper",
+    "description": ""
+  },
+  {
+    "name": "Genre Appetite",
+    "description": ""
+  },
+  {
+    "name": "Canon Breaker",
+    "description": ""
+  },
+  {
+    "name": "Myth Editor",
+    "description": ""
+  },
+  {
+    "name": "Timeline Rewrite",
+    "description": ""
+  },
+  {
+    "name": "Paradox Author",
+    "description": ""
+  },
+  {
+    "name": "Law Shatter",
+    "description": ""
+  },
+  {
+    "name": "Axiom Blossom",
+    "description": ""
+  },
+  {
+    "name": "Proof Ruler",
+    "description": ""
+  },
+  {
+    "name": "Contradiction Shell",
+    "description": ""
+  },
+  {
+    "name": "Logic Tooth",
+    "description": ""
+  },
+  {
+    "name": "Philosophy Inferno",
+    "description": ""
+  },
+  {
+    "name": "Theorem Cords",
+    "description": ""
+  },
+  {
+    "name": "Illusion of Choice",
+    "description": ""
+  },
+  {
+    "name": "Maskbinder",
+    "description": ""
+  },
+  {
+    "name": "Actor’s Tusk",
+    "description": ""
+  },
+  {
+    "name": "Stage Monarch",
+    "description": ""
+  },
+  {
+    "name": "Audience Silencer",
+    "description": ""
+  },
+  {
+    "name": "Director’s Mantle",
+    "description": ""
+  },
+  {
+    "name": "Chorus Veil",
+    "description": ""
+  },
+  {
+    "name": "Rehearsal Advance",
+    "description": ""
+  },
+  {
+    "name": "Script Shredder",
+    "description": ""
+  },
+  {
+    "name": "Improvisation Diadem",
+    "description": ""
+  },
+  {
+    "name": "Mapmaker’s Quill",
+    "description": ""
+  },
+  {
+    "name": "Cartographer’s Cyclone",
+    "description": ""
+  },
+  {
+    "name": "Atlas Flowering",
+    "description": ""
+  },
+  {
+    "name": "World Architect",
+    "description": ""
+  },
+  {
+    "name": "Cosmos Draft",
+    "description": ""
+  },
+  {
+    "name": "Blueprint Overlord",
+    "description": ""
+  },
+  {
+    "name": "City of Names",
+    "description": ""
+  },
+  {
+    "name": "Border Barb",
+    "description": ""
+  },
+  {
+    "name": "Nation Weaver",
+    "description": ""
+  },
+  {
+    "name": "Reality Planner",
+    "description": ""
+  },
+  {
+    "name": "Gravity Recode",
+    "description": ""
+  },
+  {
+    "name": "Clock Breaker",
+    "description": ""
+  },
+  {
+    "name": "Zero Division",
+    "description": ""
+  },
+  {
+    "name": "Prime Erasure",
+    "description": ""
+  },
+  {
+    "name": "Fractal Craving",
+    "description": ""
+  },
+  {
+    "name": "Infinity Gait",
+    "description": ""
+  },
+  {
+    "name": "Equation Shoot",
+    "description": ""
+  },
+  {
+    "name": "Constant Shatter",
+    "description": ""
+  },
+  {
+    "name": "Dimension Rewrite",
+    "description": ""
+  },
+  {
+    "name": "Variable Canine",
+    "description": ""
+  },
+  {
+    "name": "Awareness Crown",
+    "description": ""
+  },
+  {
+    "name": "Daydream Author",
+    "description": ""
+  },
+  {
+    "name": "Lucid King",
+    "description": ""
+  },
+  {
+    "name": "Sleeper’s Cloak",
+    "description": ""
+  },
+  {
+    "name": "Awakening Outpouring",
+    "description": ""
+  },
+  {
+    "name": "Mirror Script",
+    "description": ""
+  },
+  {
+    "name": "Double Self",
+    "description": ""
+  },
+  {
+    "name": "Reply Coronet",
+    "description": ""
+  },
+  {
+    "name": "Narrative Ghost",
+    "description": ""
+  },
+  {
+    "name": "Character Yearning",
+    "description": ""
+  },
+  {
+    "name": "Author’s Covering",
+    "description": ""
+  },
+  {
+    "name": "Reader’s Spike",
+    "description": ""
+  },
+  {
+    "name": "Story Cycle",
+    "description": ""
+  },
+  {
+    "name": "Prologue Mark",
+    "description": ""
+  },
+  {
+    "name": "Myth Weaver",
+    "description": ""
+  },
+  {
+    "name": "Genre Tiara",
+    "description": ""
+  },
+  {
+    "name": "Tale Devourer",
+    "description": ""
+  },
+  {
+    "name": "Undying Edit",
+    "description": ""
+  },
+  {
+    "name": "Reality Bud",
+    "description": ""
+  },
+  {
+    "name": "Stage Disintegration",
+    "description": ""
+  },
+  {
+    "name": "Word Emptiness",
+    "description": ""
+  },
+  {
+    "name": "Sentence Prong",
+    "description": ""
+  },
+  {
+    "name": "Paragraph Shredder",
+    "description": ""
+  },
+  {
+    "name": "Meaning Anvil",
+    "description": ""
+  },
+  {
+    "name": "Language Queen",
+    "description": ""
+  },
+  {
+    "name": "Symbol Spark",
+    "description": ""
+  },
+  {
+    "name": "Voice Without End",
+    "description": ""
+  },
+  {
+    "name": "Color Beyond Sight",
+    "description": ""
+  },
+  {
+    "name": "Taste of Distance",
+    "description": ""
+  },
+  {
+    "name": "Scent of Time",
+    "description": ""
+  },
+  {
+    "name": "Heat Whisper",
+    "description": ""
+  },
+  {
+    "name": "Cold Choir",
+    "description": ""
+  },
+  {
+    "name": "Need Geometry",
+    "description": ""
+  },
+  {
+    "name": "Breathless Sound",
+    "description": ""
+  },
+  {
+    "name": "Texture of Flares",
+    "description": ""
+  },
+  {
+    "name": "Weightless Reflection",
+    "description": ""
+  },
+  {
+    "name": "Fifth Flavor Swirl",
+    "description": ""
+  },
+  {
+    "name": "Beehive Cadence",
+    "description": ""
+  },
+  {
+    "name": "Crystalline Intellect",
+    "description": ""
+  },
+  {
+    "name": "Insect Logic",
+    "description": ""
+  },
+  {
+    "name": "Silicon Prayer",
+    "description": ""
+  },
+  {
+    "name": "Algorithmic Anima",
+    "description": ""
+  },
+  {
+    "name": "Fractal Consensus",
+    "description": ""
+  },
+  {
+    "name": "Hive Recall",
+    "description": ""
+  },
+  {
+    "name": "Ant Curl",
+    "description": ""
+  },
+  {
+    "name": "Termite Throne",
+    "description": ""
+  },
+  {
+    "name": "Obsidian Thought",
+    "description": ""
+  },
+  {
+    "name": "Umbra Lust",
+    "description": ""
+  },
+  {
+    "name": "Ridge of Silence",
+    "description": ""
+  },
+  {
+    "name": "Rock Fantasy",
+    "description": ""
+  },
+  {
+    "name": "Flyash Impression",
+    "description": ""
+  },
+  {
+    "name": "Dust Lament",
+    "description": ""
+  },
+  {
+    "name": "Boulder Lines",
+    "description": ""
+  },
+  {
+    "name": "Pebble Chorus",
+    "description": ""
+  },
+  {
+    "name": "Mountain Pass",
+    "description": ""
+  },
+  {
+    "name": "Planet Seed",
+    "description": ""
+  },
+  {
+    "name": "Ocean Skeleton",
+    "description": ""
+  },
+  {
+    "name": "Ichor Skyline",
+    "description": ""
+  },
+  {
+    "name": "Pelt of Gravity",
+    "description": ""
+  },
+  {
+    "name": "Organ Nebula",
+    "description": ""
+  },
+  {
+    "name": "Thorn of Cosmos",
+    "description": ""
+  },
+  {
+    "name": "Mouth of Orbit",
+    "description": ""
+  },
+  {
+    "name": "Galaxy Lungs",
+    "description": ""
+  },
+  {
+    "name": "Core of Absence",
+    "description": ""
+  },
+  {
+    "name": "Marrowbone Orb Ensemble",
+    "description": ""
+  },
+  {
+    "name": "Entropy Altar",
+    "description": ""
+  },
+  {
+    "name": "Vacuum Gospel",
+    "description": ""
+  },
+  {
+    "name": "Quiet Cathedral",
+    "description": ""
+  },
+  {
+    "name": "Worship of Zero",
+    "description": ""
+  },
+  {
+    "name": "Unlight Covenant",
+    "description": ""
+  },
+  {
+    "name": "Prayer of Rust",
+    "description": ""
+  },
+  {
+    "name": "Extinction Hymn",
+    "description": ""
+  },
+  {
+    "name": "Cinder Benediction",
+    "description": ""
+  },
+  {
+    "name": "Ruined Sacrament",
+    "description": ""
+  },
+  {
+    "name": "Erased Testament",
+    "description": ""
+  },
+  {
+    "name": "Unborn Oracle",
+    "description": ""
+  },
+  {
+    "name": "Glyph Erase",
+    "description": ""
+  },
+  {
+    "name": "Impossible Word",
+    "description": ""
+  },
+  {
+    "name": "Unpronounced Cusp",
+    "description": ""
+  },
+  {
+    "name": "Language Scar",
+    "description": ""
+  },
+  {
+    "name": "Grammar of Knives",
+    "description": ""
+  },
+  {
+    "name": "Sentence Shredder",
+    "description": ""
+  },
+  {
+    "name": "Wordless Bond",
+    "description": ""
+  },
+  {
+    "name": "Name Hunger",
+    "description": ""
+  },
+  {
+    "name": "Symbol Cage",
+    "description": ""
+  },
+  {
+    "name": "Concept Glow",
+    "description": ""
+  },
+  {
+    "name": "Thought Without Form",
+    "description": ""
+  },
+  {
+    "name": "Vision of Lens",
+    "description": ""
+  },
+  {
+    "name": "Sleep Twist",
+    "description": ""
+  },
+  {
+    "name": "Awakeless Churn",
+    "description": ""
+  },
+  {
+    "name": "Unmemory Torch",
+    "description": ""
+  },
+  {
+    "name": "Recall Scar",
+    "description": ""
+  },
+  {
+    "name": "Forgetfulness Wreath",
+    "description": ""
+  },
+  {
+    "name": "Paradox Chant",
+    "description": ""
+  },
+  {
+    "name": "Recursion Hook",
+    "description": ""
+  },
+  {
+    "name": "Infinite Loop Whirlpool",
+    "description": ""
+  },
+  {
+    "name": "Error Chorale",
+    "description": ""
+  },
+  {
+    "name": "Glitch Blast",
+    "description": ""
+  },
+  {
+    "name": "Code Famine",
+    "description": ""
+  },
+  {
+    "name": "Data Lament",
+    "description": ""
+  },
+  {
+    "name": "Corrupted Aureole",
+    "description": ""
+  },
+  {
+    "name": "Malware Threads",
+    "description": ""
+  },
+  {
+    "name": "Program Splinter",
+    "description": ""
+  },
+  {
+    "name": "Machine Nimbus",
+    "description": ""
+  },
+  {
+    "name": "Steel Souvenir",
+    "description": ""
+  },
+  {
+    "name": "Metal Logic",
+    "description": ""
+  },
+  {
+    "name": "Impulse of Copper",
+    "description": ""
+  },
+  {
+    "name": "Plastic Ember",
+    "description": ""
+  },
+  {
+    "name": "Circuit Bones",
+    "description": ""
+  },
+  {
+    "name": "Wire Tongue",
+    "description": ""
+  },
+  {
+    "name": "Neural Alloy",
+    "description": ""
+  },
+  {
+    "name": "Synthetic Sinews",
+    "description": ""
+  },
+  {
+    "name": "Artificial Burst",
+    "description": ""
+  },
+  {
+    "name": "Alien Canticle",
+    "description": ""
+  },
+  {
+    "name": "Halo of Knives",
+    "description": ""
+  },
+  {
+    "name": "Feast of Asters",
+    "description": ""
+  },
+  {
+    "name": "Chamber of Nothing",
+    "description": ""
+  },
+  {
+    "name": "Rootless Starvation",
+    "description": ""
+  },
+  {
+    "name": "Ancestor Gate",
+    "description": ""
+  },
+  {
+    "name": "Forgotten Tempo",
+    "description": ""
+  },
+  {
+    "name": "Unbeing Glee",
+    "description": ""
+  },
+  {
+    "name": "Eternal Scar",
+    "description": ""
+  },
+  {
+    "name": "Ink Dynasty",
+    "description": ""
+  },
+  {
+    "name": "Spice Chaplet",
+    "description": ""
+  },
+  {
+    "name": "Oven Emperor",
+    "description": ""
+  },
+  {
+    "name": "Silk Kingdom",
+    "description": ""
+  },
+  {
+    "name": "Compass Emperor",
+    "description": ""
+  },
+  {
+    "name": "Obsidian Caravan",
+    "description": ""
+  },
+  {
+    "name": "Ivory Throneship",
+    "description": ""
+  },
+  {
+    "name": "Bronze Age Cape",
+    "description": ""
+  },
+  {
+    "name": "Cathedral Builder",
+    "description": ""
+  },
+  {
+    "name": "Scroll of Kings",
+    "description": ""
+  },
+  {
+    "name": "Gloom of Doubt",
+    "description": ""
+  },
+  {
+    "name": "Ego Mirror",
+    "description": ""
+  },
+  {
+    "name": "Reverie Cartographer",
+    "description": ""
+  },
+  {
+    "name": "Impulse Kiln",
+    "description": ""
+  },
+  {
+    "name": "Memory Glass",
+    "description": ""
+  },
+  {
+    "name": "Subconscious Thread",
+    "description": ""
+  },
+  {
+    "name": "Ancestral Ring",
+    "description": ""
+  },
+  {
+    "name": "Persona Shaper",
+    "description": ""
+  },
+  {
+    "name": "Lucid Architect",
+    "description": ""
+  },
+  {
+    "name": "Trauma Workshop",
+    "description": ""
+  },
+  {
+    "name": "Fungal Cantilena",
+    "description": ""
+  },
+  {
+    "name": "Coral Garland",
+    "description": ""
+  },
+  {
+    "name": "Savanna Surge",
+    "description": ""
+  },
+  {
+    "name": "Tide Chain",
+    "description": ""
+  },
+  {
+    "name": "Downpour Nest",
+    "description": ""
+  },
+  {
+    "name": "Canopy Domain",
+    "description": ""
+  },
+  {
+    "name": "Pollination Current",
+    "description": ""
+  },
+  {
+    "name": "Predator’s Net",
+    "description": ""
+  },
+  {
+    "name": "Permafrost Rule",
+    "description": ""
+  },
+  {
+    "name": "Delta Flourish",
+    "description": ""
+  },
+  {
+    "name": "Truce Robe",
+    "description": ""
+  },
+  {
+    "name": "Betrayal Closure",
+    "description": ""
+  },
+  {
+    "name": "Banner Lord",
+    "description": ""
+  },
+  {
+    "name": "Assassin’s Thread",
+    "description": ""
+  },
+  {
+    "name": "Victory Vocalists",
+    "description": ""
+  },
+  {
+    "name": "Legion March",
+    "description": ""
+  },
+  {
+    "name": "Ambush Net",
+    "description": ""
+  },
+  {
+    "name": "Diplomacy Shroud",
+    "description": ""
+  },
+  {
+    "name": "Siegebreaker Fillet",
+    "description": ""
+  },
+  {
+    "name": "Pact Mint",
+    "description": ""
+  },
+  {
+    "name": "Locksmith’s Key",
+    "description": ""
+  },
+  {
+    "name": "Baker’s Efflorescence",
+    "description": ""
+  },
+  {
+    "name": "Cartographer’s Beacon",
+    "description": ""
+  },
+  {
+    "name": "Glassblower’s Breath",
+    "description": ""
+  },
+  {
+    "name": "Midwife’s Fastening",
+    "description": ""
+  },
+  {
+    "name": "Potter’s Aureole",
+    "description": ""
+  },
+  {
+    "name": "Mason’s Hymn",
+    "description": ""
+  },
+  {
+    "name": "Tailor’s Authority",
+    "description": ""
+  },
+  {
+    "name": "Shepherd’s Call",
+    "description": ""
+  },
+  {
+    "name": "Blacksmith’s Core",
+    "description": ""
+  },
+  {
+    "name": "Vista Laurel",
+    "description": ""
+  },
+  {
+    "name": "Exile Pall",
+    "description": ""
+  },
+  {
+    "name": "Bridge Beam",
+    "description": ""
+  },
+  {
+    "name": "Pilgrim’s Course",
+    "description": ""
+  },
+  {
+    "name": "Threshold Seal",
+    "description": ""
+  },
+  {
+    "name": "Crossroads Dominion",
+    "description": ""
+  },
+  {
+    "name": "Wanderer’s Spire",
+    "description": ""
+  },
+  {
+    "name": "Destiny Road",
+    "description": ""
+  },
+  {
+    "name": "Lost Compass",
+    "description": ""
+  },
+  {
+    "name": "Everlasting Ascent",
+    "description": ""
+  },
+  {
+    "name": "Scissors Pall",
+    "description": ""
+  },
+  {
+    "name": "Curtain Realm",
+    "description": ""
+  },
+  {
+    "name": "Umbrella Flourish",
+    "description": ""
+  },
+  {
+    "name": "Chalk Whorl",
+    "description": ""
+  },
+  {
+    "name": "Notebook Torch",
+    "description": ""
+  },
+  {
+    "name": "Ink Spill Corona",
+    "description": ""
+  },
+  {
+    "name": "Mirror Room",
+    "description": ""
+  },
+  {
+    "name": "Paperstorm",
+    "description": ""
+  },
+  {
+    "name": "Typewriter’s Call",
+    "description": ""
+  },
+  {
+    "name": "Clocktower Territory",
+    "description": ""
+  },
+  {
+    "name": "Orbital Bond",
+    "description": ""
+  },
+  {
+    "name": "Tidal Anchor",
+    "description": ""
+  },
+  {
+    "name": "Eclipse Cover",
+    "description": ""
+  },
+  {
+    "name": "Conjunction Pyre",
+    "description": ""
+  },
+  {
+    "name": "Resonance Diadem",
+    "description": ""
+  },
+  {
+    "name": "Divine Balance",
+    "description": ""
+  },
+  {
+    "name": "Planetary Chain",
+    "description": ""
+  },
+  {
+    "name": "Solar Cycle",
+    "description": ""
+  },
+  {
+    "name": "Stellar Opposition",
+    "description": ""
+  },
+  {
+    "name": "Lunar’s Embrace",
+    "description": ""
+  },
+  {
+    "name": "Pride Mountain",
+    "description": ""
+  },
+  {
+    "name": "Longing Forest",
+    "description": ""
+  },
+  {
+    "name": "Fear Swamp",
+    "description": ""
+  },
+  {
+    "name": "Joy Run",
+    "description": ""
+  },
+  {
+    "name": "Grief Desert",
+    "description": ""
+  },
+  {
+    "name": "Hope Plateau",
+    "description": ""
+  },
+  {
+    "name": "Anger Volcano",
+    "description": ""
+  },
+  {
+    "name": "Serenity Close",
+    "description": ""
+  },
+  {
+    "name": "Jealousy Delta",
+    "description": ""
+  },
+  {
+    "name": "Regret Cavern",
+    "description": ""
+  },
+  {
+    "name": "Funeral Blossom",
+    "description": ""
+  },
+  {
+    "name": "Coronation Drape",
+    "description": ""
+  },
+  {
+    "name": "Dance of Cinderes",
+    "description": ""
+  },
+  {
+    "name": "Wedding Blaze",
+    "description": ""
+  },
+  {
+    "name": "Ritual Stamp",
+    "description": ""
+  },
+  {
+    "name": "Procession Diadem",
+    "description": ""
+  },
+  {
+    "name": "Sacrifice Lanthorn",
+    "description": ""
+  },
+  {
+    "name": "Ancestral Rite",
+    "description": ""
+  },
+  {
+    "name": "Festival Route",
+    "description": ""
+  },
+  {
+    "name": "Chant of Dawn",
+    "description": ""
+  },
+  {
+    "name": "Mobius Dreamloop",
+    "description": ""
+  },
+  {
+    "name": "Nanite Cantor",
+    "description": ""
+  },
+  {
+    "name": "Klein Circuit",
+    "description": ""
+  },
+  {
+    "name": "Fractal Sleepdrive",
+    "description": ""
+  },
+  {
+    "name": "Tensor Lullaby",
+    "description": ""
+  },
+  {
+    "name": "Euclid Hologram",
+    "description": ""
+  },
+  {
+    "name": "Quantum Origami",
+    "description": ""
+  },
+  {
+    "name": "Chrome Paradox",
+    "description": ""
+  },
+  {
+    "name": "Algorithmic Reverie",
+    "description": ""
+  },
+  {
+    "name": "Neural Kaleidoscope",
+    "description": ""
+  },
+  {
+    "name": "Vector Carousel",
+    "description": ""
+  },
+  {
+    "name": "Topology Pillow",
+    "description": ""
+  },
+  {
+    "name": "Prime Circuitry",
+    "description": ""
+  },
+  {
+    "name": "Zero-Day Vision",
+    "description": ""
+  },
+  {
+    "name": "Imaginary Gearbox",
+    "description": ""
+  },
+  {
+    "name": "Matrix Somnambulist",
+    "description": ""
+  },
+  {
+    "name": "Cipher Hypnagogia",
+    "description": ""
+  },
+  {
+    "name": "Asymptote Skywings",
+    "description": ""
+  },
+  {
+    "name": "Turing Sleepkey",
+    "description": ""
+  },
+  {
+    "name": "Nonlinear Mirage",
+    "description": ""
+  },
+  {
+    "name": "Binary Pillowfort",
+    "description": ""
+  },
+  {
+    "name": "Fourier Nightwave",
+    "description": ""
+  },
+  {
+    "name": "Hypercube Cradle",
+    "description": ""
+  },
+  {
+    "name": "Godel Wake",
+    "description": ""
+  },
+  {
+    "name": "Boolean Silk",
+    "description": ""
+  },
+  {
+    "name": "Recursive Umbrella",
+    "description": ""
+  },
+  {
+    "name": "Graph Velvet",
+    "description": ""
+  },
+  {
+    "name": "Set-Theory Siesta",
+    "description": ""
+  },
+  {
+    "name": "Lambda Lattice",
+    "description": ""
+  },
+  {
+    "name": "Neon Manifold",
+    "description": ""
+  },
+  {
+    "name": "Cryptic Dreamforge",
+    "description": ""
+  },
+  {
+    "name": "Null Hypothesis Aureole",
+    "description": ""
+  },
+  {
+    "name": "Sigma Snowglobe",
+    "description": ""
+  },
+  {
+    "name": "Delta Driftscape",
+    "description": ""
+  },
+  {
+    "name": "Gradient Moonwalk",
+    "description": ""
+  },
+  {
+    "name": "Spline Seraph",
+    "description": ""
+  },
+  {
+    "name": "Bitcrush Lull",
+    "description": ""
+  },
+  {
+    "name": "Complex Plane Curtain",
+    "description": ""
+  },
+  {
+    "name": "Eigen Sleep",
+    "description": ""
+  },
+  {
+    "name": "Hamming Hymn",
+    "description": ""
+  },
+  {
+    "name": "Topology Teacup",
+    "description": ""
+  },
+  {
+    "name": "Circuit Somnia",
+    "description": ""
+  },
+  {
+    "name": "Neon Möbius Stair",
+    "description": ""
+  },
+  {
+    "name": "Cantilever Cloud",
+    "description": ""
+  },
+  {
+    "name": "Symmetry Sleepgate",
+    "description": ""
+  },
+  {
+    "name": "Pixel Manifold",
+    "description": ""
+  },
+  {
+    "name": "Cipher Carousel",
+    "description": ""
+  },
+  {
+    "name": "Nanofog Parabola",
+    "description": ""
+  },
+  {
+    "name": "Algorithm Umbra",
+    "description": ""
+  },
+  {
+    "name": "Quantum Quilt",
+    "description": ""
+  },
+  {
+    "name": "Chrome Möbius",
+    "description": ""
+  },
+  {
+    "name": "Neural Nightgarden",
+    "description": ""
+  },
+  {
+    "name": "Oracle Oscillation",
+    "description": ""
+  },
+  {
+    "name": "Spectral Daydream",
+    "description": ""
+  },
+  {
+    "name": "Sierpinski Pillow",
+    "description": ""
+  },
+  {
+    "name": "Matrix Moonmilk",
+    "description": ""
+  },
+  {
+    "name": "Tensor Teahouse",
+    "description": ""
+  },
+  {
+    "name": "Zero Knot",
+    "description": ""
+  },
+  {
+    "name": "Gradient Dreamstep",
+    "description": ""
+  },
+  {
+    "name": "Recursive Rainclock",
+    "description": ""
+  },
+  {
+    "name": "Circuit Reverie",
+    "description": ""
+  },
+  {
+    "name": "Neon Klein Bottle",
+    "description": ""
+  },
+  {
+    "name": "Signal Sleepmask",
+    "description": ""
+  },
+  {
+    "name": "Quantum Kaleid",
+    "description": ""
+  },
+  {
+    "name": "Chrome Hypersphere",
+    "description": ""
+  },
+  {
+    "name": "Bitstream Bed",
+    "description": ""
+  },
+  {
+    "name": "Algorithmic Cloudwalk",
+    "description": ""
+  },
+  {
+    "name": "Eigenveil Slumber",
+    "description": ""
+  },
+  {
+    "name": "Laplace Lilt",
+    "description": ""
+  },
+  {
+    "name": "Prime Pillowfold",
+    "description": ""
+  },
+  {
+    "name": "Vector Vellum",
+    "description": ""
+  },
+  {
+    "name": "Nanite Nightvine",
+    "description": ""
+  },
+  {
+    "name": "Spectral Swing",
+    "description": ""
+  },
+  {
+    "name": "Manifold Marigold",
+    "description": ""
+  },
+  {
+    "name": "Logic Moonbridge",
+    "description": ""
+  },
+  {
+    "name": "Fractal Featherbed",
+    "description": ""
+  },
+  {
+    "name": "Binary Belltower",
+    "description": ""
+  },
+  {
+    "name": "Knot Green Phantasm",
+    "description": ""
+  },
+  {
+    "name": "Quantum Paper Swan",
+    "description": ""
+  },
+  {
+    "name": "Graph Silkroad",
+    "description": ""
+  },
+  {
+    "name": "Combinatoric Cloud",
+    "description": ""
+  },
+  {
+    "name": "Fourier Feather",
+    "description": ""
+  },
+  {
+    "name": "Neural Night Tapestry",
+    "description": ""
+  },
+  {
+    "name": "Chrome Trance Abacus",
+    "description": ""
+  },
+  {
+    "name": "Complex Carousel",
+    "description": ""
+  },
+  {
+    "name": "Tensor Thimble",
+    "description": ""
+  },
+  {
+    "name": "Topology Sunlamp",
+    "description": ""
+  },
+  {
+    "name": "Gradient Ghostlight",
+    "description": ""
+  },
+  {
+    "name": "Mobius Night Ribbon",
+    "description": ""
+  },
+  {
+    "name": "Matrix Mirage",
+    "description": ""
+  },
+  {
+    "name": "Chitin Coronet",
+    "description": ""
+  },
+  {
+    "name": "Pheromone Ducts",
+    "description": ""
+  },
+  {
+    "name": "Larval Smeltery",
+    "description": ""
+  },
+  {
+    "name": "Cocoon Gate",
+    "description": ""
+  },
+  {
+    "name": "Stinger Glory",
+    "description": ""
+  },
+  {
+    "name": "Scarabaeus Coil",
+    "description": ""
+  },
+  {
+    "name": "Drone Geometry",
+    "description": ""
+  },
+  {
+    "name": "Colony Gyre",
+    "description": ""
+  },
+  {
+    "name": "Mandible Clench",
+    "description": ""
+  },
+  {
+    "name": "Carapace Flowering",
+    "description": ""
+  },
+  {
+    "name": "Termite Bastion",
+    "description": ""
+  },
+  {
+    "name": "Silkmoth Guidelight",
+    "description": ""
+  },
+  {
+    "name": "Hornet Drape",
+    "description": ""
+  },
+  {
+    "name": "Locust Upsurge",
+    "description": ""
+  },
+  {
+    "name": "Beetle Carapace",
+    "description": ""
+  },
+  {
+    "name": "Cicada Husk",
+    "description": ""
+  },
+  {
+    "name": "Antenna Spire",
+    "description": ""
+  },
+  {
+    "name": "Colony Thread",
+    "description": ""
+  },
+  {
+    "name": "Wasp Needle",
+    "description": ""
+  },
+  {
+    "name": "Insect Engine",
+    "description": ""
+  },
+  {
+    "name": "Thunderbird Pinion",
+    "description": ""
+  },
+  {
+    "name": "Leviathan Maw",
+    "description": ""
+  },
+  {
+    "name": "Kirin Ember",
+    "description": ""
+  },
+  {
+    "name": "Roc View",
+    "description": ""
+  },
+  {
+    "name": "White Stag Passage",
+    "description": ""
+  },
+  {
+    "name": "Jackal Runs",
+    "description": ""
+  },
+  {
+    "name": "Elephant Tread",
+    "description": ""
+  },
+  {
+    "name": "Spider Loom",
+    "description": ""
+  },
+  {
+    "name": "Scorpion Canine",
+    "description": ""
+  },
+  {
+    "name": "Griffin Crest",
+    "description": ""
+  },
+  {
+    "name": "Minotaur Spike",
+    "description": ""
+  },
+  {
+    "name": "Salamander Logo",
+    "description": ""
+  },
+  {
+    "name": "Pegasus Flight",
+    "description": ""
+  },
+  {
+    "name": "Sphinx Canopy",
+    "description": ""
+  },
+  {
+    "name": "Manticore Sting",
+    "description": ""
+  },
+  {
+    "name": "Unicorn Radiance",
+    "description": ""
+  },
+  {
+    "name": "Phoenix Soot",
+    "description": ""
+  },
+  {
+    "name": "Asp Coil",
+    "description": ""
+  },
+  {
+    "name": "Kraken Depths",
+    "description": ""
+  },
+  {
+    "name": "Tortoise Shell",
+    "description": ""
+  },
+  {
+    "name": "Wyvern Scale",
+    "description": ""
+  },
+  {
+    "name": "Chimera Bud",
+    "description": ""
+  },
+  {
+    "name": "Hydra Twister",
+    "description": ""
+  },
+  {
+    "name": "Fenrir Howl",
+    "description": ""
+  },
+  {
+    "name": "Garuda Feather",
+    "description": ""
+  },
+  {
+    "name": "Basilisk Gaze",
+    "description": ""
+  },
+  {
+    "name": "Dragon Turtle",
+    "description": ""
+  },
+  {
+    "name": "Squall Elk",
+    "description": ""
+  },
+  {
+    "name": "Mothman Screen",
+    "description": ""
+  },
+  {
+    "name": "Sulfur Capillarys",
+    "description": ""
+  },
+  {
+    "name": "Mercury Thread",
+    "description": ""
+  },
+  {
+    "name": "Salt Tooth",
+    "description": ""
+  },
+  {
+    "name": "Lead Mark",
+    "description": ""
+  },
+  {
+    "name": "Tincture Bud",
+    "description": ""
+  },
+  {
+    "name": "Gold Transmute",
+    "description": ""
+  },
+  {
+    "name": "Elixir Foundry",
+    "description": ""
+  },
+  {
+    "name": "Prima Materia",
+    "description": ""
+  },
+  {
+    "name": "Alembic Pyre",
+    "description": ""
+  },
+  {
+    "name": "Philosopher’s Slab",
+    "description": ""
+  },
+  {
+    "name": "Cinnabar Tiara",
+    "description": ""
+  },
+  {
+    "name": "Orichalc Throb",
+    "description": ""
+  },
+  {
+    "name": "Aurichalcum Grip",
+    "description": ""
+  },
+  {
+    "name": "Vitriol Lane",
+    "description": ""
+  },
+  {
+    "name": "Emerald Tincture",
+    "description": ""
+  },
+  {
+    "name": "Alkahest Appetite",
+    "description": ""
+  },
+  {
+    "name": "Lapis Signet",
+    "description": ""
+  },
+  {
+    "name": "Quicksilver Vessels",
+    "description": ""
+  },
+  {
+    "name": "Athanor Nexus",
+    "description": ""
+  },
+  {
+    "name": "Aludel Lens",
+    "description": ""
+  },
+  {
+    "name": "Calcination Pyre",
+    "description": ""
+  },
+  {
+    "name": "Dissolution Rush",
+    "description": ""
+  },
+  {
+    "name": "Fixation Shell",
+    "description": ""
+  },
+  {
+    "name": "Ironwork Furnace",
+    "description": ""
+  },
+  {
+    "name": "Gear Spire",
+    "description": ""
+  },
+  {
+    "name": "Cog Tusk",
+    "description": ""
+  },
+  {
+    "name": "Foundry Discharge",
+    "description": ""
+  },
+  {
+    "name": "Piston Wreath",
+    "description": ""
+  },
+  {
+    "name": "Anvil Walk",
+    "description": ""
+  },
+  {
+    "name": "Motor Maw",
+    "description": ""
+  },
+  {
+    "name": "Steam Coil",
+    "description": ""
+  },
+  {
+    "name": "Rust Mantle",
+    "description": ""
+  },
+  {
+    "name": "Smokestack Coronet",
+    "description": ""
+  },
+  {
+    "name": "Factory Girders",
+    "description": ""
+  },
+  {
+    "name": "Lathe Arterys",
+    "description": ""
+  },
+  {
+    "name": "Wheel Smithy",
+    "description": ""
+  },
+  {
+    "name": "Hammer Circle",
+    "description": ""
+  },
+  {
+    "name": "Assembly Gate",
+    "description": ""
+  },
+  {
+    "name": "Boiler Pressure",
+    "description": ""
+  },
+  {
+    "name": "Sprocket Spire",
+    "description": ""
+  },
+  {
+    "name": "Bolt Matrix",
+    "description": ""
+  },
+  {
+    "name": "Pulley Frame",
+    "description": ""
+  },
+  {
+    "name": "Chain Clutch",
+    "description": ""
+  },
+  {
+    "name": "Crank Beat",
+    "description": ""
+  },
+  {
+    "name": "Welding Spark",
+    "description": ""
+  },
+  {
+    "name": "Millstone Way",
+    "description": ""
+  },
+  {
+    "name": "Steel Loom",
+    "description": ""
+  },
+  {
+    "name": "Grease Foundry",
+    "description": ""
+  },
+  {
+    "name": "Valve Core",
+    "description": ""
+  },
+  {
+    "name": "Rivet Hold",
+    "description": ""
+  },
+  {
+    "name": "Bearing Ring",
+    "description": ""
+  },
+  {
+    "name": "Workshop Cloak",
+    "description": ""
+  },
+  {
+    "name": "Press Chamber",
+    "description": ""
+  },
+  {
+    "name": "Cocoon Crucible",
+    "description": ""
+  },
+  {
+    "name": "Locust Anvil",
+    "description": ""
+  },
+  {
+    "name": "Mandible Anvil",
+    "description": ""
+  },
+  {
+    "name": "Drone Alloy",
+    "description": ""
+  },
+  {
+    "name": "Swarm Kiln",
+    "description": ""
+  },
+  {
+    "name": "Carapace Press",
+    "description": ""
+  },
+  {
+    "name": "Antenna Lattice",
+    "description": ""
+  },
+  {
+    "name": "Beetle Piston",
+    "description": ""
+  },
+  {
+    "name": "Wasp Rivet",
+    "description": ""
+  },
+  {
+    "name": "Chrysalis Smelter",
+    "description": ""
+  },
+  {
+    "name": "Scarab Lathe",
+    "description": ""
+  },
+  {
+    "name": "Termite Gearwork",
+    "description": ""
+  },
+  {
+    "name": "Silkmoth Loom",
+    "description": ""
+  },
+  {
+    "name": "Hornet Boiler",
+    "description": ""
+  },
+  {
+    "name": "Colony Foundry",
+    "description": ""
+  },
+  {
+    "name": "Larval Mechanism",
+    "description": ""
+  },
+  {
+    "name": "Insect Dynamo",
+    "description": ""
+  },
+  {
+    "name": "Spider Machine",
+    "description": ""
+  },
+  {
+    "name": "Centipede Drive",
+    "description": ""
+  },
+  {
+    "name": "Cicada Resonator",
+    "description": ""
+  },
+  {
+    "name": "Kraken Gearspine",
+    "description": ""
+  },
+  {
+    "name": "Wyvern Foundry",
+    "description": ""
+  },
+  {
+    "name": "Phoenix Reactor",
+    "description": ""
+  },
+  {
+    "name": "Griffin Dynamo",
+    "description": ""
+  },
+  {
+    "name": "Basilisk Pressure",
+    "description": ""
+  },
+  {
+    "name": "Minotaur Turbine",
+    "description": ""
+  },
+  {
+    "name": "Pegasus Liftwheel",
+    "description": ""
+  },
+  {
+    "name": "Leviathan Boilerplate",
+    "description": ""
+  },
+  {
+    "name": "Thunderbird Conduit",
+    "description": ""
+  },
+  {
+    "name": "Chimera Engineblock",
+    "description": ""
+  },
+  {
+    "name": "Unicorn Dynamo",
+    "description": ""
+  },
+  {
+    "name": "Fenrir Gearjaw",
+    "description": ""
+  },
+  {
+    "name": "Manticore Rotor",
+    "description": ""
+  },
+  {
+    "name": "Naga Cogwheel",
+    "description": ""
+  },
+  {
+    "name": "Hydra Pistonstorm",
+    "description": ""
+  },
+  {
+    "name": "Dragon Stove",
+    "description": ""
+  },
+  {
+    "name": "Garuda Flightwheel",
+    "description": ""
+  },
+  {
+    "name": "Ibex Counterweight",
+    "description": ""
+  },
+  {
+    "name": "Stag Mechanism",
+    "description": ""
+  },
+  {
+    "name": "Jackal Gearchain",
+    "description": ""
+  },
+  {
+    "name": "Elephant Pulley",
+    "description": ""
+  },
+  {
+    "name": "Salamander Kiln",
+    "description": ""
+  },
+  {
+    "name": "Sulfur Flywheel",
+    "description": ""
+  },
+  {
+    "name": "Mercury Dynamo",
+    "description": ""
+  },
+  {
+    "name": "Salt Gearpress",
+    "description": ""
+  },
+  {
+    "name": "Lead Smelter",
+    "description": ""
+  },
+  {
+    "name": "Cinnabar Crucible",
+    "description": ""
+  },
+  {
+    "name": "Tincture Retort",
+    "description": ""
+  },
+  {
+    "name": "Gold Gearheart",
+    "description": ""
+  },
+  {
+    "name": "Elixir Piston",
+    "description": ""
+  },
+  {
+    "name": "Alkahest Drive",
+    "description": ""
+  },
+  {
+    "name": "Vitriol Boiler",
+    "description": ""
+  },
+  {
+    "name": "Orichalc Gearstone",
+    "description": ""
+  },
+  {
+    "name": "Emerald Converter",
+    "description": ""
+  },
+  {
+    "name": "Prima Reactor",
+    "description": ""
+  },
+  {
+    "name": "Quicksilver Switch",
+    "description": ""
+  },
+  {
+    "name": "Lapis Lever",
+    "description": ""
+  },
+  {
+    "name": "Aurichalcum Forge",
+    "description": ""
+  },
+  {
+    "name": "Calcination Pulley",
+    "description": ""
+  },
+  {
+    "name": "Coagula Gearbox",
+    "description": ""
+  },
+  {
+    "name": "Fixation Apparatus",
+    "description": ""
+  },
+  {
+    "name": "Transmute Valve",
+    "description": ""
+  },
+  {
+    "name": "Distillation Pump",
+    "description": ""
+  },
+  {
+    "name": "Alloy Retort",
+    "description": ""
+  },
+  {
+    "name": "Athanor Core",
+    "description": ""
+  },
+  {
+    "name": "Aludel Frame",
+    "description": ""
+  },
+  {
+    "name": "Rust Phoenix",
+    "description": ""
+  },
+  {
+    "name": "Steel Chimera",
+    "description": ""
+  },
+  {
+    "name": "Steel Hydra",
+    "description": ""
+  },
+  {
+    "name": "Brass Thunderbird",
+    "description": ""
+  },
+  {
+    "name": "Copper Leviathan",
+    "description": ""
+  },
+  {
+    "name": "Tin Mothman",
+    "description": ""
+  },
+  {
+    "name": "Titanium Roc",
+    "description": ""
+  },
+  {
+    "name": "Nickel Basilisk",
+    "description": ""
+  },
+  {
+    "name": "Bronze Stag",
+    "description": ""
+  },
+  {
+    "name": "Gearborn Dragon",
+    "description": ""
+  },
+  {
+    "name": "Steam Unicorn",
+    "description": ""
+  },
+  {
+    "name": "Cog Fenrir",
+    "description": ""
+  },
+  {
+    "name": "Boiler Griffin",
+    "description": ""
+  },
+  {
+    "name": "Piston Cobra",
+    "description": ""
+  },
+  {
+    "name": "Pulley Kraken",
+    "description": ""
+  },
+  {
+    "name": "Foundry Pegasus",
+    "description": ""
+  },
+  {
+    "name": "Generator Minotaur",
+    "description": ""
+  },
+  {
+    "name": "Smokestack Garuda",
+    "description": ""
+  },
+  {
+    "name": "Anvil Chimera",
+    "description": ""
+  },
+  {
+    "name": "Lathe Basilisk",
+    "description": ""
+  },
+  {
+    "name": "Welding Hydra",
+    "description": ""
+  },
+  {
+    "name": "Millstone Roc",
+    "description": ""
+  },
+  {
+    "name": "Assembly Thunderbird",
+    "description": ""
+  },
+  {
+    "name": "Forged Phoenix",
+    "description": ""
+  },
+  {
+    "name": "Alloyed Leviathan",
+    "description": ""
+  },
+  {
+    "name": "Ironclad Stag",
+    "description": ""
+  },
+  {
+    "name": "Clockwork Unicorn",
+    "description": ""
+  },
+  {
+    "name": "Rustjaw Fenrir",
+    "description": ""
+  },
+  {
+    "name": "Brasswing Griffin",
+    "description": ""
+  },
+  {
+    "name": "Steamscale Boa",
+    "description": ""
+  },
+  {
+    "name": "Copperkraken",
+    "description": ""
+  },
+  {
+    "name": "Titanfire Wyvern",
+    "description": ""
+  },
+  {
+    "name": "Gearhorn Minotaur",
+    "description": ""
+  },
+  {
+    "name": "Incinerator Manticore",
+    "description": ""
+  },
+  {
+    "name": "uantum Foam",
+    "description": ""
+  },
+  {
+    "name": "Liquid Crystal",
+    "description": ""
+  },
+  {
+    "name": "Superconductor",
+    "description": ""
+  },
+  {
+    "name": "Degenerate Matter",
+    "description": ""
+  },
+  {
+    "name": "Neutronium",
+    "description": ""
+  },
+  {
+    "name": "Strange Matter",
+    "description": ""
+  },
+  {
+    "name": "Absolute Zero",
+    "description": ""
+  },
+  {
+    "name": "Critical Mass",
+    "description": ""
+  },
+  {
+    "name": "Vacuum Ruin",
+    "description": ""
+  },
+  {
+    "name": "Radiation Pressure",
+    "description": ""
+  },
+  {
+    "name": "Cavitation",
+    "description": ""
+  },
+  {
+    "name": "Shockwave",
+    "description": ""
+  },
+  {
+    "name": "Plasma Arc",
+    "description": ""
+  },
+  {
+    "name": "Magnetosphere",
+    "description": ""
+  },
+  {
+    "name": "Negative Pressure",
+    "description": ""
+  },
+  {
+    "name": "Dark Energy",
+    "description": ""
+  },
+  {
+    "name": "Exotic Matter",
+    "description": ""
+  },
+  {
+    "name": "Phase Transition",
+    "description": ""
+  },
+  {
+    "name": "Spectrum-Splitter State",
+    "description": ""
+  },
+  {
+    "name": "Spin Ice",
+    "description": ""
+  },
+  {
+    "name": "Thermal Inversion",
+    "description": ""
+  },
+  {
+    "name": "Coriolis Effect",
+    "description": ""
+  },
+  {
+    "name": "Turbulence",
+    "description": ""
+  },
+  {
+    "name": "Entropy Front",
+    "description": ""
+  },
+  {
+    "name": "Shear Flow",
+    "description": ""
+  },
+  {
+    "name": "Supersonic Shock",
+    "description": ""
+  },
+  {
+    "name": "Ion Tempest",
+    "description": ""
+  },
+  {
+    "name": "Frozen Plasma",
+    "description": ""
+  },
+  {
+    "name": "Liquid Helium",
+    "description": ""
+  },
+  {
+    "name": "Pressure Wave",
+    "description": ""
+  },
+  {
+    "name": "Cryogenics",
+    "description": ""
+  },
+  {
+    "name": "Gravity Shear",
+    "description": ""
+  },
+  {
+    "name": "Collapse Front",
+    "description": ""
+  },
+  {
+    "name": "Resonant Cavitation",
+    "description": ""
+  },
+  {
+    "name": "Electrostatic Swell",
+    "description": ""
+  },
+  {
+    "name": "Vacuum Energy",
+    "description": ""
+  },
+  {
+    "name": "Plasma Lattice",
+    "description": ""
+  },
+  {
+    "name": "Phase Diagram",
+    "description": ""
+  },
+  {
+    "name": "Viscosity Limit",
+    "description": ""
+  },
+  {
+    "name": "Matter Flux",
+    "description": ""
+  },
+  {
+    "name": "Critical Point",
+    "description": ""
+  },
+  {
+    "name": "Superheating",
+    "description": ""
+  },
+  {
+    "name": "Neutrino Wind",
+    "description": ""
+  },
+  {
+    "name": "Friction Prospect",
+    "description": ""
+  },
+  {
+    "name": "Radiant Decay",
+    "description": ""
+  },
+  {
+    "name": "Event Outlook",
+    "description": ""
+  },
+  {
+    "name": "Gamma Burst",
+    "description": ""
+  },
+  {
+    "name": "Magnetar Core",
+    "description": ""
+  },
+  {
+    "name": "Singularity Fall",
+    "description": ""
+  },
+  {
+    "name": "Shade Menagerie",
+    "description": ""
+  },
+  {
+    "name": "Obsidian Legion",
+    "description": ""
+  },
+  {
+    "name": "Occultation Wyrm",
+    "description": ""
+  },
+  {
+    "name": "Ashbone Colossus",
+    "description": ""
+  },
+  {
+    "name": "Verdant Flock",
+    "description": ""
+  },
+  {
+    "name": "Stormbound Titan",
+    "description": ""
+  },
+  {
+    "name": "Mirror Phantasm",
+    "description": ""
+  },
+  {
+    "name": "Stellar Host",
+    "description": ""
+  },
+  {
+    "name": "Abyssal Pack",
+    "description": ""
+  },
+  {
+    "name": "Clockwork Behemoth",
+    "description": ""
+  },
+  {
+    "name": "Ember Djinn",
+    "description": ""
+  },
+  {
+    "name": "Frostfang Pack",
+    "description": ""
+  },
+  {
+    "name": "Sandstone Golem",
+    "description": ""
+  },
+  {
+    "name": "Thunder Roc",
+    "description": ""
+  },
+  {
+    "name": "Lotus Nymph",
+    "description": ""
+  },
+  {
+    "name": "Boneyard Wyrm",
+    "description": ""
+  },
+  {
+    "name": "Starlight Herald",
+    "description": ""
+  },
+  {
+    "name": "Umbral Hounds",
+    "description": ""
+  },
+  {
+    "name": "Mirror Leviathan",
+    "description": ""
+  },
+  {
+    "name": "Ironclad Sentinel",
+    "description": ""
+  },
+  {
+    "name": "Monstergirl Tamer",
+    "description": ""
+  },
+  {
+    "name": "Monstergirl Summoner",
+    "description": ""
+  },
+  {
+    "name": "Skin Sculptor",
+    "description": ""
+  },
+  {
+    "name": "Osseous Crafter",
+    "description": ""
+  },
+  {
+    "name": "Body Alchemist",
+    "description": ""
+  },
+  {
+    "name": "Mindflay",
+    "description": ""
+  },
+  {
+    "name": "Slave Geass",
+    "description": ""
+  },
+  {
+    "name": "Anima Leech",
+    "description": ""
+  },
+  {
+    "name": "Psyche Infestor",
+    "description": ""
+  },
+  {
+    "name": "Daemon Hollowing",
+    "description": ""
+  },
+  {
+    "name": "Phantom Rider",
+    "description": ""
+  },
+  {
+    "name": "Hauntbound",
+    "description": ""
+  },
+  {
+    "name": "Specter’s Grasp",
+    "description": ""
+  },
+  {
+    "name": "Wraith Infusion",
+    "description": ""
+  },
+  {
+    "name": "Demon’s Anchor",
+    "description": ""
+  },
+  {
+    "name": "Penumbra Puppeteer",
+    "description": ""
+  },
+  {
+    "name": "Ghostridden",
+    "description": ""
+  },
+  {
+    "name": "Parasite Chaplet",
+    "description": ""
+  },
+  {
+    "name": "Leechspawn",
+    "description": ""
+  },
+  {
+    "name": "Symbiont",
+    "description": ""
+  },
+  {
+    "name": "Sinew Burrower",
+    "description": ""
+  },
+  {
+    "name": "Gore Tick",
+    "description": ""
+  },
+  {
+    "name": "Heartworm Jinx",
+    "description": ""
+  },
+  {
+    "name": "Consciousness Larva",
+    "description": ""
+  },
+  {
+    "name": "Dermis Wraith",
+    "description": ""
+  },
+  {
+    "name": "Nest of Voices",
+    "description": ""
+  },
+  {
+    "name": "Body Usurper",
+    "description": ""
+  },
+  {
+    "name": "Broodmother’s Gift",
+    "description": ""
+  },
+  {
+    "name": "Egg of Hush",
+    "description": ""
+  },
+  {
+    "name": "Larval Empire",
+    "description": ""
+  },
+  {
+    "name": "Wormtongue",
+    "description": ""
+  },
+  {
+    "name": "Nest Infusion",
+    "description": ""
+  },
+  {
+    "name": "Spore Incubator",
+    "description": ""
+  },
+  {
+    "name": "Nestheart",
+    "description": ""
+  },
+  {
+    "name": "Burrowed Essence",
+    "description": ""
+  },
+  {
+    "name": "Body Colony",
+    "description": ""
+  },
+  {
+    "name": "Infestation Rite",
+    "description": ""
+  },
+  {
+    "name": "Symbiont Glint",
+    "description": ""
+  },
+  {
+    "name": "Cordyceps Garland",
+    "description": ""
+  },
+  {
+    "name": "Gutspawn",
+    "description": ""
+  },
+  {
+    "name": "Maggot Sermon",
+    "description": ""
+  },
+  {
+    "name": "Pupal Ascent",
+    "description": ""
+  },
+  {
+    "name": "Vitae Apiary",
+    "description": ""
+  },
+  {
+    "name": "Gnawing Worms",
+    "description": ""
+  },
+  {
+    "name": "Lungrot Seed",
+    "description": ""
+  },
+  {
+    "name": "Chitin Graft",
+    "description": ""
+  },
+  {
+    "name": "Leechbound",
+    "description": ""
+  },
+  {
+    "name": "Gearwright",
+    "description": ""
+  },
+  {
+    "name": "Steamforger",
+    "description": ""
+  },
+  {
+    "name": "Clockwork Artificer",
+    "description": ""
+  },
+  {
+    "name": "Brassmonger",
+    "description": ""
+  },
+  {
+    "name": "Steel Architect",
+    "description": ""
+  },
+  {
+    "name": "Cogbinder",
+    "description": ""
+  },
+  {
+    "name": "Aetherwright",
+    "description": ""
+  },
+  {
+    "name": "Piston Crafter",
+    "description": ""
+  },
+  {
+    "name": "Sparksmith",
+    "description": ""
+  },
+  {
+    "name": "Boilerwright",
+    "description": ""
+  },
+  {
+    "name": "Smoke Machinist",
+    "description": ""
+  },
+  {
+    "name": "Copperhand",
+    "description": ""
+  },
+  {
+    "name": "Tinker’s Imprint",
+    "description": ""
+  },
+  {
+    "name": "Valvebinder",
+    "description": ""
+  },
+  {
+    "name": "Steel Artisan",
+    "description": ""
+  },
+  {
+    "name": "Gadgeteer’s Oath",
+    "description": ""
+  },
+  {
+    "name": "Gear Alchemist",
+    "description": ""
+  },
+  {
+    "name": "Smokestack Engineer",
+    "description": ""
+  },
+  {
+    "name": "Mechwright",
+    "description": ""
+  },
+  {
+    "name": "Brassbinder",
+    "description": ""
+  },
+  {
+    "name": "Gynomancer",
+    "description": ""
+  }
+]

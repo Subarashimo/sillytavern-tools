@@ -1,0 +1,542 @@
+[
+  {
+    "name": "Accountant",
+    "description": ""
+  },
+  {
+    "name": "Actor",
+    "description": ""
+  },
+  {
+    "name": "Actuary",
+    "description": ""
+  },
+  {
+    "name": "Architect",
+    "description": ""
+  },
+  {
+    "name": "Artist",
+    "description": ""
+  },
+  {
+    "name": "Astronomer",
+    "description": ""
+  },
+  {
+    "name": "Athlete",
+    "description": ""
+  },
+  {
+    "name": "Baker",
+    "description": ""
+  },
+  {
+    "name": "Banker",
+    "description": ""
+  },
+  {
+    "name": "Barber",
+    "description": ""
+  },
+  {
+    "name": "Bartender",
+    "description": ""
+  },
+  {
+    "name": "Biologist",
+    "description": ""
+  },
+  {
+    "name": "Blacksmith",
+    "description": ""
+  },
+  {
+    "name": "Botanist",
+    "description": ""
+  },
+  {
+    "name": "Butcher",
+    "description": ""
+  },
+  {
+    "name": "Carpenter",
+    "description": ""
+  },
+  {
+    "name": "Cashier",
+    "description": ""
+  },
+  {
+    "name": "Chef",
+    "description": ""
+  },
+  {
+    "name": "Chemist",
+    "description": ""
+  },
+  {
+    "name": "Chiropractor",
+    "description": ""
+  },
+  {
+    "name": "Civil Engineer",
+    "description": ""
+  },
+  {
+    "name": "Coach",
+    "description": ""
+  },
+  {
+    "name": "Coder",
+    "description": ""
+  },
+  {
+    "name": "Comedian",
+    "description": ""
+  },
+  {
+    "name": "Composer",
+    "description": ""
+  },
+  {
+    "name": "Construction Worker",
+    "description": ""
+  },
+  {
+    "name": "Counselor",
+    "description": ""
+  },
+  {
+    "name": "Curator",
+    "description": ""
+  },
+  {
+    "name": "Dancer",
+    "description": ""
+  },
+  {
+    "name": "Data Scientist",
+    "description": ""
+  },
+  {
+    "name": "Dentist",
+    "description": ""
+  },
+  {
+    "name": "Dermatologist",
+    "description": ""
+  },
+  {
+    "name": "Designer",
+    "description": ""
+  },
+  {
+    "name": "Detective",
+    "description": ""
+  },
+  {
+    "name": "Dietitian",
+    "description": ""
+  },
+  {
+    "name": "Director",
+    "description": ""
+  },
+  {
+    "name": "Doctor",
+    "description": ""
+  },
+  {
+    "name": "Driver",
+    "description": ""
+  },
+  {
+    "name": "Ecologist",
+    "description": ""
+  },
+  {
+    "name": "Economist",
+    "description": ""
+  },
+  {
+    "name": "Editor",
+    "description": ""
+  },
+  {
+    "name": "Electrician",
+    "description": ""
+  },
+  {
+    "name": "Engineer",
+    "description": ""
+  },
+  {
+    "name": "Entomologist",
+    "description": ""
+  },
+  {
+    "name": "Entrepreneur",
+    "description": ""
+  },
+  {
+    "name": "Farmer",
+    "description": ""
+  },
+  {
+    "name": "Firefighter",
+    "description": ""
+  },
+  {
+    "name": "Florist",
+    "description": ""
+  },
+  {
+    "name": "Geologist",
+    "description": ""
+  },
+  {
+    "name": "Graphic Designer",
+    "description": ""
+  },
+  {
+    "name": "Hairstylist",
+    "description": ""
+  },
+  {
+    "name": "Historian",
+    "description": ""
+  },
+  {
+    "name": "Illustrator",
+    "description": ""
+  },
+  {
+    "name": "Interior Designer",
+    "description": ""
+  },
+  {
+    "name": "Interpreter",
+    "description": ""
+  },
+  {
+    "name": "Janitor",
+    "description": ""
+  },
+  {
+    "name": "Jeweler",
+    "description": ""
+  },
+  {
+    "name": "Journalist",
+    "description": ""
+  },
+  {
+    "name": "Judge",
+    "description": ""
+  },
+  {
+    "name": "Kinesiologist",
+    "description": ""
+  },
+  {
+    "name": "Landscaper",
+    "description": ""
+  },
+  {
+    "name": "Lawyer",
+    "description": ""
+  },
+  {
+    "name": "Librarian",
+    "description": ""
+  },
+  {
+    "name": "Linguist",
+    "description": ""
+  },
+  {
+    "name": "Locksmith",
+    "description": ""
+  },
+  {
+    "name": "Machinist",
+    "description": ""
+  },
+  {
+    "name": "Makeup Artist",
+    "description": ""
+  },
+  {
+    "name": "Marine Biologist",
+    "description": ""
+  },
+  {
+    "name": "Marketing Manager",
+    "description": ""
+  },
+  {
+    "name": "Mason",
+    "description": ""
+  },
+  {
+    "name": "Mathematician",
+    "description": ""
+  },
+  {
+    "name": "Mechanic",
+    "description": ""
+  },
+  {
+    "name": "Meteorologist",
+    "description": ""
+  },
+  {
+    "name": "Midwife",
+    "description": ""
+  },
+  {
+    "name": "Musician",
+    "description": ""
+  },
+  {
+    "name": "Nanny",
+    "description": ""
+  },
+  {
+    "name": "Neurologist",
+    "description": ""
+  },
+  {
+    "name": "Nurse",
+    "description": ""
+  },
+  {
+    "name": "Oceanographer",
+    "description": ""
+  },
+  {
+    "name": "Optometrist",
+    "description": ""
+  },
+  {
+    "name": "Painter",
+    "description": ""
+  },
+  {
+    "name": "Paramedic",
+    "description": ""
+  },
+  {
+    "name": "Pathologist",
+    "description": ""
+  },
+  {
+    "name": "Personal Trainer",
+    "description": ""
+  },
+  {
+    "name": "Pharmacist",
+    "description": ""
+  },
+  {
+    "name": "Philosopher",
+    "description": ""
+  },
+  {
+    "name": "Photographer",
+    "description": ""
+  },
+  {
+    "name": "Physicist",
+    "description": ""
+  },
+  {
+    "name": "Pilot",
+    "description": ""
+  },
+  {
+    "name": "Plumber",
+    "description": ""
+  },
+  {
+    "name": "Police Officer",
+    "description": ""
+  },
+  {
+    "name": "Politician",
+    "description": ""
+  },
+  {
+    "name": "Professor",
+    "description": ""
+  },
+  {
+    "name": "Project Manager",
+    "description": ""
+  },
+  {
+    "name": "Psychiatrist",
+    "description": ""
+  },
+  {
+    "name": "Psychologist",
+    "description": ""
+  },
+  {
+    "name": "Radiologist",
+    "description": ""
+  },
+  {
+    "name": "Real Estate Agent",
+    "description": ""
+  },
+  {
+    "name": "Receptionist",
+    "description": ""
+  },
+  {
+    "name": "Researcher",
+    "description": ""
+  },
+  {
+    "name": "Sailor",
+    "description": ""
+  },
+  {
+    "name": "Salesperson",
+    "description": ""
+  },
+  {
+    "name": "Scientist",
+    "description": ""
+  },
+  {
+    "name": "Sculptor",
+    "description": ""
+  },
+  {
+    "name": "Secretary",
+    "description": ""
+  },
+  {
+    "name": "Singer",
+    "description": ""
+  },
+  {
+    "name": "Social Worker",
+    "description": ""
+  },
+  {
+    "name": "Sociologist",
+    "description": ""
+  },
+  {
+    "name": "Software Developer",
+    "description": ""
+  },
+  {
+    "name": "Soldier",
+    "description": ""
+  },
+  {
+    "name": "Statistician",
+    "description": ""
+  },
+  {
+    "name": "Surgeon",
+    "description": ""
+  },
+  {
+    "name": "Tailor",
+    "description": ""
+  },
+  {
+    "name": "Taxidermist",
+    "description": ""
+  },
+  {
+    "name": "Teacher",
+    "description": ""
+  },
+  {
+    "name": "Technician",
+    "description": ""
+  },
+  {
+    "name": "Therapist",
+    "description": ""
+  },
+  {
+    "name": "Translator",
+    "description": ""
+  },
+  {
+    "name": "Travel Agent",
+    "description": ""
+  },
+  {
+    "name": "Truck Driver",
+    "description": ""
+  },
+  {
+    "name": "Urban Planner",
+    "description": ""
+  },
+  {
+    "name": "Usher",
+    "description": ""
+  },
+  {
+    "name": "Veterinarian",
+    "description": ""
+  },
+  {
+    "name": "Videographer",
+    "description": ""
+  },
+  {
+    "name": "Waiter",
+    "description": ""
+  },
+  {
+    "name": "Welder",
+    "description": ""
+  },
+  {
+    "name": "Writer",
+    "description": ""
+  },
+  {
+    "name": "Zookeeper",
+    "description": ""
+  },
+  {
+    "name": "Slaver",
+    "description": ""
+  },
+  {
+    "name": "Slave Trader",
+    "description": ""
+  },
+  {
+    "name": "Archology Owner",
+    "description": ""
+  },
+  {
+    "name": "Princess",
+    "description": ""
+  },
+  {
+    "name": "Queen",
+    "description": ""
+  },
+  {
+    "name": "Slaver",
+    "description": ""
+  },
+  {
+    "name": "Whore",
+    "description": ""
+  }
+]

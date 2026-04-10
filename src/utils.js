@@ -140,13 +140,152 @@ export function pickRandomIndex(length) {
 /**
  * @template T
  * @param {readonly T[]} arr
+ * @param {T} [defaultValue] If provided with `chance`, may return this instead of drawing from `arr`.
+ * @param {number} [chance] Probability in [0, 1] for returning `defaultValue` (clamped). Ignored unless both optional args are provided.
  * @returns {T|undefined}
  */
-export function pickRandomItem(arr) {
+export function pickRandomItem(arr, defaultValue, chance) {
+    if (defaultValue !== undefined && chance !== undefined && Number.isFinite(chance)) {
+        const p = Math.min(1, Math.max(0, chance));
+        const buf = new Uint32Array(1);
+        crypto.getRandomValues(buf);
+        const u = buf[0] / 4294967296;
+        if (u < p) {
+            return defaultValue;
+        }
+    }
     if (!arr?.length) {
         return undefined;
     }
     return arr[pickRandomIndex(arr.length)];
+}
+
+const COLORS = Object.freeze([
+    'black',
+    'jet black',
+    'brown',
+    'dark brown',
+    'medium brown',
+    'light brown',
+    'chestnut brown',
+    'chocolate brown',
+    'caramel brown',
+    'coffee brown',
+    'mocha brown',
+    'honey brown',
+    'golden brown',
+    'copper',
+    'bronze',
+    'russet',
+    'sienna',
+    'umber',
+    'tawny',
+    'sepia',
+    'auburn',
+    'blue',
+    'deep blue',
+    'dark blue',
+    'bright blue',
+    'sky blue',
+    'baby blue',
+    'ice blue',
+    'powder blue',
+    'steel blue',
+    'sapphire blue',
+    'cobalt blue',
+    'navy blue',
+    'royal blue',
+    'electric blue',
+    'ocean blue',
+    'teal',
+    'turquoise',
+    'aquamarine',
+    'cerulean',
+    'peacock blue',
+    'slate blue',
+    'indigo',
+    'green',
+    'emerald green',
+    'forest green',
+    'jade green',
+    'moss green',
+    'olive green',
+    'sea green',
+    'bottle green',
+    'mint green',
+    'sage green',
+    'spring green',
+    'lime green',
+    'chartreuse',
+    'hazel',
+    'green-hazel',
+    'golden hazel',
+    'amber',
+    'golden amber',
+    'honey amber',
+    'yellow amber',
+    'topaz',
+    'honey gold',
+    'sun gold',
+    'gray',
+    'grey',
+    'light gray',
+    'dark gray',
+    'blue-gray',
+    'green-gray',
+    'slate gray',
+    'charcoal gray',
+    'ash gray',
+    'smoke gray',
+    'storm gray',
+    'silver',
+    'silvery gray',
+    'platinum',
+    'pewter',
+    'dove gray',
+    'steel gray',
+    'violet',
+    'purple',
+    'lavender',
+    'lilac',
+    'plum',
+    'amethyst',
+    'magenta',
+    'rose',
+    'pink',
+    'crimson',
+    'ruby red',
+    'wine red',
+    'burgundy',
+    'garnet',
+    'red-brown',
+    'violet-gray',
+    'ice gray',
+    'glacier blue',
+    'moonlit silver',
+    'storm-cloud gray',
+    'sunset amber',
+    'periwinkle',
+    'cornflower blue',
+    'denim blue',
+    'midnight blue',
+    'frost blue',
+    'mist gray',
+    'antique gold',
+    'champagne gold',
+    'copper penny',
+    'tiger-eye brown',
+    'cat-eye green',
+    'opal gray',
+    'pearlescent gray',
+]);
+
+/**
+ * Returns a random color name from a fixed pool (cryptographic pick).
+ * @returns {string}
+ */
+export function randomColor() {
+    return pickRandomItem(COLORS) ?? 'brown';
 }
 
 /**
