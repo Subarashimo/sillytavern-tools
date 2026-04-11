@@ -15,8 +15,6 @@ import {
 } from './src/presets.js';
 import { registerCharacterTools } from './src/tools.js';
 
-// TODO: Make lorebook entries into callable tools.
-
 const EXTENSION_SETTINGS_HTML = dedent(`
     <div class="inline-drawer">
         <div class="inline-drawer-toggle inline-drawer-header">

@@ -45,29 +45,29 @@ const TOOL_SPECS = [
         id: 'random_slave',
         name: 'random_slave',
         displayName: 'Random Slave',
-        description: 'Generate a randomized female slave. Returns JSON with all fields. Optional setting chooses pool: real (default), fantasy, or puppy.',
+        description: 'Generate a randomized female slave. Returns JSON with all fields. Optional setting chooses pool: archology (default), fantasy, or puppy.',
         parameters: {
             $schema: 'http://json-schema.org/draft-04/schema#',
             type: 'object',
             properties: {
                 setting: {
                     type: 'string',
-                    enum: ['fantasy', 'real', 'puppy'],
-                    description: 'Which pool to use: real, fantasy, or puppy.',
+                    enum: ['archology', 'fantasy', 'puppy'],
+                    description: 'Which pool to use: archology, fantasy, or puppy.',
                 },
             },
             additionalProperties: false,
         },
         handler: async (params) => {
-            const setting = params?.setting ?? 'real';
+            const setting = params?.setting ?? 'archology';
             const nameList = await rowsFromJsonFile(
-                setting === 'fantasy'
-                ? 'fantasy-name.json'
-                : setting === 'real'
+                setting === 'archology'
                 ? 'real-name.json'
+                : setting === 'fantasy'
+                ? 'fantasy-name.json'
                 : 'puppy-name.json',
             );
-            const surnameList = setting === 'real'
+            const surnameList = setting === 'archology'
                 ? await rowsFromJsonFile('real-surname.json') : [];
 
             const careerList = await rowsFromJsonFile('real-career.json');
@@ -90,7 +90,7 @@ const TOOL_SPECS = [
             const sexualQuirk = pickRandomItem(sexualQuirkList, noItem, 0.5);
             const behaviouralFlaw = pickRandomItem(behaviouralFlawList, noItem, 0.5);
             const behaviouralQuirk = pickRandomItem(behaviouralQuirkList, noItem, 0.5);
-            const pregnancy = pickRandomItem(pregnancyList, noItem, 0.5);
+            const pregnancy = pickRandomItem(pregnancyList, noItem, 0.75);
             const tattoo = pickRandomItem(tattooList, noItem, 0.5);
             const bondage = pickRandomItem(bondageList, noItem, 0.5);
 
